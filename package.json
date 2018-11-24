@@ -1,0 +1,20 @@
+{
+  "name": "4sq-venue",
+  "version": "1.0.0",
+  "description": "manage venues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okitan/4sq-venue.git"
+  },
+  "keywords": [],
+  "author": "okitan <okitakunio@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^1.10.0"
+  }
+}
