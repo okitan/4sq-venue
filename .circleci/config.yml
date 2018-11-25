@@ -4,7 +4,7 @@ commands:
 executors:
   self:
     docker:
-      - image: okitan/venue-scraper
+      - image: okitan/venue-scraper:latest
     working_directory: /app
 orbs:
   docker-publish: circleci/docker-publish@0.1.0
