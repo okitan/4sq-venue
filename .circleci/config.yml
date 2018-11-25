@@ -19,9 +19,7 @@ orbs:
 
 jobs:
   scrape:
-    docker:
-      - image: circleci/node:latest-browsers
-    #executor: self
+    executor: self
     parameters:
       target:
         type: string
