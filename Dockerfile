@@ -10,12 +10,7 @@ COPY package-lock.json  $APP_ROOT
 RUN \
   npm install
 
-COPY . $APP_ROOT
-
-USER root
-RUN \
-  chown -R pptruser:pptruser .
-USER pptuser
+COPY --chown=pptruser:pptruser . $APP_ROOT
 
 # but seems not working
 CMD ["node", "lib/cli.js", "--help"]
