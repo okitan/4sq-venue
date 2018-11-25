@@ -20,7 +20,7 @@ orbs:
 jobs:
   scrape:
     docker:
-      - image: circleci/node-browsers:latest
+      - image: circleci/node:latest-browsers
     #executor: self
     parameters:
       target:
