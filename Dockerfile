@@ -11,3 +11,11 @@ RUN \
   npm install
 
 COPY . $APP_ROOT
+
+USER root
+RUN \
+  chown -R pptruser:pptruser .
+USER pptuser
+
+# but seems not working
+CMD ["node", "lib/cli.js", "--help"]
