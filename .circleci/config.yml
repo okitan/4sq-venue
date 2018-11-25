@@ -24,6 +24,8 @@ jobs:
       target:
         type: string
     steps:
+      - checkout # tmp
+      - run: npm install # tmp
       - scrape:
           target: << parameters.target >>
 
