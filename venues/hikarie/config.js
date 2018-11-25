@@ -38,7 +38,7 @@ module.exports.scraper = [
           name: { selector: "h3", modifier: nameModifier },
           //fucking no semantics
           phone: { selector: "h3 + p + p" },
-          level: -e
+          level: e
         }
       }
     };
