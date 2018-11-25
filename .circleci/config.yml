@@ -8,7 +8,7 @@ commands:
         type: string
     steps:
       - run: node lib/cli.js scrape << parameters.target >>
-      # - run: npm run scrape -- ${target} # after merged in master
+      # - run: npm run scrape -- << parameters.target >> # after merged in master
 executors:
   self:
     docker:
@@ -16,11 +16,16 @@ executors:
     working_directory: /app
 orbs:
   docker-publish: circleci/docker-publish@0.1.0
+
 jobs:
   scrape:
     executor: self
+    parameters:
+      target:
+        type: string
     steps:
-      - scrape
+      - scrape:
+          target: << parameter.target >>
 
 workflows:
   scrape:
