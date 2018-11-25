@@ -2,6 +2,27 @@ version: 2.1
 
 commands:
 executors:
+  self:
+    docker:
+      - image: okitan/venue-scraper:latest
+    working_directory: /app
+orbs:
+
 jobs:
+  scrape:
+    executor: self
+    parameters:
+      target:
+        type: string
+    steps:
+      - run: npm run scrape -- << parameters.target >>
 
 workflows:
+  scrape:
+    jobs:
+      - scrape:
+          target: hikarie
+          filters: # tmp
+            branches:
+              only:
+                - scrape_on_circleci
