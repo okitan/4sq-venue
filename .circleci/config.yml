@@ -17,7 +17,8 @@ jobs:
         type: string
         default: Dockerfile
     steps:
-      - run: npm run scrape -- ${target}
+      - run: node lib/cli.js scrape ${target}
+      # - run: npm run scrape -- ${target} # after merged in master
 
 workflows:
   scrape:
