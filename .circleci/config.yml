@@ -1,14 +1,6 @@
 version: 2.1
 
 commands:
-  scrape:
-    parameters:
-      target:
-        description: target to scrape
-        type: string
-    steps:
-      - run: node lib/cli.js scrape << parameters.target >>
-      # - run: npm run scrape -- << parameters.target >> # after merged in master
 executors:
   self:
     docker:
@@ -24,8 +16,7 @@ jobs:
       target:
         type: string
     steps:
-      - scrape:
-          target: << parameters.target >>
+      - run: npm run scrape -- << parameters.target >>
 
 workflows:
   scrape:
