@@ -19,7 +19,9 @@ orbs:
 
 jobs:
   scrape:
-    executor: self
+    docker:
+      - image: node:latest
+    #executor: self
     parameters:
       target:
         type: string
