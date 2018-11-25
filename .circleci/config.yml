@@ -1,0 +1,17 @@
+version: 2.1
+
+commands:
+executors:
+orbs:
+  docker-publish: circleci/docker-publish@0.1.0
+jobs:
+
+workflows:
+  build_and_publish_docker_image:
+    jobs:
+      - docker-publish/publish:
+          image: okitan/venue-scraper
+          filters:
+            branches:
+              only:
+                - master

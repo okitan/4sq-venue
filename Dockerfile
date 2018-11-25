@@ -1,4 +1,4 @@
-from "alekzonder/puppeteer"
+from alekzonder/puppeteer:latest
 
 # WORKDIR of alekzonder/puppeteer
 ENV APP_ROOT  /app
