@@ -12,9 +12,10 @@ docker run -it --rm --shm-size 1G 4sq-venue:$(git rev-parse HEAD) node
 ```
 .
 |_ lib
-|_ venues #
+|_ venues
   |_ {venume_name}
-     |_ config.js # venue config
+     |_ config.js    # venue config
+     |_ scraped.ltsv # result of scraping
 ```
 
 ### venue config specification
