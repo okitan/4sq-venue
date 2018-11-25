@@ -2,11 +2,32 @@ version: 2.1
 
 commands:
 executors:
+  self:
+    docker:
+      - image: okitan/venue-scraper
+    working_directory: /app
 orbs:
   docker-publish: circleci/docker-publish@0.1.0
 jobs:
+  scrape:
+    executor: self
+    parameters:
+      target:
+        description: target to scrape
+        type: string
+        default: Dockerfile
+    steps:
+      - run: npm run scrape -- ${target}
 
 workflows:
+  scrape:
+    jobs:
+      - scrape:
+          target: hikarie
+          filters: # tmp
+            branches:
+              only:
+                - try_scrape_on_circleci
   build_and_publish_docker_image:
     jobs:
       - docker-publish/publish:
