@@ -1,11 +1,25 @@
 # 4sq-venue
 
-## Usege
+## Usage
 
 ```console
 docker build --pull -t 4sq-venue:$(git rev-parse HEAD) .
-docker run -it --rm --shm-size 1G -v $(pwd):/app 4sq-venue:$(git rev-parse HEAD) node
+docker run -it --rm --shm-size 1G 4sq-venue:$(git rev-parse HEAD) node
 ```
+
+## Structure
+
+```
+.
+|_ lib
+|_ venues #
+  |_ {venume_name}
+     |_ config.js # venue config
+```
+
+### venue config specification
+
+TODO: write json schema
 
 ## Scheduled Jobs
 
