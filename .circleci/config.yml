@@ -1,6 +1,12 @@
 version: 2.1
 
 commands:
+  setup:
+    steps:
+      - checkout
+      - restore-npm-cache
+      - run: npm ci
+      - save-npm-cache
   save-npm-cache:
     steps:
       - save_cache:
@@ -13,21 +19,16 @@ commands:
           key: v1-npm-{{ checksum "package-lock.json" }}
 
 executors:
-  self:
+  node-browsers:
     docker:
-      - image: okitan/venue-scraper:latest
-    working_directory: /app
+      - image: circleci/node:latest-browsers
 orbs:
 
 jobs:
   test-scrape:
-    docker:
-      - image: circleci/node:latest-browsers
+    executor: node-browsers
     steps:
-      - checkout
-      - restore-npm-cache
-      - run: npm ci
-      - save-npm-cache
+      - setup
       - run:
           name: scrape every configured job
           command: |
@@ -36,11 +37,12 @@ jobs:
               xargs -L 1 \
                 npm run scrape --
   scrape:
-    executor: self
+    executor: node-browsers
     parameters:
       target:
         type: string
     steps:
+      - setup
       - run: npm run scrape -- << parameters.target >>
 
 workflows:
