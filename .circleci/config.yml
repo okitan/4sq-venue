@@ -31,7 +31,7 @@ jobs:
       - run:
           name: scrape every configured job
           command: |
-            git diff --name-only origin | xargs \
+            git diff --name-only origin -- venues/*/config.js | xargs \
               npm run scrape --
   scrape:
     executor: self
