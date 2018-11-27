@@ -33,7 +33,7 @@ jobs:
           command: |
             git diff --name-only origin -- venues/*/config.js | \
               awk -F "/" '{ print $(NF - 1) }' |
-              xargx -0 -n 1 \
+              xargs -0 -n 1 \
                 npm run scrape --
   scrape:
     executor: self
