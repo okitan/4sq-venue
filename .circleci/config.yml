@@ -26,3 +26,9 @@ workflows:
             branches:
               only:
                 - scrape_on_circleci
+      - scrape:
+          target: kosugi-square
+          filters: # tmp
+            branches:
+              only:
+                - add_tokyu-square-musashikosugi
