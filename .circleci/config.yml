@@ -68,8 +68,7 @@ jobs:
       - run:
           name: switch to branch
           command: |
-            git checkout -b "$BRANCH" || git checkout "$BRANCH"
-            git pull
+            git checkout -b "$BRANCH" || (git checkout "$BRANCH" && git pull origin "$BRANCH")
       - attach_workspace: # after checkout
           at: .
       - run:
