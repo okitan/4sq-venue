@@ -74,7 +74,7 @@ jobs:
       - run:
           name: make pr
           command: |
-            message=":innocent: upate venue << parameters.target >>"
+            message=":innocent: update venue << parameters.target >>"
             file_to_commit="venues/<< parameters.target>>/scraped.ltsv"
 
             if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
