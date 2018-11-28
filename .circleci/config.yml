@@ -97,21 +97,14 @@ workflows:
   #             ignore:
   #               - master
   scrape:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *" # 9:00 JST
+          filters:
+            branches:
+              only:
+                - master
     jobs:
-      - scrape:
-          target: hikarie
-          filters: # tmp
-            branches:
-              only:
-                - scrape_on_circleci
-      - scrape:
-          name: scrape-kosugi-square
-          target: kosugi-square
-          filters: # tmp
-            branches:
-              only:
-                - add_tokyu-square-musashikosugi
-      - commit:
-          target: kosugi-square
-          requires:
-            - scrape-kosugi-square
+      - scrape: { target: hikarie, name: scrape-hikarie }
+      - scrape: { target: kosugi-square, name: scrape-kosugi-square }
+      - commit: { target: kosugi-square, requires: [scrape-kosugi-square] }

@@ -10,9 +10,10 @@ module.exports.scraper = [
     return {
       url: `http://www.kosugi-square.com/floor/?fcd=${e}`,
       venues: {
-        "div.floorlist__txt": {
+        ".floorlistInner li": {
           name: { selector: ".floorlist__txt--shopname" },
           phone: { selector: ".floorlist__txt--tel" },
+          url: { selector: "a", property: "href", nullable: true },
           level: e
         }
       }
