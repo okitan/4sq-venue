@@ -22,7 +22,7 @@ executors:
   node-browsers:
     docker:
       - image: circleci/node:latest-browsers
-  git:
+  github-hub:
     docker:
       - image: tianon/github-hub:latest
 orbs:
@@ -52,7 +52,7 @@ jobs:
           paths:
             - venues/<< parameters.target>>/scraped.ltsv
   commit:
-    executor: git
+    executor: github-hub
     environment:
       BRANCH: scraped-<< parameters.target >>
     parameters:
@@ -76,13 +76,13 @@ jobs:
             message=":innocent: upate venue << parameters.target >>"
             file_to_commit="venues/<< parameters.target>>/scraped.ltsv"
 
-            if [[ -n "$(git status --porcelain '${file_to_commit}')" ]]; then
-              git add -A ${file_to_commit}
+            if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
+              git add -A "${file_to_commit}"
               git commit -m "$message"
 
               git push origin "$BRANCH"
 
-              if [[ -n "$(hub pr list -h '$BRANCH')"]]; then
+              if [[ -n "$(hub pr list -h "$BRANCH")" ]]; then
                 hub pull-request -m "$message" -b master -h "$BRANCH"
               fi
             fi
