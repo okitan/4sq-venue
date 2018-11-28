@@ -1,28 +1,110 @@
 version: 2.1
 
 commands:
+  setup:
+    steps:
+      - checkout
+      - restore-npm-cache
+      - run: npm ci
+      - save-npm-cache
+  save-npm-cache:
+    steps:
+      - save_cache:
+          key: v1-npm-{{ checksum "package-lock.json" }}
+          paths:
+            - ~/.npm
+  restore-npm-cache:
+    steps:
+      - restore_cache:
+          key: v1-npm-{{ checksum "package-lock.json" }}
+
 executors:
-  self:
+  node-browsers:
     docker:
-      - image: okitan/venue-scraper:latest
-    working_directory: /app
+      - image: circleci/node:latest-browsers
+  github-hub:
+    docker:
+      - image: tianon/github-hub:latest
 orbs:
 
 jobs:
+  test-scrape:
+    executor: node-browsers
+    steps:
+      - setup
+      - run:
+          name: scrape every configured job
+          command: |
+            git diff --name-only origin -- venues/*/config.js | \
+              awk -F "/" '{ print $(NF - 1) }' |
+              xargs -L 1 \
+                npm run scrape --
   scrape:
-    executor: self
+    executor: node-browsers
     parameters:
       target:
         type: string
     steps:
+      - setup
       - run: npm run scrape -- << parameters.target >>
+      - persist_to_workspace:
+          root: .
+          paths:
+            - venues/<< parameters.target>>/scraped.ltsv
+  commit:
+    executor: github-hub
+    environment:
+      BRANCH: scraped-<< parameters.target >>
+    parameters:
+      target:
+        type: string
+    steps:
+      - checkout
+      - run:
+          name: setup git
+          command: |
+            git config user.name okitan
+            git config user.email okitakunio@gmail.com
+      - run:
+          name: switch to branch
+          command: |
+            git checkout "$BRANCH" || git checkout -b "$BRANCH"
+      - attach_workspace: # after checkout
+          at: .
+      - run:
+          name: make pr
+          command: |
+            message=":innocent: update venue << parameters.target >>"
+            file_to_commit="venues/<< parameters.target>>/scraped.ltsv"
+
+            if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
+              git add -A "${file_to_commit}"
+              git commit -m "$message"
+
+              git push origin "$BRANCH"
+
+              if [[ -z "$(hub pr list -h "$BRANCH")" ]]; then
+                hub pull-request -m "$message" -b master -h "$BRANCH"
+              fi
+            fi
 
 workflows:
+  # test:
+  #   jobs:
+  #     - test-scrape:
+  #         filters:
+  #           branches:
+  #             ignore:
+  #               - master
   scrape:
-    jobs:
-      - scrape:
-          target: hikarie
-          filters: # tmp
+    triggers:
+      - schedule:
+          cron: "0 0 * * *" # 9:00 JST
+          filters:
             branches:
               only:
-                - scrape_on_circleci
+                - master
+    jobs:
+      - scrape: { target: hikarie, name: scrape-hikarie }
+      - scrape: { target: kosugi-square, name: scrape-kosugi-square }
+      - commit: { target: kosugi-square, requires: [scrape-kosugi-square] }
