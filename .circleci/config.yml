@@ -68,8 +68,7 @@ jobs:
       - run:
           name: switch to branch
           command: |
-            git fetch --all
-            git checkout -b "$BRANCH" || git checkout "$BRANCH"
+            git checkout "$BRANCH" || git checkout -b "$BRANCH"
       - attach_workspace: # after checkout
           at: .
       - run:
