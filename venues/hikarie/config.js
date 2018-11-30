@@ -9,8 +9,22 @@ module.exports = {
   ]
 };
 
-// remove ［11月22日（木）オープン］
-const nameModifier = name => name.replace(/［.+］$/, "").trim();
+const nameModifier = name => {
+  return name
+    .replace(/［.+］$/, "") // remove ［11月22日（木）オープン］
+    .trim()
+    .replace(/[（\(](.+)[\)）]$/, "") // remove （altName） or (altName)
+    .trim();
+};
+
+const altNameExtractor = name => {
+  const matched = name
+    .replace(/［.+］$/, "") // remove ［11月22日（木）オープン］
+    .trim()
+    .match(/[（\(](.+)[\)）]$/);
+
+  return matched ? matched[1] : null;
+};
 
 module.exports.scraper = [
   // background floor of Shinqs
@@ -21,6 +35,7 @@ module.exports.scraper = [
         "ul.shopList li": {
           followLink: { selector: "a", property: "href" },
           name: { selector: "h3", modifier: nameModifier },
+          altName: { selector: "h3", modifier: altNameExtractor },
           //fucking no semantics
           phone: { selector: "h3 + p + p" },
           level: -e
@@ -36,6 +51,7 @@ module.exports.scraper = [
         "ul.shopList li": {
           followLink: { selector: "a", property: "href" },
           name: { selector: "h3", modifier: nameModifier },
+          altName: { selector: "h3", modifier: altNameExtractor },
           //fucking no semantics
           phone: { selector: "h3 + p + p" },
           level: e
@@ -49,7 +65,8 @@ module.exports.scraper = [
       url: `http://www.hikarie.jp/floormap/${e}F.html`,
       venues: {
         "#floorshop .shopbox": {
-          name: { selector: ".shoplogo" },
+          name: { selector: ".shoplogo", modifier: nameModifier },
+          altName: { selector: ".shoplogo", modifier: altNameExtractor },
           phone: {
             // fucking no semantics
             selector:
