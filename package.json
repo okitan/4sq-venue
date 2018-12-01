@@ -4,7 +4,8 @@
   "description": "manage venues",
   "main": "lib/index.js",
   "scripts": {
-    "scrape": "node lib/cli.js scrape"
+    "scrape": "node lib/cli.js scrape",
+    "link": "node lib/cli.js link"
   },
   "repository": {
     "type": "git",
