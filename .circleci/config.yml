@@ -127,6 +127,13 @@ workflows:
       - scrape: { target: kosugi-square,                 name:      scrape-kosugi-square }
       - commit: { target: kosugi-square, parent: scrape, requires: [scrape-kosugi-square] }
   link:
+    triggers:
+      - schedule:
+          cron: "0 9 * * *" # 18:00 JST
+          filters:
+            branches:
+              only:
+                - master
     jobs:
-      - link:   { target: kosugi-square,               name:      link-kosugi-square, filters: { branches: { only: [ cron_link ] } } }
+      - link:   { target: kosugi-square,               name:      link-kosugi-square }
       - commit: { target: kosugi-square, parent: link, requires: [link-kosugi-square] }
