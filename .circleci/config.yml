@@ -82,7 +82,7 @@ jobs:
           name: make pr
           command: |
             message=":innocent: << parameters.parent >> venue << parameters.target >>"
-            file_to_commit="venues/<< parameters.target>>/
+            file_to_commit="venues/<< parameters.target>>/"
 
             if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
               git add -A "${file_to_commit}"
