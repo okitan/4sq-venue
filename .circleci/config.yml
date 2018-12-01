@@ -19,12 +19,17 @@ commands:
           key: v1-npm-{{ checksum "package-lock.json" }}
 
 executors:
+  node:
+    docker:
+      - image: circleci/node:latest
+    resource_class: small
   node-browsers:
     docker:
       - image: circleci/node:latest-browsers
   github-hub:
     docker:
       - image: tianon/github-hub:latest
+  resource_class: small
 orbs:
 
 jobs:
@@ -50,12 +55,14 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - venues/<< parameters.target>>/scraped.ltsv
+            - venues/<< parameters.target>>/
   commit:
     executor: github-hub
     environment:
-      BRANCH: scraped-<< parameters.target >>
+      BRANCH: << parameters.parent >>-<< parameters.target >>
     parameters:
+      parent:
+        type: string
       target:
         type: string
     steps:
@@ -74,8 +81,8 @@ jobs:
       - run:
           name: make pr
           command: |
-            message=":innocent: update venue << parameters.target >>"
-            file_to_commit="venues/<< parameters.target>>/scraped.ltsv"
+            message=":innocent: << parameters.parent >> venue << parameters.target >>"
+            file_to_commit="venues/<< parameters.target>>/
 
             if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
               git add -A "${file_to_commit}"
@@ -87,7 +94,18 @@ jobs:
                 hub pull-request -m "$message" -b master -h "$BRANCH"
               fi
             fi
-
+  link:
+    executor: node
+    parameters:
+      target:
+        type: string
+    steps:
+      - setup
+      - run: npm run link -- << parameters.target >>
+      - persist_to_workspace:
+          root: .
+          paths:
+            - venues/<< parameters.target>>/
 workflows:
   # test:
   #   jobs:
@@ -106,5 +124,9 @@ workflows:
                 - master
     jobs:
       - scrape: { target: hikarie, name: scrape-hikarie }
-      - scrape: { target: kosugi-square, name: scrape-kosugi-square }
-      - commit: { target: kosugi-square, requires: [scrape-kosugi-square] }
+      - scrape: { target: kosugi-square,                 name:      scrape-kosugi-square }
+      - commit: { target: kosugi-square, parent: scrape, requires: [scrape-kosugi-square] }
+  link:
+    jobs:
+      - link:   { target: kosugi-square,               name:      link-kosugi-square, filters: { branches: { only: [ cron_link ] } } }
+      - commit: { target: kosugi-square, parent: link, requires: [link-kosugi-square] }
