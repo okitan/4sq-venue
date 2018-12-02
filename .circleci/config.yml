@@ -33,6 +33,11 @@ executors:
 orbs:
 
 jobs:
+  test:
+    executor: node
+    steps:
+      - setup
+      - run: npm test
   test-scrape:
     executor: node-browsers
     steps:
@@ -107,13 +112,9 @@ jobs:
           paths:
             - venues/<< parameters.target>>/
 workflows:
-  # test:
-  #   jobs:
-  #     - test-scrape:
-  #         filters:
-  #           branches:
-  #             ignore:
-  #               - master
+  test:
+    jobs:
+      - test
   scrape:
     triggers:
       - schedule:
@@ -124,8 +125,13 @@ workflows:
                 - master
     jobs:
       - scrape: { target: hikarie, name: scrape-hikarie }
-      - scrape: { target: kosugi-square,                 name:      scrape-kosugi-square }
-      - commit: { target: kosugi-square, parent: scrape, requires: [scrape-kosugi-square] }
+      - scrape: { target: kosugi-square, name: scrape-kosugi-square }
+      - commit:
+          {
+            target: kosugi-square,
+            parent: scrape,
+            requires: [scrape-kosugi-square],
+          }
   link:
     triggers:
       - schedule:
@@ -135,5 +141,10 @@ workflows:
               only:
                 - master
     jobs:
-      - link:   { target: kosugi-square,               name:      link-kosugi-square }
-      - commit: { target: kosugi-square, parent: link, requires: [link-kosugi-square] }
+      - link: { target: kosugi-square, name: link-kosugi-square }
+      - commit:
+          {
+            target: kosugi-square,
+            parent: link,
+            requires: [link-kosugi-square],
+          }
