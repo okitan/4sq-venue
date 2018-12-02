@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "scrape": "node lib/cli.js scrape",
-    "link": "node lib/cli.js link"
+    "link": "node lib/cli.js link",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
     "ora": "^3.0.0",
     "puppeteer": "^1.10.0",
     "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3"
   }
 }
