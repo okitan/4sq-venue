@@ -2,7 +2,10 @@
 
 module.exports = {
   id: "50966024e4b0ad0d96424f52",
-  name: "武蔵小杉東急スクエア"
+  name: "武蔵小杉東急スクエア",
+  linker: {
+    ignore: ["武蔵小杉", "東急スクエア"]
+  }
 };
 
 module.exports.scraper = [
