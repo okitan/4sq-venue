@@ -7,7 +7,6 @@ id:50ba0440e4b071fc2fb28c8e	parentVenueId:50966024e4b0ad0d96424f52	name:BAGEL & 
 id:5171118ee4b0b410c52f33a6	parentVenueId:50966024e4b0ad0d96424f52	name:DONQ / Mini One	crossStreet:武蔵小杉東急スクエア 1F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:50ba06bee4b063c748b45dc4	parentVenueId:50966024e4b0ad0d96424f52	name:Tully's Coffee	crossStreet:武蔵小杉東急スクエア 1F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:516963dae4b05b24c9ff3dfd	parentVenueId:50966024e4b0ad0d96424f52	name:iTSCOMスポット 武蔵小杉東急スクエア	crossStreet:武蔵小杉東急スクエア 1F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
-id:516962eee4b0e47bf64d0655	parentVenueId:50966024e4b0ad0d96424f52	name:東急トラベルサロン 武蔵小杉東急スクエア店	crossStreet:武蔵小杉東急スクエア 1F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5635df97498e26546667c0c9	parentVenueId:50966024e4b0ad0d96424f52	name:LUPICIA	crossStreet:武蔵小杉東急スクエア 1F 東急フードショースライス	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:516970e2e4b0befefcbd9477	parentVenueId:50966024e4b0ad0d96424f52	name:Bleu Bleuet	crossStreet:武蔵小杉東急スクエア 2F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5b1b5f34811045002c5d532d	parentVenueId:50966024e4b0ad0d96424f52	name:Heartdance	crossStreet:武蔵小杉東急スクエア 2F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
@@ -29,7 +28,6 @@ id:515a72c6e4b06ba4ad259c29	parentVenueId:50966024e4b0ad0d96424f52	name:hands be
 id:516a1c68e4b0b2ce6b5d8832	parentVenueId:50966024e4b0ad0d96424f52	name:まぐろ人 武蔵小杉東急スクエア	crossStreet:武蔵小杉東急スクエア 4F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:515aa802e4b044e14c04cd5c	parentVenueId:50966024e4b0ad0d96424f52	name:武蔵小杉東急スクエア 展望デッキ	crossStreet:武蔵小杉東急スクエア 4F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5997fca4d8096e4e431f028b	parentVenueId:50966024e4b0ad0d96424f52	name:マルカミ食堂	crossStreet:武蔵小杉東急スクエア4F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:JTB総合提携店 東急トラベルサロン	scraped.altName:	scraped.level:1	scraped.phone:0447113635	scraped.url:http://www.kosugi-square.com/floor/detail.php?id=204
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アジェデアクセサリーズ	scraped.altName:	scraped.level:1	scraped.phone:0447336508	scraped.url:http://www.kosugi-square.com/floor/detail.php?id=198
 id:	parentVenueId:	name:	crossStreet:	scraped.name:キュービーハウス	scraped.altName:	scraped.level:1	scraped.phone:0120585919	scraped.url:http://www.kosugi-square.com/floor/detail.php?id=202
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タリーズコーヒー	scraped.altName:	scraped.level:1	scraped.phone:0447382133	scraped.url:http://www.kosugi-square.com/floor/detail.php?id=241
