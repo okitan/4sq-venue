@@ -125,7 +125,7 @@ workflows:
                 - master
     jobs:
       - scrape: { target: hikarie, name: scrape-hikarie }
-      - commit: { target: hikarie, name: commit-scrape-hikarie, requires: [commit-kosugi-square] }
+      - commit: { target: hikarie, name: commit-scrape-hikarie, requires: [scrape-hikarie] }
       - scrape: { target: kosugi-square, name: scrape-kosugi-square }
       - commit: { target: kosugi-square, name: commit-scrape-kosugi-square, requires: [scrape-kosugi-square] }
   link:
