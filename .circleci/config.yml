@@ -66,6 +66,8 @@ jobs:
     environment:
       BRANCH: << parameters.name >>
     parameters:
+      name:
+        type: string
       target:
         type: string
     steps:
