@@ -64,7 +64,7 @@ jobs:
   commit:
     executor: github-hub
     environment:
-      BRANCH: << parameters.parent >>-<< parameters.target >>
+      BRANCH: << parameters.name >>
     parameters:
       parent:
         type: string
@@ -86,7 +86,7 @@ jobs:
       - run:
           name: make pr
           command: |
-            message=":innocent: << parameters.parent >> venue << parameters.target >>"
+            message=":innocent: update venue by << parameters.name >>"
             file_to_commit="venues/<< parameters.target>>/"
 
             if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
@@ -125,13 +125,9 @@ workflows:
                 - master
     jobs:
       - scrape: { target: hikarie, name: scrape-hikarie }
+      - commit: { target: hikarie, name: commit-scrape-hikarie, requires: [commit-kosugi-square] }
       - scrape: { target: kosugi-square, name: scrape-kosugi-square }
-      - commit:
-          {
-            target: kosugi-square,
-            parent: scrape,
-            requires: [scrape-kosugi-square],
-          }
+      - commit: { target: kosugi-square, name: commit-scrape-kosugi-square, requires: [scrape-kosugi-square] }
   link:
     triggers:
       - schedule:
@@ -141,10 +137,5 @@ workflows:
               only:
                 - master
     jobs:
-      - link: { target: kosugi-square, name: link-kosugi-square }
-      - commit:
-          {
-            target: kosugi-square,
-            parent: link,
-            requires: [link-kosugi-square],
-          }
+      - link:   { target: kosugi-square, name: link-kosugi-square }
+      - commit: { target: kosugi-square, name: commit-link-kosugi-squae, requires: [link-kosugi-square] }
