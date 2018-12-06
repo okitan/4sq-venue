@@ -64,10 +64,8 @@ jobs:
   commit:
     executor: github-hub
     environment:
-      BRANCH: << parameters.name >>
+      BRANCH: ${CIRCLE_JOB}
     parameters:
-      name:
-        type: string
       target:
         type: string
     steps:
@@ -86,7 +84,7 @@ jobs:
       - run:
           name: make pr
           command: |
-            message=":innocent: update venue by << parameters.name >>"
+            message=":innocent: update venue by ${CIRCLE_JOB}"
             file_to_commit="venues/<< parameters.target>>/"
 
             if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
