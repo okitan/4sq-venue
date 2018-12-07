@@ -3,8 +3,11 @@
 module.exports = {
   id: "50966024e4b0ad0d96424f52",
   name: "武蔵小杉東急スクエア",
+  subvenues: [
+    { id: "516f70a7e4b0ae9eea0f8d97", name: "東急フードショースライス" }
+  ],
   linker: {
-    ignore: ["武蔵小杉", "東急スクエア"]
+    ignore: ["武蔵小杉", "東急スクエア", "東急フードショースライス"]
   }
 };
 
