@@ -124,6 +124,8 @@ workflows:
       - commit: { target: hikarie, name: commit-scrape-hikarie, requires: [scrape-hikarie] }
       - scrape: { target: kosugi-square, name: scrape-kosugi-square }
       - commit: { target: kosugi-square, name: commit-scrape-kosugi-square, requires: [scrape-kosugi-square] }
+      - scrape: { target: grand-tree, name: scrape-grand-tree }
+      - commit: { target: grand-tree, name: commit-scrape-grand-tree, requires: [scrape-grand-tree] }
   link:
     triggers:
       - schedule:
@@ -135,3 +137,5 @@ workflows:
     jobs:
       - link:   { target: kosugi-square, name: link-kosugi-square }
       - commit: { target: kosugi-square, name: commit-link-kosugi-squae, requires: [link-kosugi-square] }
+      - link:   { target: grand-tree, name: link-grand-tree }
+      - commit: { target: grand-tree, name: commit-link-grand-tree, requires: [link-grand-tree] }
