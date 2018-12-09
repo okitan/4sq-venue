@@ -120,6 +120,7 @@ workflows:
               only:
                 - master
     jobs:
+      # DO_NOT_REMOVE:FOR_ADDING_SCRAPE
       - scrape: { target: hikarie, name: scrape-hikarie }
       - commit: { target: hikarie, name: commit-scrape-hikarie, requires: [scrape-hikarie] }
       - scrape: { target: kosugi-square, name: scrape-kosugi-square }
@@ -135,6 +136,7 @@ workflows:
               only:
                 - master
     jobs:
+      # DO_NOT_REMOVE:FOR_ADDING_LINK
       - link:   { target: kosugi-square, name: link-kosugi-square }
       - commit: { target: kosugi-square, name: commit-link-kosugi-squae, requires: [link-kosugi-square] }
       - link:   { target: grand-tree, name: link-grand-tree }
