@@ -127,6 +127,8 @@ workflows:
       - commit: { target: kosugi-square, name: commit-scrape-kosugi-square, requires: [scrape-kosugi-square] }
       - scrape: { target: grand-tree, name: scrape-grand-tree }
       - commit: { target: grand-tree, name: commit-scrape-grand-tree, requires: [scrape-grand-tree] }
+      - scrape: { target: lala-terrace, name: scrape-lala-terrace }
+      - commit: { target: lala-terrace, name: commit-scrape-lala-terrace, requires: [scrape-lala-terrace] }
   link:
     triggers:
       - schedule:
@@ -141,3 +143,5 @@ workflows:
       - commit: { target: kosugi-square, name: commit-link-kosugi-squae, requires: [link-kosugi-square] }
       - link:   { target: grand-tree, name: link-grand-tree }
       - commit: { target: grand-tree, name: commit-link-grand-tree, requires: [link-grand-tree] }
+      - link:   { target: lala-terrace, name: link-lala-terrace }
+      - commit: { target: lala-terrace, name: commit-link-lala-terrace, requires: [link-lala-terrace] }
