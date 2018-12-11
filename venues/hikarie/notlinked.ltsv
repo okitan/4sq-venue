@@ -1,4 +1,3 @@
-id:5b8237d13ba767002cb05a11	parentVenueId:4f7f9ceae4b023c637e055ec	name:ShinQs Tax Refund	crossStreet:	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:50079a1de4b0b9bb92511fbb	parentVenueId:4bd557cc6798ef3b4735638d	name:エコステーション21 渋谷ヒカリエ駐輪場	crossStreet:	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5a0d662012c8f05c2fbb7c49	parentVenueId:4bd557cc6798ef3b4735638d	name:レバテック株式会社	crossStreet:17F, Shibuya Hikarie	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:59b3b1220d173f341f1c4a4a	parentVenueId:4bd557cc6798ef3b4735638d	name:発電床®︎	crossStreet:B3エントランス、B2,3Fスイッチルーム	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
@@ -36,7 +35,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:フード ジュエリー	scr
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ラ・メゾン白金 ビス	scraped.altName:	scraped.level:-2	scraped.phone:0364341850	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=la_maison
 id:	parentVenueId:	name:	crossStreet:	scraped.name:和楽紅屋	scraped.altName:	scraped.level:-2	scraped.phone:0364341733	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=waraku
 id:	parentVenueId:	name:	crossStreet:	scraped.name:宗家 源 吉兆庵	scraped.altName:	scraped.level:-2	scraped.phone:0364341827	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kichouan
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ギフトカウンター／免税カウンター	scraped.altName:	scraped.level:-3	scraped.phone:0364341757	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=giftcounter
 id:	parentVenueId:	name:	crossStreet:	scraped.name:サンジェルマン	scraped.altName:	scraped.level:-3	scraped.phone:0364341830	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=saint_germain
 id:	parentVenueId:	name:	crossStreet:	scraped.name:発酵デリカテッセン Kouji&ko	scraped.altName:	scraped.level:-3	scraped.phone:0364341883	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kouji_and_ko
 id:	parentVenueId:	name:	crossStreet:	scraped.name:精肉あづま	scraped.altName:	scraped.level:-3	scraped.phone:0364341885	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=seinikuazuma
