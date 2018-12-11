@@ -1,4 +1,3 @@
-id:50079a1de4b0b9bb92511fbb	parentVenueId:4bd557cc6798ef3b4735638d	name:エコステーション21 渋谷ヒカリエ駐輪場	crossStreet:	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5a0d662012c8f05c2fbb7c49	parentVenueId:4bd557cc6798ef3b4735638d	name:レバテック株式会社	crossStreet:17F, Shibuya Hikarie	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:59b3b1220d173f341f1c4a4a	parentVenueId:4bd557cc6798ef3b4735638d	name:発電床®︎	crossStreet:B3エントランス、B2,3Fスイッチルーム	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:4f8e4423e4b0f9f93dc31ec0	parentVenueId:4bd557cc6798ef3b4735638d	name:株式会社ディー・エヌ・エー (DeNA)	crossStreet:渋谷ヒカリエ	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
@@ -11,8 +10,6 @@ id:4c80ea56d4e23704536c5888	parentVenueId:4bd557cc6798ef3b4735638d	name:株式�
 id:5015d7b6e4b0e259d3e675c0	parentVenueId:4bd557cc6798ef3b4735638d	name:KDDI 渋谷ヒカリエオフィス	crossStreet:渋谷ヒカリエ 32F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5071029ee4b0e78a1a99fb7d	parentVenueId:4fa8cfe1e4b01db6889d52e1	name:aiiima	crossStreet:渋谷ヒカリエ 8/	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:4fa8cfe1e4b01db6889d52e1	parentVenueId:4bd557cc6798ef3b4735638d	name:8/	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
-id:5a6fe9dd2d2fd97316eacbab	parentVenueId:4bd557cc6798ef3b4735638d	name:Azure Antenna	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
-id:4f990b4ce4b070c68509cf5c	parentVenueId:4bd557cc6798ef3b4735638d	name:Tomio Koyama Gallery	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:4f9678311081ac6f2b1a44ba	parentVenueId:4bd557cc6798ef3b4735638d	name:ヒカリエホール	crossStreet:渋谷ヒカリエ 9F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	crossStreet:渋谷ヒカリエ B3F-5F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5066de95e4b062f08ec176a5	parentVenueId:4f7f9ceae4b023c637e055ec	name:渋谷ヒカリエ Switch Living	crossStreet:渋谷ヒカリエ ShinQs B2F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
