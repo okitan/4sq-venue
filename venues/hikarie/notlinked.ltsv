@@ -15,9 +15,7 @@ id:4fa8cfe1e4b01db6889d52e1	parentVenueId:4bd557cc6798ef3b4735638d	name:8/	cross
 id:5a6fe9dd2d2fd97316eacbab	parentVenueId:4bd557cc6798ef3b4735638d	name:Azure Antenna	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:4f990b4ce4b070c68509cf5c	parentVenueId:4bd557cc6798ef3b4735638d	name:Tomio Koyama Gallery	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:4f9678311081ac6f2b1a44ba	parentVenueId:4bd557cc6798ef3b4735638d	name:ヒカリエホール	crossStreet:渋谷ヒカリエ 9F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
-id:527def3b11d21ba4d85a179b	parentVenueId:4f7f9ceae4b023c637e055ec	name:LUNASOL	crossStreet:渋谷ヒカリエ B1F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	crossStreet:渋谷ヒカリエ B3F-5F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
-id:586a0b4c81907964280083b9	parentVenueId:4f7f9ceae4b023c637e055ec	name:DECORTÉ	crossStreet:渋谷ヒカリエ ShinQs B1F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5066de95e4b062f08ec176a5	parentVenueId:4f7f9ceae4b023c637e055ec	name:渋谷ヒカリエ Switch Living	crossStreet:渋谷ヒカリエ ShinQs B2F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:513da676e4b090bbbeb9b743	parentVenueId:4f7f9ceae4b023c637e055ec	name:ShinQs ナチュラルマーケット	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
 id:5b04f8ee2387060024ea7c9e	parentVenueId:4f7f9ceae4b023c637e055ec	name:リッチクリームコロッケ東京	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:
@@ -27,9 +25,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:ESTEE LAUDER	scraped.altName:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:POLA	scraped.altName:ポーラ	scraped.level:-1	scraped.phone:0364341766	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
 id:	parentVenueId:	name:	crossStreet:	scraped.name:shiro	scraped.altName:	scraped.level:-1	scraped.phone:0364341796	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
 id:	parentVenueId:	name:	crossStreet:	scraped.name:エスト	scraped.altName:トライ　コスメティクス　エストカフェ	scraped.level:-1	scraped.phone:0334868135	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=est
-id:	parentVenueId:	name:	crossStreet:	scraped.name:カネボウ	scraped.altName:	scraped.level:-1	scraped.phone:0334862357	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 id:	parentVenueId:	name:	crossStreet:	scraped.name:クリニーク	scraped.altName:	scraped.level:-1	scraped.phone:0334868012	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clinique
-id:	parentVenueId:	name:	crossStreet:	scraped.name:コスメデコルテ	scraped.altName:	scraped.level:-1	scraped.phone:0364341793	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cosmedecorte
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ドゥ・ラ・メール	scraped.altName:	scraped.level:-1	scraped.phone:0334862374	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delamer
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ベキュア	scraped.altName:	scraped.level:-1	scraped.phone:0364341779	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=vecua
 id:	parentVenueId:	name:	crossStreet:	scraped.name:メイクアップライフ	scraped.altName:	scraped.level:-1	scraped.phone:0364341500	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
