@@ -6,7 +6,10 @@ module.exports = {
   subvenues: [
     { id: "4f7f9ceae4b023c637e055ec", name: "ShinQs" },
     { id: "4fa8cfe1e4b01db6889d52e1", name: "8/" }
-  ]
+  ],
+  linker: {
+    ignore: ["ヒカリエ", "shinqs", "渋谷"]
+  }
 };
 
 const nameModifier = name => {
