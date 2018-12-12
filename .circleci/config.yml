@@ -139,6 +139,8 @@ workflows:
                 - master
     jobs:
       # DO_NOT_REMOVE:FOR_ADDING_LINK
+      - link:   { target: hikarie, name: link-hikarie }
+      - commit: { target: hikarie, name: commit-link-hikarie, requires: [link-hikarie] }
       - link:   { target: kosugi-square, name: link-kosugi-square }
       - commit: { target: kosugi-square, name: commit-link-kosugi-squae, requires: [link-kosugi-square] }
       - link:   { target: grand-tree, name: link-grand-tree }
