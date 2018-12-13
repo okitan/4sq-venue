@@ -129,6 +129,8 @@ workflows:
       - commit: { target: grand-tree, name: commit-scrape-grand-tree, requires: [scrape-grand-tree] }
       - scrape: { target: lala-terrace, name: scrape-lala-terrace }
       - commit: { target: lala-terrace, name: commit-scrape-lala-terrace, requires: [scrape-lala-terrace] }
+      - scrape: { target: fullel-jiyugaoka, name: scrape-fullel-jiyugaoka }
+      - commit: { target: fullel-jiyugaoka, name: commit-scrape-fullel-jiyugaoka, requires: [scrape-fullel-jiyugaoka] }
   link:
     triggers:
       - schedule:
@@ -147,3 +149,5 @@ workflows:
       - commit: { target: grand-tree, name: commit-link-grand-tree, requires: [link-grand-tree] }
       - link:   { target: lala-terrace, name: link-lala-terrace }
       - commit: { target: lala-terrace, name: commit-link-lala-terrace, requires: [link-lala-terrace] }
+      - link:   { target: fullel-jiyugaoka, name: link-fullel-jiyugaoka }
+      - commit: { target: fullel-jiyugaoka, name: commit-link-fullel-jiyugaoka, requires: [link-fullel-jiyugaoka] }
