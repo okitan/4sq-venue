@@ -131,6 +131,8 @@ workflows:
       - commit: { target: lala-terrace, name: commit-scrape-lala-terrace, requires: [scrape-lala-terrace] }
       - scrape: { target: fullel-jiyugaoka, name: scrape-fullel-jiyugaoka }
       - commit: { target: fullel-jiyugaoka, name: commit-scrape-fullel-jiyugaoka, requires: [scrape-fullel-jiyugaoka] }
+      - scrape: { target: shibuya-stream, name: scrape-shibuya-stream }
+      - commit: { target: shibuya-stream, name: commit-scrape-shibuya-stream, requires: [scrape-shibuya-stream] }
   link:
     triggers:
       - schedule:
@@ -151,3 +153,5 @@ workflows:
       - commit: { target: lala-terrace, name: commit-link-lala-terrace, requires: [link-lala-terrace] }
       - link:   { target: fullel-jiyugaoka, name: link-fullel-jiyugaoka }
       - commit: { target: fullel-jiyugaoka, name: commit-link-fullel-jiyugaoka, requires: [link-fullel-jiyugaoka] }
+      - link:   { target: shibuya-stream, name: link-shibuya-stream }
+      - commit: { target: shibuya-stream, name: commit-link-shibuya-stream, requires: [link-shibuya-stream] }
