@@ -111,6 +111,7 @@ workflows:
   test:
     jobs:
       - test
+      - test-scrape
   scrape:
     triggers:
       - schedule:
