@@ -45,7 +45,7 @@ jobs:
       - run:
           name: scrape every configured job
           command: |
-            git diff --name-only origin -- venues/*/config.js | \
+            git diff --name-only origin -- venues/*/config.js && git diff --name-only origin -- venues/*/config.js | \
               awk -F "/" '{ print $(NF - 1) }' |
               xargs -L 1 \
                 npm run scrape --
