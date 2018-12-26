@@ -1,4 +1,5 @@
 id:59ce0a7c98fbfc668d43864b	parentVenueId:4b6170d8f964a520a7132ae3	name:ローソンs東急東横店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5c1b75cecbcdee002cb4df09	parentVenueId:4b6170d8f964a520a7132ae3	name:東京108抹茶茶廊 渋谷店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5067e42ae4b0c7c0522ddb84	parentVenueId:4b6170d8f964a520a7132ae3	name:東急百貨店 東横店 屋上	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:523e918011d20820aab944df	parentVenueId:4b54335ff964a5206bb427e3	name:諸国銘産 東急フードショー	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:57b973d0498e172dccfbe325	parentVenueId:4b54335ff964a5206bb427e3	name:Wittamer東急フードショー店	crossStreet:東急フードショー B1F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -47,10 +48,8 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:東京ますいわ屋	scraped
 id:	parentVenueId:	name:	crossStreet:	scraped.name:FUKU-LABO 	scraped.altName:フクラボ	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=fukulabo
 id:	parentVenueId:	name:	crossStreet:	scraped.name:おこわ 米八	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:0334774831	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=YONEHACHInoren
 id:	parentVenueId:	name:	crossStreet:	scraped.name:おむすび 重吉	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:0334774262	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=JUUKICHI
-id:	parentVenueId:	name:	crossStreet:	scraped.name:きんつば 中田屋	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:0334774697	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=nakataya
 id:	parentVenueId:	name:	crossStreet:	scraped.name:たぬき煎餅	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:0334774780	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=TANUKISEMBEI
 id:	parentVenueId:	name:	crossStreet:	scraped.name:たねや	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:0334774868	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=TANEYA
-id:	parentVenueId:	name:	crossStreet:	scraped.name:てんぷら天松	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:0334774371	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=TEMMATSUnoren
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ダルマイヤー	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=dallmyer
 id:	parentVenueId:	name:	crossStreet:	scraped.name:チョコレートハウス モンロワール	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=monloire
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ハヤシフルーツ（フルーツ洋菓子）	scraped.altName:	scraped.bldg:東横のれん街	scraped.level:-1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=HAYASHIFRUITSnoren
