@@ -134,6 +134,8 @@ workflows:
       - commit: { target: fullel-jiyugaoka, name: commit-scrape-fullel-jiyugaoka, requires: [scrape-fullel-jiyugaoka] }
       - scrape: { target: shibuya-stream, name: scrape-shibuya-stream }
       - commit: { target: shibuya-stream, name: commit-scrape-shibuya-stream, requires: [scrape-shibuya-stream] }
+      - scrape: { target: tokyu-toyokoten, name: scrape-tokyu-toyokoten }
+      - commit: { target: tokyu-toyokoten, name: commit-scrape-tokyu-toyokoten, requires: [scrape-tokyu-toyokoten] }
   link:
     triggers:
       - schedule:
@@ -156,3 +158,5 @@ workflows:
       - commit: { target: fullel-jiyugaoka, name: commit-link-fullel-jiyugaoka, requires: [link-fullel-jiyugaoka] }
       - link:   { target: shibuya-stream, name: link-shibuya-stream }
       - commit: { target: shibuya-stream, name: commit-link-shibuya-stream, requires: [link-shibuya-stream] }
+      - link:   { target: tokyu-toyokoten, name: link-tokyu-toyokoten }
+      - commit: { target: tokyu-toyokoten, name: commit-link-tokyu-toyokoten, requires: [link-tokyu-toyokoten] }
