@@ -1,4 +1,3 @@
-id:4e91410946908c033f75f8a9	parentVenueId:4b6170d8f964a520a7132ae3	name:MAX&Co. 東急百貨店東横店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:59ce0a7c98fbfc668d43864b	parentVenueId:4b6170d8f964a520a7132ae3	name:ローソンs東急東横店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5c1b75cecbcdee002cb4df09	parentVenueId:4b6170d8f964a520a7132ae3	name:東京108抹茶茶廊 渋谷店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5067e42ae4b0c7c0522ddb84	parentVenueId:4b6170d8f964a520a7132ae3	name:東急百貨店 東横店 屋上	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -100,7 +99,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:渋谷魚河岸	scraped.altNa
 id:	parentVenueId:	name:	crossStreet:	scraped.name:銀座ハゲ天	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774325	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=GINZAHAGETEN
 id:	parentVenueId:	name:	crossStreet:	scraped.name:魚力 お造りや	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774139	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=uorikiotukiri
 id:	parentVenueId:	name:	crossStreet:	scraped.name:魚力 海鮮寿司	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774633	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=KAISENSUSHIUORIKI
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ACE Shoes	scraped.altName:エースシューズ	scraped.bldg:西館	scraped.level:1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=aceshoes
 id:	parentVenueId:	name:	crossStreet:	scraped.name:COLONY 2139 	scraped.altName:コロニー トゥーワンスリーナイン	scraped.bldg:西館	scraped.level:1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=colony2139
 id:	parentVenueId:	name:	crossStreet:	scraped.name:COLONY 2139 	scraped.altName:コロニー トゥーワンスリーナイン	scraped.bldg:西館	scraped.level:1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=colony2139
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Celvoke	scraped.altName:セルヴォーク	scraped.bldg:西館	scraped.level:1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=celvoke
@@ -140,7 +138,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:クラランス	scraped.altNa
 id:	parentVenueId:	name:	crossStreet:	scraped.name:クレ・ド・ポー ボーテ	scraped.altName:	scraped.bldg:西館	scraped.level:5	scraped.phone:0334774756	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=CLEDEPEOUBEAUTE
 id:	parentVenueId:	name:	crossStreet:	scraped.name:コスメデコルテ	scraped.altName:	scraped.bldg:西館	scraped.level:5	scraped.phone:0334774876	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=COSMEDECORTE
 id:	parentVenueId:	name:	crossStreet:	scraped.name:シャネル	scraped.altName:	scraped.bldg:西館	scraped.level:5	scraped.phone:0334774888	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=CHANEL
-id:	parentVenueId:	name:	crossStreet:	scraped.name:スック	scraped.altName:	scraped.bldg:西館	scraped.level:5	scraped.phone:0354590971	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SUQQU
 id:	parentVenueId:	name:	crossStreet:	scraped.name:テラクオーレ	scraped.altName:	scraped.bldg:西館	scraped.level:5	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=terracuore
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ディオール	scraped.altName:	scraped.bldg:西館	scraped.level:5	scraped.phone:0334774803	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=DIOR
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ドクターシーラボ	scraped.altName:	scraped.bldg:西館	scraped.level:5	scraped.phone:0334774089	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=DRCILABO
