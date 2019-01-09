@@ -302,7 +302,6 @@ name:ミキハウス	altName:	bldg:西館	level:6	phone:0334774885	url:https://w
 name:ロートレアモン	altName:	bldg:西館	level:6	phone:0334774038	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=LAUTREAMONT
 name:B-Three	altName:ビースリー	bldg:西館	level:7	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=B-Three
 name:CECI OU CELA	altName:セシオセラ	bldg:西館	level:7	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=CECI_OU_CELA
-name:COMME CA DU MODE　	altName:コムサデモード	bldg:西館	level:7	phone:0334774456	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=COMMECADUMODE
 name:NARACAMICIE 	altName:ナラカミーチェ	bldg:西館	level:7	phone:0334774854	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=NARACAMICIE
 name:Reflect 	altName:リフレクト	bldg:西館	level:7	phone:0334774091	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=REFLECT
 name:SCAPA 	altName:スキャパ	bldg:西館	level:7	phone:0354898725	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SCAPA
@@ -312,6 +311,7 @@ name:Y's	altName:ワイズ	bldg:西館	level:7	phone:0364160126	url:https://www.
 name:ウイークエンド マックスマーラ	altName:	bldg:西館	level:7	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=weekendmaxmara
 name:エヴェックス バイ クリツィア	altName:	bldg:西館	level:7	phone:0354896748	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=EVEX
 name:グリーム	altName:	bldg:西館	level:7	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=gleam
+name:コムサ・プラチナ	altName:	bldg:西館	level:7	phone:0334774456	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=COMMECAPLATINUM
 name:シビラ	altName:	bldg:西館	level:7	phone:0334774881	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SYBILLA
 name:ジャンニ・ロ・ジュディチェ	altName:	bldg:西館	level:7	phone:0334774744	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=giannilogiudice
 name:トリンプ	altName:	bldg:西館	level:7	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=TRIUMPH
