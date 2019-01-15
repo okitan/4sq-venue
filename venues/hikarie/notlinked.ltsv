@@ -15,6 +15,7 @@ id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	c
 id:5066de95e4b062f08ec176a5	parentVenueId:4f7f9ceae4b023c637e055ec	name:渋谷ヒカリエ Switch Living	crossStreet:渋谷ヒカリエ ShinQs B2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:513da676e4b090bbbeb9b743	parentVenueId:4f7f9ceae4b023c637e055ec	name:ShinQs ナチュラルマーケット	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5b04f8ee2387060024ea7c9e	parentVenueId:4f7f9ceae4b023c637e055ec	name:リッチクリームコロッケ東京	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5c39649e1cf2e1002c0313fe	parentVenueId:4bd557cc6798ef3b4735638d	name:平成ネット史（仮）展	crossStreet:渋谷ヒカリエ9F ヒカリエホールAホワイエ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4fa0ed72e4b0f8dae14e95f8	parentVenueId:4f7f9ceae4b023c637e055ec	name:Switch Lounge	crossStreet:渋谷ヒカリエShinQs 5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ACSEINE	scraped.altName:アクセーヌ	scraped.bldg:	scraped.level:-1	scraped.phone:0364341791	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=acseine
 id:	parentVenueId:	name:	crossStreet:	scraped.name:POLA	scraped.altName:ポーラ	scraped.bldg:	scraped.level:-1	scraped.phone:0364341766	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
