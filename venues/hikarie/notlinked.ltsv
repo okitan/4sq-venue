@@ -9,6 +9,8 @@ id:4f99cfece4b092f08ad75143	parentVenueId:4bd557cc6798ef3b4735638d	name:スカ�
 id:52319b6211d213f9957576cd	parentVenueId:4bd557cc6798ef3b4735638d	name:レバレジーズ株式会社 本社	crossStreet:渋谷ヒカリエ 17F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4c80ea56d4e23704536c5888	parentVenueId:4bd557cc6798ef3b4735638d	name:株式会社mediba 本社	crossStreet:渋谷ヒカリエ 31F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5015d7b6e4b0e259d3e675c0	parentVenueId:4bd557cc6798ef3b4735638d	name:KDDI 渋谷ヒカリエオフィス	crossStreet:渋谷ヒカリエ 32F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5c4681de005ac10039b77dc1	parentVenueId:4bd557cc6798ef3b4735638d	name:Dumpling Time 餃子時間	crossStreet:渋谷ヒカリエ 6F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5071029ee4b0e78a1a99fb7d	parentVenueId:4fa8cfe1e4b01db6889d52e1	name:aiiima	crossStreet:渋谷ヒカリエ 8/	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4fa8cfe1e4b01db6889d52e1	parentVenueId:4bd557cc6798ef3b4735638d	name:8/	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f9678311081ac6f2b1a44ba	parentVenueId:4bd557cc6798ef3b4735638d	name:ヒカリエホール	crossStreet:渋谷ヒカリエ 9F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	crossStreet:渋谷ヒカリエ B3F-5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -25,6 +27,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:クリニーク	scraped.altNa
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ドゥ・ラ・メール	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0334862374	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delamer
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ベキュア	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0364341779	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=vecua
 id:	parentVenueId:	name:	crossStreet:	scraped.name:メイクアップライフ	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0364341500	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
+id:	parentVenueId:	name:	crossStreet:	scraped.name:KUSMI TEA	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341833	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kusmitea
 id:	parentVenueId:	name:	crossStreet:	scraped.name:がんこ職人	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341815	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gankomomen
 id:	parentVenueId:	name:	crossStreet:	scraped.name:チーズガーデン	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341816	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cheesegarden
 id:	parentVenueId:	name:	crossStreet:	scraped.name:フード ジュエリー	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341698	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=foodjewelry
@@ -65,6 +68,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:メゾン ド フルール	sc
 id:	parentVenueId:	name:	crossStreet:	scraped.name:まかないこすめ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0368051913	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ザワリィー	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275720	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=zawariii
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
+id:	parentVenueId:	name:	crossStreet:	scraped.name:Trattoria Vomero　il mare e monte	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0368050341	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ダンプリングタイム 餃子時間	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0364506030	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:果実園リーベル	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0368038917	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:MAISON KAYSER Table	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0368038966	scraped.url:
