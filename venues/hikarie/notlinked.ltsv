@@ -65,10 +65,9 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:メゾン ド フルール	sc
 id:	parentVenueId:	name:	crossStreet:	scraped.name:まかないこすめ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0368051913	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ザワリィー	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275720	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=zawariii
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ダンプリングタイム 餃子時間	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:果実園リーベル	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:1/2PPUDO	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:MAISON KAYSER Table	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:やさい家めい	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ベジ串 創作おでん　ぬる燗佐藤	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:モダンメキシカン マヤルス	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:ダンプリングタイム 餃子時間	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0364506030	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:果実園リーベル	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0368038917	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:MAISON KAYSER Table	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0368038966	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:やさい家めい	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0357741110	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:ベジ串 創作おでん　ぬる燗佐藤	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0364511548	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:モダンメキシカン マヤルス	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0368038977	scraped.url:
