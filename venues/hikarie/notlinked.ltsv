@@ -9,7 +9,6 @@ id:4f99cfece4b092f08ad75143	parentVenueId:4bd557cc6798ef3b4735638d	name:スカ�
 id:52319b6211d213f9957576cd	parentVenueId:4bd557cc6798ef3b4735638d	name:レバレジーズ株式会社 本社	crossStreet:渋谷ヒカリエ 17F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4c80ea56d4e23704536c5888	parentVenueId:4bd557cc6798ef3b4735638d	name:株式会社mediba 本社	crossStreet:渋谷ヒカリエ 31F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5015d7b6e4b0e259d3e675c0	parentVenueId:4bd557cc6798ef3b4735638d	name:KDDI 渋谷ヒカリエオフィス	crossStreet:渋谷ヒカリエ 32F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:5c4681de005ac10039b77dc1	parentVenueId:4bd557cc6798ef3b4735638d	name:Dumpling Time 餃子時間	crossStreet:渋谷ヒカリエ 6F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5071029ee4b0e78a1a99fb7d	parentVenueId:4fa8cfe1e4b01db6889d52e1	name:aiiima	crossStreet:渋谷ヒカリエ 8/	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4fa8cfe1e4b01db6889d52e1	parentVenueId:4bd557cc6798ef3b4735638d	name:8/	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f9678311081ac6f2b1a44ba	parentVenueId:4bd557cc6798ef3b4735638d	name:ヒカリエホール	crossStreet:渋谷ヒカリエ 9F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -69,7 +68,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:まかないこすめ	scraped
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ザワリィー	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275720	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=zawariii
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Trattoria Vomero　il mare e monte	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0368050341	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ダンプリングタイム 餃子時間	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0364506030	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:果実園リーベル	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0368038917	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:MAISON KAYSER Table	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0368038966	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:やさい家めい	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0357741110	scraped.url:
