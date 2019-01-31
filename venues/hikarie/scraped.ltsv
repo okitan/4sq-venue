@@ -4,6 +4,7 @@ name:RF1	altName:アールエフワン	bldg:	level:-3	phone:0364279643	url:https
 name:rinato DAIKANYAMA	altName:リナト ダイカンヤマ	bldg:	level:-3	phone:0364341869	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rinato
 name:zen eashion	altName:ゼンイーション	bldg:	level:-3	phone:0334862364	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=zeneashion
 name:つけにく麹屋	altName:	bldg:	level:-3	phone:0364341606	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koujiya
+name:とんかつ まい泉	altName:	bldg:	level:-3	phone:0364341824	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisen
 name:まつおか	altName:	bldg:	level:-3	phone:0364341874	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=matsuoka
 name:ギフトカウンター／免税カウンター	altName:	bldg:	level:-3	phone:0364341757	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=giftcounter
 name:サンジェルマン	altName:	bldg:	level:-3	phone:0364341830	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=saint_germain
@@ -51,6 +52,7 @@ name:フードステージB2	altName:	bldg:	level:-2	phone:	url:https://www.toky
 name:ベリーデコ	altName:	bldg:	level:-2	phone:0364341812	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=berrydeco
 name:ベルン	altName:	bldg:	level:-2	phone:0364341807	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=berne
 name:ベーグルアンドベーグル マイ ヘルシーライフ	altName:	bldg:	level:-2	phone:0364341627	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bagel_and_bagel
+name:ホタルノヒカリ	altName:	bldg:	level:-2	phone:0364341860	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hotarunohikari
 name:マリアージュ フレール	altName:	bldg:	level:-2	phone:0337971854	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mariagefreres
 name:マリオジェラテリア	altName:	bldg:	level:-2	phone:0364341692	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mariogelateria
 name:ラベイユ	altName:	bldg:	level:-2	phone:0364341688	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=labeille
