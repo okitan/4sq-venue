@@ -10,6 +10,23 @@ module.exports = {
 };
 
 module.exports.scraper = [
+  ...[1, 2].map(i => {
+    return {
+      url: `https://www.shibuya109.jp/shop/freeword/?msnId=MAGNET&p=${i}`,
+      venues: {
+        // TODO:
+        ".shopList tbody tr:nth-of-type(n+1)": {
+          name: { selector: "a" },
+          phone: { selector: "td:nth-of-type(3)" },
+          level: {
+            selector: "td:nth-of-type(2)",
+            modifier: e => e.match(/(\d+)/)[1]
+          },
+          url: { selector: "a", property: "href" }
+        }
+      }
+    };
+  })
   // {
   //   url: "URL",
   //   venues: {
