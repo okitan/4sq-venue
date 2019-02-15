@@ -5,7 +5,7 @@ module.exports = {
   name: "MAGNET by SHIBUYA109",
   subvenues: [{ id: "5af43e0f336273003909fe13", name: "MAG7" }],
   linker: {
-    ignore: []
+    ignore: ["SHIBUYA", "渋谷", "109", "MAGNET"]
   }
 };
 
