@@ -27,15 +27,4 @@ module.exports.scraper = [
       }
     };
   })
-  // {
-  //   url: "URL",
-  //   venues: {
-  //     SELECTOR: {
-  //       name: { selector: "SELECTOR" },
-  //       altName: { selector: "SELECTOR" },
-  //       phone: { selector: "SELECTOR" },
-  //       level: { selector: "SELECTOR" }
-  //     }
-  //   }
-  // }
 ];
