@@ -1,4 +1,3 @@
-id:5c258aee0802d4002cb9ea7b	parentVenueId:597f0333dec1d60e99087df2	name:みずほ銀行 渋谷ストリーム出張所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5b9a247660d11b003893b98b	parentVenueId:597f0333dec1d60e99087df2	name:渋谷ストリームエクセルホテル東急	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5b9b105aa30619002c423832	parentVenueId:597f0333dec1d60e99087df2	name:渋谷ストリームホール	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5bdb13be1f8ed6002cbd9ff0	parentVenueId:597f0333dec1d60e99087df2	name:渋谷ストリーム駐車場	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -7,3 +6,4 @@ id:5b99ea2fa30619002cf5c145	parentVenueId:597f0333dec1d60e99087df2	name:稲荷�
 id:5b99ec0af4b525002cf43adf	parentVenueId:597f0333dec1d60e99087df2	name:金王橋広場	crossStreet:渋谷ストリーム 1F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5baccc19f870fd002c025271	parentVenueId:597f0333dec1d60e99087df2	name:ストリームライン	crossStreet:渋谷ストリーム 2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5bc33a4f838e59002ccba65e	parentVenueId:597f0333dec1d60e99087df2	name:Loft Alley	crossStreet:渋谷ストリーム 3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5c258aee0802d4002cb9ea7b	parentVenueId:597f0333dec1d60e99087df2	name:みずほ銀行 渋谷ストリーム出張所	crossStreet:渋谷ストリーム2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
