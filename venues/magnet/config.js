@@ -10,7 +10,7 @@ module.exports = {
 };
 
 module.exports.scraper = [
-  ...[1, 2].map(i => {
+  ...[1].map(i => {
     return {
       url: `https://www.shibuya109.jp/shop/freeword/?msnId=MAGNET&p=${i}`,
       venues: {
