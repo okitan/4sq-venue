@@ -1,5 +1,4 @@
 id:59ce0a7c98fbfc668d43864b	parentVenueId:4b6170d8f964a520a7132ae3	name:ローソンs東急東横店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:5c1b75cecbcdee002cb4df09	parentVenueId:4b6170d8f964a520a7132ae3	name:東京108抹茶茶廊 渋谷店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5663c455498e1e6bf0deac2c	parentVenueId:4b6170d8f964a520a7132ae3	name:東急百貨店 東横店 南館 ６階 ベビールーム	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5067e42ae4b0c7c0522ddb84	parentVenueId:4b6170d8f964a520a7132ae3	name:東急百貨店 東横店 屋上	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:51387a71e4b08e910facbf33	parentVenueId:4b6036e1f964a5204dda29e3	name:藤兵衛 東横のれん街 東急百貨店東横店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -90,7 +89,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:シーキューブ	scraped.al
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ベル アメール	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774787	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BELAMER
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ホテルオークラ	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774348	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=HOTELOHKURA
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヨックモック	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774807	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=YOKUMOKU
-id:	parentVenueId:	name:	crossStreet:	scraped.name:一 〇八抹茶茶廊	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=108matchasaro
 id:	parentVenueId:	name:	crossStreet:	scraped.name:今日の食卓	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=kyounosyokutaku
 id:	parentVenueId:	name:	crossStreet:	scraped.name:味の浜藤	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774321	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=AJINOHAMATOb1
 id:	parentVenueId:	name:	crossStreet:	scraped.name:坂角総本舖	scraped.altName:	scraped.bldg:西館	scraped.level:-1	scraped.phone:0334774691	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BANKAKUSOUHOMPO
