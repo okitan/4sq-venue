@@ -138,6 +138,8 @@ workflows:
       - commit: { target: tokyu-toyokoten, name: commit-scrape-tokyu-toyokoten, requires: [scrape-tokyu-toyokoten] }
       - scrape: { target: sweets-forest, name: scrape-sweets-forest }
       - commit: { target: sweets-forest, name: commit-scrape-sweets-forest, requires: [scrape-sweets-forest] }
+      - scrape: { target: magnet, name: scrape-magnet }
+      - commit: { target: magnet, name: commit-scrape-magnet, requires: [scrape-magnet] }
   link:
     triggers:
       - schedule:
@@ -164,3 +166,5 @@ workflows:
       - commit: { target: tokyu-toyokoten, name: commit-link-tokyu-toyokoten, requires: [link-tokyu-toyokoten] }
       - link:   { target: sweets-forest, name: link-sweets-forest }
       - commit: { target: sweets-forest, name: commit-link-sweets-forest, requires: [link-sweets-forest] }
+      - link:   { target: magnet, name: link-magnet }
+      - commit: { target: magnet, name: commit-link-magnet, requires: [link-magnet] }
