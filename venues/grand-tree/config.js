@@ -24,7 +24,9 @@ const phoneSelector = async venue => {
 module.exports.scraper = [
   {
     url: "http://www.grand-tree.jp/web/shop/index.html",
-    timeout: 60 * 1000,
+    options: {
+      timeout: 60 * 1000
+    },
     venues: {
       "#shopList div.item:not(.all)": {
         followLink: { selector: "a", property: "href" },

@@ -12,6 +12,9 @@ module.exports = {
 module.exports.scraper = [
   {
     url: `https://magnetbyshibuya109.jp/shop/`,
+    options: {
+      waitUntil: "domcontentloaded"
+    },
     venues: {
       // TODO:
       ".results article": {
