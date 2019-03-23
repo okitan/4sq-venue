@@ -25,7 +25,7 @@ module.exports.scraper = [
   {
     url: "http://www.grand-tree.jp/web/shop/index.html",
     options: {
-      timeout: 60 * 1000
+      waitUntil: "domcontentloaded"
     },
     venues: {
       "#shopList div.item:not(.all)": {
