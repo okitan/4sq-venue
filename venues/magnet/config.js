@@ -10,21 +10,33 @@ module.exports = {
 };
 
 module.exports.scraper = [
-  ...[1].map(i => {
-    return {
-      url: `https://www.shibuya109.jp/shop/freeword/?msnId=MAGNET&p=${i}`,
-      venues: {
-        // TODO:
-        ".shopList tbody tr:nth-of-type(n+1)": {
-          name: { selector: "a" },
-          phone: { selector: "td:nth-of-type(3)" },
-          level: {
-            selector: "td:nth-of-type(2)",
-            modifier: e => e.match(/(\d+)/)[1]
-          },
-          url: { selector: "a", property: "href" }
+  {
+    url: `https://magnetbyshibuya109.jp/shop/`,
+    venues: {
+      // TODO:
+      ".results article": {
+        followLink: { selector: "a", property: "href" },
+        name: {
+          selector: ".shop-name",
+          property: "innerHTML",
+          modifier: e => e.split("</span>")[1].trim()
+        },
+        phone: {
+          xpath: "//td[contains(text(), 'TEL')]/following-sibling::td",
+          nullable: true
+        },
+        level: {
+          selector: ".type-floor",
+          modifier: e => {
+            if (e.includes("MAG 7")) {
+              return 7;
+            } else {
+              const matched = e.match(/(地下)?(\d+)階/);
+              return matched[1] ? -matched[2] : matched[1];
+            }
+          }
         }
       }
-    };
-  })
+    }
+  }
 ];
