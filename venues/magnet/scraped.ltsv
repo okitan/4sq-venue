@@ -3,33 +3,36 @@ name:らーめんとしょうが焼き　あの小宮	altName:	bldg:	level:-2	ph
 name:オトコネイル	altName:	bldg:	level:-2	phone:0364161333	url:https://magnetbyshibuya109.jp/shop/otokonail/
 name:洋麺屋 五右衛門	altName:	bldg:	level:-2	phone:0334778001	url:https://magnetbyshibuya109.jp/shop/goemon/
 name:THE SUIT COMPANY	altName:	bldg:	level:-1	phone:0334624623	url:https://magnetbyshibuya109.jp/shop/the-suit-company/
-name:A'GEM/9	altName:	bldg:	level:	phone:0334778088	url:https://magnetbyshibuya109.jp/shop/agem9/
-name:AFYF	altName:	bldg:	level:	phone:0334778064	url:https://magnetbyshibuya109.jp/shop/afyf-2/
-name:BLESS	altName:	bldg:	level:	phone:0334778160	url:https://magnetbyshibuya109.jp/shop/bless/
-name:DANS TOKYO	altName:	bldg:	level:	phone:0334778075	url:https://magnetbyshibuya109.jp/shop/dans-tokyo/
-name:DOLLY NOIRE	altName:	bldg:	level:	phone:0368041804	url:https://magnetbyshibuya109.jp/shop/dolly-noire-2/
-name:GraffArt Shop	altName:	bldg:	level:	phone:0364160055	url:https://magnetbyshibuya109.jp/shop/graffart-shop-2/
-name:Hello Kitty Japan	altName:	bldg:	level:	phone:0334778030	url:https://magnetbyshibuya109.jp/shop/hello-kitty-japan-2/
-name:JIGGYS SHOP GENDERLESS	altName:	bldg:	level:	phone:0334778076	url:https://magnetbyshibuya109.jp/shop/jiggys-shop-genderless/
-name:JOYPOLIS VR SHIBUYA	altName:	bldg:	level:	phone:0364161788	url:https://magnetbyshibuya109.jp/shop/joypolis-vr-shibuya/
-name:KELLYS LABO	altName:	bldg:	level:	phone:0334778035	url:https://magnetbyshibuya109.jp/shop/kellys-labo/
-name:MIJ FACTORY HARAJUKU	altName:	bldg:	level:	phone:07013978188	url:https://magnetbyshibuya109.jp/shop/mij-factory-harajuku/
-name:RILAW publishing by VILLAGE/VANGUARD	altName:	bldg:	level:	phone:08058111511	url:https://magnetbyshibuya109.jp/shop/rilaw-publishig-by-village-vanguard/
-name:SHIBUYA Zy.	altName:	bldg:	level:	phone:	url:https://magnetbyshibuya109.jp/shop/shibuya-zy-2/
-name:THICC	altName:	bldg:	level:	phone:0334613380	url:https://magnetbyshibuya109.jp/shop/thicc-2/
-name:TRAVAS TOKYO	altName:	bldg:	level:	phone:0334778188	url:https://magnetbyshibuya109.jp/shop/travas-tokyo-2/
-name:VANQUISH	altName:	bldg:	level:	phone:0334778167	url:https://magnetbyshibuya109.jp/shop/vanquish/
-name:XXXY TOKYO	altName:	bldg:	level:	phone:0334778198	url:https://magnetbyshibuya109.jp/shop/xxxy-tokyo-2/
-name:anime store B-POINT	altName:	bldg:	level:	phone:0364552474	url:https://magnetbyshibuya109.jp/shop/anime-store-b-point/
-name:gonoturn	altName:	bldg:	level:	phone:0334778055	url:https://magnetbyshibuya109.jp/shop/gonoturn/
-name:クレヨンしんちゃんショップ	altName:	bldg:	level:	phone:0364552414	url:https://magnetbyshibuya109.jp/shop/shinchan/
-name:パニカムトーキョー	altName:	bldg:	level:	phone:0334778146	url:https://magnetbyshibuya109.jp/shop/poneycomb/
-name:星乃珈琲店	altName:	bldg:	level:	phone:0334778038	url:https://magnetbyshibuya109.jp/shop/hoshinocoffee/
-name:渋谷園	altName:	bldg:	level:	phone:0334778229	url:https://magnetbyshibuya109.jp/shop/%e6%b8%8b%e8%b0%b7%e5%9c%92/
-name:銀座コージーコーナー	altName:	bldg:	level:	phone:0334778210	url:https://magnetbyshibuya109.jp/shop/cozycorner/
+name:Hello Kitty Japan	altName:	bldg:	level:1	phone:0334778030	url:https://magnetbyshibuya109.jp/shop/hello-kitty-japan-2/
+name:KELLYS LABO	altName:	bldg:	level:1	phone:0334778035	url:https://magnetbyshibuya109.jp/shop/kellys-labo/
+name:渋谷園	altName:	bldg:	level:1	phone:0334778229	url:https://magnetbyshibuya109.jp/shop/%e6%b8%8b%e8%b0%b7%e5%9c%92/
+name:銀座コージーコーナー	altName:	bldg:	level:1	phone:0334778210	url:https://magnetbyshibuya109.jp/shop/cozycorner/
+name:パニカムトーキョー	altName:	bldg:	level:2	phone:0334778146	url:https://magnetbyshibuya109.jp/shop/poneycomb/
+name:星乃珈琲店	altName:	bldg:	level:2	phone:0334778038	url:https://magnetbyshibuya109.jp/shop/hoshinocoffee/
+name:DANS TOKYO	altName:	bldg:	level:3	phone:0334778075	url:https://magnetbyshibuya109.jp/shop/dans-tokyo/
+name:VANQUISH	altName:	bldg:	level:3	phone:0334778167	url:https://magnetbyshibuya109.jp/shop/vanquish/
+name:gonoturn	altName:	bldg:	level:3	phone:0334778055	url:https://magnetbyshibuya109.jp/shop/gonoturn/
+name:A'GEM/9	altName:	bldg:	level:4	phone:0334778088	url:https://magnetbyshibuya109.jp/shop/agem9/
+name:AFYF	altName:	bldg:	level:4	phone:0334778064	url:https://magnetbyshibuya109.jp/shop/afyf/
+name:BLESS	altName:	bldg:	level:4	phone:0334778160	url:https://magnetbyshibuya109.jp/shop/bless/
+name:DOLLY NOIRE	altName:	bldg:	level:4	phone:0368041804	url:https://magnetbyshibuya109.jp/shop/dolly-noire-2/
+name:JIGGYS SHOP GENDERLESS	altName:	bldg:	level:4	phone:0334778076	url:https://magnetbyshibuya109.jp/shop/jiggys-shop-genderless/
+name:THICC	altName:	bldg:	level:4	phone:0334613380	url:https://magnetbyshibuya109.jp/shop/thicc-2/
+name:XXXY TOKYO	altName:	bldg:	level:4	phone:0334778198	url:https://magnetbyshibuya109.jp/shop/xxxy-tokyo-2/
+name:GraffArt Shop	altName:	bldg:	level:5	phone:0364160055	url:https://magnetbyshibuya109.jp/shop/graffart-shop-2/
+name:MIJ FACTORY HARAJUKU	altName:	bldg:	level:5	phone:07013978188	url:https://magnetbyshibuya109.jp/shop/mij-factory-harajuku/
+name:RILAW publishing by VILLAGE/VANGUARD	altName:	bldg:	level:5	phone:08058111511	url:https://magnetbyshibuya109.jp/shop/rilaw-publishig-by-village-vanguard/
+name:SHIBUYA Zy.	altName:	bldg:	level:5	phone:	url:https://magnetbyshibuya109.jp/shop/shibuya-zy/
+name:TRAVAS TOKYO	altName:	bldg:	level:5	phone:0334778188	url:https://magnetbyshibuya109.jp/shop/travas-tokyo-2/
+name:anime store B-POINT	altName:	bldg:	level:5	phone:0364552474	url:https://magnetbyshibuya109.jp/shop/anime-store-b-point/
+name:bLiSTER comics	altName:	bldg:	level:5	phone:	url:https://magnetbyshibuya109.jp/shop/blister-comics/
+name:クレヨンしんちゃんショップ	altName:	bldg:	level:5	phone:0364552414	url:https://magnetbyshibuya109.jp/shop/shinchan/
+name:JOYPOLIS VR SHIBUYA	altName:	bldg:	level:6	phone:0364161788	url:https://magnetbyshibuya109.jp/shop/joypolis-vr-shibuya/
+name:SKY FIGHT	altName:	bldg:	level:6	phone:0120106008	url:https://magnetbyshibuya109.jp/shop/sky-fight/
 name:FATBURGER	altName:	bldg:	level:7	phone:0364553200	url:https://magnetbyshibuya109.jp/shop/fatburger/
 name:SHIBUYA PARLOR	altName:	bldg:	level:7	phone:0364161057	url:https://magnetbyshibuya109.jp/shop/shibuya-parlor/
 name:THEぎょるびー	altName:	bldg:	level:7	phone:0334778235	url:https://magnetbyshibuya109.jp/shop/thegyorubi/
 name:おにぎり Bar 渋谷園	altName:	bldg:	level:7	phone:0334778236	url:https://magnetbyshibuya109.jp/shop/onigiribar-shibutanien/
 name:ご馳走そば そら	altName:	bldg:	level:7	phone:0364163708	url:https://magnetbyshibuya109.jp/shop/sora/
 name:らんまん食堂	altName:	bldg:	level:7	phone:0334778232	url:https://magnetbyshibuya109.jp/shop/rangmang-shokudo/
+name:日向坂46 COLLABORATION CAFE	altName:	bldg:	level:7	phone:	url:https://magnetbyshibuya109.jp/shop/hinatazaka46/

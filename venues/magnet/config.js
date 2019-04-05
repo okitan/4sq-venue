@@ -36,7 +36,7 @@ module.exports.scraper = [
               return 7;
             } else {
               const matched = e.match(/(地下)?(\d+)階/);
-              return matched[1] ? -matched[2] : matched[1];
+              return matched[1] ? -matched[2] : matched[2];
             }
           }
         }
