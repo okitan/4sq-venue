@@ -54,12 +54,12 @@ name:ベーグルアンドベーグル マイ ヘルシーライフ	altName:	bld
 name:ホタルノヒカリ	altName:	bldg:	level:-2	phone:0364341860	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hotarunohikari
 name:マリアージュ フレール	altName:	bldg:	level:-2	phone:0337971854	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mariagefreres
 name:マリオジェラテリア	altName:	bldg:	level:-2	phone:0364341692	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mariogelateria
+name:メゾンブレモンド1830	altName:	bldg:	level:-2	phone:0364341753	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisonbremond1830
 name:ラベイユ	altName:	bldg:	level:-2	phone:0364341688	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=labeille
 name:ラ・メゾン白金 ビス	altName:	bldg:	level:-2	phone:0364341850	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=la_maison
 name:ル ショコラ ドゥ アッシュ / ポール バセット	altName:	bldg:	level:-2	phone:0354683165	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lechocolatedeh
 name:ル パン ドゥ ジョエル・ロブション	altName:	bldg:	level:-2	phone:0364341837	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lepain
 name:ル・パン・コティディアン	altName:	bldg:	level:-2	phone:0364341867	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lepainquotidien
-name:レピス エピス	altName:	bldg:	level:-2	phone:0364341819	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lepiepi
 name:ワインショップ・エノテカ	altName:	bldg:	level:-2	phone:0334983285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=enoteca
 name:京橋千疋屋	altName:	bldg:	level:-2	phone:0364341810	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=senbikiya
 name:和楽紅屋	altName:	bldg:	level:-2	phone:0364341733	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=waraku
@@ -100,7 +100,7 @@ name:ランコム	altName:	bldg:	level:-1	phone:0364341786	url:https://www.tokyu
 name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hakuhodo
 name:CASA VIA BUS STOP	altName:カーサ ヴィア バス ストップ	bldg:	level:1	phone:0364341737	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=viabusstop
 name:CHOUCHOU	altName:シュシュ	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=chouchou
-name:Flora Notis JILL STUART	altName:フローラ ノーティス ジルスチュアート	bldg:	level:1	phone:0364341742	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=floranotis
+name:Flora Notis JILL STUART	altName:フローラノーティス ジルスチュアート	bldg:	level:1	phone:0364341742	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=floranotis
 name:SABON	altName:サボン	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sabon
 name:STAR JEWELRY Girl	altName:スター ジュエリー ガール	bldg:	level:1	phone:0357783813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelrygirl
 name:The Cream of the Crop Coffee	altName:ザ クリーム オブ ザ クロップ コーヒー	bldg:	level:1	phone:0364341567	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thecreamofthecropcoffee
@@ -125,7 +125,6 @@ name:ShinQs パーツ ジョイスト	altName:	bldg:	level:2	phone:	url:https://
 name:rooms Ji-Ba	altName:ルームス ジーバ	bldg:	level:2	phone:0364271544	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=roomsjiba
 name:イベントステージ 2	altName:	bldg:	level:2	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventstage2
 name:オルビス・ザ・ショップ	altName:	bldg:	level:2	phone:0364341625	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=orbis
-name:シーバイクロエ	altName:	bldg:	level:2	phone:0337971521	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=seebychloe
 name:ジェラート ピケ	altName:	bldg:	level:2	phone:0364341522	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
 name:ファンケル ビューティ＆ヘルス	altName:	bldg:	level:2	phone:0364341630	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fancl
 name:ブルプル	altName:	bldg:	level:2	phone:0364341633	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bullpulu
