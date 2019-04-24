@@ -13,7 +13,7 @@ id:5071029ee4b0e78a1a99fb7d	parentVenueId:4fa8cfe1e4b01db6889d52e1	name:aiiima	c
 id:4fa8cfe1e4b01db6889d52e1	parentVenueId:4bd557cc6798ef3b4735638d	name:8/	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f9678311081ac6f2b1a44ba	parentVenueId:4bd557cc6798ef3b4735638d	name:ヒカリエホール	crossStreet:渋谷ヒカリエ 9F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	crossStreet:渋谷ヒカリエ B3F-5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:5066de95e4b062f08ec176a5	parentVenueId:4f7f9ceae4b023c637e055ec	name:渋谷ヒカリエ Switch Living	crossStreet:渋谷ヒカリエ ShinQs B2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5066de95e4b062f08ec176a5	parentVenueId:4f7f9ceae4b023c637e055ec	name:Switch Living	crossStreet:渋谷ヒカリエ ShinQs B2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:513da676e4b090bbbeb9b743	parentVenueId:4f7f9ceae4b023c637e055ec	name:ShinQs ナチュラルマーケット	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5b04f8ee2387060024ea7c9e	parentVenueId:4f7f9ceae4b023c637e055ec	name:リッチクリームコロッケ東京	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4fa0ed72e4b0f8dae14e95f8	parentVenueId:4f7f9ceae4b023c637e055ec	name:Switch Lounge	crossStreet:渋谷ヒカリエShinQs 5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
