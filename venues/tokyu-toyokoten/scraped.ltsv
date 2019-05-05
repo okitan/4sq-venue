@@ -160,7 +160,7 @@ name:一 〇八抹茶茶廊	altName:	bldg:西館	level:-1	phone:	url:https://www
 name:京都 錦 平野	altName:	bldg:西館	level:-1	phone:0334774335	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=NISHIKIHIRANO
 name:今日の食卓	altName:	bldg:西館	level:-1	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=kyounosyokutaku
 name:味の浜藤	altName:	bldg:西館	level:-1	phone:0334774321	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=AJINOHAMATOb1
-name:和洋酒	altName:	bldg:西館	level:-1	phone:0334774308	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=wine
+name:和洋酒	altName:日本酒・ワイン・ウイスキー・ビール	bldg:西館	level:-1	phone:0334774308	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=wine
 name:和食屋の惣菜 えん	altName:	bldg:西館	level:-1	phone:0334774484	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=EN
 name:坂角総本舖	altName:	bldg:西館	level:-1	phone:0334774691	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BANKAKUSOUHOMPO
 name:塚田農場	altName:	bldg:西館	level:-1	phone:0334774861	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=tsukadanojo
