@@ -9,7 +9,7 @@ name:ワイシャツ ネクタイ	altName:	bldg:南館	level:4	phone:	url:https:
 name:紳士装身具	altName:	bldg:南館	level:4	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=MENSACCESSORY
 name:紳士靴下 紳士肌着 ナイトウエア	altName:	bldg:南館	level:4	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=MENSNIGHTWEAR
 name:ALKA 	altName:アルカ	bldg:南館	level:5	phone:0334774735	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=ALKA
-name:MODE ET JACOMO BOUTIQUE 	altName:モード・エ・ジャコモ　ブティック	bldg:南館	level:5	phone:0334774765	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=MODEETJACOMO
+name:MODE ET JACOMO BOUTIQUE 	altName:モード・エ・ジャコモ ブティック	bldg:南館	level:5	phone:0334774765	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=MODEETJACOMO
 name:コンフォートシューズ	altName:	bldg:南館	level:5	phone:0334774372	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=CONFORTSHOES
 name:シューケア用品	altName:	bldg:南館	level:5	phone:0334774372	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SHOECARE
 name:シーズンシューズ	altName:	bldg:南館	level:5	phone:0334774372	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SEASONSHOES
@@ -243,7 +243,7 @@ name:SK-II 	altName:エスケーツー	bldg:西館	level:5	phone:0334774755	url:
 name:VENDOME AOYAMA 	altName:ヴァンドーム青山	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=VENDOMEAOYAMA
 name:VENDOME BOUTIQUE 	altName:ヴァンドーム ブティック	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=VENDOMEBOUTIQUE
 name:WELEDA 	altName:ヴェレダ	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=weleda
-name:festaria bijou SOPHIA 	altName:フェスタリア　ビジュソフィア	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BIJOUSOPHIA
+name:festaria bijou SOPHIA 	altName:フェスタリア ビジュソフィア	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BIJOUSOPHIA
 name:ちふれ化粧品	altName:	bldg:西館	level:5	phone:0334774298	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=CHIFURE
 name:アクセーヌ	altName:	bldg:西館	level:5	phone:0334774138	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=ACSEINE
 name:アニエスベー ボヤージュ	altName:	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=agnes_b_VOYAGE
