@@ -82,7 +82,7 @@ name:THREE	altName:スリー	bldg:	level:-1	phone:0364341770	url:https://www.tok
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
 name:shiro	altName:	bldg:	level:-1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
 name:ウンナナクール	altName:	bldg:	level:-1	phone:0364341821	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unenanacool
-name:エスト	altName:トライ　コスメティクス　エストカフェ	bldg:	level:-1	phone:0334868135	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=est
+name:エスト	altName:トライ コスメティクス エストカフェ	bldg:	level:-1	phone:0334868135	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=est
 name:カネボウ	altName:	bldg:	level:-1	phone:0334862357	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
 name:クリニーク	altName:	bldg:	level:-1	phone:0334868012	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clinique
@@ -119,7 +119,7 @@ name:ル・コンシデラン	altName:	bldg:	level:1	phone:0364341487	url:https:
 name:極上担々麺 香家	altName:	bldg:	level:1	phone:0364341839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koya
 name:17℃ by Blondoll	altName:17℃ バイ ブロンドール	bldg:	level:2	phone:0364341726	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=17c
 name:CA4LA delica	altName:カシラ デリカ	bldg:	level:2	phone:0334862368	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ca4la
-name:JTB	altName:海外旅行	bldg:	level:2	phone:0570550187	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb2f
+name:JTB	altName:海外旅行	bldg:	level:2	phone:0364193188	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb2f
 name:M・A・C	altName:マック	bldg:	level:2	phone:0334868027	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maccosmetics
 name:ShinQs パーツ ジョイスト	altName:	bldg:	level:2	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqspartsjoyst
 name:me ISSEY MIYAKE	altName:	bldg:	level:2	phone:0364341694	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meisseymiyake
@@ -163,7 +163,7 @@ name:Ane Mone	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://ww
 name:A＆Fカントリー	altName:エイアンドエフカントリー	bldg:	level:4	phone:0364341452	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aandf
 name:ECCO	altName:エコー	bldg:	level:4	phone:0364275292	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ecco
 name:Idea Seventh Sense	altName:イデアセブンスセンス	bldg:	level:4	phone:0364341520	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideaseventh
-name:JTB	altName:	bldg:	level:4	phone:0570550187	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb
+name:JTB	altName:	bldg:	level:4	phone:0343349280	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb
 name:Mila Owen	altName:ミラ オーウェン	bldg:	level:4	phone:0364271687	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=milaowen
 name:SORA	altName:ソラ	bldg:	level:4	phone:0364341674	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sora
 name:URBAN RESEARCH	altName:アーバンリサーチ	bldg:	level:4	phone:0364341476	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=urbanresearch
@@ -203,11 +203,11 @@ name:バースデイ・バー	altName:	bldg:	level:5	phone:0334862369	url:https:
 name:ル・クルーゼ	altName:	bldg:	level:5	phone:0368050913	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lecreuset
 name:久世福商店	altName:	bldg:	level:5	phone:0364275782	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kuzefukuandco
 name:茶庭 然花抄院	altName:	bldg:	level:5	phone:0364341517	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sateizenkashoin
-name:Trattoria Vomero　il mare e monte	altName:	bldg:	level:6	phone:0368050341	url:
+name:Trattoria Vomero il mare e monte	altName:	bldg:	level:6	phone:0368050341	url:
 name:うなぎ 徳	altName:	bldg:	level:6	phone:0364341519	url:
 name:こめらく たっぷり野菜とお茶漬けと。	altName:	bldg:	level:6	phone:0364335666	url:
 name:とんかつ まい泉	altName:	bldg:	level:6	phone:0334862365	url:
-name:まぐろ問屋三浦三崎港 恵み	altName:	bldg:	level:6	phone:0364277998	url:
+name:まぐろ問屋 三浦三崎港 恵み	altName:	bldg:	level:6	phone:0364277998	url:
 name:ダンプリングタイム 餃子時間	altName:	bldg:	level:6	phone:0364506030	url:
 name:パパイヤリーフ東京	altName:	bldg:	level:6	phone:0364341535	url:
 name:京洋食 あかつき	altName:	bldg:	level:6	phone:0364341502	url:
@@ -220,16 +220,14 @@ name:1/2PPUDO	altName:	bldg:	level:7	phone:0368038922	url:
 name:Bar Español LA BODEGA	altName:	bldg:	level:7	phone:0364341480	url:
 name:CHEESE KITCHEN RACLER	altName:	bldg:	level:7	phone:0364335404	url:
 name:Cafe＆Grill SIZZLe GAZZLe	altName:	bldg:	level:7	phone:0364341473	url:
-name:FLOWERS Common	altName:	bldg:	level:7	phone:0334862363	url:
 name:MAISON KAYSER Table	altName:	bldg:	level:7	phone:0368038966	url:
 name:THE MEAT & LABORATORY	altName:	bldg:	level:7	phone:0368051729	url:
 name:iBeer LE SUN PALM	altName:	bldg:	level:7	phone:0364197496	url:
 name:やさい家めい	altName:	bldg:	level:7	phone:0357741110	url:
-name:ベジ串 創作おでん　ぬる燗佐藤	altName:	bldg:	level:7	phone:0364511548	url:
+name:ベジ串 創作おでん ぬる燗佐藤	altName:	bldg:	level:7	phone:0364511548	url:
 name:モダンメキシカン マヤルス	altName:	bldg:	level:7	phone:0368038977	url:
 name:茶寮伊勢 藤次郎	altName:	bldg:	level:7	phone:0364341483	url:
 name:鉄板焼 お好み焼 かしわ	altName:	bldg:	level:7	phone:0364341570	url:
-name:ART GALLERY	altName:アート ギャラリー	bldg:	level:8	phone:0364341493	url:
 name:COURT	altName:コート	bldg:	level:8	phone:0364184718	url:
 name:CUBE 1,2,3	altName:キューブ	bldg:	level:8	phone:0364184718	url:
 name:Creative Lounge MOV	altName:	bldg:	level:8	phone:0345338000	url:
@@ -237,8 +235,8 @@ name:d47 MUSEUM	altName:ディヨンナナ ミュージアム	bldg:	level:8	phon
 name:d47 design travel store	altName:	bldg:	level:8	phone:0364272301	url:
 name:d47食堂	altName:	bldg:	level:8	phone:0364272303	url:
 name:川本喜八郎人形ギャラリー	altName:	bldg:	level:8	phone:0334631142	url:
+name:改装中	altName:	bldg:	level:8	phone:	url:
 name:渋谷区区民サービスセンター	altName:	bldg:	level:8	phone:0337970935	url:
-name:渋谷区防災センター 　※区役所新庁舎へ移転しました。	altName:	bldg:	level:8	phone:0334989408	url:
 name:Hikarieカンファレンス	altName:	bldg:	level:11	phone:0354685087	url:
 name:Lawson	altName:ローソン	bldg:	level:11	phone:0337970966	url:
 name:THE THEATRE COFFEE	altName:	bldg:	level:11	phone:0334868411	url:
