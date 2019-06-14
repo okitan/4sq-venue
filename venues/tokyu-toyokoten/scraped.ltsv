@@ -163,6 +163,7 @@ name:和食屋の惣菜 えん	altName:	bldg:西館	level:-1	phone:0334774484	ur
 name:坂角総本舖	altName:	bldg:西館	level:-1	phone:0334774691	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BANKAKUSOUHOMPO
 name:塚田農場	altName:	bldg:西館	level:-1	phone:0334774861	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=tsukadanojo
 name:塩干物専門店 浜作	altName:	bldg:西館	level:-1	phone:0334774460	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=HAMASAKU
+name:大阪焼肉・ホルモン ふたご	altName:	bldg:西館	level:-1	phone:0334774451	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=yakiniku-futago
 name:天のや	altName:	bldg:西館	level:-1	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=amanoya
 name:太郎	altName:	bldg:西館	level:-1	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=taro
 name:好餃子	altName:	bldg:西館	level:-1	phone:0334774802	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=HAOCHAOZU
@@ -242,7 +243,6 @@ name:ReFa	altName:リファ	bldg:西館	level:5	phone:	url:https://www.tokyu-dep
 name:SK-II 	altName:エスケーツー	bldg:西館	level:5	phone:0334774755	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SK2
 name:VENDOME AOYAMA 	altName:ヴァンドーム青山	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=VENDOMEAOYAMA
 name:VENDOME BOUTIQUE 	altName:ヴァンドーム ブティック	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=VENDOMEBOUTIQUE
-name:WELEDA 	altName:ヴェレダ	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=weleda
 name:festaria bijou SOPHIA 	altName:フェスタリア ビジュソフィア	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BIJOUSOPHIA
 name:ちふれ化粧品	altName:	bldg:西館	level:5	phone:0334774298	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=CHIFURE
 name:アクセーヌ	altName:	bldg:西館	level:5	phone:0334774138	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=ACSEINE
@@ -266,7 +266,6 @@ name:スック	altName:	bldg:西館	level:5	phone:0354590971	url:https://www.tok
 name:テラクオーレ	altName:	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=terracuore
 name:ディオール	altName:	bldg:西館	level:5	phone:0334774803	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=DIOR
 name:ドクターシーラボ	altName:	bldg:西館	level:5	phone:0334774089	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=DRCILABO
-name:ナチュラグラッセ	altName:	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=naturagrace
 name:ハイネット	altName:	bldg:西館	level:5	phone:0334774105	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=HINET
 name:ハンドバッグ	altName:	bldg:西館	level:5	phone:0334774374	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=HANDBAG
 name:ハーバー	altName:	bldg:西館	level:5	phone:0334774758	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=HABA
