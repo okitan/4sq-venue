@@ -18,7 +18,7 @@ module.exports.scraper = [
       venues: {
         ".floorlistInner li": {
           name: { selector: ".floorlist__txt--shopname" },
-          phone: { selector: ".floorlist__txt--tel" },
+          phone: { selector: ".floorlist__txt--tel", nullable: true },
           url: { selector: "a", property: "href", nullable: true },
           level: e
         }
