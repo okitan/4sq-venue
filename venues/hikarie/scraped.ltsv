@@ -17,7 +17,7 @@ name:加賀麩不室屋	altName:	bldg:	level:-3	phone:0364341820	url:https://www
 name:寝かせ玄米と日本のいいもの いろは	altName:	bldg:	level:-3	phone:0364341640	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=iroha
 name:明治屋	altName:	bldg:	level:-3	phone:0364341917	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meidiya
 name:浪花 古市庵	altName:	bldg:	level:-3	phone:0364341805	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koichian
-name:発酵デリカテッセン Kouji&ko	altName:	bldg:	level:-3	phone:0364341883	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kouji_and_ko
+name:発酵Kitchen リッチクリームコロッケ東京	altName:	bldg:	level:-3	phone:0364341882	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=richcream
 name:築地なが田	altName:	bldg:	level:-3	phone:0364341862	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tsukijinagata
 name:精肉あづま	altName:	bldg:	level:-3	phone:0364341885	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=seinikuazuma
 name:銀座 縁	altName:	bldg:	level:-3	phone:0364341835	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginzaenishi
@@ -33,11 +33,11 @@ name:POTASTA	altName:	bldg:	level:-2	phone:0364341829	url:https://www.tokyu-dept
 name:Pâtisserie & Café DEL'IMMO	altName:	bldg:	level:-2	phone:0364341825	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delimmo
 name:WA・BI・SA	altName:ワビサ	bldg:	level:-2	phone:0364341808	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=wabisa
 name:がんこ職人	altName:	bldg:	level:-2	phone:0364341815	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gankomomen
+name:をかし楽市	altName:	bldg:	level:-2	phone:0364341868	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rakuichi
 name:クロスロードベーカリー	altName:	bldg:	level:-2	phone:0364341813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=crossroadbakery
 name:グラニースミス	altName:	bldg:	level:-2	phone:0364341828	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=grannysmith
 name:コールドストーン クリーマリー サンド	altName:	bldg:	level:-2	phone:0364341759	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=coldstone
 name:セバスチャン・ブイエ	altName:	bldg:	level:-2	phone:0364341677	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sebastien_bouillet
-name:チーズガーデン	altName:	bldg:	level:-2	phone:0364341816	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cheesegarden
 name:チーズ・オン ザ テーブル	altName:	bldg:	level:-2	phone:0364341696	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cheese
 name:ドルチェフェリーチェ レガロ	altName:	bldg:	level:-2	phone:0364341664	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=regalo
 name:ネモ・ベーカリー	altName:	bldg:	level:-2	phone:0364341638	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nemo
@@ -152,8 +152,6 @@ name:サマンサタバサプチチョイスプラス	altName:	bldg:	level:3	pho
 name:スミス	altName:	bldg:	level:3	phone:0364272330	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=smith
 name:セオリー	altName:	bldg:	level:3	phone:0364341691	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=theory
 name:ダイアナ ロマーシュ	altName:	bldg:	level:3	phone:0364341703	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=dianaromache
-name:バタフライツイスト	altName:	bldg:	level:3	phone:0364341838	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=butterflytwists
-name:バナーバレット	altName:	bldg:	level:3	phone:0364274334	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bannerbarrett
 name:ヒロブ	altName:	bldg:	level:3	phone:0364341699	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hirob
 name:ビーファビュラス	altName:	bldg:	level:3	phone:0364341701	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=befabulous
 name:ユナイテッドアローズ	altName:	bldg:	level:3	phone:0364185927	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unitedarrows
