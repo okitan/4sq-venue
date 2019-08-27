@@ -3,7 +3,6 @@ id:5ae838b0ad910e002c7f83cb	parentVenueId:4c0f742698102d7f2f32e506	name:Crossing
 id:5af43e0f336273003909fe13	parentVenueId:4c0f742698102d7f2f32e506	name:MAG7	crossStreet:渋谷109メンズ館	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:洋麺屋 五右衛門	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0334778001	scraped.url:https://magnetbyshibuya109.jp/shop/goemon/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:KELLYS LABO	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0334778035	scraped.url:https://magnetbyshibuya109.jp/shop/kellys-labo/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:渋谷園	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0334778229	scraped.url:https://magnetbyshibuya109.jp/shop/%e6%b8%8b%e8%b0%b7%e5%9c%92/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:パニカムトーキョー	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0334778146	scraped.url:https://magnetbyshibuya109.jp/shop/poneycomb/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:DANS TOKYO	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0334778075	scraped.url:https://magnetbyshibuya109.jp/shop/dans-tokyo/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:gonoturn	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0334778055	scraped.url:https://magnetbyshibuya109.jp/shop/gonoturn/
@@ -12,13 +11,11 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:AFYF	scraped.altName:	scraped
 id:	parentVenueId:	name:	crossStreet:	scraped.name:BLESS	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0334778160	scraped.url:https://magnetbyshibuya109.jp/shop/bless/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:DOLLY NOIRE	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0368041804	scraped.url:https://magnetbyshibuya109.jp/shop/dolly-noire-2/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:JIGGYS SHOP GENDERLESS	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0334778076	scraped.url:https://magnetbyshibuya109.jp/shop/jiggys-shop-genderless/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:THICC	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0334613380	scraped.url:https://magnetbyshibuya109.jp/shop/thicc-2/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:XXXY TOKYO	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0334778198	scraped.url:https://magnetbyshibuya109.jp/shop/xxxy-tokyo-2/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:AMNIBUS STORE	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:05075804509	scraped.url:https://magnetbyshibuya109.jp/shop/amnibus-store/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:GraffArt Shop	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364160055	scraped.url:https://magnetbyshibuya109.jp/shop/graffart-shop-2/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:MIJ FACTORY HARAJUKU	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:07013978188	scraped.url:https://magnetbyshibuya109.jp/shop/mij-factory-harajuku/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:SHIBUYA Zy.	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp/shop/shibuya-zy/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:SHIBUYA Zy.	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0334778163	scraped.url:https://magnetbyshibuya109.jp/shop/shibuya-zy/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:THEキャラSHOP	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:08049031014	scraped.url:https://magnetbyshibuya109.jp/shop/the%e3%82%ad%e3%83%a3%e3%83%a9shop/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:TRAVAS TOKYO	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0334778188	scraped.url:https://magnetbyshibuya109.jp/shop/travas-tokyo-2/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:anime store B-POINT	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364552474	scraped.url:https://magnetbyshibuya109.jp/shop/anime-store-b-point/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:bLiSTER comics	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364552474	scraped.url:https://magnetbyshibuya109.jp/shop/blister-comics/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:クレヨンしんちゃんショップ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364552414	scraped.url:https://magnetbyshibuya109.jp/shop/shinchan/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:SKY FIGHT	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0120106008	scraped.url:https://magnetbyshibuya109.jp/shop/sky-fight/
