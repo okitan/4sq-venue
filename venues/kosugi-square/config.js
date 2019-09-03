@@ -14,7 +14,7 @@ module.exports = {
 module.exports.scraper = [
   ...[1, 2, 3, 4, 5].map(e => {
     return {
-      url: `http://www.kosugi-square.com/floor/?fcd=${e}`,
+      url: `https://www.kosugi-square.com/floor/?fcd=${e}`,
       venues: {
         ".floorlistInner li": {
           name: { selector: ".floorlist__txt--shopname" },
