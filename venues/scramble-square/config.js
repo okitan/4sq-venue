@@ -5,7 +5,14 @@ module.exports = {
   name: "渋谷スクランブルスクエア",
   subvenues: [{ id: "5dbc0e6405066e000711b091", name: "Tokyu Foodshow EDGE" }],
   linker: {
-    ignore: []
+    ignore: [
+      "渋谷",
+      "SHIBUYA",
+      "スクランブル",
+      "スクエア",
+      "SCRAMBLE",
+      "SQUARE"
+    ]
   }
 };
 
