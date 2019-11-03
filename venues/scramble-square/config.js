@@ -30,7 +30,7 @@ module.exports.scraper = [
         altName: { selector: ".js-shop-ruby" },
         level: {
           selector: ".js-shop-floor",
-          modifier: level => level.replace(/.*?(B?\d).*/, "$1")
+          modifier: level => level.replace(/.*?(B?\d+).*/, "$1")
         }
       }
     }
