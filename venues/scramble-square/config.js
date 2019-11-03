@@ -20,7 +20,7 @@ module.exports.scraper = [
       ".articleBlock article": {
         followLink: { selector: "a", property: "href" },
         name: { selector: ".js-shop-name" },
-        altName: { selector: ".ruby" },
+        altName: { selector: ".js-shop-ruby" },
         level: {
           selector: ".js-shop-floor",
           modifier: level => level.replace(/.*?(B?\d).*/, "$1")
