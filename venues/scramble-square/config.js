@@ -5,7 +5,8 @@ module.exports = {
   name: "渋谷スクランブルスクエア",
   subvenues: [
     { id: "5dbc0e6405066e000711b091", name: "Tokyu Foodshow EDGE" },
-    { id: "5dbc0e18894bda0008708012", name: "TSUTAYA BOOKSTORE" }
+    { id: "5dbc0e18894bda0008708012", name: "TSUTAYA BOOKSTORE" },
+    { id: "5db1240443598d00073edbe0", name: "SHIBUYA SKY" }
   ],
   linker: {
     ignore: [
