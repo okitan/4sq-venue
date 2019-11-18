@@ -140,8 +140,6 @@ workflows:
       - commit: { target: sweets-forest, name: commit-scrape-sweets-forest, requires: [scrape-sweets-forest] }
       - scrape: { target: magnet, name: scrape-magnet }
       - commit: { target: magnet, name: commit-scrape-magnet, requires: [scrape-magnet] }
-      - scrape: { target: scramble-square, name: scrape-scramble-square }
-      - commit: { target: scramble-square, name: commit-scrape-scramble-square, requires: [scrape-scramble-square] }
   link:
     triggers:
       - schedule:
@@ -170,5 +168,3 @@ workflows:
       - commit: { target: sweets-forest, name: commit-link-sweets-forest, requires: [link-sweets-forest] }
       - link:   { target: magnet, name: link-magnet }
       - commit: { target: magnet, name: commit-link-magnet, requires: [link-magnet] }
-      - link:   { target: scramble-square, name: link-scramble-square }
-      - commit: { target: scramble-square, name: commit-link-scramble-square, requires: [link-scramble-square] }
