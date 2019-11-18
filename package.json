@@ -4,6 +4,7 @@
   "description": "manage venues",
   "main": "lib/index.js",
   "scripts": {
+    "add": "node lib/cli.js add",
     "scrape": "node lib/cli.js scrape",
     "link": "node lib/cli.js link",
     "test": "jest"
