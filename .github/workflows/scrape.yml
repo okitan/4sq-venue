@@ -1,0 +1,14 @@
+name: scrape
+
+on:
+  schedule:
+    - cron: 0 0 * * * # 09:00 JST
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: docker
+    - run: npm install
+    - run: npm run scrape scramble-square
