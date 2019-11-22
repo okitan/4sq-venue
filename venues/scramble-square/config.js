@@ -30,12 +30,13 @@ module.exports.scraper = [
       const result = await (await fetch(url)).json();
 
       const { createScrapedVenue } = require("../../lib/venue");
+      const { phoneExtractor } = require("../../lib/util");
 
       return result.map(shop => {
         return createScrapedVenue({
           name: shop.shop_name,
           altName: shop.shop_name_kana,
-          phone: shop.phone_no,
+          phone: phoneExtractor(shop.phone_no),
           level: shop.floor.replace("F", "").replace("B", "-"),
           url: `https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=${shop.shop_id}`
         });
