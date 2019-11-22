@@ -22,22 +22,24 @@ module.exports = {
 
 module.exports.scraper = [
   {
-    url: "https://www.shibuya-scramble-square.com/floorguide/",
-    options: {
-      waitUntil: "load",
-      timeout: 60 * 1000
-    },
-    venues: {
-      ".articleBlock article": {
-        followLink: { selector: "a", property: "href" },
-        name: { selector: ".js-shop-name" },
-        altName: { selector: ".js-shop-ruby" },
-        level: {
-          selector: ".js-shop-floor",
-          modifier: level =>
-            level.replace(/.*?(B?\d+).*/, "$1").replace("B", "-")
-        }
-      }
+    fetch: async () => {
+      const url = "https://tacsis-cdn-endpoint.azureedge.net/cms-web/shop.json";
+
+      const fetch = require("node-fetch");
+
+      const result = await (await fetch(url)).json();
+
+      const { createScrapedVenue } = require("../../lib/venue");
+
+      return result.map(shop => {
+        return createScrapedVenue({
+          name: shop.shop_name,
+          altName: shop.shop_name_kana,
+          phone: shop.phone_no,
+          level: shop.floor.replace("F", "").replace("B", "-"),
+          url: `https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=${shop.shop_id}`
+        });
+      });
     }
   }
 ];
