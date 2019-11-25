@@ -13,6 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: docker://node:alpine
       - run: npm install
       - run: npm run scrape ${{ matrix.venues }}
