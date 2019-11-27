@@ -17,3 +17,4 @@ jobs:
         run: git checkout "scrape-${{ matrix.venues}}" || git checkout -b "scrape-${{ matrix.venues }}"
       - run: npm install
       - run: npm run scrape ${{ matrix.venues }}
+      - run: script/push.sh ${{ matrix.venues }}
