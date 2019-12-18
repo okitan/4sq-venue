@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: 
+      - link-scramble-square # link-*
+      - scrape-scramble-square # scrape-*
+
+jobs:
+  pr:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: pull-request
+        uses: repo-sync/pull-request@v2
+        with:
+          pr_title: "update venue by ${{ github.ref }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
