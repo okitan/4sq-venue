@@ -91,18 +91,7 @@ jobs:
 
               git push origin "$CIRCLE_JOB"
             fi
-  link:
-    executor: node
-    parameters:
-      target:
-        type: string
-    steps:
-      - setup
-      - run: npm run link -- << parameters.target >>
-      - persist_to_workspace:
-          root: .
-          paths:
-            - venues/<< parameters.target>>/
+
 workflows:
   test:
     jobs:
@@ -136,31 +125,3 @@ workflows:
       - commit: { target: sweets-forest, name: commit-scrape-sweets-forest, requires: [scrape-sweets-forest] }
       - scrape: { target: magnet, name: scrape-magnet }
       - commit: { target: magnet, name: commit-scrape-magnet, requires: [scrape-magnet] }
-  link:
-    triggers:
-      - schedule:
-          cron: "0 9 * * *" # 18:00 JST
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      # DO_NOT_REMOVE:FOR_ADDING_LINK
-      - link:   { target: hikarie, name: link-hikarie }
-      - commit: { target: hikarie, name: commit-link-hikarie, requires: [link-hikarie] }
-      - link:   { target: kosugi-square, name: link-kosugi-square }
-      - commit: { target: kosugi-square, name: commit-link-kosugi-square, requires: [link-kosugi-square] }
-      - link:   { target: grand-tree, name: link-grand-tree }
-      - commit: { target: grand-tree, name: commit-link-grand-tree, requires: [link-grand-tree] }
-      - link:   { target: lala-terrace, name: link-lala-terrace }
-      - commit: { target: lala-terrace, name: commit-link-lala-terrace, requires: [link-lala-terrace] }
-      - link:   { target: fullel-jiyugaoka, name: link-fullel-jiyugaoka }
-      - commit: { target: fullel-jiyugaoka, name: commit-link-fullel-jiyugaoka, requires: [link-fullel-jiyugaoka] }
-      - link:   { target: shibuya-stream, name: link-shibuya-stream }
-      - commit: { target: shibuya-stream, name: commit-link-shibuya-stream, requires: [link-shibuya-stream] }
-      - link:   { target: tokyu-toyokoten, name: link-tokyu-toyokoten }
-      - commit: { target: tokyu-toyokoten, name: commit-link-tokyu-toyokoten, requires: [link-tokyu-toyokoten] }
-      - link:   { target: sweets-forest, name: link-sweets-forest }
-      - commit: { target: sweets-forest, name: commit-link-sweets-forest, requires: [link-sweets-forest] }
-      - link:   { target: magnet, name: link-magnet }
-      - commit: { target: magnet, name: commit-link-magnet, requires: [link-magnet] }
