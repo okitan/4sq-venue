@@ -9,6 +9,7 @@ jobs:
     strategy:
       matrix:
         venues:
+          - kosugi-square
           - scramble-square
     runs-on: ubuntu-latest
     steps:
