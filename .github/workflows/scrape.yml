@@ -9,8 +9,16 @@ jobs:
     strategy:
       matrix:
         venues:
+          - fullel-jiyugaoka
+          - grand-tree
+          - hikarie
           - kosugi-square
+          - lala-terrace
+          - magnet
           - scramble-square
+          - shibuya-stream
+          - sweets-forest
+          - tokyu-toyokoten
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1

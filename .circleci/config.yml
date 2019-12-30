@@ -26,10 +26,6 @@ executors:
   node-browsers:
     docker:
       - image: circleci/node:latest-browsers
-  github-hub:
-    docker:
-      - image: tianon/github-hub:latest
-  resource_class: small
 orbs:
 
 jobs:
@@ -49,77 +45,9 @@ jobs:
               awk -F "/" '{ print $(NF - 1) }' |
               xargs --no-run-if-empty -L 1 \
                 npm run scrape --
-  scrape:
-    executor: node-browsers
-    parameters:
-      target:
-        type: string
-    steps:
-      - setup
-      - run: npm run scrape -- << parameters.target >>
-      - persist_to_workspace:
-          root: .
-          paths:
-            - venues/<< parameters.target>>/
-  commit:
-    executor: github-hub
-    parameters:
-      target:
-        type: string
-    steps:
-      - checkout
-      - run:
-          name: setup git
-          command: |
-            git config user.name okitan
-            git config user.email okitakunio@gmail.com
-      - run:
-          name: switch to branch
-          command: |
-            git checkout "$CIRCLE_JOB" || git checkout -b "$CIRCLE_JOB"
-      - attach_workspace: # after checkout
-          at: .
-      - run:
-          name: make pr
-          command: |
-            message=":innocent: update venue by ${CIRCLE_JOB}"
-            file_to_commit="venues/<< parameters.target>>/"
-
-            if [[ -n "$(git status --porcelain "${file_to_commit}")" ]]; then
-              git add -A "${file_to_commit}"
-              git commit -m "$message"
-
-              git push origin "$CIRCLE_JOB"
-            fi
 
 workflows:
   test:
     jobs:
       - test
       - test-scrape
-  scrape:
-    triggers:
-      - schedule:
-          cron: "0 0 * * *" # 9:00 JST
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      # DO_NOT_REMOVE:FOR_ADDING_SCRAPE
-      - scrape: { target: hikarie, name: scrape-hikarie }
-      - commit: { target: hikarie, name: commit-scrape-hikarie, requires: [scrape-hikarie] }
-      - scrape: { target: grand-tree, name: scrape-grand-tree }
-      - commit: { target: grand-tree, name: commit-scrape-grand-tree, requires: [scrape-grand-tree] }
-      - scrape: { target: lala-terrace, name: scrape-lala-terrace }
-      - commit: { target: lala-terrace, name: commit-scrape-lala-terrace, requires: [scrape-lala-terrace] }
-      - scrape: { target: fullel-jiyugaoka, name: scrape-fullel-jiyugaoka }
-      - commit: { target: fullel-jiyugaoka, name: commit-scrape-fullel-jiyugaoka, requires: [scrape-fullel-jiyugaoka] }
-      - scrape: { target: shibuya-stream, name: scrape-shibuya-stream }
-      - commit: { target: shibuya-stream, name: commit-scrape-shibuya-stream, requires: [scrape-shibuya-stream] }
-      - scrape: { target: tokyu-toyokoten, name: scrape-tokyu-toyokoten }
-      - commit: { target: tokyu-toyokoten, name: commit-scrape-tokyu-toyokoten, requires: [scrape-tokyu-toyokoten] }
-      - scrape: { target: sweets-forest, name: scrape-sweets-forest }
-      - commit: { target: sweets-forest, name: commit-scrape-sweets-forest, requires: [scrape-sweets-forest] }
-      - scrape: { target: magnet, name: scrape-magnet }
-      - commit: { target: magnet, name: commit-scrape-magnet, requires: [scrape-magnet] }
