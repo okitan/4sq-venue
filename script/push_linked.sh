@@ -18,7 +18,7 @@ if [[ -n "$(git status --porcelain "$dir")" ]]; then
 
   # TODO: when just adding scraped venues to nolinked, do commit to master directly
   git add -A "$dir"
-  git commit -m ":innocent: scraped venue of $1"
+  git commit -m ":innocent: linked venue of $1"
 
   git remote set-url origin "https://okitan:$GITHUB_TOKEN@github.com/okitan/4sq-venue.git"
 
