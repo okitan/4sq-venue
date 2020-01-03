@@ -19,11 +19,13 @@ jobs:
           - shibuya-stream
           - sweets-forest
           - tokyu-toyokoten
+      fail-fast: false
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v1
       - name: switch to branch
-        run: git checkout "link-${{ matrix.venues}}" || git checkout -b "link-${{ matrix.venues }}"
+        run: git checkout "link-${{ matrix.venues }}" || git checkout -b "link-${{ matrix.venues }}"
       - run: npm install
       - run: npm run link ${{ matrix.venues }}
         env:
