@@ -26,6 +26,7 @@ id:5274c19d498e3d838171cb33	parentVenueId:4b6170d8f964a520a7132ae3	name:SHIBUYA 
 id:5903166e8f2c1a0693ae23e6	parentVenueId:4b6170d8f964a520a7132ae3	name:渋谷の文化的な混合	crossStreet:東急百貨店２階３階踊り場	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5427dcb3498e4908f2e0491d	parentVenueId:4b6170d8f964a520a7132ae3	name:SHIBUYA SOUVENIR SHOP	crossStreet:西館 2F SHIBUYAスクランブルII	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:京粕漬 魚久	scraped.altName:	scraped.bldg:南館	scraped.level:-1	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=UOKYU
+id:	parentVenueId:	name:	crossStreet:	scraped.name:ミスタービーン	scraped.altName:	scraped.bldg:南館	scraped.level:2	scraped.phone:0364155108	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=MRBEEN
 id:	parentVenueId:	name:	crossStreet:	scraped.name:かばん･旅行用品	scraped.altName:	scraped.bldg:南館	scraped.level:4	scraped.phone:0334774418	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BAGTRAVELGOODS
 id:	parentVenueId:	name:	crossStreet:	scraped.name:メンズカジュアル売場	scraped.altName:	scraped.bldg:南館	scraped.level:4	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=MENSCASUAL
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ワイシャツ ネクタイ	scraped.altName:	scraped.bldg:南館	scraped.level:4	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=YSHIRTS
