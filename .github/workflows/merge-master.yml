@@ -1,8 +1,8 @@
-name: rebase
+name: merge master
 
 on:
   repository_dispatch:
-    types: [rebase]
+    types: [merge-master]
 
 jobs:
   rebase:
@@ -17,6 +17,6 @@ jobs:
           git config user.name okitan
           git config user.email okitakunio@gmail.com
 
-          git rebase origin/master
+          git merge --no-ff origin/master --allow-unrelated-histories -m "merge master"
           git remote set-url origin "https://okitan:${{ secrets.MY_GITHUB_TOKEN }}@github.com/okitan/4sq-venue.git"
-          git push -f
+          git push
