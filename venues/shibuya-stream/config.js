@@ -3,7 +3,12 @@
 module.exports = {
   id: "597f0333dec1d60e99087df2",
   name: "渋谷ストリーム",
-  subvenues: [],
+  subvenues: [
+    {
+      id: "5c0b73c0dee770002c73c9da",
+      name: "TORQUE Spice & Herb, Table & Court"
+    }
+  ],
   linker: {
     ignore: ["渋谷", "ストリーム"]
   }
@@ -18,7 +23,10 @@ module.exports.scraper = [
         name: { selector: ".shop_name" },
         altName: { selector: ".shop_kana" },
         phone: { selector: ".shop_detail_list dd:nth-of-type(3)" },
-        level: { selector: ".shop_detail_list dd:nth-of-type(1)", modifier: e => e.replace("F", "") }
+        level: {
+          selector: ".shop_detail_list dd:nth-of-type(1)",
+          modifier: e => e.replace("F", "")
+        }
       }
     }
   }
