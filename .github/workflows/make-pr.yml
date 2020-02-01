@@ -16,4 +16,4 @@ jobs:
         uses: repo-sync/pull-request@v2
         with:
           pr_title: "update venue by ${{ github.ref }}"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
