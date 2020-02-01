@@ -22,7 +22,7 @@ name:マリークヮント	altName:	bldg:南館	level:6	phone:0334774077	url:htt
 name:リュクス アーモワール カプリス	altName:	bldg:南館	level:6	phone:0364278833	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=luxearmoire
 name:ロペピクニック シェリ	altName:	bldg:南館	level:6	phone:0334774864	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=ropepicnic
 name:TABASA 	altName:タバサ	bldg:南館	level:7	phone:0334774169	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=TABASA
-name:プランテーション	altName:	bldg:南館	level:7	phone:0334774880	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=PLANTATION
+name:センソユニコ	altName:	bldg:南館	level:7	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SENSOUNICO
 name:Cuisinart 	altName:クイジナート	bldg:南館	level:8	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=cuisinart
 name:GLOBAL 	altName:グローバル	bldg:南館	level:8	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=global
 name:LE CREUSET 	altName:ル・クルーゼ	bldg:南館	level:8	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=lecreuset
@@ -234,7 +234,6 @@ name:23区	altName:	bldg:西館	level:6	phone:0354585365	url:https://www.tokyu-d
 name:BARNYARDSTORM 	altName:バンヤードストーム	bldg:西館	level:6	phone:0334774634	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=barnyardstorm
 name:BOSCH 	altName:ボッシュ	bldg:西館	level:6	phone:0354288273	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BOSCH
 name:Droite lautréamont	altName:ドロワットロートレアモン	bldg:西館	level:6	phone:0334774038	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=DROITE
-name:GRACE CONTINENTAL 	altName:グレースコンチネンタル	bldg:西館	level:6	phone:0334774648	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=GRACECONTINENTAL
 name:INDIVI	altName:インディヴィ	bldg:西館	level:6	phone:0334777433	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=INDIVI
 name:INED 	altName:イネド	bldg:西館	level:6	phone:0334774897	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=INED
 name:NATURAL BEAUTY 	altName:ナチュラルビューティー	bldg:西館	level:6	phone:0334774524	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=NATURALBEAUTY
