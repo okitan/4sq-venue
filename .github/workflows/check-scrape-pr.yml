@@ -3,8 +3,8 @@ name: check scrape pr
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-    branches: 
-      - scrape-*
+    # branches: 
+    #  - scrape-*
     # paths: 
     #  - "**/scraped.ltsv"
 
