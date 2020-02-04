@@ -2,11 +2,8 @@ name: check scrape pr
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
-    # branches: 
-    #  - scrape-*
-    # paths: 
-    #  - "**/scraped.ltsv"
+    paths: 
+      - "**/scraped.ltsv"
 
 jobs:
   check-scrape-pr:
