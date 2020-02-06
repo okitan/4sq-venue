@@ -157,7 +157,6 @@ name:AIRONA by mu-ra	altName:アイロナ バイ ムーラ	bldg:	level:4	phone:0
 name:Ane Mone	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anemone
 name:A＆Fカントリー	altName:エイアンドエフカントリー	bldg:	level:4	phone:0364341452	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aandf
 name:ECCO	altName:エコー	bldg:	level:4	phone:0364275292	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ecco
-name:Idea Seventh Sense（イデアセブンスセンス） ［2月5日(水)から〈BRUNO〉にリニューアル］ ※改装のため2月4日(火)まで休業	altName:	bldg:	level:4	phone:0364341520	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideaseventh
 name:JTB	altName:	bldg:	level:4	phone:0343349280	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb
 name:Mila Owen	altName:ミラ オーウェン	bldg:	level:4	phone:0364271687	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=milaowen
 name:SORA	altName:ソラ	bldg:	level:4	phone:0364341674	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sora
@@ -172,9 +171,10 @@ name:ソフィット	altName:	bldg:	level:4	phone:0334868058	url:https://www.tok
 name:ダンスキン ビューティフル シングス	altName:	bldg:	level:4	phone:0364341672	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=danskin
 name:チックタック	altName:	bldg:	level:4	phone:0364341642	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tictac
 name:トゥデイズ スペシャル	altName:	bldg:	level:4	phone:0364341671	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=todaysspecial
-name:トラベルショップ ミレスト ［2月5日(水)リニューアル］ ※改装のため2月4日(火)まで休業	altName:	bldg:	level:4	phone:0364341530	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=MILESTO
+name:トラベルショップ ミレスト	altName:	bldg:	level:4	phone:0364341670	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=MILESTO
 name:ハーブス	altName:	bldg:	level:4	phone:0364341678	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=harbs
 name:ビームス ライツ	altName:	bldg:	level:4	phone:0354643580	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=beamslights
+name:ブルーノ	altName:	bldg:	level:4	phone:0364341669	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bruno
 name:マザーハウス	altName:	bldg:	level:4	phone:0364276364	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=motherhouse
 name:マーガレット・ハウエル	altName:	bldg:	level:4	phone:0364341662	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=margarethowell
 name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fleur
