@@ -22,6 +22,7 @@ name:マリークヮント	altName:	bldg:南館	level:6	phone:0334774077	url:htt
 name:リュクス アーモワール カプリス	altName:	bldg:南館	level:6	phone:0364278833	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=luxearmoire
 name:ロペピクニック シェリ	altName:	bldg:南館	level:6	phone:0334774864	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=ropepicnic
 name:TABASA 	altName:タバサ	bldg:南館	level:7	phone:0334774169	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=TABASA
+name:センソユニコ	altName:	bldg:南館	level:7	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=SENSOUNICO
 name:Cuisinart 	altName:クイジナート	bldg:南館	level:8	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=cuisinart
 name:GLOBAL 	altName:グローバル	bldg:南館	level:8	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=global
 name:LE CREUSET 	altName:ル・クルーゼ	bldg:南館	level:8	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=lecreuset
@@ -226,7 +227,6 @@ name:神戸屋キッチン	altName:	bldg:西館	level:3	phone:0334774147	url:htt
 name:ANTEPRIMA 	altName:アンテプリマ	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=ANTEPRIMA
 name:VENDOME BOUTIQUE 	altName:ヴァンドーム ブティック	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=VENDOMEBOUTIQUE
 name:festaria bijou SOPHIA 	altName:フェスタリア ビジュソフィア	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=BIJOUSOPHIA
-name:テラクオーレ	altName:	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=terracuore
 name:ヴェレッタ オッターヴァ	altName:	bldg:西館	level:5	phone:	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=veretta8va
 name:23区	altName:	bldg:西館	level:6	phone:0354585365	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=23KU
 name:BARNYARDSTORM 	altName:バンヤードストーム	bldg:西館	level:6	phone:0334774634	url:https://www.tokyu-dept.co.jp/toyoko/shop/detail.html?shopcode=barnyardstorm
