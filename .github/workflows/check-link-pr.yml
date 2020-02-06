@@ -1,0 +1,19 @@
+name: check link pr
+
+on:
+  pull_request:
+    paths: 
+      - "**/notlinked.ltsv"
+
+jobs:
+  check-scrape-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check
+        # on.pull_request.paths and changed_files == 1 means only notlinked.ltsv is changed
+        if: >
+          github.event.pull_request.changed_files == 1 &&
+          github.event.pull_request.additions == 0
+        run: |
+          echo "just follow removed venues"
