@@ -15,7 +15,7 @@ jobs:
         uses: "pascalgn/automerge-action@7854d3bd607dccdaf0b2c134b699a812c8960213"
         env:
           GITHUB_TOKEN: "${{ secrets.MY_GITHUB_TOKEN }}"
-          MERGE_LABELS: mergable
+          MERGE_LABELS: mergeable
           MERGE_METHOD: squash
           MERGE_DELETE_BRANCH: true
           
