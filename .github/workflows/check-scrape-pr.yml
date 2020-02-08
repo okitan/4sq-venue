@@ -21,7 +21,7 @@ jobs:
                -X PATCH \
                -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
                -H 'Accept: application/vnd.github.v3+json' \
-               "${{ github.event.pull_request._links.issue }}" \
+               "${{ github.event.pull_request._links.issue.href }}" \
                -d '{"labels": ["mergeable"]}'
         
 
