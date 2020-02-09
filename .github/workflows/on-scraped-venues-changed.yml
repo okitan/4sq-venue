@@ -1,12 +1,12 @@
-name: check scrape pr
+name: on scraped venues changed
 
 on:
   pull_request:
-    paths: 
+    paths:
       - "**/scraped.ltsv"
 
 jobs:
-  check-scrape-pr:
+  check-scrape-pr-automergeable:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,5 +23,3 @@ jobs:
                -H 'Accept: application/vnd.github.v3+json' \
                "${{ github.event.pull_request._links.issue.href }}" \
                -d '{"labels": ["mergeable"]}'
-        
-

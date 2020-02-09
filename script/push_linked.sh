@@ -16,7 +16,6 @@ if [[ -n "$(git status --porcelain "$dir")" ]]; then
   git config user.name okitan
   git config user.email okitakunio@gmail.com
 
-  # TODO: when just adding scraped venues to nolinked, do commit to master directly
   git add -A "$dir"
   git commit -m ":innocent: linked venue of $1"
 

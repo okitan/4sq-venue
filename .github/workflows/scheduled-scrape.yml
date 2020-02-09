@@ -1,11 +1,11 @@
-name: link
+name: scheduled scrape
 
 on:
   schedule:
-    - cron: 0 9 * * * # 18:00 JST
+    - cron: 0 0 * * * # 09:00 JST
 
 jobs:
-  link:
+  scrape:
     strategy:
       matrix:
         venues:
@@ -25,11 +25,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: switch to branch
-        run: git checkout "link-${{ matrix.venues }}" || git checkout -b "link-${{ matrix.venues }}"
+        run: git checkout "scrape-${{ matrix.venues }}" || git checkout -b "scrape-${{ matrix.venues }}"
       - run: npm install
-      - run: npm run link ${{ matrix.venues }}
-        env:
-          FOURSQUARE_TOKEN: ${{ secrets.FOURSQUARE_TOKEN }}
-      - run: script/push_linked.sh ${{ matrix.venues }}
+      - run: npm run scrape ${{ matrix.venues }}
+      - run: script/push_scraped.sh ${{ matrix.venues }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

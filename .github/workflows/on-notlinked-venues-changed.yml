@@ -1,12 +1,12 @@
-name: check link pr
+name: on notlinked venues changed
 
 on:
   pull_request:
-    paths: 
+    paths:
       - "**/notlinked.ltsv"
 
 jobs:
-  check-scrape-pr:
+  check-link-pr-automergeable:
     runs-on: ubuntu-latest
 
     steps:
