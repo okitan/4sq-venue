@@ -1,4 +1,4 @@
-name: scrape
+name: scheduled scrape
 
 on:
   schedule:

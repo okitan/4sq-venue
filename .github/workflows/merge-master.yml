@@ -2,10 +2,11 @@ name: merge master
 
 on:
   repository_dispatch:
-    types: [merge-master]
+    types:
+      - merge-master
 
 jobs:
-  rebase:
+  merge-master:
     runs-on: ubuntu-latest
 
     steps:
