@@ -30,6 +30,6 @@ jobs:
       - run: npm run link ${{ matrix.venues }}
         env:
           FOURSQUARE_TOKEN: ${{ secrets.FOURSQUARE_TOKEN }}
-      - run: script/push.sh ${{ matrix.venues }}
+      - run: script/push_linked.sh ${{ matrix.venues }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
