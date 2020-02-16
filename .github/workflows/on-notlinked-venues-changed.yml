@@ -13,12 +13,14 @@ jobs:
       - name: check auto merge
         # on.pull_request.paths and changed_files == 1 means only notlinked.ltsv is changed
         if: >
-          github.event.pull_request.changed_files == 1 &&
-          github.event.pull_request.additions == 0
+          github.event.pull_request.changed_files == 1
         run: |
-          curl -vv \
-               -X PATCH \
-               -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
-               -H 'Accept: application/vnd.github.v3+json' \
-               "${{ github.event.pull_request._links.issue.href }}" \
-               -d '{"labels": ["mergeable"]}'
+          git diff --unified=0 origin/master \
+          | grep "[+-]id:" \
+          | grep -v "[+-]id:\s" \
+          && curl -vv \
+                  -X PATCH \
+                  -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
+                  -H 'Accept: application/vnd.github.v3+json' \
+                  "${{ github.event.pull_request._links.issue.href }}" \
+                  -d '{"labels": ["mergeable"]}'
