@@ -18,7 +18,7 @@ jobs:
         run: |
           git diff --unified=0 origin/master \
           | grep "[+-]id:" \
-          | grep -v -E "[+-]id:\s" # \
+          | grep -v -E "[+-]id:\w" # \
           # && curl -vv \
           #        -X PATCH \
           #        -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
