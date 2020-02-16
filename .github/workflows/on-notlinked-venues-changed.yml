@@ -17,8 +17,8 @@ jobs:
         #  github.event.pull_request.changed_files == 1
         run: |
           git diff --unified=0 origin/master \
-          | grep "[+-]id:" \
-          | grep -v "[+-]id:\s" # \
+          | grep "[+-]id:" # \
+          # | grep -v "[+-]id:\s" # \
           # && curl -vv \
           #        -X PATCH \
           #        -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
