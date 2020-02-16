@@ -18,10 +18,10 @@ jobs:
         run: |
           git diff --unified=0 origin/master \
           | grep "[+-]id:" \
-          | grep -v -E "[+-]id:\w" # \
-          # && curl -vv \
-          #        -X PATCH \
-          #        -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
-          #        -H 'Accept: application/vnd.github.v3+json' \
-          #        "${{ github.event.pull_request._links.issue.href }}" \
-          #        -d '{"labels": ["mergeable"]}'
+          | grep -v -E "[+-]id:\w" \
+          && curl -vv \
+                  -X PATCH \
+                  -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
+                  -H 'Accept: application/vnd.github.v3+json' \
+                  "${{ github.event.pull_request._links.issue.href }}" \
+                  -d '{"labels": ["mergeable"]}'
