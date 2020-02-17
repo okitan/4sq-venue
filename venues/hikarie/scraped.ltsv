@@ -17,12 +17,8 @@ name:精肉あづま ［改装に伴い2月10日(月)から休業］ ※4月16�
 name:銀座 縁 ［改装に伴い2月7日(金)から休業］ ※4月9日(木)リニューアル予定	altName:	bldg:	level:-3	phone:0364341835	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginzaenishi
 name:AND THE FRIET ［改装に伴い2月16日(日)から休業］ ※3月8日(日)リニューアル予定	altName:	bldg:	level:-2	phone:0364341857	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=andthefriet
 name:Hibiya-Kadan Style vif	altName:ヒビヤカダン スタイル ヴィフ	bldg:	level:-2	phone:0364341736	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hibiyakadanStylevif
-name:ITOEN TEA GARDEN	altName:	bldg:	level:-2	phone:0364341880	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=itoen
-name:KAORU -KITO YUZU-	altName:	bldg:	level:-2	phone:0364341763	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kaoru
 name:Libertable	altName:リベルターブル	bldg:	level:-2	phone:0364341848	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=libertable
 name:OSUYA GINZA	altName:	bldg:	level:-2	phone:0364341834	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=osuya
-name:がんこ職人	altName:	bldg:	level:-2	phone:0364341815	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gankomomen
-name:をかし楽市	altName:	bldg:	level:-2	phone:0364341868	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rakuichi
 name:グラニースミス	altName:	bldg:	level:-2	phone:0364341828	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=grannysmith
 name:セバスチャン・ブイエ	altName:	bldg:	level:-2	phone:0364341677	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sebastien_bouillet
 name:ドルチェフェリーチェ レガロ	altName:	bldg:	level:-2	phone:0364341664	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=regalo
@@ -38,7 +34,6 @@ name:ベリーデコ	altName:	bldg:	level:-2	phone:0364341812	url:https://www.to
 name:ベルン ［改装に伴い、2月17日(月)から店舗を移設して仮設営業］ ※2月16日(日)は休業	altName:	bldg:	level:-2	phone:0364341807	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=berne
 name:ホタルノヒカリ	altName:	bldg:	level:-2	phone:0364341860	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hotarunohikari
 name:マリアージュ フレール ［改装に伴い、2月17日(月)から店舗を移設して仮設営業］ ※2月16日(日)は休業	altName:	bldg:	level:-2	phone:0337971854	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mariagefreres
-name:メゾンブレモンド1830	altName:	bldg:	level:-2	phone:0364341753	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisonbremond1830
 name:ヨックモック ［改装に伴い、2月17日(月)から店舗を移設して仮設営業］ ※2月16日(日)は休業	altName:	bldg:	level:-2	phone:0364341808	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yokumoku
 name:ラベイユ	altName:	bldg:	level:-2	phone:0364341688	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=labeille
 name:ラ・メゾン白金 ビス	altName:	bldg:	level:-2	phone:0364341850	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=la_maison
