@@ -60,8 +60,8 @@ name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dep
 name:THREE	altName:スリー	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
 name:shiro	altName:	bldg:	level:-1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
-name:アテニア	altName:	bldg:	level:-1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=attenir
-name:イキイキボタニクス	altName:	bldg:	level:-1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ikiikibotanics
+name:アテニア	altName:	bldg:	level:-1	phone:0364341769	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=attenir
+name:イキイキボタニクス	altName:	bldg:	level:-1	phone:0364341799	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ikiikibotanics
 name:カネボウ	altName:	bldg:	level:-1	phone:0334862357	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
 name:クリニーク	altName:	bldg:	level:-1	phone:0334868012	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clinique
@@ -75,7 +75,7 @@ name:ベアミネラル	altName:	bldg:	level:-1	phone:0364341771	url:https://www
 name:ベキュア	altName:	bldg:	level:-1	phone:0364341779	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=vecua
 name:マークスアンドウェブ	altName:	bldg:	level:-1	phone:0364341767	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marksandweb
 name:メイクアップライフ	altName:	bldg:	level:-1	phone:0364341500	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
-name:メデュラ	altName:	bldg:	level:-1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=medulla
+name:メデュラ	altName:	bldg:	level:-1	phone:0364341797	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=medulla
 name:ランコム	altName:	bldg:	level:-1	phone:0364341786	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lancome
 name:免税カウンター	altName:	bldg:	level:-1	phone:0364341757	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=giftcounter
 name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hakuhodo
