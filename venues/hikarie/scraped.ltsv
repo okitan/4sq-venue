@@ -14,12 +14,11 @@ name:発酵Kitchen リッチクリームコロッケ東京	altName:	bldg:	level:
 name:築地なが田 ［改装に伴い2月10日(月)から休業］ ※4月9日(木)リニューアル予定	altName:	bldg:	level:-3	phone:0364341862	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tsukijinagata
 name:精肉あづま ［改装に伴い2月10日(月)から休業］ ※4月16日(木)リニューアル予定	altName:	bldg:	level:-3	phone:0364341885	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=seinikuazuma
 name:銀座 縁 ［改装に伴い2月7日(金)から休業］ ※4月9日(木)リニューアル予定	altName:	bldg:	level:-3	phone:0364341835	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginzaenishi
-name:AND THE FRIET ［改装に伴い2月16日(日)から休業］ ※3月8日(日)リニューアル予定	altName:	bldg:	level:-2	phone:0364341857	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=andthefriet
+name:AND THE FRIET	altName:	bldg:	level:-2	phone:0364341857	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=andthefriet
 name:H&F BELX	altName:エイチアンドエフ ベルクス	bldg:	level:-2	phone:0364341856	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hfbelx
 name:Hibiya-Kadan Style vif	altName:ヒビヤカダン スタイル ヴィフ	bldg:	level:-2	phone:0364341736	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hibiyakadanStylevif
 name:Libertable	altName:リベルターブル	bldg:	level:-2	phone:0364341848	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=libertable
 name:OSUYA GINZA	altName:	bldg:	level:-2	phone:0364341834	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=osuya
-name:グラニースミス	altName:	bldg:	level:-2	phone:0364341828	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=grannysmith
 name:セバスチャン・ブイエ	altName:	bldg:	level:-2	phone:0364341677	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sebastien_bouillet
 name:ドルチェフェリーチェ レガロ	altName:	bldg:	level:-2	phone:0364341664	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=regalo
 name:ネモ・ベーカリー	altName:	bldg:	level:-2	phone:0364341638	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nemo
@@ -42,7 +41,6 @@ name:ル パン ドゥ ジョエル・ロブション	altName:	bldg:	level:-2	ph
 name:ワインショップ・エノテカ	altName:	bldg:	level:-2	phone:0334983285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=enoteca
 name:京橋千疋屋 ［改装に伴い、3月8日(日)から店舗を移設して仮設営業］ ※3月7日(土)まで休業	altName:	bldg:	level:-2	phone:0364341810	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=senbikiya
 name:和楽紅屋	altName:	bldg:	level:-2	phone:0364341733	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=waraku
-name:宗家 源 吉兆庵	altName:	bldg:	level:-2	phone:0364341827	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kichouan
 name:村上	altName:	bldg:	level:-2	phone:0364341814	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=murakami
 name:桂新堂	altName:	bldg:	level:-2	phone:0364341831	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=keishindo
 name:然花抄院	altName:	bldg:	level:-2	phone:0364341818	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=zenkashoin
