@@ -1,0 +1,36 @@
+name: test
+
+on:
+  push:
+    branches-ignore:
+      - link-*
+      - scrape-*
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+      - run: npm test
+  test-scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # to git diff
+      - run: git fetch origin master
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+      - name: scrape changed
+        run: |
+          git diff --name-only origin/master -- venues/*/config.js \
+          | awk -F "/" '{ print $(NF - 1) }' \
+          | xargs --no-run-if-empty -L 1 npm run scrape --
