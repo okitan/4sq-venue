@@ -24,7 +24,7 @@ module.exports.scraper = [
         altName: { selector: ".shop_kana" },
         phone: { selector: ".shop_detail_list dd:nth-of-type(3)" },
         level: {
-          selector: ".shop_detail_list dd:nth-of-type(1)",
+          selector: ".shop_detail_list .floor_no",
           modifier: e => e.replace("F", "")
         }
       }
