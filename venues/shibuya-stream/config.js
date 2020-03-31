@@ -6,12 +6,12 @@ module.exports = {
   subvenues: [
     {
       id: "5c0b73c0dee770002c73c9da",
-      name: "TORQUE Spice & Herb, Table & Court"
-    }
+      name: "TORQUE Spice & Herb, Table & Court",
+    },
   ],
   linker: {
-    ignore: ["渋谷", "ストリーム"]
-  }
+    ignore: ["渋谷", "ストリーム"],
+  },
 };
 
 module.exports.scraper = [
@@ -25,9 +25,9 @@ module.exports.scraper = [
         phone: { selector: ".shop_detail_list dd:nth-of-type(3)" },
         level: {
           selector: ".shop_detail_list .floor_no",
-          modifier: e => e.replace("F", "")
-        }
-      }
-    }
-  }
+          modifier: (e) => e.replace("F", ""),
+        },
+      },
+    },
+  },
 ];

@@ -5,8 +5,8 @@ module.exports = {
   name: "自由が丘 スイーツフォレスト",
   subvenues: [],
   linker: {
-    ignore: []
-  }
+    ignore: [],
+  },
 };
 
 module.exports.scraper = [
@@ -16,9 +16,9 @@ module.exports.scraper = [
       ".shop_list li": {
         name: { selector: "img", property: "alt" },
         url: { selector: "a", property: "href", nullable: true },
-        level: "スイーツの森ゾーン"
-      }
-    }
+        level: "スイーツの森ゾーン",
+      },
+    },
   },
   {
     url: "http://www.sweets-forest.com/sweets_select.html",
@@ -26,8 +26,8 @@ module.exports.scraper = [
       "#sweers_select h3[id], #sweers_select div[id]": {
         name: { selector: "img", property: "alt" },
         url: { selector: "a", property: "href", nullable: true },
-        level: "スイーツセレクトゾーン"
-      }
-    }
-  }
+        level: "スイーツセレクトゾーン",
+      },
+    },
+  },
 ];

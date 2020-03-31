@@ -5,8 +5,8 @@ module.exports = {
   name: "MAGNET by SHIBUYA109",
   subvenues: [{ id: "5af43e0f336273003909fe13", name: "MAG7" }],
   linker: {
-    ignore: ["SHIBUYA", "渋谷", "109", "MAGNET"]
-  }
+    ignore: ["SHIBUYA", "渋谷", "109", "MAGNET"],
+  },
 };
 
 module.exports.scraper = [
@@ -14,7 +14,7 @@ module.exports.scraper = [
     url: `https://magnetbyshibuya109.jp/shop/`,
     options: {
       waitUntil: "domcontentloaded",
-      timeout: 60 * 1000
+      timeout: 60 * 1000,
     },
     venues: {
       // TODO:
@@ -23,24 +23,24 @@ module.exports.scraper = [
         name: {
           selector: ".shop-name",
           property: "innerHTML",
-          modifier: e => e.split("</span>")[1].trim()
+          modifier: (e) => e.split("</span>")[1].trim(),
         },
         phone: {
           xpath: "//td[contains(text(), 'TEL')]/following-sibling::td",
-          nullable: true
+          nullable: true,
         },
         level: {
           selector: ".type-floor",
-          modifier: e => {
+          modifier: (e) => {
             if (e.includes("MAG 7")) {
               return 7;
             } else {
               const matched = e.match(/(地下)?(\d+)階/);
               return matched[1] ? -matched[2] : matched[2];
             }
-          }
-        }
-      }
-    }
-  }
+          },
+        },
+      },
+    },
+  },
 ];

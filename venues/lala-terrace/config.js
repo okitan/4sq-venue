@@ -5,12 +5,12 @@ module.exports = {
   name: "ららテラス武蔵小杉",
   subvenues: [],
   linker: {
-    ignore: ["ららテラス", "武蔵小杉"]
-  }
+    ignore: ["ららテラス", "武蔵小杉"],
+  },
 };
 
 module.exports.scraper = [
-  ...[0, 40].map(i => {
+  ...[0, 40].map((i) => {
     return {
       url: `https://mitsui-shopping-park.com/lalat-musashikosugi/shopguide/?start=${i}`,
       venues: {
@@ -20,10 +20,10 @@ module.exports.scraper = [
           phone: { selector: ".tel-link", nullable: true },
           level: {
             selector: ".brand__logo li:nth-of-type(2)",
-            modifier: e => e.match(/(\d+)/)[1]
-          }
-        }
-      }
+            modifier: (e) => e.match(/(\d+)/)[1],
+          },
+        },
+      },
     };
-  })
+  }),
 ];

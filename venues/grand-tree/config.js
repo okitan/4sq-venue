@@ -6,18 +6,18 @@ module.exports = {
   subvenues: [
     {
       id: "54a38f1b498ea176a18bd8ac",
-      name: "グランツリー武蔵小杉-フードコート"
-    }
+      name: "グランツリー武蔵小杉-フードコート",
+    },
   ],
   linker: {
-    ignore: ["グランツリー", "武蔵小杉", "ムサシコスギ"]
-  }
+    ignore: ["グランツリー", "武蔵小杉", "ムサシコスギ"],
+  },
 };
 
-const nameExtractor = name => name.split("｜")[0];
-const altNameExtractor = name => name.split("｜")[1];
+const nameExtractor = (name) => name.split("｜")[0];
+const altNameExtractor = (name) => name.split("｜")[1];
 
-const phoneSelector = async venue => {
+const phoneSelector = async (venue) => {
   return (await venue.$x())[0];
 };
 
@@ -25,7 +25,7 @@ module.exports.scraper = [
   {
     url: "http://www.grand-tree.jp/web/shop/index.html",
     options: {
-      waitUntil: "domcontentloaded"
+      waitUntil: "domcontentloaded",
     },
     venues: {
       "#shopList div.item:not(.all)": {
@@ -33,13 +33,13 @@ module.exports.scraper = [
         name: { selector: "h3", modifier: nameExtractor },
         altName: { selector: "h3", modifier: altNameExtractor },
         phone: {
-          xpath: "//dt[contains(text(), '電話')]/following-sibling::dd"
+          xpath: "//dt[contains(text(), '電話')]/following-sibling::dd",
         },
         level: {
           selector: "#subData dd:nth-of-type(1)",
-          modifier: level => level.replace("F", "")
-        }
-      }
-    }
-  }
+          modifier: (level) => level.replace("F", ""),
+        },
+      },
+    },
+  },
 ];
