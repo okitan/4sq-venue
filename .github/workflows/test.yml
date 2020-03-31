@@ -17,10 +17,12 @@ jobs:
   test-scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+      # to git diff
+      - run: git fetch origin master
       - run: npm ci
       - name: scrape changed
         run: |
-          git diff --name-only origin -- venues/*/config.js \
+          git diff --name-only origin/master -- venues/*/config.js \
           | awk -F "/" '{ print $(NF - 1) }' \
           | xargs --no-run-if-empty -L 1 npm run scrape --
