@@ -9,14 +9,7 @@ module.exports = {
     { id: "5db1240443598d00073edbe0", name: "SHIBUYA SKY" }
   ],
   linker: {
-    ignore: [
-      "渋谷",
-      "SHIBUYA",
-      "スクランブル",
-      "スクエア",
-      "SCRAMBLE",
-      "SQUARE"
-    ]
+    ignore: ["渋谷", "SHIBUYA", "スクランブル", "スクエア", "SCRAMBLE", "SQUARE"]
   }
 };
 
