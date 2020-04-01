@@ -3,7 +3,7 @@ import { NavigationOptions } from "puppeteer";
 export type Config = Venue & {
   subvenues: Venue[];
   linker: Linker;
-  scraper: Scraper[];
+  scraper: ReadonlyArray<ScrapeConfig | Scraper>;
 };
 
 type Venue = {
@@ -15,31 +15,40 @@ type Linker = {
   ignore: string[];
 };
 
-type Scraper = {
+export type ScrapeConfig = {
   url: string;
   options?: NavigationOptions;
   venues: {
     [classPath: string]: {
       followLink?: Selector;
       name: Selector;
+      url?: Selector;
       altName?: Selector;
       phone?: Selector;
-      level?: Selector | number;
+      level?: Selector<number> | number;
     };
   };
 };
 
-type Selector = ClassSelector | XPathSelector;
+type Selector<T = string> = ClassSelector<T> | XPathSelector<T>;
 
-type ClassSelector = {
+type ClassSelector<T> = {
   selector: string;
   property?: string;
-  modifier?: Modifier;
-};
+} & SelectorOption<T>;
 
-type XPathSelector = {
+type XPathSelector<T> = {
   xpath: string;
-  modifier?: Modifier;
+} & SelectorOption<T>;
+
+type SelectorOption<T> = {
+  modifier?: Modifier<T>;
+  nullable?: true;
 };
 
-type Modifier = (name: string) => string | undefined;
+type Modifier<T> = (name: string) => T | undefined;
+
+type Scraper = {
+  fetch: FetchFunction;
+};
+type FetchFunction = () => Promise<any>; // actually Venue class
