@@ -1,4 +1,4 @@
-import { Config, Scraper } from "../../src/types/config";
+import { Config, ScrapeConfig } from "../../src/types/config";
 
 const config: Config = {
   id: "4ddee63c1fc70c691ef7fda3",
@@ -8,7 +8,7 @@ const config: Config = {
     ignore: ["フレル・ウィズ", "自由が丘", "東急"],
   },
   scraper: [1, 2, 3, 4].map(
-    (level): Scraper => {
+    (level): ScrapeConfig => {
       return {
         url: `http://www.fullel.com/jiyugaoka/shopguide/?floor=${level}f`,
         venues: {

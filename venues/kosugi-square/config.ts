@@ -1,4 +1,4 @@
-import { Config, Scraper } from "../../src/types/config";
+import { Config, ScrapeConfig } from "../../src/types/config";
 
 const config: Config = {
   id: "50966024e4b0ad0d96424f52",
@@ -8,7 +8,7 @@ const config: Config = {
     ignore: ["武蔵小杉", "東急スクエア", "東急フードショースライス"],
   },
   scraper: [1, 2, 3, 4, 5].map(
-    (e): Scraper => {
+    (e): ScrapeConfig => {
       return {
         url: `https://www.kosugi-square.com/floor/?fcd=${e}`,
         venues: {

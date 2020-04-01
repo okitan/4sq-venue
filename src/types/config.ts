@@ -3,7 +3,7 @@ import { NavigationOptions } from "puppeteer";
 export type Config = Venue & {
   subvenues: Venue[];
   linker: Linker;
-  scraper: Scraper[];
+  scraper: ReadonlyArray<ScrapeConfig | Scraper>;
 };
 
 type Venue = {
@@ -15,13 +15,14 @@ type Linker = {
   ignore: string[];
 };
 
-export type Scraper = {
+export type ScrapeConfig = {
   url: string;
   options?: NavigationOptions;
   venues: {
     [classPath: string]: {
       followLink?: Selector;
       name: Selector;
+      url?: Selector;
       altName?: Selector;
       phone?: Selector;
       level?: Selector<number> | number;
@@ -46,3 +47,8 @@ type SelectorOption<T> = {
 };
 
 type Modifier<T> = (name: string) => T | undefined;
+
+type Scraper = {
+  fetch: FetchFunction;
+};
+type FetchFunction = () => Promise<any>; // actually Venue class

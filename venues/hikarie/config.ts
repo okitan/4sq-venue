@@ -1,4 +1,4 @@
-import { Config, Scraper } from "../../src/types/config";
+import { Config, ScrapeConfig } from "../../src/types/config";
 
 const config: Config = {
   id: "4bd557cc6798ef3b4735638d",
@@ -13,7 +13,7 @@ const config: Config = {
   scraper: [
     // background floor of Shinqs
     ...[3, 2, 1].map(
-      (e): Scraper => {
+      (e): ScrapeConfig => {
         return {
           url: `https://www.tokyu-dept.co.jp/shinqs/floor/b${e}.html`,
           venues: {
@@ -31,7 +31,7 @@ const config: Config = {
     ),
     // Shinqs
     ...[1, 2, 3, 4, 5].map(
-      (e): Scraper => {
+      (e): ScrapeConfig => {
         return {
           url: `https://www.tokyu-dept.co.jp/shinqs/floor/${e}f.html`,
           venues: {
@@ -49,7 +49,7 @@ const config: Config = {
     ),
     // Hikarie (no venues on 9F and 10F)
     ...[6, 7, 8, 11].map(
-      (e): Scraper => {
+      (e): ScrapeConfig => {
         return {
           url: `http://www.hikarie.jp/floormap/${e}F.html`,
           venues: {

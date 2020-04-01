@@ -1,4 +1,4 @@
-import { Config, Scraper } from "../../src/types/config";
+import { Config, ScrapeConfig } from "../../src/types/config";
 
 const config: Config = {
   id: "52ef1927498e945f59640219",
@@ -9,7 +9,7 @@ const config: Config = {
   },
   // XXX: floor may be changed???a
   scraper: [113, 114, 115, 116].map(
-    (floor, i): Scraper => {
+    (floor, i): ScrapeConfig => {
       return {
         url: `https://mitsui-shopping-park.com/lalat-musashikosugi/shopguide/?floor=${floor}`,
         venues: {

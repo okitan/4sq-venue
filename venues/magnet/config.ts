@@ -14,7 +14,11 @@ const config: Config = {
       venues: {
         ".results article": {
           followLink: { selector: "a", property: "href" },
-          name: { selector: ".shop-name", property: "innerHTML", modifier: (e) => e.split("</span>")[1].trim() },
+          name: {
+            selector: ".shop-name",
+            property: "innerHTML",
+            modifier: (e: string) => e.split("</span>")[1].trim(),
+          },
           phone: { xpath: "//td[contains(text(), 'TEL')]/following-sibling::td", nullable: true },
           level: { selector: ".type-floor", modifier: levelEtractor },
         },
