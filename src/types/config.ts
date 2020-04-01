@@ -24,25 +24,25 @@ export type Scraper = {
       name: Selector;
       altName?: Selector;
       phone?: Selector;
-      level?: Selector | number;
+      level?: Selector<number> | number;
     };
   };
 };
 
-type Selector = ClassSelector | XPathSelector;
+type Selector<T = string> = ClassSelector<T> | XPathSelector<T>;
 
-type ClassSelector = {
+type ClassSelector<T> = {
   selector: string;
   property?: string;
-} & SelectorOption;
+} & SelectorOption<T>;
 
-type XPathSelector = {
+type XPathSelector<T> = {
   xpath: string;
-} & SelectorOption;
+} & SelectorOption<T>;
 
-type SelectorOption = {
-  modifier?: Modifier;
+type SelectorOption<T> = {
+  modifier?: Modifier<T>;
   nullable?: true;
 };
 
-type Modifier = (name: string) => string | undefined;
+type Modifier<T> = (name: string) => T | undefined;
