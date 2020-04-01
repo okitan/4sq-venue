@@ -31,6 +31,6 @@ jobs:
       - run: npm ci
       - name: scrape changed
         run: |
-          git diff --name-only origin/master -- venues/*/config.js \
+          git diff --name-only origin/master -- venues/*/config.*s \
           | awk -F "/" '{ print $(NF - 1) }' \
           | xargs --no-run-if-empty -L 1 npm run scrape --
