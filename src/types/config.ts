@@ -15,7 +15,7 @@ type Linker = {
   ignore: string[];
 };
 
-type Scraper = {
+export type Scraper = {
   url: string;
   options?: NavigationOptions;
   venues: {
@@ -34,12 +34,15 @@ type Selector = ClassSelector | XPathSelector;
 type ClassSelector = {
   selector: string;
   property?: string;
-  modifier?: Modifier;
-};
+} & SelectorOption;
 
 type XPathSelector = {
   xpath: string;
+} & SelectorOption;
+
+type SelectorOption = {
   modifier?: Modifier;
+  nullable?: true;
 };
 
 type Modifier = (name: string) => string | undefined;
