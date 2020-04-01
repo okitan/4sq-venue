@@ -12,30 +12,13 @@ module.exports = {
   }
 };
 
-// fucking workaround
-// these can be mark to distinguish venues
-const venuesHavingAdditionalInfo = ["ハヤシフルーツ", "味の浜藤", "お食事"];
-
-const venueDescriptions = ["カフェ", "洋服お直し", "時計修理", "介護・健康用品"];
-
-// also removes
 const nameModifier = name => {
-  if (venuesHavingAdditionalInfo.some(e => name.includes(e))) {
-    // reserves additionalInfo but removes description
-    return name;
-  } else {
-    return name.replace(/[（\(].+[\)）]/, "");
-  }
+  return name.replace(/[（\(].+[\)）]/, "");
 };
 
 const altNameExtractor = name => {
-  if ([...venuesHavingAdditionalInfo, ...venueDescriptions].some(e => name.includes(e))) {
-    // do not consider additional info and description as altName
-    return null;
-  } else {
-    const matched = name.match(/[（\(](.+)[\)）]/);
-    return matched && matched[1] !== "東横のれん街" ? matched[1] : null;
-  }
+  const matched = name.match(/[（\(](.+)[\)）]/);
+  return matched ? matched[1] : null;
 };
 
 module.exports.scraper = [
