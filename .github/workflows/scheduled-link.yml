@@ -18,7 +18,7 @@ jobs:
           - scramble-square
           - shibuya-stream
           - sweets-forest
-          - tokyu-toyokoten
+          - shibuya-tokyu-foodshow
       fail-fast: false
     runs-on: ubuntu-latest
 
