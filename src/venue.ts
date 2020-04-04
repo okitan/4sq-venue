@@ -1,8 +1,7 @@
 import { LtsvRecord } from "ltsv";
 
+import { getSimilarity, isEqualName } from "../lib/nameMatcher";
 import { ScrapedVenue, ScrapeProperties } from "./scrapedVenue";
-
-const { isEqualName, getSimilarity } = require("../lib/nameMatcher");
 
 type VenueProperties = {
   id?: string;
