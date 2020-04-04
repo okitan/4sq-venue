@@ -22,7 +22,9 @@ export type ScrapeConfig = {
   options?: NavigationOptions;
   venues: {
     [classPath: string]: {
-      [key in keyof ScrapeProperties]: ScrapeProperties[key] extends infer U ? Selector<Exclude<U, undefined>> : never;
+      [key in keyof ScrapeProperties]: ScrapeProperties[key] extends infer U
+        ? Selector<Exclude<U, undefined>> | U
+        : never;
     } & {
       followLink?: Selector;
     };
