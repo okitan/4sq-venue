@@ -4,7 +4,7 @@ import { format, parse } from "ltsv";
 import { ScrapedVenue } from "./scrapedVenue";
 import { createScrapedVenue, Venue } from "./venue";
 
-class VenueList extends Array<Venue> {
+export class VenueList extends Array<Venue> {
   findVenueIndex(venue: Venue, { ignore = [], guess = false }: { ignore?: string[]; guess?: boolean } = {}) {
     // If we use this.findIndex(e => venue.equals(e))
     // lower priority checker like same name works and return invalid venue
@@ -71,64 +71,64 @@ class VenueList extends Array<Venue> {
   }
 }
 
-module.exports = {
-  VenueList,
-  // scrape
-  updateScrapedVenues: (target: string, venues: VenueList) => {
-    const file = `venues/${target}/scraped.ltsv`;
+// scrape
+export function updateScrapedVenues(target: string, venues: VenueList): void {
+  const file = `venues/${target}/scraped.ltsv`;
 
-    const formattedVenues = venues.sorted
-      .map((e) => e.scraped)
-      .filter((e): e is ScrapedVenue => typeof e.format === "function")
-      .map((e) => e.format());
+  const formattedVenues = venues.sorted
+    .map((e) => e.scraped)
+    .filter((e): e is ScrapedVenue => typeof e.format === "function")
+    .map((e) => e.format());
 
-    fs.writeFileSync(file, format(formattedVenues) + "\n");
-  },
-  loadScrapedVenues: (target: string) => {
-    return new VenueList(
-      ...parse(fs.readFileSync(`venues/${target}/scraped.ltsv`).toString()).map((e) => createScrapedVenue(e as any))
-    );
-  },
-  // link
-  updateLinkedVenues: (target: string, venues: VenueList) => {
-    const file = `venues/${target}/linked.ltsv`;
+  fs.writeFileSync(file, format(formattedVenues) + "\n");
+}
+export function loadScrapedVenues(target: string) {
+  return new VenueList(
+    ...parse(fs.readFileSync(`venues/${target}/scraped.ltsv`).toString()).map((e) => createScrapedVenue(e as any))
+  );
+}
 
-    const formattedVenues = venues.sorted.map((e) => e.format());
+// link
+export function updateLinkedVenues(target: string, venues: VenueList): void {
+  const file = `venues/${target}/linked.ltsv`;
 
-    fs.writeFileSync(file, format(formattedVenues) + "\n");
-  },
-  loadLinkedVenues: (target: string) => {
-    return new VenueList(
-      ...parse(fs.readFileSync(`venues/${target}/linked.ltsv`).toString()).map((e) => new Venue(e as any))
-    );
-  },
-  updateNotLinkedVenues: (target: string, venues: VenueList) => {
-    const file = `venues/${target}/notlinked.ltsv`;
+  const formattedVenues = venues.sorted.map((e) => e.format());
 
-    const formattedVenues = venues.sorted.map((e) => e.format());
+  fs.writeFileSync(file, format(formattedVenues) + "\n");
+}
+export function loadLinkedVenues(target: string) {
+  return new VenueList(
+    ...parse(fs.readFileSync(`venues/${target}/linked.ltsv`).toString()).map((e) => new Venue(e as any))
+  );
+}
+export function updateNotLinkedVenues(target: string, venues: VenueList): void {
+  const file = `venues/${target}/notlinked.ltsv`;
 
-    fs.writeFileSync(file, format(formattedVenues) + "\n");
-  },
-  loadNotLinkedVenues: (target: string) => {
-    return new VenueList(
-      ...parse(fs.readFileSync(`venues/${target}/notlinked.ltsv`).toString()).map((e) => new Venue(e as any))
-    );
-  },
-  loadUnLinkedVenues: (target: string) => {
-    return new VenueList(
-      ...parse(fs.readFileSync(`venues/${target}/unlinked.ltsv`).toString()).map((e) => new Venue(e as any))
-    );
-  },
-  updateUnLinkedVenues: (target: string, venues: VenueList) => {
-    const file = `venues/${target}/unlinked.ltsv`;
+  const formattedVenues = venues.sorted.map((e) => e.format());
 
-    const formattedVenues = venues.sorted.map((e) => e.format());
+  fs.writeFileSync(file, format(formattedVenues) + "\n");
+}
+export function loadNotLinkedVenues(target: string) {
+  return new VenueList(
+    ...parse(fs.readFileSync(`venues/${target}/notlinked.ltsv`).toString()).map((e) => new Venue(e as any))
+  );
+}
+export function loadUnLinkedVenues(target: string) {
+  return new VenueList(
+    ...parse(fs.readFileSync(`venues/${target}/unlinked.ltsv`).toString()).map((e) => new Venue(e as any))
+  );
+}
+export function updateUnLinkedVenues(target: string, venues: VenueList): void {
+  const file = `venues/${target}/unlinked.ltsv`;
 
-    fs.writeFileSync(file, format(formattedVenues) + "\n");
-  },
-  loadNoListVenues: (target: string) => {
-    return new VenueList(
-      ...parse(fs.readFileSync(`venues/${target}/nolist.ltsv`).toString()).map((e) => new Venue(e as any))
-    );
-  },
-};
+  const formattedVenues = venues.sorted.map((e) => e.format());
+
+  fs.writeFileSync(file, format(formattedVenues) + "\n");
+}
+
+// no list is updated manually
+export function loadNoListVenues(target: string) {
+  return new VenueList(
+    ...parse(fs.readFileSync(`venues/${target}/nolist.ltsv`).toString()).map((e) => new Venue(e as any))
+  );
+}
