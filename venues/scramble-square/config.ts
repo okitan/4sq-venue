@@ -20,7 +20,7 @@ const config: Config = {
 
         const result = await (await fetch(url)).json();
 
-        const { createScrapedVenue } = require("../../lib/venue");
+        const { createScrapedVenue } = require("../../src/venue");
         const { phoneExtractor } = require("../../lib/util");
 
         return result.map((shop: any) => {
