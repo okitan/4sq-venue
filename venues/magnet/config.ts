@@ -1,6 +1,5 @@
 import { Config } from "../../src/types/config";
 
-// TODO: wrenching
 const config: Config = {
   id: "4c0f742698102d7f2f32e506",
   name: "MAGNET by SHIBUYA109",
