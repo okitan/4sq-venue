@@ -25,6 +25,7 @@ export type ScrapeConfig = {
       url?: Selector;
       altName?: Selector;
       phone?: Selector;
+      bldg?: Selector | string;
       level?: Selector<number> | number;
     };
   };
