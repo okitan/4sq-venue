@@ -3,6 +3,7 @@ import { Config } from "../../src/types/config";
 const config: Config = {
   id: "4b54335ff964a5206bb427e3",
   name: "東急フードショー",
+  subvenues: [],
   linker: {
     ignore: ["東急", "東横店", "フードショー", "百貨店"],
   },
@@ -24,13 +25,13 @@ const config: Config = {
   ],
 };
 
-const nameModifier = (name: string) => {
+function nameModifier(name: string) {
   return name.replace(/[（\(].+[\)）]/, "");
-};
+}
 
-const altNameExtractor = (name: string) => {
+function altNameExtractor(name: string) {
   const matched = name.match(/[（\(](.+)[\)）]/);
-  return matched ? matched[1] : null;
-};
+  return matched ? matched[1] : undefined;
+}
 
 export = config;
