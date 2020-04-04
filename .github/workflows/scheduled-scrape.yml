@@ -28,6 +28,8 @@ jobs:
         run: git checkout "scrape-${{ matrix.venues }}" || git checkout -b "scrape-${{ matrix.venues }}"
       - run: npm ci
       - run: npm run scrape ${{ matrix.venues }}
+        env:
+          LANG: ja_JP.UTF-8
       - run: script/push_scraped.sh ${{ matrix.venues }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
