@@ -34,8 +34,6 @@ jobs:
           git diff --name-only origin/master -- venues/*/config.*s \
           | awk -F "/" '{ print $(NF - 1) }' \
           | xargs --no-run-if-empty -L 1 npm run scrape --
-      - name: Archive scraped results
-        uses: actions/upload-artifact@v1
-        with:
-          name: scraped venues
-          path: venues/magnet/scraped.ltsv
+      - name: show changed file
+        run: |
+          git diff origin/master -- venues/*/scraped.ltsv
