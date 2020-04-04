@@ -37,5 +37,5 @@ jobs:
       - name: Archive scraped results
         uses: actions/upload-artifact@v1
         with:
-          name: code-coverage-report
-          path: venues/*/scraped.ltsv
+          name: scraped venues
+          path: venues/magnet/scraped.ltsv
