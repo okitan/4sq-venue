@@ -1,12 +1,8 @@
 "use strict";
 
 module.exports = {
-  id: "4b6170d8f964a520a7132ae3",
-  name: "東急百貨店 東横店",
-  subvenues: [
-    { id: "4b54335ff964a5206bb427e3", name: "東急フードショー" },
-    { id: "4b6036e1f964a5204dda29e3", name: "東横のれん街" }
-  ],
+  id: "4b54335ff964a5206bb427e3",
+  name: "東急フードショー",
   linker: {
     ignore: ["東急", "東横店", "フードショー", "百貨店"]
   }
