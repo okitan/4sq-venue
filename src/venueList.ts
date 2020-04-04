@@ -1,33 +1,8 @@
 import fs from "fs";
-import { format, LtsvRecord, parse } from "ltsv";
+import { format, parse } from "ltsv";
 
 import { ScrapedVenue } from "./scrapedVenue";
 import { createScrapedVenue, Venue } from "./venue";
-
-function sort(a: string, b: string) {
-  if (a < b) return -1;
-  if (a > b) return 1;
-
-  return 0;
-}
-
-// TODO: level should be sorted as number
-function venueSorter(a: LtsvRecord, b: LtsvRecord) {
-  return [
-    // 1st sort by its building name
-    "scraped.bldg",
-    "bldg",
-    // 2nd sort by its level
-    "scraped.level",
-    "level",
-    "crossStreet",
-    // 3rd sort by its name
-    "scraped.name",
-    "name",
-  ].reduce((result, e) => {
-    return result && sort(a[e], b[e]);
-  }, 0);
-}
 
 class VenueList extends Array<Venue> {
   findVenueIndex(venue: Venue, { ignore = [], guess = false }: { ignore?: string[]; guess?: boolean } = {}) {
@@ -66,6 +41,34 @@ class VenueList extends Array<Venue> {
     const index = this.findVenueIndex(venue, { ignore, guess });
     return index > -1 ? this.splice(index, 1)[0] : null;
   }
+
+  sorted(): VenueList {
+    // console.log(this);
+    return new VenueList(...this.sort(VenueList.sorter));
+  }
+
+  static sorter(a: Venue, b: Venue): number {
+    return (
+      // 1st bldg
+      VenueList.sort(a.scraped.bldg, b.scraped.bldg) ||
+      // 2nd level
+      VenueList.sort(a.scraped.level, b.scraped.level) ||
+      // 3rd bldg + level
+      VenueList.sort(a.crossStreet, b.crossStreet) ||
+      // name is the last
+      VenueList.sort(a.scraped.name, b.scraped.name) ||
+      VenueList.sort(a.name, b.name)
+    );
+  }
+
+  static sort<T extends string | number>(a?: T, b?: T): number {
+    if (!a || !b) return 0;
+
+    if (a < b) return -1;
+    if (a > b) return 1;
+
+    return 0;
+  }
 }
 
 module.exports = {
@@ -75,10 +78,10 @@ module.exports = {
     const file = `venues/${target}/scraped.ltsv`;
 
     const formattedVenues = venues
+      .sorted()
       .map((e) => e.scraped)
       .filter((e): e is ScrapedVenue => typeof e.format === "function")
-      .map((e) => e.format())
-      .sort(venueSorter);
+      .map((e) => e.format());
 
     fs.writeFileSync(file, format(formattedVenues) + "\n");
   },
@@ -91,7 +94,7 @@ module.exports = {
   updateLinkedVenues: (target: string, venues: VenueList) => {
     const file = `venues/${target}/linked.ltsv`;
 
-    const formattedVenues = venues.map((e) => e.format()).sort(venueSorter);
+    const formattedVenues = venues.sorted().map((e) => e.format());
 
     fs.writeFileSync(file, format(formattedVenues) + "\n");
   },
@@ -103,7 +106,7 @@ module.exports = {
   updateNotLinkedVenues: (target: string, venues: VenueList) => {
     const file = `venues/${target}/notlinked.ltsv`;
 
-    const formattedVenues = venues.map((e) => e.format()).sort(venueSorter);
+    const formattedVenues = venues.sorted().map((e) => e.format());
 
     fs.writeFileSync(file, format(formattedVenues) + "\n");
   },
@@ -120,7 +123,7 @@ module.exports = {
   updateUnLinkedVenues: (target: string, venues: VenueList) => {
     const file = `venues/${target}/unlinked.ltsv`;
 
-    const formattedVenues = venues.map((e) => e.format()).sort(venueSorter);
+    const formattedVenues = venues.sorted().map((e) => e.format());
 
     fs.writeFileSync(file, format(formattedVenues) + "\n");
   },
