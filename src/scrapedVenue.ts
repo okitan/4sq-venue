@@ -1,6 +1,6 @@
 import { LtsvRecord } from "ltsv/dist/cjs";
 
-type Properties = {
+export type Properties = {
   name: string;
   altName?: string;
   bldg?: string;
