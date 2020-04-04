@@ -1,6 +1,6 @@
 "use strict";
 
-const { VenueList } = require("../lib/venueList");
+const { VenueList } = require("../src/venueList");
 const { Venue } = require("../src/venue");
 
 describe("VenueList", () => {
