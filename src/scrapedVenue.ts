@@ -1,6 +1,6 @@
 import { LtsvRecord } from "ltsv/dist/cjs";
 
-export type Properties = {
+export type ScrapeProperties = {
   name: string;
   altName?: string;
   bldg?: string;
@@ -9,7 +9,7 @@ export type Properties = {
   url?: string;
 };
 
-export class ScrapedVenue implements Properties {
+export class ScrapedVenue implements ScrapeProperties {
   name: string;
   altName?: string;
   bldg?: string;
@@ -17,7 +17,7 @@ export class ScrapedVenue implements Properties {
   phone?: string;
   url?: string;
 
-  constructor({ name, altName, bldg, level, phone, url }: Properties) {
+  constructor({ name, altName, bldg, level, phone, url }: ScrapeProperties) {
     this.name = name;
     this.altName = altName;
     this.bldg = bldg;
@@ -26,7 +26,7 @@ export class ScrapedVenue implements Properties {
     this.url = url;
   }
 
-  static keys(): (keyof Properties)[] {
+  static keys(): (keyof ScrapeProperties)[] {
     return ["name", "altName", "bldg", "level", "phone", "url"];
   }
 
@@ -43,7 +43,7 @@ export class ScrapedVenue implements Properties {
         result[e] = typeof result[e] === "number" ? parseInt(value) : value;
       }
       return result;
-    }, {} as Properties);
+    }, {} as ScrapeProperties);
 
     // FIXME: do not do like this
     if (Object.keys(venue).length === 0) return {};
