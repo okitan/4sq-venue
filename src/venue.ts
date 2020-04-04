@@ -77,7 +77,7 @@ class Venue implements VenueProperties {
     });
   }
 
-  getSimilarityOfName(other: Venue, { ignore = false }: { ignore?: boolean } = {}) {
+  getSimilarityOfName(other: Venue, { ignore = [] }: { ignore?: string[] } = {}) {
     return Math.max(
       ...this.nameCandidates.flatMap((a) => other.nameCandidates.map((b) => getSimilarity(a, b, { ignore })))
     );
