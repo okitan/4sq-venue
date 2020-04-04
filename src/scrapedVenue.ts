@@ -26,6 +26,8 @@ export class ScrapedVenue {
     if (!obj) return {};
 
     const venue = this.keys().reduce((result, e) => {
+      // because `""` is falsy in javascript `hoge:` is converted to `{ hoge: undefined }`
+      // Note: `0` is also converted to undefined, but I just have `level` as number and there are no level:0
       if (obj[e]) {
         // @ts-ignore result[e] = does not work
         result[e] = obj[e];
@@ -41,5 +43,16 @@ export class ScrapedVenue {
     if (Object.keys(venue).length === 0) return {};
 
     return new ScrapedVenue(venue);
+  }
+
+  format(cascade: boolean = false): { [x: string]: Exclude<ScrapedVenue[Key], undefined> } {
+    return ScrapedVenue.keys().reduce((result, key) => {
+      if (cascade) {
+        result[`scraped.${key}`] = this[key] ?? "";
+      } else {
+        result[key] = this[key] ?? "";
+      }
+      return result;
+    }, {} as { [x: string]: Exclude<ScrapedVenue[Key], undefined> });
   }
 }
