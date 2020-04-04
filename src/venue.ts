@@ -10,7 +10,7 @@ type VenueProperties = {
   crossStreet?: string;
 };
 
-class Venue implements VenueProperties {
+export class Venue implements VenueProperties {
   id?: string;
   name?: string;
   parentVenueId?: string;
@@ -95,9 +95,6 @@ class Venue implements VenueProperties {
   }
 }
 
-module.exports = {
-  Venue,
-  createScrapedVenue: (data: ScrapeProperties) => {
-    return new Venue({ scraped: data });
-  },
-};
+export function createScrapedVenue(data: ScrapeProperties) {
+  return new Venue({ scraped: data });
+}
