@@ -38,7 +38,7 @@ class Venue implements VenueProperties {
     this.rest = rest;
   }
 
-  get venueKeys(): ReadonlyArray<keyof VenueProperties> {
+  static get keys(): ReadonlyArray<keyof VenueProperties> {
     return ["id", "parentVenueId", "name", "crossStreet"];
   }
 
@@ -84,7 +84,7 @@ class Venue implements VenueProperties {
   }
 
   format() {
-    const object = this.venueKeys.reduce((object, e) => {
+    const object = Venue.keys.reduce((object, e) => {
       object[e] = this[e] || "";
       return object;
     }, {} as LtsvRecord);

@@ -26,7 +26,7 @@ export class ScrapedVenue implements ScrapeProperties {
     this.url = url;
   }
 
-  static keys(): (keyof ScrapeProperties)[] {
+  static get keys(): ReadonlyArray<keyof ScrapeProperties> {
     return ["name", "altName", "bldg", "level", "phone", "url"];
   }
 
@@ -34,7 +34,7 @@ export class ScrapedVenue implements ScrapeProperties {
   static parse(obj: LtsvRecord): ScrapedVenue | {} {
     if (!obj) return {};
 
-    const venue = this.keys().reduce((result, e) => {
+    const venue = this.keys.reduce((result, e) => {
       // because `""` is falsy in javascript `hoge:` is converted to `{ hoge: undefined }`
       // Note: `0` is also converted to undefined, but I only have `level` as number and there are no level:0 in my world
       if (obj[`scraped.${e}`]) {
@@ -52,7 +52,7 @@ export class ScrapedVenue implements ScrapeProperties {
   }
 
   format({ cascade = false }: { cascade?: boolean } = {}): LtsvRecord {
-    return ScrapedVenue.keys().reduce((result, key) => {
+    return ScrapedVenue.keys.reduce((result, key) => {
       if (cascade) {
         result[`scraped.${key}`] = this[key]?.toString() ?? "";
       } else {
