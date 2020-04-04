@@ -1,6 +1,6 @@
 "use strict";
 
-const { Venue } = require("../lib/venue");
+const { Venue } = require("../src/venue");
 
 describe("Venue", () => {
   describe(".getSimilarityOfName", () => {
@@ -9,15 +9,15 @@ describe("Venue", () => {
         name: "あいうえおA",
         scraped: {
           name: "アイウエオ",
-          altName: "AIUEO"
-        }
+          altName: "AIUEO",
+        },
       });
 
       const b = new Venue({
         name: "あいうえおほげ",
         scraped: {
-          name: "あいうえおB"
-        }
+          name: "あいうえおB",
+        },
       });
 
       expect(a.getSimilarityOfName(b)).toBe(5 / 6);
