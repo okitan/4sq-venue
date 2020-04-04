@@ -5,7 +5,7 @@ import { ScrapeProperties } from "../scrapedVenue";
 export type Config = Venue & {
   subvenues: Venue[];
   linker: Linker;
-  scraper: ReadonlyArray<ScrapeConfig | Scraper>;
+  scraper: ReadonlyArray<ScrapeConfig | Fetcher>;
 };
 
 type Venue = {
@@ -31,6 +31,7 @@ export type ScrapeConfig = {
   };
 };
 
+// FIXME: actually T extends string | number but it shows error of typescript
 type Selector<T = string> = ClassSelector<T> | XPathSelector<T>;
 
 type ClassSelector<T> = {
@@ -49,7 +50,7 @@ type SelectorOption<T> = {
 
 type Modifier<T> = (name: string) => T | undefined;
 
-type Scraper = {
+type Fetcher = {
   fetch: FetchFunction;
 };
 type FetchFunction = () => Promise<any>; // actually Venue class
