@@ -51,7 +51,7 @@ export class ScrapedVenue implements Properties {
     return new ScrapedVenue(venue);
   }
 
-  format(cascade: boolean = false): LtsvRecord {
+  format({ cascade = false }: { cascade?: boolean } = { cascade: false }): LtsvRecord {
     return ScrapedVenue.keys().reduce((result, key) => {
       if (cascade) {
         result[`scraped.${key}`] = this[key]?.toString() ?? "";
