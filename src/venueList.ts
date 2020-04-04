@@ -42,7 +42,7 @@ class VenueList extends Array<Venue> {
     return index > -1 ? this.splice(index, 1)[0] : null;
   }
 
-  sorted(): VenueList {
+  get sorted(): VenueList {
     // console.log(this);
     return new VenueList(...this.sort(VenueList.sorter));
   }
@@ -77,8 +77,7 @@ module.exports = {
   updateScrapedVenues: (target: string, venues: VenueList) => {
     const file = `venues/${target}/scraped.ltsv`;
 
-    const formattedVenues = venues
-      .sorted()
+    const formattedVenues = venues.sorted
       .map((e) => e.scraped)
       .filter((e): e is ScrapedVenue => typeof e.format === "function")
       .map((e) => e.format());
@@ -94,7 +93,7 @@ module.exports = {
   updateLinkedVenues: (target: string, venues: VenueList) => {
     const file = `venues/${target}/linked.ltsv`;
 
-    const formattedVenues = venues.sorted().map((e) => e.format());
+    const formattedVenues = venues.sorted.map((e) => e.format());
 
     fs.writeFileSync(file, format(formattedVenues) + "\n");
   },
@@ -106,7 +105,7 @@ module.exports = {
   updateNotLinkedVenues: (target: string, venues: VenueList) => {
     const file = `venues/${target}/notlinked.ltsv`;
 
-    const formattedVenues = venues.sorted().map((e) => e.format());
+    const formattedVenues = venues.sorted.map((e) => e.format());
 
     fs.writeFileSync(file, format(formattedVenues) + "\n");
   },
@@ -123,7 +122,7 @@ module.exports = {
   updateUnLinkedVenues: (target: string, venues: VenueList) => {
     const file = `venues/${target}/unlinked.ltsv`;
 
-    const formattedVenues = venues.sorted().map((e) => e.format());
+    const formattedVenues = venues.sorted.map((e) => e.format());
 
     fs.writeFileSync(file, format(formattedVenues) + "\n");
   },
