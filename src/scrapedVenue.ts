@@ -1,6 +1,6 @@
 import { LtsvRecord } from "ltsv/dist/cjs";
 
-export type Properties = {
+export type ScrapeProperties = {
   name: string;
   altName?: string;
   bldg?: string;
@@ -9,7 +9,7 @@ export type Properties = {
   url?: string;
 };
 
-export class ScrapedVenue implements Properties {
+export class ScrapedVenue implements ScrapeProperties {
   name: string;
   altName?: string;
   bldg?: string;
@@ -17,7 +17,7 @@ export class ScrapedVenue implements Properties {
   phone?: string;
   url?: string;
 
-  constructor({ name, altName, bldg, level, phone, url }: Properties) {
+  constructor({ name, altName, bldg, level, phone, url }: ScrapeProperties) {
     this.name = name;
     this.altName = altName;
     this.bldg = bldg;
@@ -26,7 +26,7 @@ export class ScrapedVenue implements Properties {
     this.url = url;
   }
 
-  static keys(): (keyof Properties)[] {
+  static get keys(): ReadonlyArray<keyof ScrapeProperties> {
     return ["name", "altName", "bldg", "level", "phone", "url"];
   }
 
@@ -34,7 +34,7 @@ export class ScrapedVenue implements Properties {
   static parse(obj: LtsvRecord): ScrapedVenue | {} {
     if (!obj) return {};
 
-    const venue = this.keys().reduce((result, e) => {
+    const venue = this.keys.reduce((result, e) => {
       // because `""` is falsy in javascript `hoge:` is converted to `{ hoge: undefined }`
       // Note: `0` is also converted to undefined, but I only have `level` as number and there are no level:0 in my world
       if (obj[`scraped.${e}`]) {
@@ -43,7 +43,7 @@ export class ScrapedVenue implements Properties {
         result[e] = typeof result[e] === "number" ? parseInt(value) : value;
       }
       return result;
-    }, {} as Properties);
+    }, {} as ScrapeProperties);
 
     // FIXME: do not do like this
     if (Object.keys(venue).length === 0) return {};
@@ -51,8 +51,8 @@ export class ScrapedVenue implements Properties {
     return new ScrapedVenue(venue);
   }
 
-  format({ cascade = false }: { cascade?: boolean } = { cascade: false }): LtsvRecord {
-    return ScrapedVenue.keys().reduce((result, key) => {
+  format({ cascade = false }: { cascade?: boolean } = {}): LtsvRecord {
+    return ScrapedVenue.keys.reduce((result, key) => {
       if (cascade) {
         result[`scraped.${key}`] = this[key]?.toString() ?? "";
       } else {
