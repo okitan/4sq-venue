@@ -3,3 +3,7 @@ export function phoneExtractor(text: string): string | undefined {
 
   return matched ? matched.slice(1, 4).join("") : undefined;
 }
+
+export function levelExtractor(text: string): number | undefined {
+  return parseInt(text.replace("F", ""));
+}
