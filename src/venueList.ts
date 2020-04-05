@@ -50,19 +50,30 @@ export class VenueList extends Array<Venue> {
   static sorter(a: Venue, b: Venue): number {
     return (
       // 1st bldg
-      VenueList.sort(a.scraped.bldg, b.scraped.bldg) ||
+      VenueList.sortString(a.scraped.bldg, b.scraped.bldg) ||
       // 2nd level
-      VenueList.sort(a.scraped.level, b.scraped.level) ||
+      VenueList.sortNumber(a.scraped.level, b.scraped.level) ||
       // 3rd bldg + level
-      VenueList.sort(a.crossStreet, b.crossStreet) ||
+      VenueList.sortString(a.crossStreet, b.crossStreet) ||
       // name is the last
-      VenueList.sort(a.scraped.name, b.scraped.name) ||
-      VenueList.sort(a.name, b.name)
+      VenueList.sortString(a.scraped.name, b.scraped.name) ||
+      VenueList.sortString(a.name, b.name)
     );
   }
 
-  static sort<T extends string | number>(a?: T, b?: T): number {
-    if (!a || !b) return 0;
+  static sortString(_a?: string, _b?: string): number {
+    const a = _a ?? "";
+    const b = _b ?? "";
+
+    if (a < b) return -1;
+    if (a > b) return 1;
+
+    return 0;
+  }
+
+  static sortNumber(_a?: number, _b?: number): number {
+    const a = _a ?? 0;
+    const b = _b ?? 0;
 
     if (a < b) return -1;
     if (a > b) return 1;
