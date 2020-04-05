@@ -1,4 +1,8 @@
+import fetch from "node-fetch";
+
+import { phoneExtractor } from "../../src/modifier";
 import { Config } from "../../src/types/config";
+import { createScrapedVenue } from "../../src/venue";
 
 const config: Config = {
   id: "5d7b5d89d1334200083e1ae2",
@@ -16,12 +20,7 @@ const config: Config = {
       fetch: async () => {
         const url = "https://tacsis-cdn-endpoint.azureedge.net/cms-web/shop.json";
 
-        const fetch = require("node-fetch");
-
         const result = await (await fetch(url)).json();
-
-        const { createScrapedVenue } = require("../../src/venue");
-        const { phoneExtractor } = require("../../lib/util");
 
         return result.map((shop: any) => {
           return createScrapedVenue({
