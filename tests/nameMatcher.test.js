@@ -1,4 +1,4 @@
-const { getSimilarity } = require("../lib/nameMatcher");
+const { getSimilarity } = require("../src/nameMatcher");
 
 describe.each`
   description                        | a                 | b                 | score
