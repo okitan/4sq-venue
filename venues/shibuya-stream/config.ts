@@ -1,3 +1,4 @@
+import { levelExtractor } from "../../src/modifier";
 import { Config } from "../../src/types/config";
 
 const config: Config = {
@@ -21,10 +22,7 @@ const config: Config = {
           name: { selector: ".shop_name" },
           altName: { selector: ".shop_kana" },
           phone: { selector: ".shop_detail_list dd:nth-of-type(3)" },
-          level: {
-            selector: ".shop_detail_list .floor_no",
-            modifier: (e) => parseInt(e.replace("F", "")),
-          },
+          level: { selector: ".shop_detail_list .floor_no", modifier: levelExtractor },
         },
       },
     },
