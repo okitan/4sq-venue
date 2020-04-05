@@ -47,19 +47,18 @@ const config: Config = {
         };
       }
     ),
-    // Hikarie (no venues on 9F and 10F)
-    ...[6, 7, 8, 11].map(
+    // Hikarie (no venues on 10F)
+    ...[6, 7, 8, 9, 11].map(
       (e): ScrapeConfig => {
         return {
           url: `http://www.hikarie.jp/floormap/${e}F.html`,
           venues: {
-            "#floorshop .shopbox": {
-              name: { selector: ".shoplogo", modifier: nameModifier },
-              altName: { selector: ".shoplogo", modifier: altNameExtractor },
-              phone: {
-                // fucking no semantics
-                selector: ".shop_info_m dd:nth-of-type(2), .shop_info_67_r dl:nth-of-type(3) dd",
-              },
+            ".floorShopList2 li": {
+              name: { selector: ".floorShopList2__name", modifier: nameModifier },
+              altName: { selector: ".floorShopList2__name", modifier: altNameExtractor },
+              // fucking table layout
+              phone: { xpath: ".//th[contains(text(),'TEL')]/following-sibling::td", nullable: true },
+              url: { xpath: ".//th[contains(text(),'URL')]/following-sibling::td", nullable: true },
               level: e,
             },
           },
@@ -71,6 +70,7 @@ const config: Config = {
 
 function nameModifier(name: string) {
   return name
+    .split("／")[0]
     .replace(/［.+］$/, "") // remove ［11月22日（木）オープン］
     .trim()
     .replace(/[（\(](.+)[\)）]$/, "") // remove （altName） or (altName)
@@ -79,6 +79,7 @@ function nameModifier(name: string) {
 
 function altNameExtractor(name: string) {
   const matched = name
+    .split("／")[0]
     .replace(/［.+］$/, "") // remove ［11月22日（木）オープン］
     .trim()
     .match(/[（\(](.+)[\)）]$/);
