@@ -1,17 +1,29 @@
-"use strict";
-const { VenueList } = require("../src/venueList");
+import { Venue } from "./venue";
+import { VenueList } from "./venueList";
 
-const flatmap = require("flatmap");
+type VenueSet = {
+  scrapedVenue: Venue;
+  foursquareVenue: Venue;
+};
+
+type ScoredVenueSet = VenueSet & { score: number };
 
 // returns [ linkedVenues, notLinkedVenues, unLinkedVenues ]
-const linkVenues = (
+export function linkVenues({
   scrapedVenues,
   foursquareVenues,
   noListVenues,
   previousResult,
   previousUnLinkedVenues,
-  { ignore } = {}
-) => {
+  ignore = [],
+}: {
+  scrapedVenues: VenueList;
+  foursquareVenues: VenueList;
+  noListVenues: VenueList;
+  previousResult: VenueList;
+  previousUnLinkedVenues: VenueList;
+  ignore?: string[];
+}) {
   const linkedVenues = new VenueList();
   const notLinkedVenues = new VenueList();
   const unLinkedVenues = new VenueList();
@@ -81,9 +93,13 @@ const linkVenues = (
   unLinkedVenues.push(...previousResult.filter((a) => !linkedVenues.some((b) => b.equals(a))));
 
   return [linkedVenues, notLinkedVenues, unLinkedVenues];
-};
+}
 
-const matchVenues = (scrapedVenues, foursquareVenues, { ignore } = {}) => {
+function matchVenues(
+  scrapedVenues: VenueList,
+  foursquareVenues: VenueList,
+  { ignore = [] }: { ignore?: string[] } = {}
+): VenueSet[] {
   return scrapedVenues
     .map((scrapedVenue) => {
       return {
@@ -92,23 +108,28 @@ const matchVenues = (scrapedVenues, foursquareVenues, { ignore } = {}) => {
       };
     })
     .filter(({ foursquareVenue }) => foursquareVenue);
-};
+}
 
 // returns guess candidates Array of { scrapedVenue, foursquareVenue, score }
-const guessVenues = (scrapedVenues, foursquareVenues, { ignore } = {}) => {
-  return flatmap(scrapedVenues, (scrapedVenue) => {
-    // select best of columns
-    const scores = foursquareVenues.map((foursquareVenue) => {
-      return {
-        scrapedVenue,
-        foursquareVenue,
-        score: scrapedVenue.getSimilarityOfName(foursquareVenue, { ignore }),
-      };
-    });
+function guessVenues(
+  scrapedVenues: VenueList,
+  foursquareVenues: VenueList,
+  { ignore = [] }: { ignore?: string[] } = {}
+): ScoredVenueSet[] {
+  return scrapedVenues
+    .flatMap((scrapedVenue) => {
+      // select best of columns
+      const scores = foursquareVenues.map((foursquareVenue) => {
+        return {
+          scrapedVenue,
+          foursquareVenue,
+          score: scrapedVenue.getSimilarityOfName(foursquareVenue, { ignore }),
+        };
+      });
 
-    const best = Math.max(...scores.map(({ score }) => score));
-    return scores.find(({ score }) => score === best);
-  })
+      const best = Math.max(...scores.map(({ score }) => score));
+      return scores.find(({ score }) => score === best) as ScoredVenueSet; // umhh...
+    })
     .filter(({ score }) => score > 0.5) // heuristic threshold
     .filter(({ scrapedVenue, foursquareVenue }, _, array) => {
       const duplicates = array.filter((e) => foursquareVenue.equals(e.foursquareVenue));
@@ -116,11 +137,9 @@ const guessVenues = (scrapedVenues, foursquareVenues, { ignore } = {}) => {
       if (duplicates.length > 1) {
         const best = Math.max(...duplicates.map(({ score }) => score));
 
-        return duplicates.find(({ score }) => score === best).scrapedVenue.equals(scrapedVenue);
+        return duplicates.find(({ score }) => score === best)?.scrapedVenue.equals(scrapedVenue);
       } else {
         return true;
       }
     });
-};
-
-module.exports = { linkVenues };
+}
