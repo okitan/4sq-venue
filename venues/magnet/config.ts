@@ -20,14 +20,14 @@ const config: Config = {
             modifier: (e: string) => e.split("</span>")[1].trim(),
           },
           phone: { xpath: "//td[contains(text(), 'TEL')]/following-sibling::td", nullable: true },
-          level: { selector: ".type-floor", modifier: levelEtractor },
+          level: { selector: ".type-floor", modifier: levelExtractor },
         },
       },
     },
   ],
 };
 
-function levelEtractor(e: string): number | undefined {
+function levelExtractor(e: string): number | undefined {
   if (e.includes("MAG 7")) {
     return 7;
   } else {

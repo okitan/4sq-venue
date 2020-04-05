@@ -19,7 +19,7 @@ const config: Config = {
           venues: {
             "ul.shopList li": {
               followLink: { selector: "a", property: "href" },
-              name: { selector: "h3", modifier: nameModifier },
+              name: { selector: "h3", modifier: nameExtractor },
               altName: { selector: "h3", modifier: altNameExtractor },
               //fucking no semantics
               phone: { selector: "h3 + p + p" },
@@ -37,7 +37,7 @@ const config: Config = {
           venues: {
             "ul.shopList li": {
               followLink: { selector: "a", property: "href" },
-              name: { selector: "h3", modifier: nameModifier },
+              name: { selector: "h3", modifier: nameExtractor },
               altName: { selector: "h3", modifier: altNameExtractor },
               //fucking no semantics
               phone: { selector: "h3 + p + p" },
@@ -54,7 +54,7 @@ const config: Config = {
           url: `http://www.hikarie.jp/floormap/${e}F.html`,
           venues: {
             ".floorShopList2 li": {
-              name: { selector: ".floorShopList2__name", modifier: nameModifier },
+              name: { selector: ".floorShopList2__name", modifier: nameExtractor },
               altName: { selector: ".floorShopList2__name", modifier: altNameExtractor },
               // fucking table layout
               phone: { xpath: ".//th[contains(text(),'TEL')]/following-sibling::td", nullable: true },
@@ -68,7 +68,7 @@ const config: Config = {
   ],
 };
 
-function nameModifier(name: string) {
+function nameExtractor(name: string) {
   return name
     .split("／")[0]
     .replace(/［.+］$/, "") // remove ［11月22日（木）オープン］

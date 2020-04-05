@@ -1,3 +1,4 @@
+import { levelExtractor } from "../../src/modifier";
 import { Config } from "../../src/types/config";
 
 const config: Config = {
@@ -17,7 +18,7 @@ const config: Config = {
           name: { selector: "h3", modifier: (name) => name.split("｜")[0] },
           altName: { selector: "h3", modifier: (name) => name.split("｜")[1] },
           phone: { xpath: "//dt[contains(text(), '電話')]/following-sibling::dd" }, // contains is only by xpath
-          level: { selector: "#subData dd:nth-of-type(1)", modifier: (level) => parseInt(level.replace("F", "")) },
+          level: { selector: "#subData dd:nth-of-type(1)", modifier: levelExtractor },
         },
       },
     },

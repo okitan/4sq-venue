@@ -1,6 +1,6 @@
 import { LtsvRecord } from "ltsv";
 
-import { getSimilarity, isEqualName } from "../lib/nameMatcher";
+import { getSimilarity, isEqualName } from "./nameMatcher";
 import { ScrapedVenue, ScrapeProperties } from "./scrapedVenue";
 
 type VenueProperties = {
