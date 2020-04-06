@@ -21,7 +21,7 @@ export class ScrapedVenue implements ScrapeProperties {
     this.name = name;
     this.altName = altName;
     this.bldg = bldg;
-    this.level = level;
+    this.level = level ? Number(level) : level; // force number
     this.phone = phone;
     this.url = url;
   }
@@ -30,20 +30,31 @@ export class ScrapedVenue implements ScrapeProperties {
     return ["name", "altName", "bldg", "level", "phone", "url"];
   }
 
+  static get stringKeys(): ReadonlyArray<
+    { [key in keyof ScrapeProperties]-?: string extends ScrapeProperties[key] ? key : never }[keyof ScrapeProperties]
+  > {
+    return ["name", "altName", "bldg", "phone", "url"];
+  }
+
+  static get numberKeys(): ReadonlyArray<
+    { [key in keyof ScrapeProperties]-?: number extends ScrapeProperties[key] ? key : never }[keyof ScrapeProperties]
+  > {
+    return ["level"];
+  }
+
   // TOOD: FIXME: return undefined instead of object
   static parse(obj: LtsvRecord): ScrapedVenue | {} {
     if (!obj) return {};
 
-    const venue = this.keys.reduce((result, e) => {
+    const venue = {} as ScrapeProperties;
+
+    this.stringKeys.forEach((key) => {
       // because `""` is falsy in javascript `hoge:` is converted to `{ hoge: undefined }`
-      // Note: `0` is also converted to undefined, but I only have `level` as number and there are no level:0 in my world
-      if (obj[`scraped.${e}`]) {
-        const value: string = obj[`scraped.${e}`];
-        // @ts-ignore result[e] = does not work
-        result[e] = typeof result[e] === "number" ? parseInt(value) : value;
-      }
-      return result;
-    }, {} as ScrapeProperties);
+      if (obj[`scraped.${key}`]) venue[key] = obj[`scraped.${key}`];
+    });
+    this.numberKeys.forEach((key) => {
+      if (obj[`scraped.${key}`]) venue[key] = parseInt(obj[`scraped.${key}`]);
+    });
 
     // FIXME: do not do like this
     if (Object.keys(venue).length === 0) return {};
