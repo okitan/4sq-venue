@@ -1,3 +1,9 @@
+id:	parentVenueId:	name:	crossStreet:	scraped.name:とんかつ まい泉 ［改装に伴い2月7日(金)から休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341824	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisen
+id:	parentVenueId:	name:	crossStreet:	scraped.name:銀座 縁 ［改装に伴い2月7日(金)から休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341835	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginzaenishi
+id:	parentVenueId:	name:	crossStreet:	scraped.name:H&F BELX （エイチアンドエフ ベルクス） ［改装に伴い4月8日(水)まで休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341856	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hfbelx
+id:	parentVenueId:	name:	crossStreet:	scraped.name:ヨックモック	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341808	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yokumoku
+id:	parentVenueId:	name:	crossStreet:	scraped.name:加賀麩 不室屋 ［改装に伴い2月7日(金)から休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341820	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kagafumuroya
+id:	parentVenueId:	name:	crossStreet:	scraped.name:和楽紅屋 ［改装に伴い3月16日(月)から休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341733	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=waraku
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ACSEINE	scraped.altName:アクセーヌ	scraped.bldg:	scraped.level:-1	scraped.phone:0364341791	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=acseine
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ETVOS	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0364341708	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=etvos
 id:	parentVenueId:	name:	crossStreet:	scraped.name:POLA	scraped.altName:ポーラ	scraped.bldg:	scraped.level:-1	scraped.phone:0364341766	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
@@ -9,11 +15,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:ドゥ・ラ・メール	scra
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ベキュア	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0364341779	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=vecua
 id:	parentVenueId:	name:	crossStreet:	scraped.name:メイクアップライフ	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0364341500	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
 id:	parentVenueId:	name:	crossStreet:	scraped.name:メデュラ	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0364341797	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=medulla
-id:	parentVenueId:	name:	crossStreet:	scraped.name:H&F BELX （エイチアンドエフ ベルクス） ［改装に伴い4月8日(水)まで休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341856	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hfbelx
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ヨックモック	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341808	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yokumoku
-id:	parentVenueId:	name:	crossStreet:	scraped.name:和楽紅屋 ［改装に伴い3月16日(月)から休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341733	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=waraku
-id:	parentVenueId:	name:	crossStreet:	scraped.name:とんかつ まい泉 ［改装に伴い2月7日(金)から休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341824	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisen
-id:	parentVenueId:	name:	crossStreet:	scraped.name:銀座 縁 ［改装に伴い2月7日(金)から休業］ ※4月9日(木)リニューアル予定	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341835	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginzaenishi
 id:5860a98545c3ed1e7dfcc126	parentVenueId:4bd557cc6798ef3b4735638d	name:東急百貨店渋谷本店循環バス 渋谷駅発着所	crossStreet:
 id:5e5a600ec2d8a80008bc2e6c	parentVenueId:4bd557cc6798ef3b4735638d	name:渋谷ヒカリエ7階喫煙所	crossStreet:
 id:5df85c2b8ed59900088f7802	parentVenueId:4bd557cc6798ef3b4735638d	name:神棚の里	crossStreet:
@@ -39,7 +40,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:STAR JEWELRY Girl	scraped.alt
 id:	parentVenueId:	name:	crossStreet:	scraped.name:THE HAIR BAR TOKYO	scraped.altName:ザ ヘア バー トウキョウ	scraped.bldg:	scraped.level:1	scraped.phone:0364341751	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ジャルダン デ パルファム	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341746	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jardin
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ル・コンシデラン	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341487	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=leconsiderant
-id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィスエントランス	scraped.altName:	scraped.bldg:	scraped.level:11	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:JTB	scraped.altName:ウエディング	scraped.bldg:	scraped.level:2	scraped.phone:0364193188	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb2f
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ShinQs パーツ ジョイスト	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqspartsjoyst
 id:	parentVenueId:	name:	crossStreet:	scraped.name:me ISSEY MIYAKE	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0364341694	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meisseymiyake
@@ -66,3 +66,5 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:メゾン ド フルール	sc
 id:	parentVenueId:	name:	crossStreet:	scraped.name:〈BoConcept〉POP UP STORE	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364277344	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=boconcept
 id:	parentVenueId:	name:	crossStreet:	scraped.name:まかないこすめ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0368051913	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
+id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒカリエホール ホールB	scraped.altName:	scraped.bldg:	scraped.level:9	scraped.phone:0354685088	scraped.url:http://www.hikarie.jp/hall/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィスエントランス	scraped.altName:	scraped.bldg:	scraped.level:11	scraped.phone:	scraped.url:
