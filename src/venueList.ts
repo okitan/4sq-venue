@@ -49,6 +49,8 @@ export class VenueList extends Array<Venue> {
 
   static sorter(a: Venue, b: Venue): number {
     return (
+      // 0th 4sq venue first
+      -VenueList.sortNumber(a.id?.length || 0, b.id?.length || 0) ||
       // 1st bldg
       VenueList.sortString(a.scraped.bldg, b.scraped.bldg) ||
       // 2nd level
@@ -72,8 +74,8 @@ export class VenueList extends Array<Venue> {
   }
 
   static sortNumber(_a?: number, _b?: number): number {
-    const a = _a ?? 0;
-    const b = _b ?? 0;
+    const a = _a ?? NaN;
+    const b = _b ?? NaN;
 
     if (a < b) return -1;
     if (a > b) return 1;
