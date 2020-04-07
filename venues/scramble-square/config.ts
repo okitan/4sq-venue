@@ -20,14 +20,14 @@ const config: Config = {
       fetch: async () => {
         const url = "https://tacsis-cdn-endpoint.azureedge.net/cms-web/shop.json";
 
-        const result = await (await fetch(url)).json();
+        const result = await (await fetch(url)).json(); // TODO: declare response schema
 
         return result.map((shop: any) => {
           return createScrapedVenue({
             name: shop.shop_name,
             altName: shop.shop_name_kana,
             phone: phoneExtractor(shop.phone_no),
-            level: shop.floor.replace("F", "").replace("B", "-"),
+            level: parseInt((shop.floor as string).replace("F", "").replace("B", "-")),
             url: `https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=${shop.shop_id}`,
           });
         });
