@@ -80,7 +80,7 @@ export function linkVenues({
 
   // create guess map
   guessVenues(scrapedVenues, foursquareVenues, { ignore }).forEach(({ scrapedVenue, foursquareVenue }) => {
-    console.log(`${scrapedVenue.scraped.name} / ${foursquareVenue.name}`);
+    console.log(`${scrapedVenue.scraped?.name} / ${foursquareVenue.name}`);
 
     scrapedVenues.removeVenue(scrapedVenue);
     foursquareVenues.removeVenue(foursquareVenue);
