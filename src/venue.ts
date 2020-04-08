@@ -1,7 +1,7 @@
 import { LtsvRecord } from "ltsv";
 
 import { getSimilarity, isEqualName } from "./nameMatcher";
-import { ScrapedVenue, ScrapeProperties } from "./scrapedVenue";
+import { format, parse, ScrapedProperties } from "./scraper";
 
 type VenueProperties = {
   id?: string;
@@ -17,7 +17,7 @@ export class Venue implements VenueProperties {
   crossStreet?: string;
 
   // TODO: scraped? is better
-  scraped: ScrapedVenue | { [x: string]: undefined };
+  scraped?: ScrapedProperties;
   rest: { [x: string]: unknown };
 
   constructor({
@@ -27,13 +27,13 @@ export class Venue implements VenueProperties {
     crossStreet,
     scraped,
     ...rest
-  }: VenueProperties & { [x: string]: unknown; scraped: ScrapeProperties }) {
+  }: VenueProperties & { [x: string]: unknown; scraped: ScrapedProperties }) {
     this.id = id;
     this.name = name;
     this.parentVenueId = parentVenueId;
     this.crossStreet = crossStreet;
 
-    this.scraped = scraped ? new ScrapedVenue(scraped) : ScrapedVenue.parse(rest as LtsvRecord);
+    this.scraped = parse(scraped || (rest as LtsvRecord));
     this.rest = rest;
   }
 
@@ -42,7 +42,7 @@ export class Venue implements VenueProperties {
   }
 
   get nameCandidates() {
-    return [this.name, this.scraped.name, this.scraped.altName].filter((e) => e);
+    return [this.name, this.scraped?.name, this.scraped?.altName].filter((e) => e);
   }
 
   // check equality and similarity
@@ -63,11 +63,11 @@ export class Venue implements VenueProperties {
   }
 
   hasSameUrl(other: Venue) {
-    return this.scraped.url && this.scraped.url === other.scraped.url;
+    return this.scraped?.url && this.scraped.url === other.scraped?.url;
   }
 
   hasSamePhone(other: Venue) {
-    return this.scraped.phone && this.scraped.phone === other.scraped.phone;
+    return this.scraped?.phone && this.scraped.phone === other.scraped?.phone;
   }
 
   hasSameName(other: Venue, { ignore = [] }: { ignore?: string[] } = {}) {
@@ -88,13 +88,12 @@ export class Venue implements VenueProperties {
       return object;
     }, {} as LtsvRecord);
 
-    if ("format" in this.scraped && typeof this.scraped.format === "function")
-      Object.assign(object, this.scraped.format({ cascade: true }));
+    if (this.scraped) Object.assign(object, format(this.scraped, { cascade: true }));
 
     return object;
   }
 }
 
-export function createScrapedVenue(data: ScrapeProperties) {
+export function createScrapedVenue(data: ScrapedProperties) {
   return new Venue({ scraped: data });
 }
