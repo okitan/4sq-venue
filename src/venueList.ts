@@ -1,7 +1,7 @@
 import fs from "fs";
 import { format, parse } from "ltsv";
 
-import { ScrapedVenue } from "./scrapedVenue";
+import { format as formatScraped } from "./scraper";
 import { createScrapedVenue, Venue } from "./venue";
 
 export class VenueList extends Array<Venue> {
@@ -43,7 +43,6 @@ export class VenueList extends Array<Venue> {
   }
 
   get sorted(): VenueList {
-    // console.log(this);
     return new VenueList(...this.sort(VenueList.sorter));
   }
 
@@ -90,8 +89,8 @@ export function updateScrapedVenues(target: string, venues: VenueList): void {
 
   const formattedVenues = venues.sorted
     .map((e) => e.scraped)
-    .filter((e): e is ScrapedVenue => typeof e.format === "function")
-    .map((e) => e.format());
+    .filter((e) => Object.keys(e).length > 0)
+    .map((e) => formatScraped(e));
 
   fs.writeFileSync(file, format(formattedVenues) + "\n");
 }

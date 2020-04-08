@@ -1,8 +1,7 @@
 import { LtsvRecord } from "ltsv";
 
 import { getSimilarity, isEqualName } from "./nameMatcher";
-import { ScrapedVenue } from "./scrapedVenue";
-import { ScrapedProperties } from "./scraper";
+import { format, parse, ScrapedProperties } from "./scraper";
 
 type VenueProperties = {
   id?: string;
@@ -18,7 +17,7 @@ export class Venue implements VenueProperties {
   crossStreet?: string;
 
   // TODO: scraped? is better
-  scraped: ScrapedVenue | { [x: string]: undefined };
+  scraped: ScrapedProperties;
   rest: { [x: string]: unknown };
 
   constructor({
@@ -34,7 +33,7 @@ export class Venue implements VenueProperties {
     this.parentVenueId = parentVenueId;
     this.crossStreet = crossStreet;
 
-    this.scraped = scraped ? new ScrapedVenue(scraped) : ScrapedVenue.parse(rest as LtsvRecord);
+    this.scraped = parse(scraped || (rest as LtsvRecord));
     this.rest = rest;
   }
 
@@ -89,8 +88,7 @@ export class Venue implements VenueProperties {
       return object;
     }, {} as LtsvRecord);
 
-    if ("format" in this.scraped && typeof this.scraped.format === "function")
-      Object.assign(object, this.scraped.format({ cascade: true }));
+    if (Object.keys(this.scraped).length) Object.assign(object, format(this.scraped, { cascade: true }));
 
     return object;
   }
