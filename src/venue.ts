@@ -1,7 +1,8 @@
 import { LtsvRecord } from "ltsv";
 
 import { getSimilarity, isEqualName } from "./nameMatcher";
-import { ScrapedVenue, ScrapeProperties } from "./scrapedVenue";
+import { ScrapedVenue } from "./scrapedVenue";
+import { ScrapedProperties } from "./scraper";
 
 type VenueProperties = {
   id?: string;
@@ -27,7 +28,7 @@ export class Venue implements VenueProperties {
     crossStreet,
     scraped,
     ...rest
-  }: VenueProperties & { [x: string]: unknown; scraped: ScrapeProperties }) {
+  }: VenueProperties & { [x: string]: unknown; scraped: ScrapedProperties }) {
     this.id = id;
     this.name = name;
     this.parentVenueId = parentVenueId;
@@ -95,6 +96,6 @@ export class Venue implements VenueProperties {
   }
 }
 
-export function createScrapedVenue(data: ScrapeProperties) {
+export function createScrapedVenue(data: ScrapedProperties) {
   return new Venue({ scraped: data });
 }

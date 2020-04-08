@@ -1,23 +1,16 @@
 import { LtsvRecord } from "ltsv/dist/cjs";
 
-export type ScrapeProperties = {
-  name: string;
-  altName?: string;
-  bldg?: string;
-  level?: number;
-  phone?: string;
-  url?: string;
-};
+import { parse, ScrapedProperties } from "./scraper";
 
-export class ScrapedVenue implements ScrapeProperties {
+export class ScrapedVenue implements ScrapedProperties {
   name: string;
-  altName?: string;
-  bldg?: string;
-  level?: number;
-  phone?: string;
-  url?: string;
+  altName: string | undefined;
+  bldg: string | undefined;
+  level: number | undefined;
+  phone: string | undefined;
+  url: string | undefined;
 
-  constructor({ name, altName, bldg, level, phone, url }: ScrapeProperties) {
+  constructor({ name, altName, bldg, level, phone, url }: ScrapedProperties) {
     this.name = name;
     this.altName = altName;
     this.bldg = bldg;
@@ -26,40 +19,17 @@ export class ScrapedVenue implements ScrapeProperties {
     this.url = url;
   }
 
-  static get keys(): ReadonlyArray<keyof ScrapeProperties> {
+  static get keys(): ReadonlyArray<keyof ScrapedProperties> {
     return ["name", "altName", "bldg", "level", "phone", "url"];
-  }
-
-  static get stringKeys(): ReadonlyArray<
-    { [key in keyof ScrapeProperties]-?: string extends ScrapeProperties[key] ? key : never }[keyof ScrapeProperties]
-  > {
-    return ["name", "altName", "bldg", "phone", "url"];
-  }
-
-  static get numberKeys(): ReadonlyArray<
-    { [key in keyof ScrapeProperties]-?: number extends ScrapeProperties[key] ? key : never }[keyof ScrapeProperties]
-  > {
-    return ["level"];
   }
 
   // TOOD: FIXME: return undefined instead of object
   static parse(obj: LtsvRecord): ScrapedVenue | {} {
     if (!obj) return {};
 
-    const venue = {} as ScrapeProperties;
+    const venue = parse(obj);
 
-    this.stringKeys.forEach((key) => {
-      // because `""` is falsy in javascript `hoge:` is converted to `{ hoge: undefined }`
-      if (obj[`scraped.${key}`]) venue[key] = obj[`scraped.${key}`];
-    });
-    this.numberKeys.forEach((key) => {
-      if (obj[`scraped.${key}`]) venue[key] = parseInt(obj[`scraped.${key}`]);
-    });
-
-    // FIXME: do not do like this
-    if (Object.keys(venue).length === 0) return {};
-
-    return new ScrapedVenue(venue);
+    return Object.keys(venue).length > 0 ? new ScrapedVenue(venue) : {};
   }
 
   format({ cascade = false }: { cascade?: boolean } = {}): LtsvRecord {

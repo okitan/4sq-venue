@@ -27,6 +27,7 @@ const config: Config = {
             name: shop.shop_name,
             altName: shop.shop_name_kana,
             phone: phoneExtractor(shop.phone_no),
+            bldg: undefined,
             level: parseInt((shop.floor as string).replace("F", "").replace("B", "-")),
             url: `https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=${shop.shop_id}`,
           });
