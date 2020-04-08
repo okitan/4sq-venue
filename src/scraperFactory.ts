@@ -6,7 +6,7 @@ export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>
   return {
     config: setting,
     parse: (record: LtsvRecord | U) => {
-      return Object.entries(setting).reduce((result, [key, option]) => {
+      const result = Object.entries(setting).reduce((result, [key, option]) => {
         if (option.type === "string") {
           if (record[key]) (result[key] as string) = record[key] as string;
           if (record[`scraped.${key}`]) (result[key] as string) = record[`scraped.${key}`] as string;
@@ -18,6 +18,8 @@ export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>
 
         return result;
       }, {} as U);
+
+      return Object.keys(result).length ? result : undefined;
     },
     format: (obj: U, { cascade = false }: { cascade?: boolean } = {}): LtsvRecord => {
       return Object.keys(setting).reduce((result, key: keyof U) => {

@@ -1,7 +1,7 @@
 import fs from "fs";
 import { format, parse } from "ltsv";
 
-import { format as formatScraped } from "./scraper";
+import { format as formatScraped, ScrapedProperties } from "./scraper";
 import { createScrapedVenue, Venue } from "./venue";
 
 export class VenueList extends Array<Venue> {
@@ -51,13 +51,13 @@ export class VenueList extends Array<Venue> {
       // 0th 4sq venue first
       -VenueList.sortNumber(a.id?.length || 0, b.id?.length || 0) ||
       // 1st bldg
-      VenueList.sortString(a.scraped.bldg, b.scraped.bldg) ||
+      VenueList.sortString(a.scraped?.bldg, b.scraped?.bldg) ||
       // 2nd level
-      VenueList.sortNumber(a.scraped.level, b.scraped.level) ||
+      VenueList.sortNumber(a.scraped?.level, b.scraped?.level) ||
       // 3rd bldg + level
       VenueList.sortString(a.crossStreet, b.crossStreet) ||
       // name is the last
-      VenueList.sortString(a.scraped.name, b.scraped.name) ||
+      VenueList.sortString(a.scraped?.name, b.scraped?.name) ||
       VenueList.sortString(a.name, b.name)
     );
   }
@@ -89,7 +89,7 @@ export function updateScrapedVenues(target: string, venues: VenueList): void {
 
   const formattedVenues = venues.sorted
     .map((e) => e.scraped)
-    .filter((e) => Object.keys(e).length > 0)
+    .filter((e): e is ScrapedProperties => Boolean(e))
     .map((e) => formatScraped(e));
 
   fs.writeFileSync(file, format(formattedVenues) + "\n");

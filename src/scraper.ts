@@ -9,4 +9,4 @@ export const { config, parse, format } = create({
   url: { type: "string" },
 });
 
-export type ScrapedProperties = ReturnType<typeof parse>;
+export type ScrapedProperties = Parameters<typeof format> extends [infer T, ...any[]] ? T : never;
