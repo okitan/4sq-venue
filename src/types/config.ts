@@ -1,6 +1,6 @@
 import { NavigationOptions } from "puppeteer";
 
-import { ScrapeProperties } from "../scrapedVenue";
+import { ScrapedProperties } from "../scraper";
 
 export type Config = Venue & {
   subvenues: Venue[];
@@ -22,7 +22,7 @@ export type ScrapeConfig = {
   options?: NavigationOptions;
   venues: {
     [classPath: string]: {
-      [key in keyof ScrapeProperties]: ScrapeProperties[key] extends infer U
+      [key in keyof ScrapedProperties]+?: ScrapedProperties[key] extends infer U
         ? Selector<Exclude<U, undefined>> | U
         : never;
     } & {
