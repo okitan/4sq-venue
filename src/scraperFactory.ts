@@ -12,7 +12,8 @@ export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>
 
       for (const [key, option] of Object.entries(setting)) {
         if (option.type === "string") {
-          const propertyConfig = config[key] as Selector<string> | string;
+          const propertyConfig = config[key] as Selector<string> | string | undefined;
+          if (!propertyConfig) continue;
 
           if (typeof propertyConfig === "string") {
             (result[key] as string) = propertyConfig;
@@ -34,7 +35,8 @@ export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>
         }
 
         if (option.type === "number") {
-          const propertyConfig = config[key] as Selector<number> | number;
+          const propertyConfig = config[key] as Selector<number> | number | undefined;
+          if (!propertyConfig) continue;
 
           if (typeof propertyConfig === "number") {
             (result[key] as number) = propertyConfig;
