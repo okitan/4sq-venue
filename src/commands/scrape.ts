@@ -1,36 +1,44 @@
-"use strict";
+import ora from "ora";
+import yargs from "yargs";
 
-module.exports = {
-  command: "scrape <target> [Options]",
-  desc: "scrape venues",
-  builder: {},
-};
+import { Extract } from "../cli";
+import { scrape } from "../scraper";
+import { updateScrapedVenues, VenueList } from "../venueList";
 
-const fs = require("fs");
+export const command = "scrape <target> [Options]";
+export const description = "scrape venues";
 
-const ora = require("ora");
+export function builder<T extends yargs.Argv>(yargs: T) {
+  return (
+    yargs
+      // TODO: inject target by its branch name
+      .positional("target", {
+        type: "string",
+        description: "venue name",
+        demandOption: true,
+      })
+  );
+}
 
-const { VenueList, updateScrapedVenues } = require("../../src/venueList");
-const { scrape } = require("../../src/scraper");
-
-module.exports.handler = async ({ target, ...args }) => {
+export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const config = require(`../../venues/${target}/config`);
   const targets = config.scraper || [];
 
   const results = new VenueList();
   // scrape not in pararelle
   for (const { url, options, venues, fetch } of targets) {
-    let spinner;
+    const spinner = ora().start();
+
     try {
       if (fetch) {
-        spinner = ora("start fetchinging api");
+        spinner.text = "start fetchinging api";
         const result = await fetch();
         results.push(...result);
 
         spinner.succeed(["Scraped", `${result.length} venues found`].join("\n"));
       } else {
         // start scraping
-        spinner = ora(`Scraping ${url}`).start();
+        spinner.text = `Scraping ${url}`;
 
         const result = await scrape({
           url,
@@ -46,10 +54,10 @@ module.exports.handler = async ({ target, ...args }) => {
         spinner.succeed([`Scraped ${url}`, `${result.length} venues found`].join("\n"));
       }
     } catch (err) {
-      if (spinner) spinner.fail([`Scrape ${url}`, err].join("\n"));
+      spinner.fail([`Scrape ${url}`, err].join("\n"));
       throw err;
     }
   }
 
   updateScrapedVenues(target, results);
-};
+}
