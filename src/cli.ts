@@ -1,6 +1,10 @@
-import Yargs from "yargs";
+import yargs from "yargs";
+import Yargs from "yargs/yargs";
 
-Yargs.scriptName("$ npm run 4sq --")
+export type Extract<T> = T extends yargs.Argv<infer U> ? U : never;
+
+Yargs()
+  .scriptName("$ npm run 4sq --")
   // TODO: remove later
   .commandDir("../lib/commands")
   .commandDir("./commands", { extensions: ["ts"] })
