@@ -2,10 +2,10 @@ import { NavigationOptions } from "puppeteer";
 
 import { ScrapedProperties } from "../scraper";
 
-export type Config = Venue & {
+export type Config<T = ScrapedProperties> = Venue & {
   subvenues: Venue[];
   linker: Linker;
-  scraper: ReadonlyArray<ScrapeConfig | Fetcher>;
+  scraper: ReadonlyArray<ScrapeConfig<T> | Fetcher>;
 };
 
 type Venue = {
@@ -17,26 +17,23 @@ type Linker = {
   ignore: string[];
 };
 
-export type ScrapeConfig = {
+export type ScrapeConfig<T = ScrapedProperties> = {
   url: string;
   options?: NavigationOptions;
   venues: {
-    [classPath: string]: {
-      [key in keyof ScrapedProperties]+?: ScrapedProperties[key] extends infer U
-        ? Selector<Exclude<U, undefined>> | U
-        : never;
-    } & {
-      followLink?: Selector;
-    };
+    [classPath: string]: ScrapedPropertiesConfig<T>;
   };
 };
 
+export type ScrapedPropertiesConfig<T = ScrapedProperties> = {
+  [key in keyof T]+?: T[key] extends infer U ? Selector<Exclude<U, undefined>> | U : never;
+} & { followLink?: Selector };
+
 // FIXME: actually T extends string | number but it shows error of typescript
-type Selector<T = string> = ClassSelector<T> | XPathSelector<T>;
+export type Selector<T = string> = ClassSelector<T> | XPathSelector<T>;
 
 type ClassSelector<T> = {
   selector: string;
-  property?: string;
 } & SelectorOption<T>;
 
 type XPathSelector<T> = {
@@ -44,6 +41,7 @@ type XPathSelector<T> = {
 } & SelectorOption<T>;
 
 type SelectorOption<T> = {
+  property?: string;
   modifier?: Modifier<T>;
   nullable?: true;
 };
