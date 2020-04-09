@@ -84,7 +84,7 @@ export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>
   };
 }
 
-async function applySelector<T extends string | number>(
+export async function applySelector<T extends string | number>(
   page: puppeteer.Page | puppeteer.ElementHandle,
   config: Selector<T>
 ): Promise<string | undefined> {

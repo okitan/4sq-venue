@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
-import { create } from "./scraperFactory";
+import { applySelector, create } from "./scraperFactory";
 import { ScrapeConfig, ScrapedPropertiesConfig } from "./types/config";
 import { createScrapedVenue, Venue } from "./venue";
 
@@ -16,7 +16,12 @@ export const { config, scrape: scrapeProperties, parse, format } = create({
 
 export type ScrapedProperties = Parameters<typeof format> extends [infer T, ...any[]] ? T : never;
 
-export async function scrape({ url, options, venues, notify }: ScrapeConfig & { notify: any }): Promise<Venue[]> {
+export async function scrape({
+  url,
+  options,
+  venues,
+  notify,
+}: ScrapeConfig & { notify: (message: string) => void }): Promise<Venue[]> {
   const results: ScrapedProperties[] = [];
 
   let browser;
@@ -32,14 +37,13 @@ export async function scrape({ url, options, venues, notify }: ScrapeConfig & { 
     for (const [selector, { followLink, ...properties }] of Object.entries(venues)) {
       const items = await page.$$(selector);
 
-      if (items.length === 0) {
-        throw `no venues found for ${selector}`;
-      }
+      if (items.length === 0) throw `no venues found for ${selector}`;
 
       // console.error("\n", detail);
       for (const item of items) {
         if (followLink) {
-          const subVenueUrl = "TODO:";
+          const subVenueUrl = await applySelector(item, followLink);
+          if (!subVenueUrl) throw `no sub venue found for ${followLink}`;
 
           if (notify) notify(`Scraping subvenue ${subVenueUrl}`);
 
