@@ -1,10 +1,59 @@
 import { LtsvRecord } from "ltsv";
+import puppeteer from "puppeteer";
 
+import { ScrapePropertiesConfig, Selector } from "./types/config";
 import { _ScrapedProperties, ScrapeSetting } from "./types/scrape";
 
 export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>(setting: T) {
   return {
     config: setting,
+    scrape: async (page: puppeteer.Page | puppeteer.ElementHandle, config: ScrapePropertiesConfig<U>): Promise<U> => {
+      const result = {} as U;
+
+      for (const [key, option] of Object.entries(setting)) {
+        if (option.type === "string") {
+          const propertyConfig = config[key] as Selector<string> | string | undefined;
+          if (!propertyConfig) continue;
+
+          if (typeof propertyConfig === "string") {
+            (result[key] as string) = propertyConfig;
+            continue;
+          }
+
+          const value = await applySelector(page, propertyConfig);
+          if (value) {
+            const normalizedValue = value
+              .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 65248))
+              .replace(/\s/g, " ") // node includes 全角スペース to \s
+              .replace(/ +/g, " ")
+              .trim();
+
+            (result[key] as string | undefined) = propertyConfig.modifier
+              ? propertyConfig.modifier(normalizedValue)
+              : normalizedValue;
+          }
+        }
+
+        if (option.type === "number") {
+          const propertyConfig = config[key] as Selector<number> | number | undefined;
+          if (!propertyConfig) continue;
+
+          if (typeof propertyConfig === "number") {
+            (result[key] as number) = propertyConfig;
+            continue;
+          }
+
+          const value = await applySelector(page, propertyConfig);
+          if (value) {
+            (result[key] as number | undefined) = propertyConfig.modifier
+              ? propertyConfig.modifier(value)
+              : parseInt(value);
+          }
+        }
+      }
+
+      return result;
+    },
     parse: (record: LtsvRecord | U) => {
       const result = Object.entries(setting).reduce((result, [key, option]) => {
         if (option.type === "string") {
@@ -33,4 +82,22 @@ export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>
       }, {} as LtsvRecord);
     },
   };
+}
+
+export async function applySelector<T extends string | number>(
+  page: puppeteer.Page | puppeteer.ElementHandle,
+  config: Selector<T>
+): Promise<string | undefined> {
+  const element: puppeteer.ElementHandle | null =
+    "xpath" in config ? (await page.$x(config.xpath))[0] : await page.$(config.selector);
+
+  if (!element) {
+    if (config.nullable) {
+      return undefined;
+    } else {
+      throw `unable to fetch ${config}`;
+    }
+  }
+
+  return (await (await element.getProperty(config.property || "innerText")).jsonValue()) as string;
 }
