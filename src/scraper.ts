@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
 import { applySelector, create } from "./scraperFactory";
-import { ScrapeConfig, ScrapedPropertiesConfig } from "./types/config";
+import { ScrapeConfig, ScrapePropertiesConfig } from "./types/config";
 import { createScrapedVenue, Venue } from "./venue";
 
 export const { config, scrape: scrapeProperties, parse, format } = create({
@@ -73,7 +73,7 @@ export async function scrape({
   return results.map((e) => createScrapedVenue(e));
 }
 
-async function scrapeVenue(page: puppeteer.Page | puppeteer.ElementHandle, properties: ScrapedPropertiesConfig) {
+async function scrapeVenue(page: puppeteer.Page | puppeteer.ElementHandle, properties: ScrapePropertiesConfig) {
   const results = await scrapeProperties(page, properties);
 
   if (results["phone"]) {

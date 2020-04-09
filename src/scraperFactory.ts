@@ -1,13 +1,13 @@
 import { LtsvRecord } from "ltsv";
 import puppeteer from "puppeteer";
 
-import { ScrapedPropertiesConfig, Selector } from "./types/config";
+import { ScrapePropertiesConfig, Selector } from "./types/config";
 import { _ScrapedProperties, ScrapeSetting } from "./types/scrape";
 
 export function create<T extends ScrapeSetting, U extends _ScrapedProperties<T>>(setting: T) {
   return {
     config: setting,
-    scrape: async (page: puppeteer.Page | puppeteer.ElementHandle, config: ScrapedPropertiesConfig<U>): Promise<U> => {
+    scrape: async (page: puppeteer.Page | puppeteer.ElementHandle, config: ScrapePropertiesConfig<U>): Promise<U> => {
       const result = {} as U;
 
       for (const [key, option] of Object.entries(setting)) {

@@ -21,11 +21,11 @@ export type ScrapeConfig<T = ScrapedProperties> = {
   url: string;
   options?: NavigationOptions;
   venues: {
-    [classPath: string]: ScrapedPropertiesConfig<T>;
+    [classPath: string]: ScrapePropertiesConfig<T>;
   };
 };
 
-export type ScrapedPropertiesConfig<T = ScrapedProperties> = {
+export type ScrapePropertiesConfig<T = ScrapedProperties> = {
   [key in keyof T]+?: T[key] extends infer U ? Selector<Exclude<U, undefined>> | U : never;
 } & { followLink?: Selector };
 
@@ -51,4 +51,4 @@ type Modifier<T> = (name: string) => T | undefined;
 type Fetcher = {
   fetch: FetchFunction;
 };
-type FetchFunction = () => Promise<any>; // actually Venue class
+type FetchFunction = () => Promise<Venue[]>;
