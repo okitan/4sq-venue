@@ -4,9 +4,10 @@
   "description": "manage venues",
   "main": "lib/index.js",
   "scripts": {
-    "add": "ts-node lib/cli.js add",
-    "scrape": "ts-node lib/cli.js scrape",
-    "link": "ts-node lib/cli.js link",
+    "4sq": "ts-node src/cli.ts",
+    "add": "ts-node src/cli.ts add",
+    "scrape": "ts-node src/cli.ts scrape",
+    "link": "ts-node src/cli.ts link",
     "test": "jest"
   },
   "repository": {

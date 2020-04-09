@@ -1,26 +1,37 @@
-"use strict";
+import yargs from "yargs";
 
-module.exports = {
-  command: "link <target> [Options]",
-  desc: "link scraped venues to foursquare venues",
-  builder: {},
-};
-
-const { getChildren } = require("../4sqClient");
-const { linkVenues } = require("../../src/linker");
-const {
-  VenueList,
+import { getChildren } from "../../lib/4sqClient";
+import { Extract } from "../cli";
+import { linkVenues } from "../linker";
+import { Config } from "../types/config";
+import {
   loadLinkedVenues,
-  updateLinkedVenues,
+  loadNoListVenues,
   loadScrapedVenues,
   loadUnLinkedVenues,
-  updateUnLinkedVenues,
-  loadNoListVenues,
+  updateLinkedVenues,
   updateNotLinkedVenues,
-} = require("../../src/venueList");
+  updateUnLinkedVenues,
+  VenueList,
+} from "../venueList";
 
-module.exports.handler = async ({ target, ...args }) => {
-  const config = require(`../../venues/${target}/config`);
+export const command = "link <target> [Options]";
+export const description = "link scraped venues to foursquare venues";
+
+export function builder<T extends yargs.Argv>(yargs: T) {
+  return (
+    yargs
+      // TODO: inject target by its branch name
+      .positional("target", {
+        type: "string",
+        description: "venue name",
+        demandOption: true,
+      })
+  );
+}
+
+export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+  const config = require(`../../venues/${target}/config`) as Config;
 
   const scrapedVenues = loadScrapedVenues(target);
 
@@ -77,4 +88,4 @@ module.exports.handler = async ({ target, ...args }) => {
   updateLinkedVenues(target, linkedVenues);
   updateNotLinkedVenues(target, notLinkedVenues);
   updateUnLinkedVenues(target, unLinkedVenues);
-};
+}
