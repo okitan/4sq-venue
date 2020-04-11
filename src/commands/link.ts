@@ -1,9 +1,10 @@
 import yargs from "yargs";
 
-import { getChildren } from "../../lib/4sqClient";
 import { Extract } from "../cli";
 import { linkVenues } from "../linker";
+import { addFoursquareClientOptions } from "../services/4sq";
 import { Config } from "../types/config";
+import { Venue } from "../venue";
 import {
   loadLinkedVenues,
   loadNoListVenues,
@@ -20,7 +21,7 @@ export const description = "link scraped venues to foursquare venues";
 
 export function builder<T extends yargs.Argv>(yargs: T) {
   return (
-    yargs
+    addFoursquareClientOptions(yargs)
       // TODO: inject target by its branch name
       .positional("target", {
         type: "string",
@@ -30,19 +31,22 @@ export function builder<T extends yargs.Argv>(yargs: T) {
   );
 }
 
-export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+export async function handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const config = require(`../../venues/${target}/config`) as Config;
 
   const scrapedVenues = loadScrapedVenues(target);
 
   const foursquareVenues = (
     await Promise.all(
-      [config.id, ...(config.subvenues || []).map((e) => e.id)].map(async (id) => {
-        const children = await getChildren(id);
-        return children;
+      [config, ...config.subvenues].map(async (parentVenue) => {
+        const response = await foursquareClient.getVenueChildren({ venueId: parentVenue.id });
+
+        return response.children.groups
+          .flatMap((group) => group.items)
+          .map((venue) => Venue.from(venue, { parentVenueId: parentVenue.id }));
       })
     )
-  ).reduce((result, e) => {
+  ).reduce<VenueList>((result, e) => {
     // Promise.all(flatmap) also returns array of array, so I don't use flatmap
     result.push(...e);
     return result;
