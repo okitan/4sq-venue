@@ -38,12 +38,12 @@ export async function handler({ foursquareClient, target }: yargs.Arguments<Extr
 
   const foursquareVenues = (
     await Promise.all(
-      [config.id, ...(config.subvenues || []).map((e) => e.id)].map(async (id) => {
-        const response = await foursquareClient.getVenueChildren({ venueId: id });
+      [config, ...config.subvenues].map(async (parentVenue) => {
+        const response = await foursquareClient.getVenueChildren({ venueId: parentVenue.id });
 
         return response.children.groups
           .flatMap((group) => group.items)
-          .map((venue) => Venue.from(venue, { parentVenueId: id }));
+          .map((venue) => Venue.from(venue, { parentVenueId: parentVenue.id }));
       })
     )
   ).reduce<VenueList>((result, e) => {
