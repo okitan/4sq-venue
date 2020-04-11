@@ -39,7 +39,6 @@ export class Venue implements VenueProperties {
   }
 
   static from(foursquareVenue: FoursquareVenue, { parentVenueId }: { parentVenueId?: string }): Venue {
-    console.log(foursquareVenue);
     return new Venue({
       ...foursquareVenue,
       parentVenueId,
