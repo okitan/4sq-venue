@@ -2,6 +2,7 @@ import { LtsvRecord } from "ltsv";
 
 import { getSimilarity, isEqualName } from "./nameMatcher";
 import { format, parse, ScrapedProperties } from "./scraper";
+import { FoursquareVenue } from "./types/4sq/resource";
 
 type VenueProperties = {
   id?: string;
@@ -27,7 +28,7 @@ export class Venue implements VenueProperties {
     crossStreet,
     scraped,
     ...rest
-  }: VenueProperties & { [x: string]: unknown; scraped: ScrapedProperties }) {
+  }: VenueProperties & { [x: string]: unknown; scraped?: ScrapedProperties }) {
     this.id = id;
     this.name = name;
     this.parentVenueId = parentVenueId;
@@ -35,6 +36,15 @@ export class Venue implements VenueProperties {
 
     this.scraped = parse(scraped || (rest as LtsvRecord));
     this.rest = rest;
+  }
+
+  static from(foursquareVenue: FoursquareVenue, { parentVenueId }: { parentVenueId?: string }): Venue {
+    console.log(foursquareVenue);
+    return new Venue({
+      ...foursquareVenue,
+      parentVenueId,
+      crossStreet: foursquareVenue.location.crossStreet || undefined,
+    });
   }
 
   static get keys(): ReadonlyArray<keyof VenueProperties> {
