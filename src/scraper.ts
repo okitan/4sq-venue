@@ -3,7 +3,7 @@ import puppeteer from "puppeteer";
 import { phoneExtractor } from "./modifier";
 import { applySelector, create } from "./scraperFactory";
 import { ScrapeConfig, ScrapePropertiesConfig } from "./types/config";
-import { createScrapedVenue, Venue } from "./venue";
+import { Venue } from "./venue";
 
 export const { config, scrape: scrapeProperties, parse, format } = create({
   name: { type: "string", required: true },
@@ -70,7 +70,7 @@ export async function scrape({
     if (browser) await browser.close();
   }
 
-  return results.map((e) => createScrapedVenue(e));
+  return results.map((e) => Venue.fromScraped(e));
 }
 
 async function scrapeVenue(page: puppeteer.Page | puppeteer.ElementHandle, properties: ScrapePropertiesConfig) {
