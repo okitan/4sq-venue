@@ -5,7 +5,7 @@ import { ScrapedProperties } from "../scraper";
 export type Config<T = ScrapedProperties> = Venue & {
   subvenues: Venue[];
   linker: Linker;
-  scraper: ReadonlyArray<ScrapeConfig<T> | Fetcher>;
+  scraper: ReadonlyArray<ScrapeConfig<T> | Fetcher<T>>;
 };
 
 type Venue = {
@@ -48,7 +48,7 @@ type SelectorOption<T> = {
 
 type Modifier<T> = (name: string) => T | undefined;
 
-type Fetcher = {
-  fetch: FetchFunction;
+type Fetcher<T> = {
+  fetch: FetchFunction<T>;
 };
-type FetchFunction = () => Promise<Venue[]>;
+type FetchFunction<T> = () => Promise<T[]>;
