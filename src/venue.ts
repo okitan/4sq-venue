@@ -31,12 +31,16 @@ export class Venue {
     this.rest = rest;
   }
 
-  static from(foursquareVenue: FoursquareVenue, { parentVenueId }: { parentVenueId?: string }): Venue {
+  static fromFoursquare(foursquareVenue: FoursquareVenue, { parentVenueId }: { parentVenueId?: string }): Venue {
     return new Venue({
       ...foursquareVenue,
       parentVenueId,
       crossStreet: foursquareVenue.location.crossStreet || undefined,
     });
+  }
+
+  static fromScraped(properties: ScrapedProperties): Venue {
+    return new Venue({ scraped: properties });
   }
 
   get nameCandidates() {
@@ -90,8 +94,4 @@ export class Venue {
 
     return object;
   }
-}
-
-export function createScrapedVenue(data: ScrapedProperties) {
-  return new Venue({ scraped: data });
 }

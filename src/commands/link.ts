@@ -43,7 +43,7 @@ export async function handler({ foursquareClient, target }: yargs.Arguments<Extr
 
         return response.children.groups
           .flatMap((group) => group.items)
-          .map((venue) => Venue.from(venue, { parentVenueId: parentVenue.id }));
+          .map((venue) => Venue.fromFoursquare(venue, { parentVenueId: parentVenue.id }));
       })
     )
   ).reduce<VenueList>((result, e) => {
