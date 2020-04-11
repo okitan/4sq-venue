@@ -1,8 +1,8 @@
 import fetch from "node-fetch";
 
 import { phoneExtractor } from "../../src/modifier";
+import { ScrapedProperties } from "../../src/scraper";
 import { Config } from "../../src/types/config";
-import { Venue } from "../../src/venue";
 
 const config: Config = {
   id: "5d7b5d89d1334200083e1ae2",
@@ -17,20 +17,20 @@ const config: Config = {
   },
   scraper: [
     {
-      fetch: async () => {
+      fetch: async (): Promise<ScrapedProperties[]> => {
         const url = "https://tacsis-cdn-endpoint.azureedge.net/cms-web/shop.json";
 
         const result = await (await fetch(url)).json(); // TODO: declare response schema
 
         return result.map((shop: any) => {
-          return Venue.fromScraped({
+          return {
             name: shop.shop_name,
             altName: shop.shop_name_kana,
             phone: phoneExtractor(shop.phone_no),
             bldg: undefined,
             level: parseInt((shop.floor as string).replace("F", "").replace("B", "-")),
             url: `https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=${shop.shop_id}`,
-          });
+          };
         });
       },
     },

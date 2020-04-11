@@ -2,7 +2,8 @@ import ora from "ora";
 import yargs from "yargs";
 
 import { Extract } from "../cli";
-import { scrape } from "../scraper";
+import { scrape, ScrapedProperties } from "../scraper";
+import { Venue } from "../venue";
 import { updateScrapedVenues, VenueList } from "../venueList";
 
 export const command = "scrape <target> [Options]";
@@ -24,7 +25,7 @@ export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typ
   const config = require(`../../venues/${target}/config`);
   const targets = config.scraper || [];
 
-  const results = new VenueList();
+  const results: ScrapedProperties[] = [];
   // scrape not in pararelle
   for (const { url, options, venues, fetch } of targets) {
     const spinner = ora().start();
@@ -59,5 +60,5 @@ export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typ
     }
   }
 
-  updateScrapedVenues(target, results);
+  updateScrapedVenues(target, new VenueList(...results.map((e) => Venue.fromScraped(e))));
 }

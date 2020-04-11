@@ -3,7 +3,6 @@ import puppeteer from "puppeteer";
 import { phoneExtractor } from "./modifier";
 import { applySelector, create } from "./scraperFactory";
 import { ScrapeConfig, ScrapePropertiesConfig } from "./types/config";
-import { Venue } from "./venue";
 
 export const { config, scrape: scrapeProperties, parse, format } = create({
   name: { type: "string", required: true },
@@ -21,7 +20,7 @@ export async function scrape({
   options,
   venues,
   notify,
-}: ScrapeConfig & { notify: (message: string) => void }): Promise<Venue[]> {
+}: ScrapeConfig & { notify: (message: string) => void }): Promise<ScrapedProperties[]> {
   const results: ScrapedProperties[] = [];
 
   let browser;
@@ -70,7 +69,7 @@ export async function scrape({
     if (browser) await browser.close();
   }
 
-  return results.map((e) => Venue.fromScraped(e));
+  return results;
 }
 
 async function scrapeVenue(page: puppeteer.Page | puppeteer.ElementHandle, properties: ScrapePropertiesConfig) {
