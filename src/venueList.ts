@@ -2,7 +2,7 @@ import fs from "fs";
 import { format, parse } from "ltsv";
 
 import { format as formatScraped, ScrapedProperties } from "./scraper";
-import { createScrapedVenue, Venue } from "./venue";
+import { Venue } from "./venue";
 
 export class VenueList extends Array<Venue> {
   findVenueIndex(venue: Venue, { ignore = [], guess = false }: { ignore?: string[]; guess?: boolean } = {}) {
@@ -96,7 +96,8 @@ export function updateScrapedVenues(target: string, venues: VenueList): void {
 }
 export function loadScrapedVenues(target: string) {
   return new VenueList(
-    ...parse(fs.readFileSync(`venues/${target}/scraped.ltsv`).toString()).map((e) => createScrapedVenue(e as any))
+    // level is converted to string in ltsv (it makes type error) and we should create another method
+    ...parse(fs.readFileSync(`venues/${target}/scraped.ltsv`).toString()).map((e) => Venue.fromScraped(e as any))
   );
 }
 

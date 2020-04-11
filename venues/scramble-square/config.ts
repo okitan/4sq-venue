@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 
 import { phoneExtractor } from "../../src/modifier";
 import { Config } from "../../src/types/config";
-import { createScrapedVenue } from "../../src/venue";
+import { Venue } from "../../src/venue";
 
 const config: Config = {
   id: "5d7b5d89d1334200083e1ae2",
@@ -23,7 +23,7 @@ const config: Config = {
         const result = await (await fetch(url)).json(); // TODO: declare response schema
 
         return result.map((shop: any) => {
-          return createScrapedVenue({
+          return Venue.fromScraped({
             name: shop.shop_name,
             altName: shop.shop_name_kana,
             phone: phoneExtractor(shop.phone_no),
