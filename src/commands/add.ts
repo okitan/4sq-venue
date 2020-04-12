@@ -51,6 +51,7 @@ export class VenueGenerator extends Generator {
 
     // fetch venue
     this.venue = new Venue(await (await this.foursquareClient.getVenue({ venueId: options.venueId })).venue);
+
     // fetch subvenues
     this.subVenues = await Promise.all(
       options.subVenueId.map(async (id) => new Venue((await this.foursquareClient.getVenue({ venueId: id })).venue))
@@ -60,19 +61,18 @@ export class VenueGenerator extends Generator {
   writing() {
     if (!this.venue) throw `no venue assigned`; //never
 
-    const options = this.options as yargs.Arguments<Extract<ReturnType<typeof builder>>>;
-    const target = options.target;
+    const { target } = this.options as yargs.Arguments<Extract<ReturnType<typeof builder>>>;
 
-    // config.js
-    this.fs.copyTpl(this.templatePath("config.ts"), this.destinationPath(`venues/${target}/config.ts`), {
+    // config
+    const configPath = this.destinationPath(`venues/${target}/config.ts`);
+
+    this.fs.copyTpl(this.templatePath("config.ts"), configPath, {
       id: this.venue.id,
       name: this.venue.name,
       subVenues: this.subVenues.map((venue) => {
         return { id: venue.id, name: venue.name };
       }),
     });
-    this.spawnCommand("npx", ["prettier", "--write", this.destinationPath(`venues/${target}/config.ts`)]);
-
-    // github actions
+    this.spawnCommand("npx", ["prettier", "--write", configPath]);
   }
 }
