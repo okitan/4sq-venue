@@ -40,10 +40,7 @@ export function handler({ target, foursquareName, scrapedName }: yargs.Arguments
   if (!foursquareVenue) throw `no foursquare venue found for ${foursquareName}`;
   if (!scrapedVenue) throw `no scraped venue found for ${scrapedName}`;
 
-  console.table({
-    foursquare: foursquareVenue.name,
-    scraped: scrapedVenue.scraped?.name,
-  });
+  console.table({ foursquare: foursquareVenue.name, scraped: scrapedVenue.scraped?.name });
 
   foursquareVenue.scraped = scrapedVenue.scraped;
   linkedVenues.push(foursquareVenue);
