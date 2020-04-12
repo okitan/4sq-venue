@@ -5,8 +5,6 @@ export type Extract<T> = T extends yargs.Argv<infer U> ? U : never;
 
 Yargs()
   .scriptName("$ npm run 4sq --")
-  // TODO: remove later
-  .commandDir("../lib/commands")
   .commandDir("./commands", { extensions: ["ts"] })
   .strict()
   .version(false)

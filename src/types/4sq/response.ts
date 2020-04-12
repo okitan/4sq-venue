@@ -1,4 +1,4 @@
-import { FoursquareVenue } from "./resource";
+import { DetailedFoursquareVenue, FoursquareVenue } from "./resource";
 
 export type SuccessfulFoursquareResponse = {
   meta: {
@@ -7,6 +7,12 @@ export type SuccessfulFoursquareResponse = {
   };
   response: {
     [x: string]: unknown;
+  };
+};
+
+export type SuccessfulGetVenueResponse = SuccessfulFoursquareResponse & {
+  response: {
+    venue: DetailedFoursquareVenue;
   };
 };
 
