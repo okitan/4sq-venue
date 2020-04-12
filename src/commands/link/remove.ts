@@ -17,6 +17,7 @@ export function builder(yargs: yargs.Argv) {
     },
     name: {
       type: "string",
+      alias: "n",
       array: true,
       demandOption: true,
     },
