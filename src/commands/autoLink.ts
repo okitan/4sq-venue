@@ -16,7 +16,7 @@ import {
   VenueList,
 } from "../venueList";
 
-export const command = "link <target> [Options]";
+export const command = "autoLink <target> [Options]";
 export const description = "link scraped venues to foursquare venues";
 
 export function builder<T extends yargs.Argv>(yargs: T) {
