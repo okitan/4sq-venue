@@ -1,13 +1,21 @@
 import fetch from "node-fetch";
 import yargs from "yargs";
 
-import { SuccessfulFoursquareResponse, SuccessfulGetVenueChildernResponse } from "../types/4sq/response";
+import {
+  SuccessfulFoursquareResponse,
+  SuccessfulGetVenueChildernResponse,
+  SuccessfulGetVenueResponse,
+} from "../types/4sq/response";
 
 export class FoursquareClient {
   accessToken: string;
 
   constructor({ accessToken }: Pick<FoursquareClient, "accessToken">) {
     this.accessToken = accessToken;
+  }
+
+  async getVenue({ venueId }: { venueId: string }): Promise<SuccessfulGetVenueResponse["response"]> {
+    return (await this._get(`/venues/${venueId}`)).response as SuccessfulGetVenueResponse["response"];
   }
 
   async getVenueChildren({ venueId }: { venueId: string }): Promise<SuccessfulGetVenueChildernResponse["response"]> {
