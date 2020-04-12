@@ -63,5 +63,5 @@
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
-  "include": ["src/**/*.ts","venues/**/*.ts", "src/commands/link.ts2"]
+  "include": ["src/**/*.ts","venues/**/*.ts"]
 }
