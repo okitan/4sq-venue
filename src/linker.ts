@@ -128,8 +128,9 @@ function guessVenues(
       });
 
       const best = Math.max(...scores.map(({ score }) => score));
-      return scores.find(({ score }) => score === best) as ScoredVenueSet; // umhh...
+      return scores.find(({ score }) => score === best);
     })
+    .filter((set): set is ScoredVenueSet => Boolean(set))
     .filter(({ score }) => score > 0.5) // heuristic threshold
     .filter(({ scrapedVenue, foursquareVenue }, _, array) => {
       const duplicates = array.filter((e) => foursquareVenue.equals(e.foursquareVenue));
