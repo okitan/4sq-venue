@@ -1,10 +1,10 @@
 import yargs from "yargs";
 
-import { Extract } from "../cli";
-import { linkVenues } from "../linker";
-import { addFoursquareClientOptions } from "../services/4sq";
-import { Config } from "../types/config";
-import { Venue } from "../venue";
+import { Extract } from "../../cli";
+import { linkVenues } from "../../linker";
+import { addFoursquareClientOptions } from "../../services/4sq";
+import { Config } from "../../types/config";
+import { Venue } from "../../venue";
 import {
   loadLinkedVenues,
   loadNoListVenues,
@@ -14,9 +14,9 @@ import {
   updateNotLinkedVenues,
   updateUnLinkedVenues,
   VenueList,
-} from "../venueList";
+} from "../../venueList";
 
-export const command = "autoLink <target> [Options]";
+export const command = "update <target> [Options]";
 export const description = "link scraped venues to foursquare venues";
 
 export function builder<T extends yargs.Argv>(yargs: T) {
@@ -32,7 +32,7 @@ export function builder<T extends yargs.Argv>(yargs: T) {
 }
 
 export async function handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  const config = require(`../../venues/${target}/config`) as Config;
+  const config = require(`../../../venues/${target}/config`) as Config;
 
   const scrapedVenues = loadScrapedVenues(target);
 
