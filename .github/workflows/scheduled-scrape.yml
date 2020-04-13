@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: switch to branch
-        run: git checkout "scrape-${{ matrix.venues }}" || git checkout -b "scrape-${{ matrix.venues }}"
+        run: git switch "scrape-${{ matrix.venues }}" || git switch -c "scrape-${{ matrix.venues }}"
       - run: npm ci
       - run: npm run scrape ${{ matrix.venues }}
         env:
