@@ -6,8 +6,9 @@
   "scripts": {
     "4sq": "ts-node src/cli.ts",
     "add": "ts-node src/cli.ts add",
-    "autoLink": "ts-node src/cli.ts autoLink",
+    "updateLink": "ts-node src/cli.ts link update",
     "scrape": "ts-node src/cli.ts scrape",
+    "link": "ts-node src/cli.ts link",
     "test": "jest"
   },
   "repository": {
