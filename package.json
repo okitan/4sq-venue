@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/yeoman-environment": "2.3.3",
     "jest": "25.4.0",
-    "prettier": "2.0.2",
+    "prettier": "2.0.5",
     "ts-jest": "25.4.0",
     "typescript": "3.8.3",
     "yeoman-generator": "4.7.2"
