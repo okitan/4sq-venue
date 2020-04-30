@@ -5,7 +5,7 @@ const config: Config = {
   name: "東急フードショー",
   subvenues: [],
   linker: {
-    ignore: ["東急", "東横店", "フードショー", "百貨店"],
+    ignore: ["東急", "フードショー"],
   },
   scraper: [
     {

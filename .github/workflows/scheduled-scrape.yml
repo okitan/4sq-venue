@@ -24,6 +24,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      - name: install libgbm
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm-dev
       - name: switch to branch
         run: git switch "scrape-${{ matrix.venues }}" || git switch -c "scrape-${{ matrix.venues }}"
       - run: npm ci
