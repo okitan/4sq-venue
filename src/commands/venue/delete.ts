@@ -33,7 +33,6 @@ export async function handler({
     if (dryRun) {
       console.log(`venue ${venue.name} (id: ${venue.id}) can be deleted. try --no-dry-run`);
     } else {
-      // DELETE
       const result = await foursquareClient.deleteVenue({ venueId });
 
       console.log(`venue ${result.name} is flagged(${result.flags.count})`);
