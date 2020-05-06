@@ -4,6 +4,9 @@ export type FoursquareVenue = {
   name: string;
   location: Location;
   categories: Category[];
+  flags: {
+    count: number;
+  };
 };
 
 // TODO: declare when I use
@@ -20,4 +23,23 @@ type Location = {
 type Category = {};
 
 // https://developer.foursquare.com/docs/api-reference/venues/details/
-export type DetailedFoursquareVenue = FoursquareVenue & {};
+export type DetailedFoursquareVenue = FoursquareVenue & {
+  likes: {
+    count: number;
+  };
+  beenHere: {
+    count: number;
+  };
+  photos: {
+    count: number;
+  };
+  reasons: {
+    count: number;
+  };
+  tips: {
+    count: number;
+  };
+  listed: {
+    count: number;
+  };
+};

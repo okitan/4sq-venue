@@ -10,6 +10,10 @@ export type SuccessfulFoursquareResponse = {
   };
 };
 
+export type SuccessfulVenueResponse = SuccessfulFoursquareResponse & {
+  response: FoursquareVenue;
+};
+
 export type SuccessfulGetVenueResponse = SuccessfulFoursquareResponse & {
   response: {
     venue: DetailedFoursquareVenue;
