@@ -52,7 +52,7 @@ export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typ
         spinner.succeed([`Scraped ${scrapeConfig.url}`, `${result.length} venues found`].join("\n"));
       }
     } catch (err) {
-      spinner.fail([`Scrape errors agains ${scrapeConfig}`, err].join("\n"));
+      spinner.fail([`Scrape errors against ${JSON.stringify(scrapeConfig)}`, err].join("\n"));
       throw err;
     }
   }
