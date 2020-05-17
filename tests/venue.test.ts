@@ -1,8 +1,6 @@
-"use strict";
+import { Venue } from "../src/venue";
 
-const { Venue } = require("../src/venue");
-
-describe("Venue", () => {
+describe(Venue, () => {
   describe(".getSimilarityOfName", () => {
     test("returns the most similar score", () => {
       const a = new Venue({
@@ -10,6 +8,10 @@ describe("Venue", () => {
         scraped: {
           name: "アイウエオ",
           altName: "AIUEO",
+          bldg: "",
+          level: 0,
+          phone: "",
+          url: "",
         },
       });
 
@@ -17,6 +19,11 @@ describe("Venue", () => {
         name: "あいうえおほげ",
         scraped: {
           name: "あいうえおB",
+          altName: "",
+          bldg: "",
+          level: 0,
+          phone: "",
+          url: "",
         },
       });
 

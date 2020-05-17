@@ -1,4 +1,4 @@
-const { getSimilarity } = require("../src/nameMatcher");
+import { getSimilarity } from "../src/nameMatcher";
 
 describe.each`
   description                        | a                 | b                 | score
