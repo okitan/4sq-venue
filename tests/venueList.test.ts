@@ -1,9 +1,7 @@
-"use strict";
+import { Venue } from "../src/venue";
+import { VenueList } from "../src/venueList";
 
-const { VenueList } = require("../src/venueList");
-const { Venue } = require("../src/venue");
-
-describe("VenueList", () => {
+describe(VenueList, () => {
   describe(".removeVenue", () => {
     test("returns null if not matched", () => {
       const list = new VenueList(
