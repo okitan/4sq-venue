@@ -1,3 +1,4 @@
-id:50079a1de4b0b9bb92511fbb	parentVenueId:4bd557cc6798ef3b4735638d	name:エコステーション21 渋谷ヒカリエ駐輪場	crossStreet:	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:	desc:
-id:5a6fe9dd2d2fd97316eacbab	parentVenueId:4bd557cc6798ef3b4735638d	name:Azure Antenna	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.level:	scraped.phone:	scraped.url:	desc:https://azure.connpass.com/
-id:5c189660c9f907002c09f590	parentVenueId:4f7f9ceae4b023c637e055ec	name:JTBウエディングプラザ	crossStreet:渋谷ヒカリエ ShinQs 4F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:	desc:JTB4F内
+id:50079a1de4b0b9bb92511fbb	parentVenueId:4bd557cc6798ef3b4735638d	name:エコステーション21 渋谷ヒカリエ駐輪場	crossStreet:	desc:
+id:5a6fe9dd2d2fd97316eacbab	parentVenueId:4bd557cc6798ef3b4735638d	name:Azure Antenna	crossStreet:渋谷ヒカリエ 8F	desc:https://azure.connpass.com/
+id:5c189660c9f907002c09f590	parentVenueId:4f7f9ceae4b023c637e055ec	name:JTBウエディングプラザ	crossStreet:渋谷ヒカリエ ShinQs 4F	desc:JTB4F内
+id:5066de95e4b062f08ec176a5	parentVenueId:4f7f9ceae4b023c637e055ec	name:Switch Living	crossStreet:渋谷ヒカリエ ShinQs B2F	desc:トイレ
