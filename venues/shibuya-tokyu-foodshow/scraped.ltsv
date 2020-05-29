@@ -23,7 +23,7 @@ name:シュマンケルステューベ	altName:	bldg:	level:	phone:0334774129	ur
 name:ターブル・オギノ	altName:	bldg:	level:	phone:0334774443	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=tableogino
 name:トウキョウ サイカボウ デリ	altName:	bldg:	level:	phone:0334774303	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=tokyosaikabodeli
 name:トップス	altName:	bldg:	level:	phone:0334962010	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=TOPS
-name:ドゥ マゴ ベーカリー	altName:	bldg:	level:	phone:	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=DEUXMAGOTS
+name:ドゥ マゴ ベーカリー	altName:	bldg:	level:	phone:0334774367	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=DEUXMAGOTS
 name:ハヤシフルーツ	altName:	bldg:	level:	phone:0334774320	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=HAYASHIFRUITS
 name:ハヤシフルーツ ジューススタンド	altName:	bldg:	level:	phone:	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=JUICESTAND
 name:パオパオ	altName:	bldg:	level:	phone:0334774801	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=PAOPAO
@@ -42,6 +42,7 @@ name:京粕漬 魚久	altName:	bldg:	level:	phone:	url:https://www.tokyu-dept.co
 name:京都 錦 平野	altName:	bldg:	level:	phone:0334774335	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=NISHIKIHIRANO
 name:今日の食卓	altName:	bldg:	level:	phone:	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kyounosyokutaku
 name:俺のベーカリー	altName:	bldg:	level:	phone:0334774579	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=orenobakery
+name:加賀麩 不室屋	altName:	bldg:	level:	phone:	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=humuroya
 name:味の浜藤	altName:	bldg:	level:	phone:0334774321	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=AJINOHAMATOb1
 name:和洋酒	altName:日本酒・ワイン・ウイスキー・ビール	bldg:	level:	phone:0334774308	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=wine
 name:和食屋の惣菜 えん	altName:	bldg:	level:	phone:0334774484	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=EN
@@ -68,12 +69,12 @@ name:浅草梅園	altName:	bldg:	level:	phone:0334774195	url:https://www.tokyu-d
 name:浪花 古市庵・越後屋甚兵衛	altName:	bldg:	level:	phone:0334774863	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ECHIGOYAJIMBEEKOICHIAN
 name:渋谷サーモンスクエア	altName:	bldg:	level:	phone:0334774463	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SALMONFACTORY
 name:渋谷魚河岸	altName:	bldg:	level:	phone:0334774166	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=shibuyauogashi
+name:百年、つけもの一心 まるこし	altName:	bldg:	level:	phone:	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=marukoshi
 name:神戸コロッケ	altName:	bldg:	level:	phone:0334774434	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=KOBECROQUETTE
 name:精肉あづま	altName:	bldg:	level:	phone:0334774318	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SEINIKUAZUMAb1
 name:諸国銘産	altName:	bldg:	level:	phone:0334774307	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SHOKOKUMEISAN
 name:諸国銘菓	altName:	bldg:	level:	phone:0334774307	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SHOKOKUMEIKA
 name:豆源	altName:	bldg:	level:	phone:0334774607	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=MAMEGEN
-name:辰巳芳子さんのすすめる味［諸国銘産売場］	altName:	bldg:	level:	phone:0334774307	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=tatsumi
 name:銀座あけぼの	altName:	bldg:	level:	phone:0334774505	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=GINZAAKEBONO
 name:銀座ハゲ天	altName:	bldg:	level:	phone:0334774325	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=GINZAHAGETEN
 name:高光のつけもの	altName:	bldg:	level:	phone:0334774322	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=TAKAMITUNOTUKEMONO
