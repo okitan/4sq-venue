@@ -15,8 +15,8 @@ const config: Config = {
       venues: {
         "#shopList div.item:not(.all)": {
           followLink: { selector: "a", property: "href" },
-          name: { selector: "h3", modifier: (name) => name.split("｜")[0] },
-          altName: { selector: "h3", modifier: (name) => name.split("｜")[1] },
+          name: { selector: "h3", modifier: (name) => name.split("｜")[0].trim() },
+          altName: { selector: "h3", modifier: (name) => name.split("｜")[1].trim() },
           phone: { xpath: "//dt[contains(text(), '電話')]/following-sibling::dd" }, // contains is only by xpath
           level: { selector: "#subData dd:nth-of-type(1)", modifier: levelExtractor },
         },
