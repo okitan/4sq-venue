@@ -15,6 +15,7 @@ id:5071029ee4b0e78a1a99fb7d	parentVenueId:4fa8cfe1e4b01db6889d52e1	name:aiiima	c
 id:4fa8cfe1e4b01db6889d52e1	parentVenueId:4bd557cc6798ef3b4735638d	name:8/	crossStreet:渋谷ヒカリエ 8F
 id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	crossStreet:渋谷ヒカリエ B3F-5F
 id:513da676e4b090bbbeb9b743	parentVenueId:4f7f9ceae4b023c637e055ec	name:ShinQs ナチュラルマーケット	crossStreet:渋谷ヒカリエ ShinQs B3F
+id:5ee8736edd56ba00075215f0	parentVenueId:4f7f9ceae4b023c637e055ec	name:東横のれん街	crossStreet:渋谷ヒカリエ ShinQs 地下2・3階
 id:	parentVenueId:	name:	crossStreet:	scraped.name:SHIBUYA FARM CURRY	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275485	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=farmcurry
 id:	parentVenueId:	name:	crossStreet:	scraped.name:matcha LOVE ITOEN	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341880	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=matchalove
 id:	parentVenueId:	name:	crossStreet:	scraped.name:いとはん	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274844	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=itohan
@@ -29,7 +30,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:エクリュ	scraped.altName:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:サラダボウル専門店 WithGreen	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275485	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=withgreen
 id:	parentVenueId:	name:	crossStreet:	scraped.name:シェフズプレス	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275470	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=chefspress
 id:	parentVenueId:	name:	crossStreet:	scraped.name:デリベイク明治屋	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341917	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delibake_meidiya
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ブッチャーズ マザー	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275246	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=butchersmother
 id:	parentVenueId:	name:	crossStreet:	scraped.name:中島水産	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275812	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nakajimasuisan
 id:	parentVenueId:	name:	crossStreet:	scraped.name:京料理 美濃吉	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364273920	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=minokichi
 id:	parentVenueId:	name:	crossStreet:	scraped.name:味の浜藤	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364273716	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ajinohamatou
