@@ -8,7 +8,7 @@ const config: Config = {
     { id: "4fa8cfe1e4b01db6889d52e1", name: "8/" },
   ],
   linker: {
-    ignore: ["ヒカリエ", "shinqs", "渋谷"],
+    ignore: ["ヒカリエ", "shinqs", "渋谷", "のれん街", "東急"],
   },
   scraper: [
     // background floor of Shinqs
