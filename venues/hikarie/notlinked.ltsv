@@ -1,4 +1,3 @@
-id:5f118219a3aaf13f096741a2	parentVenueId:4f7f9ceae4b023c637e055ec	name:仙太郎 東急のれん街店	crossStreet:
 id:5860a98545c3ed1e7dfcc126	parentVenueId:4bd557cc6798ef3b4735638d	name:東急百貨店渋谷本店循環バス 渋谷駅発着所	crossStreet:
 id:5e5a600ec2d8a80008bc2e6c	parentVenueId:4bd557cc6798ef3b4735638d	name:渋谷ヒカリエ7階喫煙所	crossStreet:
 id:5df85c2b8ed59900088f7802	parentVenueId:4bd557cc6798ef3b4735638d	name:神棚の里	crossStreet:
@@ -73,7 +72,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:加賀麩 不室屋	scraped.a
 id:	parentVenueId:	name:	crossStreet:	scraped.name:和楽紅屋	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364341733	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=waraku
 id:	parentVenueId:	name:	crossStreet:	scraped.name:泉屋	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364272671	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=izumiya
 id:	parentVenueId:	name:	crossStreet:	scraped.name:清月堂本店	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364272309	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=seigetsudohonten
-id:	parentVenueId:	name:	crossStreet:	scraped.name:直中 仙太郎	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364272165	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sentaro
 id:	parentVenueId:	name:	crossStreet:	scraped.name:空いろ	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364272756	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sorairo
 id:	parentVenueId:	name:	crossStreet:	scraped.name:芳翠園	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364272940	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=housuien
 id:	parentVenueId:	name:	crossStreet:	scraped.name:赤坂柿山	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364272441	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kakiyama
