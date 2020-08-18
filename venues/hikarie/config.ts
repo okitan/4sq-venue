@@ -6,6 +6,7 @@ const config: Config = {
   subvenues: [
     { id: "4f7f9ceae4b023c637e055ec", name: "ShinQs" },
     { id: "4fa8cfe1e4b01db6889d52e1", name: "8/" },
+    { id: "5ee8736edd56ba00075215f0", name: "東横のれん街" },
   ],
   linker: {
     ignore: ["ヒカリエ", "shinqs", "渋谷", "のれん街", "東急"],
