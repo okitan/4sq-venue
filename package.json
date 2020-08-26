@@ -34,7 +34,7 @@
     "@types/jest": "26.0.10",
     "@types/yeoman-environment": "2.10.1",
     "jest": "26.4.2",
-    "prettier": "2.1.0",
+    "prettier": "2.1.1",
     "ts-jest": "26.2.0",
     "typescript": "3.9.7",
     "yeoman-generator": "4.11.0"
