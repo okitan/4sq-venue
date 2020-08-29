@@ -160,7 +160,6 @@ name:JTB	altName:ウエディング	bldg:	level:2	phone:0364193188	url:https://w
 name:M・A・C	altName:マック	bldg:	level:2	phone:0334868027	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maccosmetics
 name:ShinQs パーツ ジョイスト	altName:	bldg:	level:2	phone:0364341724	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqspartsjoyst
 name:me ISSEY MIYAKE	altName:	bldg:	level:2	phone:0364341694	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meisseymiyake
-name:rooms Ji-Ba	altName:ルームス ジーバ	bldg:	level:2	phone:0364271544	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=roomsjiba
 name:めっちゃバナナ	altName:	bldg:	level:2	phone:0364341740	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mecchabanana
 name:イベントステージ 2	altName:	bldg:	level:2	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventstage2
 name:オルビス・ザ・ショップ	altName:	bldg:	level:2	phone:0364341625	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=orbis
@@ -224,6 +223,7 @@ name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:http
 name:AIUEO	altName:	bldg:	level:5	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aiueo
 name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:5	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
 name:IDEE SHOP VARIETE	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
+name:MAKANAI	altName:	bldg:	level:5	phone:0368051913	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
 name:U.Q	altName:	bldg:	level:5	phone:0364273227	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=uq
@@ -235,7 +235,6 @@ name:ザ･マーケットプレイス	altName:	bldg:	level:5	phone:	url:https:/
 name:タピエスタイル	altName:	bldg:	level:5	phone:0364275301	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
 name:ハニーロア	altName:	bldg:	level:5	phone:0364341647	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=honeyroa
 name:バースデイ・バー	altName:	bldg:	level:5	phone:0334862369	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=birthdaybar
-name:マカナイ	altName:	bldg:	level:5	phone:0368051913	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 name:ル・クルーゼ	altName:	bldg:	level:5	phone:0368050913	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lecreuset
 name:日本百貨店	altName:	bldg:	level:5	phone:0364271930	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nippondept
 name:茶庭 然花抄院	altName:	bldg:	level:5	phone:0364341517	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sateizenkashoin
