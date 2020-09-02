@@ -3,6 +3,7 @@ id:5e088cb300d4910008d0fc8d	parentVenueId:5d7b5d89d1334200083e1ae2	name:イベ�
 id:5d8da72d8fc86c000828cfdd	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社サイバーエージェント	crossStreet:渋谷スクランブルスクエア 21F
 id:5dbbfc56f920bc0008f0d675	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社ミクシィ	crossStreet:渋谷スクランブルスクエア 36F
 id:5dbd3344607ad200089af120	parentVenueId:5d7b5d89d1334200083e1ae2	name:三菱UFJ銀行 ATMコーナー	crossStreet:渋谷スクランブルスクエア 5F
+id:5f4f265888944a58b50d5f68	parentVenueId:5d7b5d89d1334200083e1ae2	name:ますいわ屋 渋谷スクランブルスクエア店	crossStreet:渋谷スクランブルスクエア 9F
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Les Viandes par Table Ogino	scraped.altName:レ ヴィアンド パー ターブルオギノ	scraped.bldg:	scraped.level:-2	scraped.phone:0364511735	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=329
 id:	parentVenueId:	name:	crossStreet:	scraped.name:RF1	scraped.altName:アール・エフ・ワン	scraped.bldg:	scraped.level:-2	scraped.phone:0364335487	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=327
 id:	parentVenueId:	name:	crossStreet:	scraped.name:medite	scraped.altName:メディテ	scraped.bldg:	scraped.level:-2	scraped.phone:0364335969	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=342
