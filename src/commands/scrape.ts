@@ -10,7 +10,7 @@ import { updateScrapedVenues, VenueList } from "../venueList";
 export const command = "scrape <target> [Options]";
 export const description = "scrape venues";
 
-export function builder<T extends yargs.Argv>(yargs: T) {
+export function builder<T>(yargs: yargs.Argv<T>) {
   return (
     yargs
       // TODO: inject target by its branch name

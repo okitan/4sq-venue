@@ -9,7 +9,7 @@ import { Venue } from "../venue";
 export const command = "add <target>";
 export const description = "add venue";
 
-export function builder(yargs: yargs.Argv) {
+export function builder<T>(yargs: yargs.Argv<T>) {
   return addFoursquareClientOptions(yargs)
     .positional("target", { type: "string", demandOption: true })
     .options({
@@ -32,7 +32,6 @@ export function builder(yargs: yargs.Argv) {
 export function handler(args: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const env = yeoman.createEnv();
 
-  // @ts-ignore Generator should be typed as class
   const generator = env.instantiate(VenueGenerator, { arguments: [], options: args });
 
   generator.run();

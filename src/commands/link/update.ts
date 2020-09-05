@@ -19,7 +19,7 @@ import {
 export const command = "update <target> [Options]";
 export const description = "link scraped venues to foursquare venues";
 
-export function builder<T extends yargs.Argv>(yargs: T) {
+export function builder<T>(yargs: yargs.Argv<T>) {
   return (
     addFoursquareClientOptions(yargs)
       // TODO: inject target by its branch name
