@@ -8,7 +8,7 @@ import { loadLinkedVenues } from "../../venueList";
 export const command = "check";
 export const description = "check links";
 
-export function builder(yargs: yargs.Argv) {
+export function builder<T>(yargs: yargs.Argv<T>) {
   return yargs.options({
     target: {
       type: "string",
