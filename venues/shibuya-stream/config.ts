@@ -1,4 +1,5 @@
 import { levelExtractor } from "../../src/modifier";
+import { applySelector } from "../../src/scraperFactory";
 import { Config } from "../../src/types/config";
 
 const config: Config = {
@@ -23,6 +24,7 @@ const config: Config = {
           altName: { selector: ".shop_kana" },
           phone: { selector: ".shop_detail_list dd:nth-of-type(3)" },
           level: { selector: ".shop_detail_list .floor_no", modifier: levelExtractor },
+          skip: async (item) => (await applySelector(item, { selector: ".shop_name" })) === "Coming soon...",
         },
       },
     },
