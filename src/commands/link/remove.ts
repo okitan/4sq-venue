@@ -8,7 +8,7 @@ import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLin
 export const command = "remove";
 export const description = "remove link";
 
-export function builder(yargs: yargs.Argv) {
+export function builder<T>(yargs: yargs.Argv<T>) {
   return yargs.options({
     target: {
       type: "string",

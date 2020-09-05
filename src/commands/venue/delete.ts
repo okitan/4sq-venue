@@ -7,7 +7,7 @@ import { DetailedFoursquareVenue } from "../../types/4sq/resource";
 export const command = "delete <venueId>";
 export const description = "delete venue";
 
-export function builder(yargs: yargs.Argv) {
+export function builder<T>(yargs: yargs.Argv<T>) {
   return addFoursquareClientOptions(yargs)
     .positional("venueId", {
       type: "string",
@@ -22,7 +22,15 @@ export function builder(yargs: yargs.Argv) {
     });
 }
 
-export async function handler({
+// handler cannot be async
+export function handler(args: Parameters<typeof _handler>[0]) {
+  _handler(args).catch((err) => {
+    console.error(err);
+    process.exit(129);
+  });
+}
+
+export async function _handler({
   foursquareClient,
   venueId,
   dryRun,
