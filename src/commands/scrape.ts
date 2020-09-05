@@ -10,7 +10,7 @@ import { updateScrapedVenues, VenueList } from "../venueList";
 export const command = "scrape <target> [Options]";
 export const description = "scrape venues";
 
-export function builder<T extends yargs.Argv>(yargs: T) {
+export function builder<T>(yargs: yargs.Argv<T>) {
   return (
     yargs
       // TODO: inject target by its branch name
@@ -22,7 +22,15 @@ export function builder<T extends yargs.Argv>(yargs: T) {
   );
 }
 
-export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+// handler cannot be async
+export function handler(args: Parameters<typeof _handler>[0]) {
+  _handler(args).catch((err) => {
+    console.error(err);
+    process.exit(129);
+  });
+}
+
+export async function _handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const config = require(`../../venues/${target}/config`) as Config;
 
   const results: ScrapedProperties[] = [];
