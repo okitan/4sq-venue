@@ -33,13 +33,15 @@ export async function scrape({
     const page = await browser.newPage();
     await page.goto(url, options);
 
-    for (const [selector, { followLink, ...properties }] of Object.entries(venues)) {
+    for (const [selector, { followLink, skip, ...properties }] of Object.entries(venues)) {
       const items = await page.$$(selector);
 
       if (items.length === 0) throw `no venues found for ${selector}`;
 
-      // console.error("\n", detail);
       for (const item of items) {
+        // check skip
+        if (skip && (await skip(item))) continue;
+
         if (followLink) {
           const subVenueUrl = await applySelector(item, followLink);
           if (!subVenueUrl) throw `no sub venue found for ${followLink}`;
