@@ -1,7 +1,8 @@
 import { LtsvRecord } from "ltsv";
 
+import { format as formatScraped, parse } from "./ltsv";
 import { getSimilarity, isEqualName } from "./nameMatcher";
-import { format as formatScraped, parse, ScrapedProperties } from "./scraper";
+import { ScrapedProperties } from "./scraper";
 import { FoursquareVenue } from "./types/4sq/resource";
 
 export class Venue {
@@ -27,7 +28,7 @@ export class Venue {
     this.parentVenueId = parentVenueId;
     this.crossStreet = crossStreet;
 
-    this.scraped = parse(scraped || (rest as LtsvRecord));
+    this.scraped = parse((scraped || rest) as LtsvRecord);
     this.rest = rest;
   }
 

@@ -1,5 +1,5 @@
 import { levelExtractor } from "../../src/modifier";
-import { applySelector } from "../../src/scraperFactory";
+import { applySelector } from "../../src/scraper";
 import { Config } from "../../src/types/config";
 
 const config: Config = {

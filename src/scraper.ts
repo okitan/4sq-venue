@@ -1,19 +1,21 @@
 import puppeteer from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
-import { applySelector, create } from "./scraperFactory";
-import { ScrapeConfig, ScrapePropertiesConfig } from "./types/config";
+import { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";
 
-export const { config, scrape: scrapeProperties, parse, format } = create({
-  name: { type: "string", required: true },
-  altName: { type: "string" },
-  bldg: { type: "string" },
-  level: { type: "number" },
-  phone: { type: "string" },
-  url: { type: "string" },
-});
+// name is mandatory
+export const stringProperties = ["altName", "bldg", "phone", "url"] as const;
+export const numberProperties = ["level"] as const;
 
-export type ScrapedProperties = Parameters<typeof format> extends [infer T, ...any[]] ? T : never;
+type Unpacked<T> = T extends { [K in keyof T]: infer U } ? U : never;
+export type ScrapedProperties = {
+  name: string;
+} & {
+  [x in Unpacked<typeof stringProperties>]?: string;
+} &
+  {
+    [y in Unpacked<typeof numberProperties>]?: number;
+  };
 
 export async function scrape({
   url,
@@ -82,4 +84,72 @@ async function scrapeVenue(page: puppeteer.Page | puppeteer.ElementHandle, prope
   }
 
   return results;
+}
+
+async function scrapeProperties(
+  page: puppeteer.Page | puppeteer.ElementHandle,
+  config: ScrapePropertiesConfig<ScrapedProperties>
+): Promise<ScrapedProperties> {
+  // name
+  const value = await applySelector(page, config.name);
+  if (!value) throw "name not found"; // TODO: more info
+
+  const result: ScrapedProperties = { name: value };
+
+  for (const property of stringProperties) {
+    const propertyConfig = config[property];
+    if (!propertyConfig) continue;
+
+    if (typeof propertyConfig === "string") {
+      result[property] = propertyConfig;
+      continue;
+    }
+
+    const value = await applySelector(page, propertyConfig);
+    if (value) {
+      const normalizedValue = value
+        .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 65248))
+        .replace(/\s/g, " ") // node includes 全角スペース to \s
+        .replace(/ +/g, " ")
+        .trim();
+
+      result[property] = propertyConfig.modifier ? propertyConfig.modifier(normalizedValue) : normalizedValue;
+    }
+  }
+
+  // number properties
+  for (const property of numberProperties) {
+    const propertyConfig = config[property];
+    if (!propertyConfig) continue;
+
+    if (typeof propertyConfig === "number") {
+      result[property] = propertyConfig;
+      continue;
+    }
+
+    const value = await applySelector(page, propertyConfig);
+    if (value) {
+      result[property] = propertyConfig.modifier ? propertyConfig.modifier(value) : parseInt(value);
+    }
+  }
+
+  return result;
+}
+
+export async function applySelector<T extends string | number>(
+  page: puppeteer.Page | puppeteer.ElementHandle,
+  config: Selector<T>
+): Promise<string | undefined> {
+  const element: puppeteer.ElementHandle | null =
+    "xpath" in config ? (await page.$x(config.xpath))[0] : await page.$(config.selector);
+
+  if (!element) {
+    if (config.nullable) {
+      return undefined;
+    } else {
+      throw `unable to fetch ${config}`;
+    }
+  }
+
+  return (await (await element.getProperty(config.property || "innerText")).jsonValue()) as string;
 }

@@ -1,7 +1,8 @@
 import fs from "fs";
 import { format, parse } from "ltsv";
 
-import { format as formatScraped, ScrapedProperties } from "./scraper";
+import { format as formatScraped } from "./ltsv";
+import { ScrapedProperties } from "./scraper";
 import { Venue } from "./venue";
 
 export class VenueList extends Array<Venue> {
