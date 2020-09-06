@@ -2,7 +2,6 @@ import { LtsvRecord } from "ltsv";
 
 import { numberProperties, ScrapedProperties, stringProperties } from "./scraper";
 
-// TODO: this should not be here
 export function parse(record: LtsvRecord): ScrapedProperties | undefined {
   const name = record.name || record[`scraped.name`];
   const result: ScrapedProperties = { name };
@@ -24,7 +23,6 @@ export function parse(record: LtsvRecord): ScrapedProperties | undefined {
   return Object.keys(result).length ? result : undefined;
 }
 
-// TODO: this should not be here
 export function format(obj: ScrapedProperties, { cascade = false }: { cascade?: boolean } = {}): LtsvRecord {
   return (["name", ...stringProperties, ...numberProperties] as const).reduce((result: LtsvRecord, key) => {
     result[cascade ? `scraped.${key}` : key] = obj[key]?.toString() || "";
