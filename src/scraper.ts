@@ -94,7 +94,7 @@ async function scrapeProperties(
   const value = await applySelector(page, config.name);
   if (!value) throw "name not found"; // TODO: more info
 
-  const result: ScrapedProperties = { name: value };
+  const result: ScrapedProperties = { name: config.name.modifier ? config.name.modifier(value) || value };
 
   for (const property of stringProperties) {
     const propertyConfig = config[property];
