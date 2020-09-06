@@ -5,7 +5,7 @@ export type ScrapeOption = {
   required?: true;
 };
 
-export type _ScrapedProperties<T extends ScrapeSetting> = { [key in keyof T]: InferredOptionType<T[key]> };
+export type ScrapedProperties<T extends ScrapeSetting> = { [key in keyof T]: InferredOptionType<T[key]> };
 
 type InferredOptionType<T extends ScrapeOption> = T extends { required: true }
   ? RequiredOptionType<T>
