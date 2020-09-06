@@ -26,10 +26,11 @@ export type ScrapeConfig<T = ScrapedProperties> = {
 };
 
 export type ScrapePropertiesConfig<T = ScrapedProperties> = {
-  [key in keyof T]+?: T[key] extends infer U ? Selector<Exclude<U, undefined>> | U : never;
-} & {
+  name: Selector<string>;
   followLink?: Selector;
   skip?: (element: puppeteer.ElementHandle<Element>) => Promise<boolean>;
+} & {
+  [key in keyof T]?: T[key] extends infer U ? Selector<Exclude<U, undefined>> | U : never;
 };
 
 // FIXME: actually T extends string | number but it shows error of typescript
