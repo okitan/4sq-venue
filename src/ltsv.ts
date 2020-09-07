@@ -24,7 +24,7 @@ export function parse(record: LtsvRecord): ScrapedProperties | undefined {
 }
 
 export function format(obj: ScrapedProperties, { cascade = false }: { cascade?: boolean } = {}): LtsvRecord {
-  return (["name", ...stringProperties, ...numberProperties] as const).reduce((result: LtsvRecord, key) => {
+  return (["name", "altName", "bldg", "level", "phone", "url"] as const).reduce((result: LtsvRecord, key) => {
     result[cascade ? `scraped.${key}` : key] = obj[key]?.toString() || "";
 
     return result;
