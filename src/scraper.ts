@@ -93,7 +93,8 @@ async function scrapeProperties(
   // name
   const value = await applySelector(page, config.name);
   if (!value) throw "name not found"; // TODO: more info
-  const modifiedValue = config.name.modifier ? config.name.modifier(value) : value;
+  const normalizedValue = normalizeString(value);
+  const modifiedValue = config.name.modifier ? config.name.modifier(normalizedValue) : normalizedValue;
   if (!modifiedValue) throw "name not determined"; // TODO: more info
 
   const result: ScrapedProperties = { name: modifiedValue };
@@ -109,11 +110,7 @@ async function scrapeProperties(
 
     const value = await applySelector(page, propertyConfig);
     if (value) {
-      const normalizedValue = value
-        .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 65248))
-        .replace(/\s/g, " ") // node includes 全角スペース to \s
-        .replace(/ +/g, " ")
-        .trim();
+      const normalizedValue = normalizeString(value);
 
       result[property] = propertyConfig.modifier ? propertyConfig.modifier(normalizedValue) : normalizedValue;
     }
@@ -154,4 +151,12 @@ export async function applySelector<T extends string | number>(
   }
 
   return (await (await element.getProperty(config.property || "innerText")).jsonValue()) as string;
+}
+
+function normalizeString(str: string): string {
+  return str
+    .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 65248))
+    .replace(/\s/g, " ") // node includes 全角スペース to \s
+    .replace(/ +/g, " ")
+    .trim();
 }
