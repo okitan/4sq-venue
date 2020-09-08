@@ -1,8 +1,8 @@
-id:5ddfa68e8d5e1d0008104bf5	parentVenueId:5d7b5d89d1334200083e1ae2	name:boxsta	crossStreet:
-id:5e088cb300d4910008d0fc8d	parentVenueId:5d7b5d89d1334200083e1ae2	name:イベントスペース Scene12	crossStreet:渋谷スクランブルスクエア 12F
-id:5d8da72d8fc86c000828cfdd	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社サイバーエージェント	crossStreet:渋谷スクランブルスクエア 21F
-id:5dbbfc56f920bc0008f0d675	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社ミクシィ	crossStreet:渋谷スクランブルスクエア 36F
-id:5dbd3344607ad200089af120	parentVenueId:5d7b5d89d1334200083e1ae2	name:三菱UFJ銀行 ATMコーナー	crossStreet:渋谷スクランブルスクエア 5F
+id:5ddfa68e8d5e1d0008104bf5	parentVenueId:5d7b5d89d1334200083e1ae2	name:boxsta	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5e088cb300d4910008d0fc8d	parentVenueId:5d7b5d89d1334200083e1ae2	name:イベントスペース Scene12	crossStreet:渋谷スクランブルスクエア 12F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5d8da72d8fc86c000828cfdd	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社サイバーエージェント	crossStreet:渋谷スクランブルスクエア 21F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5dbbfc56f920bc0008f0d675	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社ミクシィ	crossStreet:渋谷スクランブルスクエア 36F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:5dbd3344607ad200089af120	parentVenueId:5d7b5d89d1334200083e1ae2	name:三菱UFJ銀行 ATMコーナー	crossStreet:渋谷スクランブルスクエア 5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Les Viandes par Table Ogino	scraped.altName:レ ヴィアンド パー ターブルオギノ	scraped.bldg:	scraped.level:-2	scraped.phone:0364511735	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=329
 id:	parentVenueId:	name:	crossStreet:	scraped.name:RF1	scraped.altName:アール・エフ・ワン	scraped.bldg:	scraped.level:-2	scraped.phone:0364335487	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=327
 id:	parentVenueId:	name:	crossStreet:	scraped.name:medite	scraped.altName:メディテ	scraped.bldg:	scraped.level:-2	scraped.phone:0364335969	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=342
@@ -49,7 +49,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:Marimekko	scraped.altName:マ
 id:	parentVenueId:	name:	crossStreet:	scraped.name:PAPILLONNER	scraped.altName:パピヨネ	scraped.bldg:	scraped.level:5	scraped.phone:0368038496	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=299
 id:	parentVenueId:	name:	crossStreet:	scraped.name:REAL DESIGN SITE	scraped.altName:レアル デザイン サイト	scraped.bldg:	scraped.level:5	scraped.phone:0368050772	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=284
 id:	parentVenueId:	name:	crossStreet:	scraped.name:SWAROVSKI	scraped.altName:スワロフスキー	scraped.bldg:	scraped.level:5	scraped.phone:0364506258	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=283
-id:	parentVenueId:	name:	crossStreet:	scraped.name:VeeCollective／NEUVILLE	scraped.altName:ヴィーコレクティヴ／ヌーヴィル	scraped.bldg:	scraped.level:5	scraped.phone:0364274889	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=288
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Vendome Aoyama	scraped.altName:ヴァンドームアオヤマ	scraped.bldg:	scraped.level:5	scraped.phone:0364505647	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=282
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ZYX	scraped.altName:ジックス	scraped.bldg:	scraped.level:5	scraped.phone:0364511369	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=287
 id:	parentVenueId:	name:	crossStreet:	scraped.name:a-jolie	scraped.altName:アジョリー	scraped.bldg:	scraped.level:5	scraped.phone:0364526166	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=285
