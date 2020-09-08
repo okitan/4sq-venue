@@ -9,14 +9,14 @@ export function parse(record: LtsvRecord): ScrapedProperties | undefined {
   stringProperties.forEach((property) => {
     if (record[property]) result[property] = record[property];
 
-    const scrapedProperty = record[`scrped.${property}`];
+    const scrapedProperty = record[`scraped.${property}`];
     if (scrapedProperty && typeof scrapedProperty === "string") result[property] = scrapedProperty;
   });
 
   numberProperties.forEach((property) => {
     if (record[property]) result[property] = parseInt(record[property]);
 
-    const scrapedProperty = record[`scrped.${property}`];
+    const scrapedProperty = record[`scraped.${property}`];
     if (scrapedProperty) result[property] = parseInt(scrapedProperty);
   });
 
