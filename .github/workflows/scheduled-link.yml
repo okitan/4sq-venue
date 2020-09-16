@@ -15,10 +15,10 @@ jobs:
           - kosugi-square
           - lala-terrace
           - magnet
+          - markcity
           - scramble-square
           - shibuya-stream
           - sweets-forest
-          - shibuya-tokyu-foodshow
       fail-fast: false
     runs-on: ubuntu-latest
 
