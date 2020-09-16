@@ -6,7 +6,6 @@ const config: Config = {
   subvenues: [
     { id: "4b7d16f1f964a5204cae2fe3", name: "渋谷エクセルホテル東急" },
     { id: "5f5f634e017ea123d39b622c", name: "東急フードショー" },
-    // TODO: フードショー
   ],
   linker: {
     ignore: ["渋谷", "マークシティ", "東急", "フードショー"],
@@ -24,6 +23,7 @@ const config: Config = {
         },
       },
     })),
+    // フードショー
     {
       url: "https://www.tokyu-dept.co.jp/shibuya_foodshow/floor/index.html",
       venues: {
