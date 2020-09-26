@@ -1,4 +1,4 @@
-import { levelExtractor } from "../../src/modifier";
+import { phoneExtractor } from "../../src/modifier";
 import { Config } from "../../src/types/config";
 
 const config: Config = {
@@ -10,15 +10,18 @@ const config: Config = {
   },
   scraper: [
     {
-      url: "http://www.grand-tree.jp/web/shop/index.html",
+      url: "https://grand-tree.jp/shop/",
       options: { waitUntil: "domcontentloaded" },
       venues: {
-        "#shopList div.item:not(.all)": {
-          followLink: { selector: "a", property: "href" },
-          name: { selector: "h3", modifier: (name) => name.split("｜")[0].trim() },
-          altName: { selector: "h3", modifier: (name) => name.split("｜")[1]?.trim() },
-          phone: { xpath: "//dt[contains(text(), '電話')]/following-sibling::dd" }, // contains is only by xpath
-          level: { selector: "#subData dd:nth-of-type(1)", modifier: levelExtractor },
+        "ul.shop-list-find-result-list li": {
+          url: { selector: "a", property: "href" },
+          name: { selector: ".shop-name", },
+          phone: { selector: ".info", modifier: phoneExtractor },
+          level: { selector: ".info", modifier: (text) => { 
+            const matched = text.match(/(\d)F/);
+            if (!matched) throw "no level found";
+            return parseInt(matched[1]);
+          } },
         },
       },
     },
