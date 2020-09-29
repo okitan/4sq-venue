@@ -7,7 +7,8 @@ const config: Config = {
   linker: {
     ignore: ["フレル・ウィズ", "自由が丘", "東急"],
   },
-  scraper: [1, 2, 3, 4].map(
+  scraper: [1, 2, 3].map(
+    // Now there are no venues on 4th floor
     (level): ScrapeConfig => {
       return {
         url: `http://www.fullel.com/jiyugaoka/shopguide/?floor=${level}f`,
