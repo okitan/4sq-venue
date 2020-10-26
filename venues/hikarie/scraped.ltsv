@@ -249,7 +249,6 @@ name:旨酒・料理 酢重ダイニング	altName:	bldg:	level:6	phone:03643415
 name:果実園リーベル	altName:	bldg:	level:6	phone:0368038917	url:
 name:渋谷 水刺齋	altName:	bldg:	level:6	phone:0364341465	url:http://www.suranje.com/access/index3.html
 name:牛たん炭焼 利久	altName:	bldg:	level:6	phone:0334862351	url:http://www.rikyu-gyutan.co.jp/
-name:1/2PPUDO	altName:	bldg:	level:7	phone:0368038922	url:
 name:Bar Español LA BODEGA	altName:	bldg:	level:7	phone:0364341480	url:https://bar-espanol-labodega-shibuya.com/
 name:CHEESE KITCHEN RACLER	altName:	bldg:	level:7	phone:0364335404	url:https://www.cheese-kitchen-racler.com/
 name:Cafe＆Grill SIZZLe GAZZLe	altName:	bldg:	level:7	phone:0364341473	url:http://oya-food.com/shop/sizzle-gazzle/
@@ -261,6 +260,7 @@ name:モダンメキシカン マヤルス	altName:	bldg:	level:7	phone:03680389
 name:伊右衛門サロン	altName:	bldg:	level:7	phone:0368038281	url:http://iyemonsalon.jp/salon/index.html
 name:茶寮伊勢 藤次郎	altName:	bldg:	level:7	phone:0364341483	url:
 name:鉄板焼 お好み焼 かしわ	altName:	bldg:	level:7	phone:0364341570	url:http://www.salt-inc.co.jp/index.php?action=shop&shop=shopdetail&id=20
+name:ATELIER	altName:アトリエ	bldg:	level:8	phone:0364184718	url:https://www.hikarie8.com/atelier/
 name:COURT	altName:コート	bldg:	level:8	phone:0364184718	url:https://www.hikarie8.com/court/
 name:CUBE 1,2,3	altName:キューブ	bldg:	level:8	phone:0364184718	url:https://www.hikarie8.com/cube/
 name:Creative Lounge MOV	altName:	bldg:	level:8	phone:0345338000	url:http://www.shibuyamov.com/
