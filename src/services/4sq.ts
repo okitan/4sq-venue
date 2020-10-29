@@ -23,6 +23,22 @@ export class FoursquareClient {
     return (await this._get(`/venues/${venueId}/children`)).response as SuccessfulGetVenueChildernResponse["response"];
   }
 
+  async mergeVenue({
+    mergerId,
+    mergeeId,
+  }: {
+    mergerId: string;
+    mergeeId: string;
+  }): Promise<SuccessfulVenueResponse["response"]> {
+    return (await this._post(`/venues/${mergerId}/flag`, { problem: "duplicate", venueId: mergeeId }))
+      .response as SuccessfulVenueResponse["response"];
+  }
+
+  async closeVenue({ venueId }: { venueId: string }): Promise<SuccessfulVenueResponse["response"]> {
+    return (await this._post(`/venues/${venueId}/flag`, { problem: "closed" }))
+      .response as SuccessfulVenueResponse["response"];
+  }
+
   async deleteVenue({ venueId }: { venueId: string }): Promise<SuccessfulVenueResponse["response"]> {
     return (await this._post(`/venues/${venueId}/flag`, { problem: "doesnt_exist" }))
       .response as SuccessfulVenueResponse["response"];
