@@ -21,7 +21,7 @@
   "private": true,
   "dependencies": {
     "@types/node-fetch": "2.5.7",
-    "@types/puppeteer": "3.0.3",
+    "@types/puppeteer": "3.0.4",
     "ltsv": "git+https://github.com/sasaplus1/ltsv.js.git",
     "mdiff": "1.3.1",
     "node-fetch": "2.6.1",
