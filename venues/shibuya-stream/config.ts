@@ -18,7 +18,7 @@ const config: Config = {
     {
       url: "https://shibuyastream.jp/shop/",
       venues: {
-        "#shop_lists li": {
+        "#shop_lists > li": {
           followLink: { selector: "a", property: "href" },
           name: { selector: ".shop_name" },
           altName: { selector: ".shop_kana" },
