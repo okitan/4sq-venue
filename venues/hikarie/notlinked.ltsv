@@ -12,7 +12,6 @@ id:5a0d662012c8f05c2fbb7c49	parentVenueId:4bd557cc6798ef3b4735638d	name:レバ�
 id:52319b6211d213f9957576cd	parentVenueId:4bd557cc6798ef3b4735638d	name:レバレジーズ株式会社 本社	crossStreet:渋谷ヒカリエ 17F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4c80ea56d4e23704536c5888	parentVenueId:4bd557cc6798ef3b4735638d	name:株式会社mediba 本社	crossStreet:渋谷ヒカリエ 31F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5015d7b6e4b0e259d3e675c0	parentVenueId:4bd557cc6798ef3b4735638d	name:KDDI 渋谷ヒカリエオフィス	crossStreet:渋谷ヒカリエ 32F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:5071029ee4b0e78a1a99fb7d	parentVenueId:4fa8cfe1e4b01db6889d52e1	name:aiiima	crossStreet:渋谷ヒカリエ 8/	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4fa8cfe1e4b01db6889d52e1	parentVenueId:4bd557cc6798ef3b4735638d	name:8/	crossStreet:渋谷ヒカリエ 8F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	crossStreet:渋谷ヒカリエ B3F-5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:513da676e4b090bbbeb9b743	parentVenueId:4f7f9ceae4b023c637e055ec	name:ShinQs ナチュラルマーケット	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -120,6 +119,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:メゾン ド フルール	sc
 id:	parentVenueId:	name:	crossStreet:	scraped.name:MAKANAI	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0368051913	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
 id:	parentVenueId:	name:	crossStreet:	scraped.name:日本百貨店	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271930	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nippondept
+id:	parentVenueId:	name:	crossStreet:	scraped.name:Italian Kitchen PiPavino	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0367126109	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ATELIER	scraped.altName:アトリエ	scraped.bldg:	scraped.level:8	scraped.phone:0364184718	scraped.url:https://www.hikarie8.com/atelier/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒカリエホール ホールB	scraped.altName:	scraped.bldg:	scraped.level:9	scraped.phone:0354685088	scraped.url:http://www.hikarie.jp/hall/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィスエントランス	scraped.altName:	scraped.bldg:	scraped.level:11	scraped.phone:	scraped.url:
