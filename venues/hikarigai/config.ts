@@ -9,13 +9,32 @@ const config: Config = {
   },
   scraper: [
     {
-      url: "URL",
+      url: "https://www.hikarigai.com/shoplist/",
       venues: {
-        SELECTOR: {
-          name: { selector: "SELECTOR" },
-          altName: { selector: "SELECTOR" },
-          phone: { selector: "SELECTOR" },
-          level: { selector: "SELECTOR" },
+        "article#post-83 .themeblvd-gallery .entry-content": {
+          followLink: { selector: "a", property: "href" },
+          name: { selector: "h1" },
+          altName: { selector: "h4:nth-child(1)" },
+          phone: {
+            selector: "h4:nth-child(1) + p",
+            modifier: (txt) =>
+              txt
+                .split("\n")
+                .find((txt) => txt.includes("TEL"))
+                ?.split("：")[1],
+          },
+          level: 1,
+        },
+        // 1, 2 is missing 3 is LV1 4 is LV2 5 is LV3
+        "article#post-83 > .entry-content > div:nth-child(4) li": {
+          name: { xpath: "." },
+          phone: { xpath: "./following-sibling::p[1]" },
+          level: 2,
+        },
+        "article#post-83 > .entry-content > div:nth-child(5) li": {
+          name: { xpath: "." },
+          phone: { xpath: "./following-sibling::p[1]" },
+          level: 3,
         },
       },
     },

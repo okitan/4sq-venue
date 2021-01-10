@@ -46,7 +46,7 @@ export async function scrape({
 
         if (followLink) {
           const subVenueUrl = await applySelector(item, followLink);
-          if (!subVenueUrl) throw `no sub venue found for ${followLink}`;
+          if (!subVenueUrl) throw `no sub venue found for ${JSON.stringify(followLink)}`;
 
           if (notify) notify(`Scraping subvenue ${subVenueUrl}`);
 
@@ -146,7 +146,7 @@ export async function applySelector<T extends string | number>(
     if (config.nullable) {
       return undefined;
     } else {
-      throw `unable to fetch ${config}`;
+      throw `unable to fetch ${JSON.stringify(config)}`;
     }
   }
 
