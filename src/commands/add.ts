@@ -73,5 +73,7 @@ export class VenueGenerator extends Generator {
       }),
     });
     this.spawnCommand("npx", ["prettier", "--write", configPath]);
+
+    // TODO: .github/scheduled-{link,scrape}.yml
   }
 }
