@@ -1,4 +1,4 @@
-import { Config, ScrapeConfig } from "../../src/types/config";
+import { Config, ScrapeConfig } from "../../src/config";
 
 const config: Config = {
   id: "4ddee63c1fc70c691ef7fda3",

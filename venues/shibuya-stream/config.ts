@@ -1,6 +1,6 @@
+import { Config } from "../../src/config";
 import { levelExtractor } from "../../src/modifier";
 import { applySelector } from "../../src/scraper";
-import { Config } from "../../src/types/config";
 
 const config: Config = {
   id: "597f0333dec1d60e99087df2",

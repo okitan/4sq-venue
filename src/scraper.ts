@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 
+import { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./config";
 import { phoneExtractor } from "./modifier";
-import { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";
 
 // name is mandatory
 export const stringProperties = ["altName", "bldg", "phone", "url"] as const;

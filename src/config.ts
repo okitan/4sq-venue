@@ -1,6 +1,6 @@
 import puppeteer, { NavigationOptions } from "puppeteer";
 
-import { ScrapedProperties } from "../scraper";
+import { ScrapedProperties } from "./scraper";
 
 export type Config<T = ScrapedProperties> = Venue & {
   subvenues: Venue[];
@@ -56,3 +56,16 @@ type Fetcher<T> = {
   fetch: FetchFunction<T>;
 };
 type FetchFunction<T> = () => Promise<T[]>;
+
+function assert(config: any): asserts config is Config {
+  if (typeof config !== "object") throw new Error("it seems not config");
+  // TODO: check schema
+}
+
+export function loadConfig(venue: string): Config {
+  const config = require(`../venues/${venue}/config`);
+
+  assert(config);
+
+  return config;
+}

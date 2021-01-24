@@ -1,8 +1,8 @@
 import fetch from "node-fetch";
 
+import { Config } from "../../src/config";
 import { phoneExtractor } from "../../src/modifier";
 import { ScrapedProperties } from "../../src/scraper";
-import { Config } from "../../src/types/config";
 
 const config: Config = {
   id: "5d7b5d89d1334200083e1ae2",

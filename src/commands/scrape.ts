@@ -2,8 +2,8 @@ import ora from "ora";
 import yargs from "yargs";
 
 import { Extract } from "../cli";
+import { loadConfig } from "../config";
 import { scrape, ScrapedProperties } from "../scraper";
-import { Config } from "../types/config";
 import { Venue } from "../venue";
 import { updateScrapedVenues, VenueList } from "../venueList";
 
@@ -31,7 +31,7 @@ export function handler(args: Parameters<typeof _handler>[0]) {
 }
 
 export async function _handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  const config = require(`../../venues/${target}/config`) as Config;
+  const config = loadConfig(target);
 
   const results: ScrapedProperties[] = [];
   // scrape not in pararelle

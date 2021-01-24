@@ -1,4 +1,4 @@
-import { Config } from "../../src/types/config";
+import { Config } from "../../src/config";
 
 const config: Config = {
   id: "4b6a8e4ff964a5208ad82be3",

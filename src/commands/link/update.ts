@@ -1,9 +1,9 @@
 import yargs from "yargs";
 
 import { Extract } from "../../cli";
+import { loadConfig } from "../../config";
 import { linkVenues } from "../../linker";
 import { addFoursquareClientOptions } from "../../services/4sq";
-import { Config } from "../../types/config";
 import { Venue } from "../../venue";
 import {
   loadLinkedVenues,
@@ -40,7 +40,7 @@ export function handler(args: Parameters<typeof _handler>[0]) {
 }
 
 export async function _handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  const config = require(`../../../venues/${target}/config`) as Config;
+  const config = loadConfig(target);
 
   const scrapedVenues = loadScrapedVenues(target);
 

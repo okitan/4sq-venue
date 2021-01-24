@@ -1,5 +1,5 @@
+import { Config } from "../../src/config";
 import { phoneExtractor } from "../../src/modifier";
-import { Config } from "../../src/types/config";
 
 const config: Config = {
   id: "5361cba0498e5839aa495469",
