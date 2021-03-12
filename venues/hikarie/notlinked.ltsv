@@ -85,6 +85,8 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:STAR JEWELRY Girl	scraped.alt
 id:	parentVenueId:	name:	crossStreet:	scraped.name:THE HAIR BAR TOKYO	scraped.altName:ザ ヘア バー トウキョウ	scraped.bldg:	scraped.level:1	scraped.phone:0364341751	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アナプノエ	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341772	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anapnoe
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ジャルダン デ パルファム	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341746	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jardin
+id:	parentVenueId:	name:	crossStreet:	scraped.name:スナイデル ビューティ	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341689	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=snidelbeauty
+id:	parentVenueId:	name:	crossStreet:	scraped.name:スナイデル ホーム	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341676	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=snidelhome
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ル・コンシデラン	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341487	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=leconsiderant
 id:	parentVenueId:	name:	crossStreet:	scraped.name:JTB	scraped.altName:ウエディング	scraped.bldg:	scraped.level:2	scraped.phone:0364193188	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb2f
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ShinQs パーツ ジョイスト	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0364341724	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqspartsjoyst
@@ -111,6 +113,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:メゾン ド フルール	sc
 id:	parentVenueId:	name:	crossStreet:	scraped.name:MAKANAI	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0368051913	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ラ・クッチーナ・フェリーチェ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271604	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lacucinafelice
+id:	parentVenueId:	name:	crossStreet:	scraped.name:葉山家具	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271071	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ATELIER	scraped.altName:アトリエ	scraped.bldg:	scraped.level:8	scraped.phone:0364184718	scraped.url:https://www.hikarie8.com/atelier/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒカリエホール ホールB	scraped.altName:	scraped.bldg:	scraped.level:9	scraped.phone:0354685088	scraped.url:http://www.hikarie.jp/hall/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィスエントランス	scraped.altName:	scraped.bldg:	scraped.level:11	scraped.phone:	scraped.url:
