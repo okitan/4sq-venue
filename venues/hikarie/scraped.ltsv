@@ -110,7 +110,6 @@ name:HACCI	altName:ハッチ	bldg:	level:-1	phone:0364341768	url:https://www.tok
 name:KOBAKO	altName:コバコ	bldg:	level:-1	phone:0364341765	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kobako
 name:POLA	altName:ポーラ	bldg:	level:-1	phone:0364341766	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
 name:RMK	altName:アールエムケー	bldg:	level:-1	phone:0364341787	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rmk
-name:SHIRO	altName:	bldg:	level:-1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
 name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiseido
 name:THREE	altName:スリー	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
@@ -135,6 +134,7 @@ name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-de
 name:CHOUCHOU	altName:シュシュ	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=chouchou
 name:Flora Notis JILL STUART	altName:フローラノーティス ジルスチュアート	bldg:	level:1	phone:0364341742	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=floranotis
 name:SABON	altName:サボン	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sabon
+name:SHIRO	altName:	bldg:	level:1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
 name:STAR JEWELRY Girl	altName:スター ジュエリー ガール	bldg:	level:1	phone:0357783813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelrygirl
 name:THE HAIR BAR TOKYO	altName:ザ ヘア バー トウキョウ	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
 name:diptyque	altName:ディプティック	bldg:	level:1	phone:0364341752	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=diptyque
