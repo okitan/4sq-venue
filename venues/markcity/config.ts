@@ -12,14 +12,27 @@ const config: Config = {
   },
   scraper: [
     // マークシティ
-    ...[1, 2, 3, 4, 5, 6].map((i) => ({
-      url: `http://www.s-markcity.co.jp/floor/floor.php?no=${i}`,
+    ...["east1", "west1", "east2", "west2", "east3", 4, 5].map((i) => ({
+      url: `https://www.s-markcity.co.jp/${i}f/`,
       venues: {
-        "tr a:not([href='/busterminal/'])": {
-          followLink: { xpath: ".", property: "href" },
-          name: { selector: "#shopname dt" },
-          phone: { xpath: "//img[@alt='TEL']/../following-sibling::dd[1]", nullable: true as true },
-          level: { xpath: "//img[@alt='場所']/../following-sibling::dd[1]", modifier: levelExtractor },
+        "li.shopinfo_cmd_post_list_item": {
+          followLink: { selector: "a", property: "href" },
+          name: { selector: "#main h1" },
+          phone: { xpath: "//th[contains(text(),'電話番号')]/following-sibling::td", nullable: true as true },
+          bldg: {
+            selector: ".shop_place div",
+            modifier: (txt: string) => {
+              const matched = txt.match(/(\W+?)(\d+)(F|階)/);
+              return (matched && matched[1]) || undefined;
+            },
+          },
+          level: {
+            selector: ".shop_place div",
+            modifier: (txt: string) => {
+              const matched = txt.match(/(\W+?)(\d+)(F|階)/);
+              return (matched && parseInt(matched[2])) || undefined;
+            },
+          },
         },
       },
     })),
@@ -49,11 +62,6 @@ function nameModifier(name: string) {
 function altNameExtractor(name: string) {
   const matched = name.match(/[（\(](.+)[\)）]/);
   return matched ? matched[1] : undefined;
-}
-
-function levelExtractor(text: string) {
-  const matched = text.match(/\d+/);
-  return matched ? parseInt(matched[0]) * (text.includes("地下") ? -1 : 1) : undefined;
 }
 
 export = config;
