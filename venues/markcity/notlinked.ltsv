@@ -2,7 +2,6 @@ id:4be3df94660ec928ef11cd3b	parentVenueId:4b3f1743f964a520eba325e3	name:Co-Labo 
 id:5aa1de2216fa040955c410f6	parentVenueId:4b3f1743f964a520eba325e3	name:Fitbit Japan	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5a5087e23b83070ec08c72d3	parentVenueId:4b3f1743f964a520eba325e3	name:SCREENS FOR WALKWAY BETWEEN BUILDINGS & BUSES & CARS	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5a2bbef2e4c459692f6621d5	parentVenueId:4b3f1743f964a520eba325e3	name:グリーンイエロージュース	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:606010b7f94b6824960aaeb8	parentVenueId:4b3f1743f964a520eba325e3	name:タカノフルーツパーラー	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5d26e6bfe0332c002386ec89	parentVenueId:4b3f1743f964a520eba325e3	name:マークイベントスクエア	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:59a14caaa8eb606ea8530e61	parentVenueId:4b3f1743f964a520eba325e3	name:マークシティ バス待合室	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4b7e3884f964a52068e62fe3	parentVenueId:4b3f1743f964a520eba325e3	name:マークシティウエスト13階	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -52,7 +51,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:小倉屋山本	scraped.altNa
 id:	parentVenueId:	name:	crossStreet:	scraped.name:山本山	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0334774806	scraped.url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=YAMAMOTOYAMA
 id:	parentVenueId:	name:	crossStreet:	scraped.name:山本海苔店	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0334774351	scraped.url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=yamamotonori
 id:	parentVenueId:	name:	crossStreet:	scraped.name:崎陽軒	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0334774452	scraped.url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=KIYOKEN
-id:	parentVenueId:	name:	crossStreet:	scraped.name:新宿高野	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0334774629	scraped.url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=TAKANO
 id:	parentVenueId:	name:	crossStreet:	scraped.name:林フルーツ 	scraped.altName:果物・野菜	scraped.bldg:	scraped.level:-1	scraped.phone:0334774320	scraped.url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=HAYASHIFRUITS
 id:	parentVenueId:	name:	crossStreet:	scraped.name:柿の木坂 キャトル	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0334774631	scraped.url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=QUATRE
 id:	parentVenueId:	name:	crossStreet:	scraped.name:桂林	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0334774616	scraped.url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=YOKOHAMAKEIRIN
