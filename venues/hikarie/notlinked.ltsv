@@ -2,7 +2,6 @@ id:5f7425413ad1910a78b7747c	parentVenueId:4bd557cc6798ef3b4735638d	name:Adastria
 id:5860a98545c3ed1e7dfcc126	parentVenueId:4bd557cc6798ef3b4735638d	name:東急百貨店渋谷本店循環バス 渋谷ヒカリエ発着所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5e5a600ec2d8a80008bc2e6c	parentVenueId:4bd557cc6798ef3b4735638d	name:渋谷ヒカリエ7階喫煙所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:59b3b1220d173f341f1c4a4a	parentVenueId:4bd557cc6798ef3b4735638d	name:発電床®︎	crossStreet:B3エントランス、B2,3Fスイッチルーム	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://ja.m.wikipedia.org/wiki/%E7%99%BA%E9%9B%BB%E5%BA%8A
-id:607004ea1fee5e329e23c30b	parentVenueId:4bd557cc6798ef3b4735638d	name:つきじ松露	crossStreet:ヒカリエ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5fa8d4eaecbec7730de38bae	parentVenueId:4f7f9ceae4b023c637e055ec	name:みずほ銀行 渋谷ヒカリエB3出張所	crossStreet:ヒカリエ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f8e4423e4b0f9f93dc31ec0	parentVenueId:4bd557cc6798ef3b4735638d	name:株式会社ディー・エヌ・エー (DeNA)	crossStreet:渋谷ヒカリエ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:http://dena.com/jp/
 id:4f97d2a6e4b0b093e48373bc	parentVenueId:4bd557cc6798ef3b4735638d	name:渋谷ヒカリエ 連絡通路	crossStreet:渋谷ヒカリエ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -21,7 +20,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:matcha LOVE	scraped.altName:	
 id:	parentVenueId:	name:	crossStreet:	scraped.name:いとはん	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274844	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=itohan
 id:	parentVenueId:	name:	crossStreet:	scraped.name:たこ家 道頓堀 くくる	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274903	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kukuru
 id:	parentVenueId:	name:	crossStreet:	scraped.name:つきじ宮川本廛	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274084	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=miyagawa
-id:	parentVenueId:	name:	crossStreet:	scraped.name:つきぢ松露	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274332	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shouro
 id:	parentVenueId:	name:	crossStreet:	scraped.name:とんかつ まい泉	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341824	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisen
 id:	parentVenueId:	name:	crossStreet:	scraped.name:なだ万厨房	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274931	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nadamanchubo
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アントニオ	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341879	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=antonio
