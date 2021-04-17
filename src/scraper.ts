@@ -150,7 +150,7 @@ export async function applySelector<T extends string | number>(
     }
   }
 
-  return (await (await element.getProperty(config.property || "innerText")).jsonValue()) as string;
+  return (await (await element.getProperty(config.property || "innerText"))?.jsonValue()) as string;
 }
 
 function normalizeString(str: string): string {
