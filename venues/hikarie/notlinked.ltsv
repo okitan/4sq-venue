@@ -1,6 +1,7 @@
 id:5f7425413ad1910a78b7747c	parentVenueId:4bd557cc6798ef3b4735638d	name:Adastria	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5860a98545c3ed1e7dfcc126	parentVenueId:4bd557cc6798ef3b4735638d	name:東急百貨店渋谷本店循環バス 渋谷ヒカリエ発着所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5e5a600ec2d8a80008bc2e6c	parentVenueId:4bd557cc6798ef3b4735638d	name:渋谷ヒカリエ7階喫煙所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:60964d3fcecd5a04799e5f9f	parentVenueId:4bd557cc6798ef3b4735638d	name:福砂屋　渋谷ヒカリエ店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:59b3b1220d173f341f1c4a4a	parentVenueId:4bd557cc6798ef3b4735638d	name:発電床®︎	crossStreet:B3エントランス、B2,3Fスイッチルーム	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://ja.m.wikipedia.org/wiki/%E7%99%BA%E9%9B%BB%E5%BA%8A
 id:5fa8d4eaecbec7730de38bae	parentVenueId:4f7f9ceae4b023c637e055ec	name:みずほ銀行 渋谷ヒカリエB3出張所	crossStreet:ヒカリエ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4f8e4423e4b0f9f93dc31ec0	parentVenueId:4bd557cc6798ef3b4735638d	name:株式会社ディー・エヌ・エー (DeNA)	crossStreet:渋谷ヒカリエ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:http://dena.com/jp/
@@ -112,6 +113,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:MAKANAI	scraped.altName:	scra
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ラ・クッチーナ・フェリーチェ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271604	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lacucinafelice
 id:	parentVenueId:	name:	crossStreet:	scraped.name:葉山家具	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271071	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
+id:	parentVenueId:	name:	crossStreet:	scraped.name:そうめん そそそ 研究室	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0364506795	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:すぱじろう渋谷	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0364276699	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ATELIER	scraped.altName:アトリエ	scraped.bldg:	scraped.level:8	scraped.phone:0364184718	scraped.url:https://www.hikarie8.com/atelier/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒカリエホール ホールB	scraped.altName:	scraped.bldg:	scraped.level:9	scraped.phone:0354685088	scraped.url:http://www.hikarie.jp/hall/
