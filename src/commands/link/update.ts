@@ -31,15 +31,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
   );
 }
 
-// handler cannot be async
-export function handler(args: Parameters<typeof _handler>[0]) {
-  _handler(args).catch((err) => {
-    console.error(err);
-    process.exit(129);
-  });
-}
-
-export async function _handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+export async function handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const config = require(`../../../venues/${target}/config`) as Config;
 
   const scrapedVenues = loadScrapedVenues(target);
