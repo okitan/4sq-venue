@@ -31,7 +31,6 @@ export function builder<T>(yargs: yargs.Argv<T>) {
   );
 }
 
-// handler cannot be async
 export async function handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const config = require(`../../../venues/${target}/config`) as Config;
 
