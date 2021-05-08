@@ -160,7 +160,7 @@ module.exports = {
 
   // A map from regular expressions to paths to transformers
   transform: {
-    "^.+\\.ts$": "jest-esbuild",
+    "^.+\\.ts$": "esbuild-jest",
   },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
