@@ -28,7 +28,7 @@ jobs:
       - name: switch to branch
         run: git switch "link-${{ matrix.venues }}" || git switch -c "link-${{ matrix.venues }}"
       - run: npm ci
-      - run: npm run updateLink ${{ matrix.venues }}
+      - run: npm run updateLink
         env:
           FOURSQUARE_TOKEN: ${{ secrets.FOURSQUARE_TOKEN }}
       - run: script/push_linked.sh ${{ matrix.venues }}

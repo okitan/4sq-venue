@@ -1,36 +1,17 @@
 import yargs from "yargs";
 
-import { Extract } from "../../cli";
+import { commonArgs, Extract } from "../../cli";
 import { addFoursquareClientOptions } from "../../services/4sq";
 import { DetailedFoursquareVenue } from "../../types/4sq/resource";
 
-export const command = "delete <venueId>";
+export const command = "delete [Options]";
 export const description = "delete venue";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
-  return addFoursquareClientOptions(yargs)
-    .positional("venueId", {
-      type: "string",
-      demandOption: true,
-    })
-    .options({
-      dryRun: {
-        type: "boolean",
-        default: true,
-        demandOption: true,
-      },
-    });
+  return addFoursquareClientOptions(yargs).options({ venueId: commonArgs.venueId, dryRun: commonArgs.dryRun });
 }
 
-// handler cannot be async
-export function handler(args: Parameters<typeof _handler>[0]) {
-  _handler(args).catch((err) => {
-    console.error(err);
-    process.exit(129);
-  });
-}
-
-export async function _handler({
+export async function handler({
   foursquareClient,
   venueId,
   dryRun,

@@ -37,7 +37,7 @@ jobs:
         run: |
           git diff --name-only origin/master -- venues/*/config.*s \
           | awk -F "/" '{ print $(NF - 1) }' \
-          | xargs --no-run-if-empty -L 1 npm run scrape --
+          | xargs --no-run-if-empty -L 1 npm run scrape -- -t
         env:
           LANG: ja_JP.UTF-8
       - name: show changed file

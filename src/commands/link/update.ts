@@ -1,6 +1,6 @@
 import yargs from "yargs";
 
-import { Extract } from "../../cli";
+import { commonArgs, Extract } from "../../cli";
 import { linkVenues } from "../../linker";
 import { addFoursquareClientOptions } from "../../services/4sq";
 import { Config } from "../../types/config";
@@ -16,19 +16,11 @@ import {
   VenueList,
 } from "../../venueList";
 
-export const command = "update <target> [Options]";
+export const command = "update [Options]";
 export const description = "link scraped venues to foursquare venues";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
-  return (
-    addFoursquareClientOptions(yargs)
-      // TODO: inject target by its branch name
-      .positional("target", {
-        type: "string",
-        description: "venue name",
-        demandOption: true,
-      })
-  );
+  return addFoursquareClientOptions(yargs).options({ target: commonArgs.targetWithCompletion });
 }
 
 export async function handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
