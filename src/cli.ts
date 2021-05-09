@@ -11,17 +11,17 @@ export const commonArgs = {
     alias: "t",
     // TODO: with choices
     default: guessTargetFromBranchName() as string, // with demandOption, yargs ensures non empty string
-    demandOption: true,
+    demandOption: true as const,
   },
   venueId: {
     type: "string" as const,
     alias: ["v", "venue"],
-    demandOption: true,
+    demandOption: true as const,
   },
   dryRun: {
     type: "boolean" as const,
     default: true,
-    demandOption: true,
+    demandOption: true as const,
   },
 };
 

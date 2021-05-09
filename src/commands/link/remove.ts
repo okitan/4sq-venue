@@ -20,8 +20,6 @@ export function builder<T>(yargs: yargs.Argv<T>) {
 }
 
 export function handler({ target, name: names }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  if (!target) throw `target should not be null`; // never
-
   const linkedVenues = loadLinkedVenues(target);
   const notLinkedVenues = loadNotLinkedVenues(target);
 
