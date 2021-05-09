@@ -1,9 +1,9 @@
 import yargs from "yargs";
 
-import { Extract } from "../../cli";
+import { commonArgs, Extract } from "../../cli";
 import { addFoursquareClientOptions } from "../../services/4sq";
 
-export const command = "merge <mergerId> <mergeeId>";
+export const command = "merge <mergerId> <mergeeId> [Options]";
 export const description = "merge venues";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
@@ -16,13 +16,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
       type: "string",
       demandOption: true,
     })
-    .options({
-      dryRun: {
-        type: "boolean",
-        default: true,
-        demandOption: true,
-      },
-    });
+    .options({ dryRun: commonArgs.dryRun });
 }
 
 // handler cannot be async

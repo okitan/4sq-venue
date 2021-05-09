@@ -1,20 +1,15 @@
 import yargs from "yargs";
 
-import { Extract } from "../../cli";
-import { guessTargetFromBranchName } from "../../util";
+import { commonArgs, Extract } from "../../cli";
 import { Venue } from "../../venue";
 import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLinkedVenues } from "../../venueList";
 
-export const command = "add";
+export const command = "add [Options]";
 export const description = "add link manually";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
   return yargs.options({
-    target: {
-      type: "string",
-      default: guessTargetFromBranchName(),
-      demandOption: true,
-    },
+    target: commonArgs.targetWithCompletion,
     foursquareName: {
       type: "string",
       alias: "f",
