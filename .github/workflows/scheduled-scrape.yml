@@ -32,7 +32,7 @@ jobs:
       - name: switch to branch
         run: git switch "scrape-${{ matrix.venues }}" || git switch -c "scrape-${{ matrix.venues }}"
       - run: npm ci
-      - run: npm run scrape ${{ matrix.venues }}
+      - run: npm run scrape
         env:
           LANG: ja_JP.UTF-8
       - run: script/push_scraped.sh ${{ matrix.venues }}
