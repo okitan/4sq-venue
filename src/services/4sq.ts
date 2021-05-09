@@ -70,7 +70,7 @@ export function addFoursquareClientOptions<T extends yargs.Argv>(yargs: T) {
     .options({
       foursquareAccessToken: {
         type: "string",
-        default: process.env.FOURSQUARE_TOKEN,
+        default: process.env.FOURSQUARE_TOKEN as string, // with demandOption, yargs ensures non empty string
         defaultDescription: "$FOURSQUARE_TOKEN",
         demandOption: true,
       },
@@ -83,10 +83,6 @@ export function addFoursquareClientOptions<T extends yargs.Argv>(yargs: T) {
     .middleware([injectFoursqureClient]);
 }
 
-export function injectFoursqureClient(_args: any) {
-  const { foursquareAccessToken }: { foursquareAccessToken: string } = _args;
-
-  return {
-    foursquareClient: new FoursquareClient({ accessToken: foursquareAccessToken }),
-  };
+export function injectFoursqureClient({ foursquareAccessToken }: { foursquareAccessToken: string }) {
+  return { foursquareClient: new FoursquareClient({ accessToken: foursquareAccessToken }) };
 }

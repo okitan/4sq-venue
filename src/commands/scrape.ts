@@ -1,7 +1,7 @@
 import ora from "ora";
 import yargs from "yargs";
 
-import { Extract } from "../cli";
+import { commonArgs, Extract } from "../cli";
 import { scrape, ScrapedProperties } from "../scraper";
 import { Config } from "../types/config";
 import { Venue } from "../venue";
@@ -11,15 +11,7 @@ export const command = "scrape <target> [Options]";
 export const description = "scrape venues";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
-  return (
-    yargs
-      // TODO: inject target by its branch name
-      .positional("target", {
-        type: "string",
-        description: "venue name",
-        demandOption: true,
-      })
-  );
+  return yargs.options({ target: commonArgs.targetWithCompletion });
 }
 
 export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
