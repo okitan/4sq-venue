@@ -19,15 +19,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
     .options({ dryRun: commonArgs.dryRun });
 }
 
-// handler cannot be async
-export function handler(args: Parameters<typeof _handler>[0]) {
-  _handler(args).catch((err) => {
-    console.error(err);
-    process.exit(129);
-  });
-}
-
-export async function _handler({
+export async function handler({
   foursquareClient,
   mergerId,
   mergeeId,
