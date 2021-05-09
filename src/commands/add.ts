@@ -2,31 +2,32 @@ import yargs from "yargs";
 import yeoman from "yeoman-environment";
 import Generator from "yeoman-generator";
 
-import { Extract } from "../cli";
+import { commonArgs, Extract } from "../cli";
 import { addFoursquareClientOptions, FoursquareClient } from "../services/4sq";
 import { Venue } from "../venue";
 
-export const command = "add <target>";
-export const description = "add venue";
+export const command = "add [Options]";
+export const description = "add venue config";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
-  return addFoursquareClientOptions(yargs)
-    .positional("target", { type: "string", demandOption: true })
-    .options({
-      venueId: {
-        type: "string",
-        desc: "foursquare parent venue id",
-        alias: "venue",
-        required: true,
-      },
-      subVenueId: {
-        type: "string",
-        array: true,
-        desc: "foursquare parnet subvenue id",
-        alias: "subVenues",
-        default: [],
-      },
-    });
+  return addFoursquareClientOptions(yargs).options({
+    target: {
+      type: "string",
+      alias: "t",
+      demandOption: true,
+    },
+    venueId: {
+      ...commonArgs.venueId,
+      desc: "foursquare parent venue id",
+    },
+    subVenueId: {
+      type: "string",
+      array: true,
+      desc: "foursquare parnet subvenue id",
+      alias: "subVenues",
+      default: [],
+    },
+  });
 }
 
 export function handler(args: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {

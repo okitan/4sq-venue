@@ -1,26 +1,17 @@
 import yargs from "yargs";
 
-import { Extract } from "../../cli";
+import { commonArgs, Extract } from "../../cli";
 import { getSimilarity } from "../../nameMatcher";
-import { guessTargetFromBranchName } from "../../util";
 import { loadLinkedVenues } from "../../venueList";
 
-export const command = "check";
+export const command = "check [Options]";
 export const description = "check links";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
-  return yargs.options({
-    target: {
-      type: "string",
-      default: guessTargetFromBranchName(),
-      demandOption: true,
-    },
-  });
+  return yargs.options({ target: commonArgs.targetWithCompletion });
 }
 
 export function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  if (!target) throw `target should not be null`; // never
-
   const linkedVenues = loadLinkedVenues(target);
 
   console.table(
