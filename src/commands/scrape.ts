@@ -7,7 +7,7 @@ import { Config } from "../types/config";
 import { Venue } from "../venue";
 import { updateScrapedVenues, VenueList } from "../venueList";
 
-export const command = "scrape <target> [Options]";
+export const command = "scrape [Options]";
 export const description = "scrape venues";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
