@@ -34,21 +34,35 @@ export class FoursquareClient {
       .response as SuccessfulVenueResponse["response"];
   }
 
-  async closeVenue({ venueId }: { venueId: string }): Promise<SuccessfulVenueResponse["response"]> {
-    return (await this._post(`/venues/${venueId}/flag`, { problem: "closed" }))
+  private async reportVenue({
+    venueId,
+    reason,
+  }: {
+    venueId: string;
+    reason: string;
+  }): Promise<SuccessfulVenueResponse["response"]> {
+    return (await this._post(`/venues/${venueId}/flag`, { problem: reason }))
       .response as SuccessfulVenueResponse["response"];
   }
 
+  async closeVenue({ venueId }: { venueId: string }): Promise<SuccessfulVenueResponse["response"]> {
+    return this.reportVenue({ venueId, reason: "closed" });
+  }
+
   async deleteVenue({ venueId }: { venueId: string }): Promise<SuccessfulVenueResponse["response"]> {
-    return (await this._post(`/venues/${venueId}/flag`, { problem: "doesnt_exist" }))
-      .response as SuccessfulVenueResponse["response"];
+    return this.reportVenue({ venueId, reason: "doesnt_exist" });
+  }
+
+  async privateVenue({ venueId }: { venueId: string }): Promise<SuccessfulVenueResponse["response"]> {
+    return this.reportVenue({ venueId, reason: "private" });
   }
 
   async _get(path: string, params: { [x: string]: string } = {}): Promise<SuccessfulFoursquareResponse> {
     const paramsWithToken = Object.assign({ oauth_token: this.accessToken, locale: "ja", v: "20181127" }, params);
 
     const response = await fetch(`https://api.foursquare.com/v2${path}?${new URLSearchParams(paramsWithToken)}`);
-    if (response.status >= 400) throw `request failed with ${response.status}`;
+    if (response.status >= 400)
+      throw new Error(`request failed with ${response.status} because of ${await response.json()}`);
 
     return (await response.json()) as SuccessfulFoursquareResponse;
   }
@@ -59,7 +73,8 @@ export class FoursquareClient {
     const response = await fetch(`https://api.foursquare.com/v2${path}?${new URLSearchParams(params)}`, {
       method: "POST",
     });
-    if (response.status >= 400) throw `request failed with ${response.status}`;
+    if (response.status >= 400)
+      throw new Error(`request failed with ${response.status} because of ${await response.json()}`);
 
     return (await response.json()) as SuccessfulFoursquareResponse;
   }
