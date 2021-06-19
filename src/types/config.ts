@@ -1,4 +1,4 @@
-import puppeteer, { NavigationOptions } from "puppeteer";
+import puppeteer, { WaitForOptions } from "puppeteer";
 
 import { ScrapedProperties } from "../scraper";
 
@@ -19,7 +19,7 @@ type Linker = {
 
 export type ScrapeConfig<T = ScrapedProperties> = {
   url: string;
-  options?: NavigationOptions;
+  options?: WaitForOptions;
   venues: {
     [classPath: string]: ScrapePropertiesConfig<T>;
   };
