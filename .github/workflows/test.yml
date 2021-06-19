@@ -7,6 +7,17 @@ on:
       - scrape-*
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+      - run: npm run build:check
   test:
     runs-on: ubuntu-latest
 
