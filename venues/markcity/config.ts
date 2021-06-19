@@ -1,4 +1,4 @@
-import { Config } from "../../src/types/config";
+import { Config, ScrapeConfig } from "../../src/types/config";
 
 const config: Config = {
   id: "4b3f1743f964a520eba325e3",
@@ -12,46 +12,51 @@ const config: Config = {
   },
   scraper: [
     // マークシティ
-    ...["east1", "west1", "east2", "west2", "east3", 4, 5].map((i) => ({
-      url: `https://www.s-markcity.co.jp/${i}f/`,
-      venues: {
-        "li.shopinfo_cmd_post_list_item": {
-          followLink: { selector: "a", property: "href" },
-          name: { selector: "#main h1" },
-          phone: { xpath: "//th[contains(text(),'電話番号')]/following-sibling::td", nullable: true as true },
-          bldg: {
-            selector: ".shop_place div",
-            modifier: (txt: string) => {
-              const matched = txt.match(/(\W+?)(\d+)(F|階)/);
-              return (matched && matched[1]) || undefined;
+    ...["east1", "west1", "east2", "west2", "east3", 4, 5].map(
+      (i): ScrapeConfig => ({
+        url: `https://www.s-markcity.co.jp/${i}f/`,
+        venues: {
+          "li.shopinfo_cmd_post_list_item": {
+            followLink: { selector: "a", property: "href" },
+            name: { selector: "#main h1" },
+            phone: { xpath: "//th[contains(text(),'電話番号')]/following-sibling::td", nullable: true as true },
+            bldg: {
+              selector: ".shop_place div",
+              modifier: (txt: string) => {
+                const matched = txt.match(/(\W+?)(\d+)(F|階)/);
+                return (matched && matched[1]) || undefined;
+              },
             },
-          },
-          level: {
-            selector: ".shop_place div",
-            modifier: (txt: string) => {
-              const matched = txt.match(/(\W+?)(\d+)(F|階)/);
-              return (matched && parseInt(matched[2])) || undefined;
+            level: {
+              selector: ".shop_place div",
+              modifier: (txt: string) => {
+                const matched = txt.match(/(\W+?)(\d+)(F|階)/);
+                return (matched && parseInt(matched[2])) || undefined;
+              },
             },
           },
         },
-      },
-    })),
+      })
+    ),
     // フードショー
-    {
-      url: "https://www.tokyu-dept.co.jp/shibuya_foodshow/floor/index.html",
-      venues: {
-        ".list_shop_block li": {
-          followLink: { selector: "a", property: "href" },
-          name: { selector: ".heading_shop", modifier: nameModifier },
-          altName: { selector: ".heading_shop", modifier: altNameExtractor },
-          phone: {
-            xpath: "//th[contains(text(), '電話番号')]/following-sibling::td",
-            nullable: true,
+    ...["b1", "1f"].map(
+      (i): ScrapeConfig => ({
+        url: `https://www.tokyu-dept.co.jp/shibuya_foodshow/floor/${i}_smc.html`,
+        venues: {
+          ".list_shop_block li": {
+            followLink: { selector: "a", property: "href" },
+            name: { selector: ".heading_shop", modifier: nameModifier },
+            altName: { selector: ".heading_shop", modifier: altNameExtractor },
+            phone: {
+              xpath: "//th[contains(text(), '電話番号')]/following-sibling::td",
+              nullable: true,
+            },
+            bldg: "東急フードショー",
+            level: i === "b1" ? -1 : 1,
           },
-          level: -1,
         },
-      },
-    },
+      })
+    ),
   ],
 };
 
