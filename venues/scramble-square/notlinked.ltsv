@@ -2,7 +2,6 @@ id:5ddfa68e8d5e1d0008104bf5	parentVenueId:5d7b5d89d1334200083e1ae2	name:boxsta	c
 id:5f5d761bb388ec13dee8fcda	parentVenueId:5db1240443598d00073edbe0	name:ヘリポート	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:60add005c4724e3a3c79b19a	parentVenueId:5d7b5d89d1334200083e1ae2	name:動物可愛い。ジャングル。	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5f5dba68a8d40f063b6c6e01	parentVenueId:5d7b5d89d1334200083e1ae2	name:渋谷Qws（キューズ）	crossStreet:スクランブルスクエア東棟15階	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:60b9d6ba643bd47d8a982eab	parentVenueId:5d7b5d89d1334200083e1ae2	name:メディテ	crossStreet:渋谷スクランブルスクエア	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5e088cb300d4910008d0fc8d	parentVenueId:5d7b5d89d1334200083e1ae2	name:イベントスペース Scene12	crossStreet:渋谷スクランブルスクエア 12F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5d8da72d8fc86c000828cfdd	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社サイバーエージェント	crossStreet:渋谷スクランブルスクエア 21F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:http://cyberagent.co.jp
 id:5dbbfc56f920bc0008f0d675	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社ミクシィ	crossStreet:渋谷スクランブルスクエア 36F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -63,6 +62,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:M・A・C	scraped.altName:マ
 id:	parentVenueId:	name:	crossStreet:	scraped.name:NARS	scraped.altName:ナーズ	scraped.bldg:	scraped.level:6	scraped.phone:0368038552	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=234
 id:	parentVenueId:	name:	crossStreet:	scraped.name:RMK	scraped.altName:アールエムケー	scraped.bldg:	scraped.level:6	scraped.phone:0368051343	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=256
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ReFa	scraped.altName:リファ	scraped.bldg:	scraped.level:6	scraped.phone:0364526207	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=250
+id:	parentVenueId:	name:	crossStreet:	scraped.name:SHISEIDO	scraped.altName:シセイドウ	scraped.bldg:	scraped.level:6	scraped.phone:0368038610	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=268
 id:	parentVenueId:	name:	crossStreet:	scraped.name:SK-Ⅱ	scraped.altName:エスケーツー	scraped.bldg:	scraped.level:6	scraped.phone:0359627559	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=264
 id:	parentVenueId:	name:	crossStreet:	scraped.name:SUQQU	scraped.altName:スック	scraped.bldg:	scraped.level:6	scraped.phone:0364526159	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=266
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Tom Ford Beauty	scraped.altName:トム フォード ビューティ	scraped.bldg:	scraped.level:6	scraped.phone:0364511413	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=261
