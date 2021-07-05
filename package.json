@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/jest": "26.0.23",
-    "@types/yeoman-environment": "2.10.3",
+    "@types/yeoman-environment": "2.10.4",
     "esbuild": "0.12.14",
     "esbuild-jest": "0.5.0",
     "jest": "26.6.3",
