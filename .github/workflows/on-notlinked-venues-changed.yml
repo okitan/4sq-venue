@@ -13,8 +13,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: check auto merge
         # on.pull_request.paths and changed_files == 1 means only notlinked.ltsv is changed
-        if: >
-          github.event.pull_request.changed_files == 1
+        if: ${{ github.event.pull_request.changed_files == 1 }}
         run: |
           if git diff --unified=0 origin/master | grep "[+-]id:"; then
             if git diff --unified=0 origin/master | grep "[+-]id:\w"; then
