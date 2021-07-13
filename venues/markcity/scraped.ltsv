@@ -40,27 +40,18 @@ name:ルラ美容クリニック	altName:	bldg:オフィス棟	level:14	phone:01
 name:医療法人社団佳心会 マークシティ酒井歯科室	altName:	bldg:オフィス（ウエスト棟） 	level:5	phone:0354594400	url:https://www.s-markcity.co.jp/floor/w-5-40/
 name:渋谷ウエストヒルズクリニック	altName:	bldg:オフィス（ウエスト棟） 	level:11	phone:0354594015	url:https://www.s-markcity.co.jp/floor/w-11-42/
 name:神谷歯科 渋谷マークシティ診療所	altName:	bldg:オフィス（ウエスト棟） 	level:11	phone:0354281335	url:https://www.s-markcity.co.jp/floor/w-11-43/
-name:アール・エフ・ワン	altName:	bldg:東急フードショー	level:-1	phone:0334774658	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=RF1
+name:TOMIZ 	altName:トミーズ	bldg:東急フードショー	level:-1	phone:0334774266	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=tomiz
+name:Thank & by antina gift studio 	altName:サンクアンド バイ アンティナギフトスタジオ	bldg:東急フードショー	level:-1	phone:0334774763	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=thank_and
 name:カルディコーヒーファーム	altName:	bldg:東急フードショー	level:-1	phone:0334774436	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kaldi
 name:キャピタルコーヒー	altName:	bldg:東急フードショー	level:-1	phone:0334774738	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=capitalcoffee
-name:ドゥ マゴ ベーカリー	altName:	bldg:東急フードショー	level:-1	phone:0334774367	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=DEUXMAGOTS
-name:京粕漬 魚久	altName:	bldg:東急フードショー	level:-1	phone:0334774306	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=uokyu
+name:ドゥ マゴ	altName:	bldg:東急フードショー	level:-1	phone:0334774367	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=DEUXMAGOTS
 name:北野エース	altName:	bldg:東急フードショー	level:-1	phone:0334774435	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kitanoace
-name:和洋酒	altName:日本酒・ワイン・ウイスキー・ビール	bldg:東急フードショー	level:-1	phone:0334774308	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=wine
-name:小倉屋山本	altName:	bldg:東急フードショー	level:-1	phone:0334774849	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ogurayayamamoto
-name:山本海苔店	altName:	bldg:東急フードショー	level:-1	phone:0334774351	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=yamamotonori
-name:崎陽軒	altName:	bldg:東急フードショー	level:-1	phone:0334774452	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=KIYOKEN
+name:和洋酒	altName:	bldg:東急フードショー	level:-1	phone:0334774310	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=wine
 name:成城石井SELECT	altName:	bldg:東急フードショー	level:-1	phone:0334774627	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SEIJOISII
-name:林フルーツ 	altName:果物・野菜	bldg:東急フードショー	level:-1	phone:0334774320	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=HAYASHIFRUITS
-name:桂林	altName:	bldg:東急フードショー	level:-1	phone:0334774616	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=YOKOHAMAKEIRIN
-name:浅草今半	altName:佃煮	bldg:東急フードショー	level:-1	phone:0334774874	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=asakusaimahan_tsukudani
+name:林フルーツ	altName:	bldg:東急フードショー	level:-1	phone:0334774320	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=HAYASHIFRUITS
 name:浅草今半	altName:精肉	bldg:東急フードショー	level:-1	phone:0334774526	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=asakusaimahan_meat
-name:浪花 古市庵	altName:	bldg:東急フードショー	level:-1	phone:0334774034	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ECHIGOYAJIMBEEKOICHIAN
-name:海老屋總本舗	altName:	bldg:東急フードショー	level:-1	phone:0334774872	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ebiyasouhonpo
-name:米処結米屋	altName:	bldg:東急フードショー	level:-1	phone:0334774437	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=komedokoroyumeya
 name:精肉あづま	altName:	bldg:東急フードショー	level:-1	phone:0334774318	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SEINIKUAZUMAb1
-name:鮮魚 魚力	altName:	bldg:東急フードショー	level:-1	phone:0334774139	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=UORIKI
-name:麻布あさひ	altName:	bldg:東急フードショー	level:-1	phone:0334774649	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=AZABUASAHI
+name:魚力	altName:	bldg:東急フードショー	level:-1	phone:0334774139	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=UORIKI
 name:ATELIER FUJITA 	altName:アトリエフジタ	bldg:東急フードショー	level:1	phone:0334774701	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=atelier_fujita
 name:ATELIER MELLOWHICH 	altName:アトリエ メロウウィッチ	bldg:東急フードショー	level:1	phone:0334774646	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=atelier_mellowhich
 name:AnniBAUM 	altName:アニバウム	bldg:東急フードショー	level:1	phone:0334774671	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=annibaum
@@ -75,6 +66,7 @@ name:REICACAO 	altName:レイカカオ	bldg:東急フードショー	level:1	pho
 name:THE STANDARD BAKERS FARM 	altName:ザスタンダードベイカーズファーム	bldg:東急フードショー	level:1	phone:0334774760	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=the_standard_bakers
 name:THE TAILOR 	altName:ザ・テイラー	bldg:東急フードショー	level:1	phone:0334774673	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=thetailor
 name:TiMi 	altName:ティミ	bldg:東急フードショー	level:1	phone:0334774638	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=timi
+name:[7/10	altName:土)OPEN] Lait ribot (レリボ	bldg:東急フードショー	level:1	phone:0334774677	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=laitribot
 name:くら吉	altName:	bldg:東急フードショー	level:1	phone:0334774681	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kurakichi
 name:アンテノール	altName:	bldg:東急フードショー	level:1	phone:0334774604	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=antenor
 name:ガトー・ド・ボワイヤージュ	altName:	bldg:東急フードショー	level:1	phone:0334774506	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=gateauxdevoyage
