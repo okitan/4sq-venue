@@ -50,6 +50,7 @@ name:和洋酒	altName:	bldg:東急フードショー	level:-1	phone:0334774310	
 name:成城石井SELECT	altName:	bldg:東急フードショー	level:-1	phone:0334774627	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SEIJOISII
 name:林フルーツ	altName:	bldg:東急フードショー	level:-1	phone:0334774320	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=HAYASHIFRUITS
 name:浅草今半	altName:精肉	bldg:東急フードショー	level:-1	phone:0334774526	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=asakusaimahan_meat
+name:米処 結米屋	altName:	bldg:東急フードショー	level:-1	phone:0334774437	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=komedokoroyumeya
 name:精肉あづま	altName:	bldg:東急フードショー	level:-1	phone:0334774318	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SEINIKUAZUMAb1
 name:魚力	altName:	bldg:東急フードショー	level:-1	phone:0334774139	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=UORIKI
 name:ATELIER FUJITA 	altName:アトリエフジタ	bldg:東急フードショー	level:1	phone:0334774701	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=atelier_fujita
@@ -60,13 +61,13 @@ name:BOUL’ANGE 	altName:ブールアンジュ	bldg:東急フードショー	le
 name:GODIVA 	altName:ゴディバ	bldg:東急フードショー	level:1	phone:0334774311	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=GODIVA
 name:ICHIBIKO 	altName:イチビコ	bldg:東急フードショー	level:1	phone:0334774676	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ichibiko
 name:LADURÉE 	altName:ラデュレ	bldg:東急フードショー	level:1	phone:0334774645	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=laduree
+name:Lait ribot 	altName:レリボ	bldg:東急フードショー	level:1	phone:0334774677	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=laitribot
 name:MERCER bis 	altName:マーサー ビス	bldg:東急フードショー	level:1	phone:0334774637	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=mercerbis
 name:Megan - bar & patisserie 	altName:ミーガン バーアンドパティスリー	bldg:東急フードショー	level:1	phone:0334774670	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=meganbar
 name:REICACAO 	altName:レイカカオ	bldg:東急フードショー	level:1	phone:0334774651	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=reicacao
 name:THE STANDARD BAKERS FARM 	altName:ザスタンダードベイカーズファーム	bldg:東急フードショー	level:1	phone:0334774760	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=the_standard_bakers
 name:THE TAILOR 	altName:ザ・テイラー	bldg:東急フードショー	level:1	phone:0334774673	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=thetailor
 name:TiMi 	altName:ティミ	bldg:東急フードショー	level:1	phone:0334774638	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=timi
-name:[7/10	altName:土)OPEN] Lait ribot (レリボ	bldg:東急フードショー	level:1	phone:0334774677	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=laitribot
 name:くら吉	altName:	bldg:東急フードショー	level:1	phone:0334774681	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kurakichi
 name:アンテノール	altName:	bldg:東急フードショー	level:1	phone:0334774604	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=antenor
 name:ガトー・ド・ボワイヤージュ	altName:	bldg:東急フードショー	level:1	phone:0334774506	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=gateauxdevoyage
