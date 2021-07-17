@@ -57,6 +57,23 @@ const config: Config = {
         },
       })
     ),
+    // しぶちか
+    {
+      url: `https://www.tokyu-dept.co.jp/shibuya_foodshow/floor/b1_shibuchika.html`,
+      venues: {
+        ".list_shop_block li": {
+          followLink: { selector: "a", property: "href" },
+          name: { selector: ".heading_shop", modifier: nameModifier },
+          altName: { selector: ".heading_shop", modifier: altNameExtractor },
+          phone: {
+            xpath: "//th[contains(text(), '電話番号')]/following-sibling::td",
+            nullable: true,
+          },
+          bldg: "東急フードショー しぶちか",
+          level: -1,
+        },
+      },
+    },
   ],
 };
 
