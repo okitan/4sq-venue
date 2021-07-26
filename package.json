@@ -20,7 +20,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "@types/node-fetch": "2.5.11",
+    "@types/node-fetch": "2.5.12",
     "@types/puppeteer": "5.4.4",
     "esbuild-register": "2.6.0",
     "ltsv": "2.0.0",
