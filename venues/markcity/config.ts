@@ -5,7 +5,6 @@ const config: Config = {
   name: "渋谷マークシティ",
   subvenues: [
     { id: "4b7d16f1f964a5204cae2fe3", name: "渋谷エクセルホテル東急" },
-    { id: "4b6b4de3f964a52089ff2be3", name: "しぶちか" },
     { id: "5f5f634e017ea123d39b622c", name: "東急フードショー" },
   ],
   linker: {
