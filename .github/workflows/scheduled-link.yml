@@ -18,6 +18,7 @@ jobs:
           - magnet
           - markcity
           - scramble-square
+          - shibuchika
           - shibuya-stream
           - sweets-forest
       fail-fast: false
