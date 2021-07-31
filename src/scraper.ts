@@ -146,7 +146,7 @@ export async function applySelector<T extends string | number>(
     if (config.nullable) {
       return undefined;
     } else {
-      throw `unable to fetch ${JSON.stringify(config)}`;
+      throw new Error(`unable to fetch ${JSON.stringify(config)}`);
     }
   }
 
