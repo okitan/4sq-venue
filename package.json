@@ -28,7 +28,7 @@
     "mem-fs": "2.2.1",
     "mem-fs-editor": "9.1.0",
     "node-fetch": "2.6.1",
-    "ora": "5.4.1",
+    "ora": "6.0.0",
     "puppeteer": "8.0.0",
     "yargs": "17.1.1",
     "yeoman-environment": "3.6.0"
