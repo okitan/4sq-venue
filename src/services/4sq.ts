@@ -45,6 +45,17 @@ export class FoursquareClient {
       .response as SuccessfulVenueResponse["response"];
   }
 
+  async updateVenue({
+    venueId,
+    options,
+  }: {
+    venueId: string;
+    options: { [x: string]: string };
+  }): Promise<SuccessfulFoursquareResponse["response"]> {
+    return (await this._post(`/venues/${venueId}/proposeedit`, options))
+      .response as SuccessfulVenueResponse["response"];
+  }
+
   async closeVenue({ venueId }: { venueId: string }): Promise<SuccessfulVenueResponse["response"]> {
     return this.reportVenue({ venueId, reason: "closed" });
   }
