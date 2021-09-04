@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: check auto merge
         # on.pull_request.paths and changed_files == 1 means only notlinked.ltsv is changed
         if: ${{ github.event.pull_request.changed_files == 1 }}
