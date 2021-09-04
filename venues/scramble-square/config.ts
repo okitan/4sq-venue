@@ -20,9 +20,10 @@ const config: Config = {
       fetch: async (): Promise<ScrapedProperties[]> => {
         const url = "https://tacsis-cdn-endpoint.azureedge.net/cms-web/shop.json";
 
-        const result = await (await fetch(url)).json(); // TODO: declare response schema
+        const result = await (await fetch(url)).json();
+        assertResult(result);
 
-        return result.map((shop: any) => {
+        return result.map((shop) => {
           return {
             name: shop.shop_name,
             altName: shop.shop_name_kana,
@@ -36,5 +37,10 @@ const config: Config = {
     },
   ],
 };
+
+function assertResult(result: any): asserts result is Array<{ [x: string]: any }> {
+  // TODO: declare response schema and check it
+  result;
+}
 
 export = config;

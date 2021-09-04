@@ -60,7 +60,11 @@ export async function scrape({
 
             results.push(result);
           } catch (err) {
-            throw `on scraping ${subVenueUrl}: ${err.message}`;
+            if (err instanceof Error) {
+              throw new Error(`on scraping ${subVenueUrl}: ${err.message}`);
+            } else {
+              throw err;
+            }
           } finally {
             if (newPage) await newPage.close();
           }
