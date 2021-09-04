@@ -26,6 +26,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
       - name: switch to branch
         run: git switch "link-${{ matrix.venues }}" || git switch -c "link-${{ matrix.venues }}"
       - run: npm ci
