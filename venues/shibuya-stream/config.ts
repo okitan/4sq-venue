@@ -22,7 +22,7 @@ const config: Config = {
           followLink: { selector: "a", property: "href" },
           name: { selector: ".shop_name" },
           altName: { selector: ".shop_kana" },
-          phone: { selector: ".shop_detail_list dd:nth-of-type(3)" },
+          phone: { selector: ".tel" },
           level: { selector: ".shop_detail_list .floor_no", modifier: levelExtractor },
           skip: async (item) => (await applySelector(item, { selector: ".shop_name" })) === "Coming soon...",
         },
