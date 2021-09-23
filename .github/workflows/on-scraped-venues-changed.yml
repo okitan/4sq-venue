@@ -13,11 +13,9 @@ jobs:
       - name: check auto merge
         # on.pull_request.paths and changed_files == 1 means only scraped.ltsv is changed
         if: >
-          ${{
-            github.event.pull_request.changed_files == 1 &&
-            github.event.pull_request.additions <= 1 &&
-            github.event.pull_request.deletions <= 1
-          }}
+          github.event.pull_request.changed_files == 1 &&
+          github.event.pull_request.additions <= 1 &&
+          github.event.pull_request.deletions <= 1
         run: |
           curl -vv \
                -X PATCH \
