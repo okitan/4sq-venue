@@ -126,7 +126,6 @@ name:スターバックス コーヒー	altName:	bldg:	level:-1	phone:0364341762
 name:ドゥ・ラ・メール	altName:	bldg:	level:-1	phone:0334862374	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delamer
 name:ネイルバー スマートスタイル	altName:	bldg:	level:-1	phone:0364341780	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nailbar
 name:ベアミネラル	altName:	bldg:	level:-1	phone:0364341771	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bareminerals
-name:ベキュア	altName:	bldg:	level:-1	phone:0364341779	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=vecua
 name:マークスアンドウェブ	altName:	bldg:	level:-1	phone:0364341767	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marksandweb
 name:メイクアップライフ	altName:	bldg:	level:-1	phone:0364341500	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
 name:ランコム	altName:	bldg:	level:-1	phone:0364341786	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lancome
@@ -221,7 +220,6 @@ name:マーコート	altName:	bldg:	level:4	phone:0364341627	url:https://www.tok
 name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fleur
 name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:5	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
-name:MAKANAI	altName:	bldg:	level:5	phone:0368051913	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makanaicosme
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
 name:オブジェクツ バイ // ソー メニー イヤーズ //	altName:	bldg:	level:5	phone:0364341858	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=objects
@@ -260,7 +258,6 @@ name:ベジ串 創作おでん ぬる燗佐藤	altName:	bldg:	level:7	phone:0364
 name:モダンメキシカン マヤルス	altName:	bldg:	level:7	phone:0368038977	url:http://eh-foodservice.com/
 name:茶寮伊勢 藤次郎	altName:	bldg:	level:7	phone:0364341483	url:
 name:鉄板焼 お好み焼 かしわ	altName:	bldg:	level:7	phone:0364341570	url:http://salt-group.jp/shop/kashiwa-shibuya/?_ga=2.117499209.1505319255.1624322523-1902522686.1622705128
-name:ATELIER	altName:アトリエ	bldg:	level:8	phone:0364184718	url:https://www.hikarie8.com/atelier/
 name:COURT	altName:コート	bldg:	level:8	phone:0364184718	url:https://www.hikarie8.com/court/
 name:CUBE 1,2,3	altName:キューブ	bldg:	level:8	phone:0364184718	url:https://www.hikarie8.com/cube/
 name:Creative Lounge MOV	altName:	bldg:	level:8	phone:0345338000	url:http://www.shibuyamov.com/
