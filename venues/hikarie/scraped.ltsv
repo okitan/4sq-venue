@@ -190,7 +190,6 @@ name:ノーブル	altName:	bldg:	level:3	phone:0364341656	url:https://www.tokyu-
 name:ヒロブ	altName:	bldg:	level:3	phone:0364341699	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hirob
 name:ユナイテッドアローズ ウィメンズストア	altName:	bldg:	level:3	phone:0364185927	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unitedarrows
 name:ラ トータリテ	altName:	bldg:	level:3	phone:0364341660	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=latotalite
-name:ランバン オン ブルー	altName:	bldg:	level:3	phone:0364341693	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lanvin_en_bleu
 name:金子眼鏡店	altName:	bldg:	level:3	phone:0364341679	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanekogankyoten
 name:AIRONA by mu-ra	altName:アイロナ バイ ムーラ	bldg:	level:4	phone:0364341668	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aironabymura
 name:Ane Mone	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anemone
@@ -221,6 +220,7 @@ name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:http
 name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:5	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
+name:RECOMMEND MARKET by 綱具屋	altName:	bldg:	level:5	phone:0364276275	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tunaguya
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
 name:オブジェクツ バイ // ソー メニー イヤーズ //	altName:	bldg:	level:5	phone:0364341858	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=objects
 name:ギビング ストア	altName:	bldg:	level:5	phone:0364341728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=givingstore
