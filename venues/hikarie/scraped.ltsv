@@ -271,9 +271,9 @@ name:d47食堂	altName:	bldg:	level:8	phone:0364272303	url:http://www.hikarie8.c
 name:川本喜八郎人形ギャラリー	altName:	bldg:	level:8	phone:0334631142	url:
 name:渋谷○○書店	altName:	bldg:	level:8	phone:	url:https://www.hikarie8.com/books/about.shtml
 name:渋谷区区民サービスセンター	altName:	bldg:	level:8	phone:0337970935	url:
-name:ヒカリエホール ホールA	altName:	bldg:	level:9	phone:0354685088	url:http://www.hikarie.jp/hall/
-name:ヒカリエホール ホールB	altName:	bldg:	level:9	phone:0354685088	url:http://www.hikarie.jp/hall/
-name:Hikarieカンファレンス	altName:	bldg:	level:11	phone:0354685087	url:http://www.hikarie.jp/conference/index.html
+name:ヒカリエホール ホールA	altName:	bldg:	level:9	phone:0354685088	url:https://space.hikarie.jp/hall/
+name:ヒカリエホール ホールB	altName:	bldg:	level:9	phone:0354685088	url:https://space.hikarie.jp/hall/
+name:Hikarieカンファレンス	altName:	bldg:	level:11	phone:0354685087	url:https://space.hikarie.jp/conference/
 name:Lawson	altName:ローソン	bldg:	level:11	phone:0337970966	url:
 name:THE THEATRE COFFEE	altName:	bldg:	level:11	phone:0334868411	url:https://www.transit-web.com/content/shops/the_theatre_coffee/
 name:THE THEATRE TABLE	altName:	bldg:	level:11	phone:0334868411	url:https://www.transit-web.com/content/shops/the_theatre_table/
