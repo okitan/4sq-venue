@@ -92,6 +92,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:デイリリー	scraped.altNa
 id:	parentVenueId:	name:	crossStreet:	scraped.name:FRAY I.D	scraped.altName:フレイ アイディー	scraped.bldg:	scraped.level:3	scraped.phone:0364273586	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=frayid
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Jouete ADDITION	scraped.altName:ジュエッテ アディション	scraped.bldg:	scraped.level:3	scraped.phone:0364271656	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=Jouete
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Salute by WACOAL/AMPHI	scraped.altName:サルート バイ ワコール/アンフィ	scraped.bldg:	scraped.level:3	scraped.phone:0364276756	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=wacoalamphi
+id:	parentVenueId:	name:	crossStreet:	scraped.name:Scrap Book	scraped.altName:スクラップブック	scraped.bldg:	scraped.level:3	scraped.phone:0364271683	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=scrapbook
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ふりそでモード ウェディング・ボックス	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341659	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=furisodemode
 id:	parentVenueId:	name:	crossStreet:	scraped.name:イアクッチ	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341634	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=iacucci
 id:	parentVenueId:	name:	crossStreet:	scraped.name:サマンサタバサプチチョイスプラス	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341695	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=samantha
@@ -112,6 +113,5 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ラ・クッチーナ・フェリーチェ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271604	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lacucinafelice
 id:	parentVenueId:	name:	crossStreet:	scraped.name:葉山家具	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271071	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アジアンダイニング PRIMO	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0354680009	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:渋谷○○書店	scraped.altName:	scraped.bldg:	scraped.level:8	scraped.phone:	scraped.url:https://www.hikarie8.com/books/about.shtml
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒカリエホール ホールB	scraped.altName:	scraped.bldg:	scraped.level:9	scraped.phone:0354685088	scraped.url:http://www.hikarie.jp/hall/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィスエントランス	scraped.altName:	scraped.bldg:	scraped.level:11	scraped.phone:	scraped.url:
