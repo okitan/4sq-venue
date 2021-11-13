@@ -6,6 +6,7 @@ name:つけめんTETSU	altName:	bldg:	level:1	phone:0447380040	url:https://www.k
 name:とんかつ まい泉	altName:	bldg:	level:1	phone:0447221050	url:https://www.kosugi-square.com/floor/detail/?cd=000040
 name:ほけん百花	altName:	bldg:	level:1	phone:0120561388	url:https://www.kosugi-square.com/floor/detail/?cd=000010
 name:ぼんたぼんた	altName:	bldg:	level:1	phone:0442814125	url:https://www.kosugi-square.com/floor/detail/?cd=000084
+name:イッツコムスポット	altName:	bldg:	level:1	phone:0120109199	url:https://www.kosugi-square.com/floor/detail/?cd=000008
 name:タリーズコーヒー	altName:	bldg:	level:1	phone:0447382133	url:https://www.kosugi-square.com/floor/detail/?cd=000033
 name:ハックドラッグ	altName:	bldg:	level:1	phone:0447392289	url:https://www.kosugi-square.com/floor/detail/?cd=000009
 name:ビアードパパ	altName:	bldg:	level:1	phone:0447118555	url:https://www.kosugi-square.com/floor/detail/?cd=000082
@@ -30,7 +31,6 @@ name:東急株式会社 住まいと暮らしのコンシェルジュ	altName:	b
 name:銀座コージーコーナー	altName:	bldg:	level:1	phone:0448195850	url:https://www.kosugi-square.com/floor/detail/?cd=000079
 name:青山フラワーマーケット	altName:	bldg:	level:1	phone:0447225587	url:https://www.kosugi-square.com/floor/detail/?cd=000002
 name:鳥麻	altName:	bldg:	level:1	phone:0447332241	url:https://www.kosugi-square.com/floor/detail/?cd=000039
-name:Cキューブ	altName:	bldg:	level:2	phone:0447381288	url:https://www.kosugi-square.com/floor/detail/?cd=000052
 name:RF1	altName:	bldg:	level:2	phone:0442996076	url:https://www.kosugi-square.com/floor/detail/?cd=000049
 name:はらドーナッツ	altName:	bldg:	level:2	phone:0447110822	url:https://www.kosugi-square.com/floor/detail/?cd=000047
 name:アンデルセン	altName:	bldg:	level:2	phone:0443229612	url:https://www.kosugi-square.com/floor/detail/?cd=000045
@@ -39,6 +39,7 @@ name:インデックス	altName:	bldg:	level:2	phone:0445438021	url:https://www.
 name:イーション	altName:	bldg:	level:2	phone:0447390260	url:https://www.kosugi-square.com/floor/detail/?cd=000046
 name:オリエンタルトラフィック	altName:	bldg:	level:2	phone:0447125450	url:https://www.kosugi-square.com/floor/detail/?cd=000065
 name:カルディコーヒーファーム	altName:	bldg:	level:2	phone:0447112033	url:https://www.kosugi-square.com/floor/detail/?cd=000044
+name:シーキューブ	altName:	bldg:	level:2	phone:0447381288	url:https://www.kosugi-square.com/floor/detail/?cd=000052
 name:スターバックス コーヒー	altName:	bldg:	level:2	phone:0447382350	url:https://www.kosugi-square.com/floor/detail/?cd=000001
 name:ドルチェフェリーチェ	altName:	bldg:	level:2	phone:0442813630	url:https://www.kosugi-square.com/floor/detail/?cd=000076
 name:ハートダンス	altName:	bldg:	level:2	phone:0447115520	url:https://www.kosugi-square.com/floor/detail/?cd=000066
