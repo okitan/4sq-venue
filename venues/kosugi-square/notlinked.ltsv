@@ -1,4 +1,3 @@
-id:61b0406cfc67ae472f7b4a3d	parentVenueId:516f70a7e4b0ae9eea0f8d97	name:This Week 2	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4fa4882ee4b089a959ae1cc5	parentVenueId:50966024e4b0ad0d96424f52	name:エクラスタワー武蔵小杉	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5168d08f498e71bc94848465	parentVenueId:50966024e4b0ad0d96424f52	name:マルエツ 武蔵小杉駅前店	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:http://www.maruetsu.co.jp
 id:61b040dd8b999d322361dabf	parentVenueId:516f70a7e4b0ae9eea0f8d97	name:栗吉	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -9,6 +8,7 @@ id:5c46ca9f364d97002c8da42d	parentVenueId:50966024e4b0ad0d96424f52	name:ハッ�
 id:516a1c68e4b0b2ce6b5d8832	parentVenueId:50966024e4b0ad0d96424f52	name:まぐろ人	crossStreet:武蔵小杉東急スクエア 4F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5997fca4d8096e4e431f028b	parentVenueId:50966024e4b0ad0d96424f52	name:マルカミ食堂	crossStreet:武蔵小杉東急スクエア 4F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:515aa802e4b044e14c04cd5c	parentVenueId:50966024e4b0ad0d96424f52	name:武蔵小杉東急スクエア 展望デッキ	crossStreet:武蔵小杉東急スクエア 4F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:61b0406cfc67ae472f7b4a3d	parentVenueId:516f70a7e4b0ae9eea0f8d97	name:This Week 2	crossStreet:武蔵小杉東急スクエア 東急フードショースライス 2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ルナアース	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0442996917	scraped.url:https://www.kosugi-square.com/floor/detail/?cd=000311
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オリエンタルトラフィック	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0447125450	scraped.url:https://www.kosugi-square.com/floor/detail/?cd=000065
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ローリーズファーム プラス	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0447336173	scraped.url:https://www.kosugi-square.com/floor/detail/?cd=000015
