@@ -4,11 +4,11 @@
   "description": "manage venues",
   "scripts": {
     "build:check": "tsc --noEmit",
-    "4sq": "node -r esbuild-register src/cli.ts",
-    "add": "node -r esbuild-register src/cli.ts add",
-    "updateLink": "node -r esbuild-register src/cli.ts link update",
-    "scrape": "node -r esbuild-register src/cli.ts scrape",
-    "link": "node -r esbuild-register src/cli.ts link",
+    "4sq": "ts-node -T src/cli.ts",
+    "add": "ts-node -T src/cli.ts add",
+    "updateLink": "ts-node -T src/cli.ts link update",
+    "scrape": "ts-node -T src/cli.ts scrape",
+    "link": "ts-node -T src/cli.ts link",
     "test": "jest"
   },
   "repository": {
@@ -24,8 +24,8 @@
     "mdiff": "1.3.1",
     "mem-fs": "2.2.1",
     "mem-fs-editor": "9.3.0",
-    "node-fetch": "3.1.0",
-    "ora": "6.0.1",
+    "node-fetch": "2.6.6",
+    "ora": "5.4.1",
     "puppeteer": "12.0.1",
     "ts-node": "10.4.0",
     "yargs": "17.3.0",
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@types/jest": "27.0.3",
+    "@types/node-fetch": "2.5.12",
     "@types/puppeteer": "5.4.4",
     "@types/yeoman-environment": "2.10.5",
     "jest": "27.4.5",
