@@ -24,7 +24,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
 }
 
 export async function handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  const config = require(`../../../venues/${target}/config`) as Config;
+  const config: Config = await import(`../../../venues/${target}/config`);
 
   const scrapedVenues = loadScrapedVenues(target);
 
