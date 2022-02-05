@@ -1,5 +1,4 @@
 name:TAIWAN PANDA DELI	altName:	bldg:	level:-3	phone:0364275343	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pandadeli
-name:matcha LOVE	altName:	bldg:	level:-3	phone:0364341880	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=matchalove
 name:いとはん	altName:	bldg:	level:-3	phone:0364279643	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=itohan
 name:こめらくのこめべん	altName:	bldg:	level:-3	phone:0364275489	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=komeben
 name:たこ家 道頓堀 くくる	altName:	bldg:	level:-3	phone:0364274903	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kukuru
@@ -79,7 +78,6 @@ name:ラ・メゾン白金	altName:	bldg:	level:-2	phone:0364341850	url:https://
 name:ル ショコラ ドゥ アッシュ	altName:	bldg:	level:-2	phone:0354683167	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lechocolatdeh
 name:ル パン ドゥ ジョエル・ロブション	altName:	bldg:	level:-2	phone:0364341837	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lepain
 name:ワインショップ・エノテカ	altName:	bldg:	level:-2	phone:0334983285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=enoteca
-name:一保堂茶舗	altName:	bldg:	level:-2	phone:0364272779	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ippodo
 name:両口屋是清	altName:	bldg:	level:-2	phone:0364272248	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ryouguchiyakorekiyo
 name:京橋千疋屋	altName:	bldg:	level:-2	phone:0364341810	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=senbikiya
 name:加賀麩 不室屋	altName:	bldg:	level:-2	phone:0364341820	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kagafumuroya
@@ -218,7 +216,6 @@ name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:http
 name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:5	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
-name:RECOMMEND MARKET by 綱具屋	altName:	bldg:	level:5	phone:0364276275	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tunaguya
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
 name:meet tree	altName:	bldg:	level:5	phone:0364275720	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meettree
 name:オブジェクツ バイ // ソー メニー イヤーズ //	altName:	bldg:	level:5	phone:0364341858	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=objects
@@ -231,6 +228,7 @@ name:バースデイ・バー	altName:	bldg:	level:5	phone:0334862369	url:https:
 name:ラ・クッチーナ・フェリーチェ	altName:	bldg:	level:5	phone:0364271604	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lacucinafelice
 name:ル・クルーゼ	altName:	bldg:	level:5	phone:0368050913	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lecreuset
 name:神棚の里	altName:	bldg:	level:5	phone:0364275163	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kamidananosato
+name:綱具屋	altName:	bldg:	level:5	phone:0364276275	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tunaguya
 name:茶庭 然花抄院	altName:	bldg:	level:5	phone:0364341517	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sateizenkashoin
 name:葉山家具	altName:	bldg:	level:5	phone:0364271071	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
 name:うなぎ 徳	altName:	bldg:	level:6	phone:0364341519	url:http://www.unagiya.co.jp
@@ -248,6 +246,7 @@ name:Bar Español LA BODEGA	altName:	bldg:	level:7	phone:0364341480	url:https://
 name:CHEESE KITCHEN RACLER	altName:	bldg:	level:7	phone:0364335404	url:https://www.cheese-kitchen-racler.com/
 name:Cafe＆Grill SIZZLe GAZZLe	altName:	bldg:	level:7	phone:0364341473	url:http://oya-food.com/shop/sizzle-gazzle/
 name:Disney HARVEST MARKET	altName:	bldg:	level:7	phone:05037335055	url:https://d-harvestmarket.com/
+name:Kitchen MARCH	altName:	bldg:	level:7	phone:0364273888	url:https://www.tub.co.jp/
 name:すぱじろう渋谷	altName:	bldg:	level:7	phone:0364276699	url:http://spajiro.com/
 name:やさい家めい	altName:	bldg:	level:7	phone:0357741110	url:http://www.eat-walk.com/shibuya_mei/index.html
 name:ベジ串 創作おでん ぬる燗佐藤	altName:	bldg:	level:7	phone:0364511548	url:http://www.nurukan-sato.com/
