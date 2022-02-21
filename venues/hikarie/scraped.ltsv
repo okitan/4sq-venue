@@ -80,6 +80,7 @@ name:ル パン ドゥ ジョエル・ロブション	altName:	bldg:	level:-2	ph
 name:ワインショップ・エノテカ	altName:	bldg:	level:-2	phone:0334983285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=enoteca
 name:両口屋是清	altName:	bldg:	level:-2	phone:0364272248	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ryouguchiyakorekiyo
 name:京橋千疋屋	altName:	bldg:	level:-2	phone:0364341810	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=senbikiya
+name:伊藤園	altName:	bldg:	level:-2	phone:0364341867	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=itoen
 name:加賀麩 不室屋	altName:	bldg:	level:-2	phone:0364341820	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kagafumuroya
 name:和楽紅屋	altName:	bldg:	level:-2	phone:0364341733	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=waraku
 name:塩瀬総本家	altName:	bldg:	level:-2	phone:0364272394	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiosesouhonke
@@ -103,7 +104,6 @@ name:Dior	altName:クリスチャン ディオール	bldg:	level:-1	phone:036434
 name:ESTEE LAUDER	altName:エスティ ローダー	bldg:	level:-1	phone:0334868121	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=esteelauder
 name:ETVOS	altName:	bldg:	level:-1	phone:0364341708	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=etvos
 name:HACCI	altName:ハッチ	bldg:	level:-1	phone:0364341768	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hacci
-name:KOBAKO	altName:コバコ	bldg:	level:-1	phone:0364341765	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kobako
 name:POLA	altName:ポーラ	bldg:	level:-1	phone:0364341766	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
 name:PORELESS LABO	altName:ポアレスラボ	bldg:	level:-1	phone:0364341794	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=porelesslabo
 name:RMK	altName:アールエムケー	bldg:	level:-1	phone:0364341787	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rmk
@@ -135,7 +135,6 @@ name:SHIRO	altName:	bldg:	level:1	phone:0364341796	url:https://www.tokyu-dept.co
 name:STAR JEWELRY GIRL	altName:スタージュエリー ガール	bldg:	level:1	phone:0357783813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelrygirl
 name:THE HAIR BAR TOKYO	altName:ザ ヘア バー トウキョウ	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
 name:diptyque	altName:ディプティック	bldg:	level:1	phone:0364341752	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=diptyque
-name:アナプノエ	altName:	bldg:	level:1	phone:0364341772	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anapnoe
 name:キールズ	altName:	bldg:	level:1	phone:0334992010	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kiehls
 name:クロードモネH2O・AVEDA	altName:	bldg:	level:1	phone:0334068839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aveda
 name:コスメキッチン	altName:	bldg:	level:1	phone:0364341743	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cosmekitchen
@@ -267,6 +266,6 @@ name:ヒカリエホール ホールB	altName:	bldg:	level:9	phone:0354685088	ur
 name:Hikarieカンファレンス	altName:	bldg:	level:11	phone:0354685087	url:https://space.hikarie.jp/conference/
 name:Lawson	altName:ローソン	bldg:	level:11	phone:0337970966	url:
 name:THE THEATRE COFFEE	altName:	bldg:	level:11	phone:0334868411	url:https://www.transit-web.com/content/shops/the_theatre_coffee/
-name:THE THEATRE TABLE	altName:	bldg:	level:11	phone:0334868411	url:https://www.transit-web.com/content/shops/the_theatre_table/
+name:THE THEATRE TABLE	altName:	bldg:	level:11	phone:0334868411	url:https://thetheatertable.jp/
 name:オフィスエントランス	altName:	bldg:	level:11	phone:	url:
 name:東急シアターオーブ	altName:	bldg:	level:11	phone:0334779111	url:
