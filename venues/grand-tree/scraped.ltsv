@@ -9,7 +9,7 @@ name:GOOD OPEN AIRS ALTOPIANO武蔵小杉	altName:	bldg:	level:1	phone:044820618
 name:Italian Kitchen VANSAN グランツリー武蔵小杉店	altName:	bldg:	level:1	phone:0447509920	url:https://grand-tree.jp/shop/3000000242
 name:MAISON KAYSER	altName:	bldg:	level:1	phone:0449823020	url:https://grand-tree.jp/shop/3000000219
 name:Nicole BMW	altName:	bldg:	level:1	phone:0449486411	url:https://grand-tree.jp/shop/3000000104
-name:OSHMAN'S	altName:	bldg:	level:1	phone:	url:https://grand-tree.jp/shop/3000000246
+name:OSHMAN'S	altName:	bldg:	level:1	phone:0444313017	url:https://grand-tree.jp/shop/3000000246
 name:PATISSERIE SUSUCRIER	altName:	bldg:	level:1	phone:0449208080	url:https://grand-tree.jp/shop/3000000111
 name:THE CITY BAKERY	altName:	bldg:	level:1	phone:0447409318	url:https://grand-tree.jp/shop/3000000215
 name:TOMIZ	altName:	bldg:	level:1	phone:0449820550	url:https://grand-tree.jp/shop/3000000217
@@ -23,7 +23,7 @@ name:イトーヨーカドーグランツリー武蔵小杉店	altName:	bldg:	le
 name:ハングリータイガー	altName:	bldg:	level:1	phone:0449208020	url:https://grand-tree.jp/shop/3000000117
 name:ピッツェリア エ トラットリア ダ・ボッチャーノ	altName:	bldg:	level:1	phone:0444337888	url:https://grand-tree.jp/shop/3000000121
 name:ブッチャー・リパブリック	altName:	bldg:	level:1	phone:0448638632	url:https://grand-tree.jp/shop/3000000130
-name:ワインショップ・エノテカ グランツリー武蔵小杉店	altName:	bldg:	level:1	phone:0444313345	url:https://grand-tree.jp/shop/3000000218
+name:ワインショップ・エノテカ	altName:	bldg:	level:1	phone:0444313345	url:https://grand-tree.jp/shop/3000000218
 name:一〇八抹茶茶廊	altName:	bldg:	level:1	phone:0447895585	url:https://grand-tree.jp/shop/3000000220
 name:久世福商店	altName:	bldg:	level:1	phone:0448639355	url:https://grand-tree.jp/shop/3000000207
 name:北海道ライブマルシェ	altName:	bldg:	level:1	phone:0447509685	url:https://grand-tree.jp/shop/3000000243
@@ -62,7 +62,7 @@ name:The French Toast Factory	altName:	bldg:	level:2	phone:0444117671	url:https:
 name:Total Therapy	altName:	bldg:	level:2	phone:0448638065	url:https://grand-tree.jp/shop/3000000231
 name:WACOAL The Store	altName:	bldg:	level:2	phone:0449823033	url:https://grand-tree.jp/shop/3000000162
 name:WISP	altName:	bldg:	level:2	phone:0449823081	url:https://grand-tree.jp/shop/3000000024
-name:ZARA	altName:	bldg:	level:2	phone:01202571002	url:https://grand-tree.jp/shop/3000000061
+name:ZARA	altName:	bldg:	level:2	phone:0449823188	url:https://grand-tree.jp/shop/3000000061
 name:niko and...	altName:	bldg:	level:2	phone:0444332771	url:https://grand-tree.jp/shop/3000000103
 name:studio CLIP	altName:	bldg:	level:2	phone:0449484271	url:https://grand-tree.jp/shop/3000000073
 name:アットアロマ	altName:	bldg:	level:2	phone:0448639761	url:https://grand-tree.jp/shop/3000000010
@@ -89,7 +89,6 @@ name:Lee	altName:	bldg:	level:3	phone:0444315038	url:https://grand-tree.jp/shop/
 name:ORIHICA	altName:	bldg:	level:3	phone:0444319888	url:https://grand-tree.jp/shop/3000000034
 name:Puretre	altName:	bldg:	level:3	phone:0449821505	url:https://grand-tree.jp/shop/3000000200
 name:SM2 keittio	altName:	bldg:	level:3	phone:0444341323	url:https://grand-tree.jp/shop/3000000060
-name:Softbank/Y!mobile	altName:	bldg:	level:3	phone:0444311778	url:https://grand-tree.jp/shop/3000000179
 name:Studio Alice HALULU	altName:	bldg:	level:3	phone:01209610153	url:https://grand-tree.jp/shop/3000000072
 name:Zoff Marché	altName:	bldg:	level:3	phone:0444340577	url:https://grand-tree.jp/shop/3000000084
 name:auショップ	altName:	bldg:	level:3	phone:08007000952	url:https://grand-tree.jp/shop/3000000202
@@ -103,11 +102,11 @@ name:グローバルキッズ武蔵小杉園	altName:	bldg:	level:3	phone:044433
 name:セブン保険ショップ	altName:	bldg:	level:3	phone:01200807713	url:https://grand-tree.jp/shop/3000000081
 name:タワーレコード	altName:	bldg:	level:3	phone:0444315171	url:https://grand-tree.jp/shop/3000000088
 name:ハートアップ	altName:	bldg:	level:3	phone:0444313128	url:https://grand-tree.jp/shop/3000000107
-name:ホテルショコラ グランツリー武蔵小杉店	altName:	bldg:	level:3	phone:0448633800	url:https://grand-tree.jp/shop/3000000235
+name:ホテルショコラ	altName:	bldg:	level:3	phone:0448633800	url:https://grand-tree.jp/shop/3000000235
 name:ロフト	altName:	bldg:	level:3	phone:0444336210	url:https://grand-tree.jp/shop/3000000160
 name:椿屋カフェ	altName:	bldg:	level:3	phone:0449487107	url:https://grand-tree.jp/shop/3000000093
 name:楽天モバイル/SmaPla	altName:	bldg:	level:3	phone:0447895395	url:https://grand-tree.jp/shop/3000000203
-name:無印良品グランツリー武蔵小杉	altName:	bldg:	level:3	phone:0444301205	url:https://grand-tree.jp/shop/3000000176
+name:無印良品	altName:	bldg:	level:3	phone:0444301205	url:https://grand-tree.jp/shop/3000000176
 name:生活の木	altName:	bldg:	level:3	phone:0444342303	url:https://grand-tree.jp/shop/3000000078
 name:紀伊國屋書店	altName:	bldg:	level:3	phone:0443319990	url:https://grand-tree.jp/shop/3000000041
 name:銀座山野楽器／ヤマノミュージックサロン	altName:	bldg:	level:3	phone:0444312212	url:https://grand-tree.jp/shop/3000000046
@@ -115,6 +114,7 @@ name:ALGY	altName:	bldg:	level:4	phone:0447409300	url:https://grand-tree.jp/shop
 name:AWESOME STORE	altName:	bldg:	level:4	phone:0448638832	url:https://grand-tree.jp/shop/3000000233
 name:BREEZE	altName:	bldg:	level:4	phone:0449208048	url:https://grand-tree.jp/shop/3000000173
 name:BeBe Petits Pois Vert	altName:	bldg:	level:4	phone:0449823500	url:https://grand-tree.jp/shop/3000000211
+name:DISNEY POP-UP STORE by BABYDOLL	altName:	bldg:	level:4	phone:0444341170	url:https://grand-tree.jp/shop/3000000247
 name:Lovetoxic	altName:	bldg:	level:4	phone:0444118622	url:https://grand-tree.jp/shop/3000000153
 name:MARKEY'S	altName:	bldg:	level:4	phone:0449823056	url:https://grand-tree.jp/shop/3000000142
 name:My Gym	altName:	bldg:	level:4	phone:0444310520	url:https://grand-tree.jp/shop/3000000144
