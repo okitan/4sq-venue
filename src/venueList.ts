@@ -75,8 +75,8 @@ export class VenueList extends Array<Venue> {
 
   static sortNumber(_a?: number, _b?: number): number {
     // blank should be last
-    const a = _a ?? Math.max;
-    const b = _b ?? Math.max;
+    const a = _a ?? Infinity;
+    const b = _b ?? Infinity;
 
     if (a < b) return -1;
     if (a > b) return 1;
