@@ -1,7 +1,6 @@
 id:5aa1de2216fa040955c410f6	parentVenueId:4b3f1743f964a520eba325e3	name:Fitbit Japan	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:616147841fb4924d82d303b2	parentVenueId:4b3f1743f964a520eba325e3	name:Street Piano	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5a2bbef2e4c459692f6621d5	parentVenueId:4b3f1743f964a520eba325e3	name:グリーンイエロージュース	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:624bf03454f17364d9f85e07	parentVenueId:4b3f1743f964a520eba325e3	name:ダイヤモンドアイズ	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5d26e6bfe0332c002386ec89	parentVenueId:4b3f1743f964a520eba325e3	name:マークイベントスクエア	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:59a14caaa8eb606ea8530e61	parentVenueId:4b3f1743f964a520eba325e3	name:マークシティ バス待合室	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4b7e3884f964a52068e62fe3	parentVenueId:4b3f1743f964a520eba325e3	name:マークシティウエスト13階	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -36,7 +35,6 @@ id:4b8b9810f964a520bda332e3	parentVenueId:4b3f1743f964a520eba325e3	name:IBM 渋�
 id:51e7ced6498e28665fa9a2ce	parentVenueId:4b3f1743f964a520eba325e3	name:CyberAgent セミナールーム	crossStreet:渋谷マークシティウエスト 23F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5cf79abf270ee7002ca15dc4	parentVenueId:5f5f634e017ea123d39b622c	name:ジス･ウィーク1	crossStreet:渋谷マークシティ内 渋谷東急フードショー1F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:靴下屋	scraped.altName:	scraped.bldg:アベニュー通り	scraped.level:4	scraped.phone:0364270902	scraped.url:https://www.s-markcity.co.jp/floor/w-4-35/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:DIAMOND EYES / DEforMEN	scraped.altName:	scraped.bldg:ウエストモール	scraped.level:2	scraped.phone:0354593981	scraped.url:https://www.s-markcity.co.jp/floor/w-2-15/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:IKUKO. TOTAL-BEAUTY- EXPRESS	scraped.altName:	scraped.bldg:ウエストモール	scraped.level:2	scraped.phone:0334645123	scraped.url:https://www.s-markcity.co.jp/floor/w-2-9/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:なんぼや	scraped.altName:	scraped.bldg:ウエストモール	scraped.level:2	scraped.phone:0345809882	scraped.url:https://www.s-markcity.co.jp/floor/w-2-12/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ネイルステーション	scraped.altName:	scraped.bldg:ウエストモール	scraped.level:2	scraped.phone:0354587707	scraped.url:https://www.s-markcity.co.jp/floor/w-2-14/
