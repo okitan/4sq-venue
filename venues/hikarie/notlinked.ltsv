@@ -34,7 +34,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:日本橋だし場 OBENTO	scr
 id:	parentVenueId:	name:	crossStreet:	scraped.name:梅の花	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274235	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=umenohana
 id:	parentVenueId:	name:	crossStreet:	scraped.name:浅草今半	scraped.altName:牛肉弁当	scraped.bldg:	scraped.level:-3	scraped.phone:0364274448	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=asakusaimahan_bento
 id:	parentVenueId:	name:	crossStreet:	scraped.name:漬け込み唐揚げ BATA-BATA	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275359	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=batabata
-id:	parentVenueId:	name:	crossStreet:	scraped.name:神戸コロッケ	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364279643	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kobecroquette
 id:	parentVenueId:	name:	crossStreet:	scraped.name:築地寿司清	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274475	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tsukijisushisay
 id:	parentVenueId:	name:	crossStreet:	scraped.name:絢彩	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275812	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayari
 id:	parentVenueId:	name:	crossStreet:	scraped.name:維新號	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274516	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ishingo
@@ -105,5 +104,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:Oh!Baby by HOUSE OF ROSE	scra
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ラ・クッチーナ・フェリーチェ	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364271604	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lacucinafelice
 id:	parentVenueId:	name:	crossStreet:	scraped.name:綱具屋	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364276275	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tunaguya
+id:	parentVenueId:	name:	crossStreet:	scraped.name:【4/18OPEN】168点心飲茶＆薬膳鍋	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0368050959	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒカリエホール ホールB	scraped.altName:	scraped.bldg:	scraped.level:9	scraped.phone:0354685088	scraped.url:https://space.hikarie.jp/hall/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィスエントランス	scraped.altName:	scraped.bldg:	scraped.level:11	scraped.phone:	scraped.url:
