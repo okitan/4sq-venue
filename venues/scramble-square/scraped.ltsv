@@ -26,13 +26,13 @@ name:東急フードショーエッジ (デリ)	altName:TOKYU Foodshow EDGE (DEL
 name:桂林	altName:KEIRIN	bldg:	level:-2	phone:0364197784	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=334
 name:金粂	altName:KINKUME	bldg:	level:-2	phone:0368050636	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=324
 name:Gourmand Market KINOKUNIYA	altName:グルマンマーケット キノクニヤ	bldg:	level:-1	phone:0368038318	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=167
-name:A.Lecomte	altName:ルコント	bldg:	level:1	phone:0334000018	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=216
 name:Atelier Anniversary	altName:アトリエ アニバーサリー	bldg:	level:1	phone:0364275114	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=306
 name:Butter Butler	altName:バター バトラー	bldg:	level:1	phone:0334868288	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=208
 name:D'RENTY CHOCOLATE	altName:ドレンティチョコレート	bldg:	level:1	phone:0364505350	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=513
 name:DEMEL	altName:デメル	bldg:	level:1	phone:0364511511	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=311
 name:EN VEDETTE	altName:アン ヴデット	bldg:	level:1	phone:0364506755	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=307
 name:FRUCTUS	altName:フラクタス	bldg:	level:1	phone:0334992727	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=210
+name:ME BAKE	altName:エムイーベイク	bldg:	level:1	phone:0367125039	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=533
 name:MELLOWHICH	altName:メロウウィッチ	bldg:	level:1	phone:0364273332	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=315
 name:MORI YOSHIDA PARIS	altName:モリ ヨシダ パリ	bldg:	level:1	phone:0364526191	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=318
 name:Mels CARAMEL WORKS	altName:メルズ キャラメルワークス	bldg:	level:1	phone:0364526034	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=308
@@ -158,6 +158,7 @@ name:UNITED TOKYO	altName:ユナイテッド トウキョウ	bldg:	level:7	phone
 name:agnès b.	altName:アニエスベー	bldg:	level:7	phone:0368051380	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=526
 name:ete bijoux	altName:エテ ビジュー	bldg:	level:7	phone:0364335443	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=116
 name:フォーナインズ	altName:FOUR NINES	bldg:	level:7	phone:0367125949	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=115
+name:DRESSTERIOR	altName:ドレステリア	bldg:	level:8	phone:0364197115	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=529
 name:JOURNAL STANDARD	altName:ジャーナル スタンダード	bldg:	level:8	phone:0364341035	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=105
 name:KURA CHIKA by PORTER	altName:クラチカ バイ ポーター	bldg:	level:8	phone:0364274646	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=106
 name:STRIDE by JOHNBULL	altName:ストライド バイ ジョンブル	bldg:	level:8	phone:0354681887	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=518
