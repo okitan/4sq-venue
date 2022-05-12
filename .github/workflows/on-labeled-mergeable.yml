@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: merge
-        uses: "pascalgn/automerge-action@7854d3bd607dccdaf0b2c134b699a812c8960213"
+        uses: pascalgn/automerge-action@2e9644b0b86a2c052525921f181f905dc8102da5
         env:
           GITHUB_TOKEN: "${{ secrets.MY_GITHUB_TOKEN }}"
           MERGE_LABELS: mergeable
