@@ -14,14 +14,15 @@ const config: Config = {
         "article#post-83 .themeblvd-gallery .entry-content": {
           followLink: { selector: "a", property: "href" },
           name: { selector: "h1" },
-          altName: { selector: "h4:nth-child(1)" },
+          altName: { xpath: "//div[h4][1]/h4" },
           phone: {
-            selector: "h4:nth-child(1) + p",
+            xpath: "//div[h4][1]/p/text()[contains(., 'TEL')]/..",
             modifier: (txt) =>
               txt
                 .split("\n")
                 .find((txt) => txt.includes("TEL"))
                 ?.split("：")[1],
+            nullable: true,
           },
           level: 1,
         },
