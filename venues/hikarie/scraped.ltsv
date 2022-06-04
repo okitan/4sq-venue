@@ -2,7 +2,6 @@ name:TAIWAN PANDA DELI	altName:	bldg:	level:-3	phone:0364275343	url:https://www.
 name:いとはん	altName:	bldg:	level:-3	phone:0364279643	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=itohan
 name:こめらくのこめべん	altName:	bldg:	level:-3	phone:0364275489	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=komeben
 name:たこ家 道頓堀 くくる	altName:	bldg:	level:-3	phone:0364274903	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kukuru
-name:つきじ宮川本廛	altName:	bldg:	level:-3	phone:0364274084	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=miyagawa
 name:つきぢ松露	altName:	bldg:	level:-3	phone:0364274332	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shouro
 name:つけにく麹屋	altName:	bldg:	level:-3	phone:0364341606	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koujiya
 name:とんかつ まい泉	altName:	bldg:	level:-3	phone:0364341824	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisen
@@ -22,7 +21,6 @@ name:京料理 美濃吉	altName:	bldg:	level:-3	phone:0364273920	url:https://ww
 name:京樽	altName:	bldg:	level:-3	phone:0364274421	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kyotaru
 name:味の浜藤	altName:	bldg:	level:-3	phone:0364273716	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ajinohamatou
 name:四陸	altName:フォールー	bldg:	level:-3	phone:0364274976	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=four_rue
-name:地雷也	altName:	bldg:	level:-3	phone:0364274467	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jiraiya
 name:大阪焼肉・ホルモン ふたご	altName:	bldg:	level:-3	phone:0364275246	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yakiniku_futago
 name:妻家房	altName:	bldg:	level:-3	phone:0364274899	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=saikabo
 name:崎陽軒	altName:	bldg:	level:-3	phone:0364274503	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kiyoken
@@ -39,6 +37,7 @@ name:精肉あづま	altName:	bldg:	level:-3	phone:0364341885	url:https://www.to
 name:絢彩	altName:	bldg:	level:-3	phone:0364275812	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayari
 name:維新號	altName:	bldg:	level:-3	phone:0364274516	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ishingo
 name:銀座 縁	altName:	bldg:	level:-3	phone:0364341835	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginzaenishi
+name:銀座ハゲ天	altName:	bldg:	level:-3	phone:0364273249	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hageten
 name:錦 平野	altName:	bldg:	level:-3	phone:0364274844	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nishikihirano
 name:食事処 味の浜藤	altName:	bldg:	level:-3	phone:0364273716	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ajinohamatou_eat
 name:AND THE FRIET	altName:	bldg:	level:-2	phone:0364341857	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=andthefriet
@@ -232,7 +231,7 @@ name:神棚の里	altName:	bldg:	level:5	phone:0364275163	url:https://www.tokyu-
 name:綱具屋	altName:	bldg:	level:5	phone:0364276275	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tunaguya
 name:茶庭 然花抄院	altName:	bldg:	level:5	phone:0364341517	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sateizenkashoin
 name:葉山家具	altName:	bldg:	level:5	phone:0364271071	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
-name:【4/18OPEN】168点心飲茶＆薬膳鍋	altName:	bldg:	level:6	phone:0368050959	url:
+name:168点心飲茶＆薬膳鍋	altName:	bldg:	level:6	phone:0368050959	url:
 name:うなぎ 徳	altName:	bldg:	level:6	phone:0364341519	url:http://www.unagiya.co.jp
 name:こめらく たっぷり野菜とお茶漬けと。	altName:	bldg:	level:6	phone:0364335666	url:https://www.tub.co.jp/
 name:そうめん そそそ 研究室	altName:	bldg:	level:6	phone:0364506795	url:https://so-mensososo.com/shibuya
@@ -240,11 +239,13 @@ name:とんかつ まい泉	altName:	bldg:	level:6	phone:0334862365	url:http://m
 name:まぐろ問屋三浦三崎港 恵み	altName:	bldg:	level:6	phone:0364277998	url:http://www.neo-emotion.jp/sushi/index.php?kbn=15
 name:アジアンダイニング PRIMO	altName:	bldg:	level:6	phone:0354680009	url:
 name:サブリナ パスタ&クラムチャウダー	altName:	bldg:	level:6	phone:0364506030	url:
+name:和食時々酒 ときのとき	altName:	bldg:	level:6	phone:0364274096	url:http://byo.co.jp/tokinotoki/
 name:宮崎料理 万作	altName:	bldg:	level:6	phone:0367126450	url:
 name:果実園リーベル	altName:	bldg:	level:6	phone:0368038917	url:http://kajitsuen.jp/
 name:渋谷 水刺齋	altName:	bldg:	level:6	phone:0364341465	url:http://suranje.com/
 name:牛たん炭焼 利久	altName:	bldg:	level:6	phone:0334862351	url:http://www.rikyu-gyutan.co.jp/
 name:Bar Español LA BODEGA	altName:	bldg:	level:7	phone:0364341480	url:https://bar-espanol-labodega-shibuya.com/
+name:CAFÉ AUX BACCHANALES	altName:	bldg:	level:7	phone:0337973900	url:http://www.auxbacchanales.com/
 name:CHEESE KITCHEN RACLER	altName:	bldg:	level:7	phone:0364335404	url:https://www.cheese-kitchen-racler.com/
 name:Cafe＆Grill SIZZLe GAZZLe	altName:	bldg:	level:7	phone:0364341473	url:http://kichimusubi.co.jp
 name:Disney HARVEST MARKET By CAFE COMPANY	altName:	bldg:	level:7	phone:05037335055	url:https://d-harvestmarket.com/
@@ -259,11 +260,10 @@ name:COURT	altName:コート	bldg:	level:8	phone:0364184718	url:https://www.hika
 name:CUBE 1,2,3	altName:キューブ	bldg:	level:8	phone:0364184718	url:https://www.hikarie8.com/cube/
 name:Creative Lounge MOV	altName:	bldg:	level:8	phone:0345338000	url:http://www.shibuyamov.com/
 name:d47 MUSEUM	altName:ディヨンナナ ミュージアム	bldg:	level:8	phone:0364272301	url:https://www.hikarie8.com/d47museum/
-name:d47 design travel store	altName:	bldg:	level:8	phone:0364272301	url:https://www.hikarie8.com/d47designtravelstore/
 name:d47食堂	altName:	bldg:	level:8	phone:0364272303	url:http://www.hikarie8.com/d47shokudo/
 name:川本喜八郎人形ギャラリー	altName:	bldg:	level:8	phone:0334631142	url:
 name:渋谷○○書店	altName:	bldg:	level:8	phone:	url:https://www.hikarie8.com/books/about.shtml
-name:渋谷区区民サービスセンター	altName:	bldg:	level:8	phone:0337970935	url:
+name:渋谷区区民サービスセンター	altName:	bldg:	level:8	phone:	url:
 name:ヒカリエホール ホールA	altName:	bldg:	level:9	phone:0354685088	url:https://space.hikarie.jp/hall/
 name:ヒカリエホール ホールB	altName:	bldg:	level:9	phone:0354685088	url:https://space.hikarie.jp/hall/
 name:Hikarieカンファレンス	altName:	bldg:	level:11	phone:0354685087	url:https://space.hikarie.jp/conference/
