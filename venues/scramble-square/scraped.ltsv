@@ -16,7 +16,6 @@ name:からあげ家 奥州いわい	altName:KARAAGEYA OUSYU IWAI	bldg:	level:-2
 name:つかだ	altName:TSUKADA	bldg:	level:-2	phone:0364277661	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=339
 name:アヴァンセ・串重	altName:アヴァンセ・クシジュウ	bldg:	level:-2	phone:0364273671	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=496
 name:カンナムデリ	altName:GANGNAM DELI	bldg:	level:-2	phone:0364273669	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=344
-name:キムラミルク	altName:KIMURA MILK	bldg:	level:-2	phone:0364275401	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=330
 name:ティエリー マルクス ラ ブーランジェリー	altName:THIERRY MARX LA BOULANGERIE	bldg:	level:-2	phone:0364505641	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=326
 name:ポムの樹 どんぶり たまご屋	altName:POMNOKI DONBURI TAMAGOYA	bldg:	level:-2	phone:0367125511	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=350
 name:メゾン・イチ	altName:MAISON ICHI	bldg:	level:-2	phone:0364275140	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=333
@@ -93,6 +92,7 @@ name:VASIC	altName:ヴァジック	bldg:	level:4	phone:0364526250	url:https://ww
 name:+Q  （プラスク） グッズ	altName:+Q GOODS by TOKYU DEPARTMENT STORE	bldg:	level:5	phone:0334773111	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=123
 name:4℃	altName:ヨンドシー	bldg:	level:5	phone:0364275755	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=281
 name:ABC-MART SPORTS SHIBUYA	altName:エービーシー・マート スポーツ シブヤ	bldg:	level:5	phone:0359627036	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=298
+name:ARTNWORDZ	altName:アートンワーズ	bldg:	level:5	phone:0368038115	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=544
 name:Biju mam	altName:ビジュ　マム	bldg:	level:5	phone:0364273835	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=517
 name:COACH	altName:コーチ	bldg:	level:5	phone:0364274936	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=291
 name:COLE HAAN	altName:コール ハーン	bldg:	level:5	phone:0364272868	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=541
@@ -131,7 +131,6 @@ name:JO MALONE LONDON	altName:ジョー マローン ロンドン	bldg:	level:6	
 name:KANEBO	altName:カネボウ	bldg:	level:6	phone:07088066026	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=271
 name:LANCÔME	altName:ランコム	bldg:	level:6	phone:0337971797	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=265
 name:LAURA MERCIER	altName:ローラ メルシエ	bldg:	level:6	phone:0364511710	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=239
-name:L’OCCITANE	altName:ロクシタン	bldg:	level:6	phone:0359627811	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=276
 name:M・A・C	altName:マック	bldg:	level:6	phone:0364526024	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=236
 name:NARS	altName:ナーズ	bldg:	level:6	phone:0368038552	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=234
 name:OSAJI	altName:オサジ	bldg:	level:6	phone:0368050008	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=524
@@ -171,8 +170,6 @@ name:Ethical＆SEA	altName:エシカルシー	bldg:	level:9	phone:0364273904	url
 name:Formｰi × RESH	altName:フォルムアイ × リッシュ	bldg:	level:9	phone:0364526232	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=94
 name:LOVERARY BY FEILER	altName:ラブラリー バイ フェイラー	bldg:	level:9	phone:0364526265	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=102
 name:MERRELL	altName:メレル	bldg:	level:9	phone:0364526063	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=532
-name:MSPC PRODUCT	altName:エムエスピーシープロダクト	bldg:	level:9	phone:0367126922	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=98
-name:Orobianco	altName:オロビアンコ	bldg:	level:9	phone:0364526266	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=97
 name:TULLY’S COFFEE	altName:タリーズコーヒー	bldg:	level:9	phone:0364274725	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=93
 name:UCHINO relax	altName:ウチノ リラックス	bldg:	level:9	phone:0364271220	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=90
 name:Wexthuset	altName:ヴェクスセット	bldg:	level:9	phone:09090023010	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=509
