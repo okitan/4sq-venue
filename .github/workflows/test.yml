@@ -11,50 +11,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-      - uses: actions/setup-node@v2
-        with:
-          node-version: "16"
+          node-version: 18
+          cache: npm
       - run: npm ci
       - run: npm run build:check
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          node-version: 18
+          cache: npm
       - run: npm ci
       - run: npm test
   test-scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      # to git diff
-      - run: git fetch origin master
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: install libgbm
         run: |
           sudo apt-get update
           sudo apt-get install -y libgbm-dev
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          node-version: 18
+          cache: npm
       - run: npm ci
       - name: scrape changed
         run: |
