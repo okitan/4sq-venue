@@ -11,7 +11,7 @@ name:アントニオ	altName:	bldg:	level:-3	phone:0364341879	url:https://www.to
 name:アール・エフ・ワン	altName:	bldg:	level:-3	phone:0364279643	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rf1
 name:イベントスペース	altName:	bldg:	level:-3	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=foodstageb3
 name:エクリュ	altName:	bldg:	level:-3	phone:0364274902	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ecru
-name:キャピタルコーヒー【7月28日(木)オープン】	altName:	bldg:	level:-3	phone:0364275920	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=capitalcoffee
+name:キャピタルコーヒー	altName:	bldg:	level:-3	phone:0364275920	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=capitalcoffee
 name:サラダボウル専門店 WithGreen	altName:	bldg:	level:-3	phone:0364275485	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=withgreen
 name:シェフズプレス	altName:	bldg:	level:-3	phone:0364275470	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=chefspress
 name:デリベイク明治屋	altName:	bldg:	level:-3	phone:0364341917	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delibake_meidiya
@@ -53,7 +53,6 @@ name:きんつば中田屋	altName:	bldg:	level:-2	phone:0364272319	url:https://
 name:たぬき煎餅	altName:	bldg:	level:-2	phone:0364272412	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tanukisenbei
 name:たねや	altName:	bldg:	level:-2	phone:0367125460	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=taneya
 name:とらや	altName:	bldg:	level:-2	phone:0364272134	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=toraya
-name:やわかたこい。	altName:	bldg:	level:-2	phone:0364272496	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yawakatakoi
 name:アンリ・シャルパンティエ	altName:	bldg:	level:-2	phone:0364197153	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=henricharpentier
 name:イベントスペース	altName:	bldg:	level:-2	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventspaceb2
 name:セゾン ド セツコ	altName:	bldg:	level:-2	phone:0364272534	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=saison_de_setsuko
@@ -67,7 +66,6 @@ name:フェーヴ	altName:	bldg:	level:-2	phone:0364341817	url:https://www.tokyu
 name:フルーリア	altName:	bldg:	level:-2	phone:0364274925	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fluria
 name:フードステージB2	altName:	bldg:	level:-2	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=foodstageb2
 name:ブールミッシュ	altName:	bldg:	level:-2	phone:0364272091	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=boulmich
-name:ベリーデコ	altName:	bldg:	level:-2	phone:0364341812	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=berrydeco
 name:ベルン	altName:	bldg:	level:-2	phone:0364341807	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=berne
 name:ポール バセット	altName:	bldg:	level:-2	phone:0354683165	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=paulbassett
 name:マリアージュ フレール	altName:	bldg:	level:-2	phone:0337971854	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mariagefreres
@@ -95,7 +93,6 @@ name:清月堂本店	altName:	bldg:	level:-2	phone:0364272309	url:https://www.to
 name:直中 仙太郎	altName:	bldg:	level:-2	phone:0364272165	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sentaro
 name:芳翠園	altName:	bldg:	level:-2	phone:0364272940	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=housuien
 name:赤坂柿山	altName:	bldg:	level:-2	phone:0364272441	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kakiyama
-name:銀座 松﨑煎餅	altName:	bldg:	level:-2	phone:0364272496	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=matsuzakisenbei
 name:銀座 菊廼舎	altName:	bldg:	level:-2	phone:0364272305	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kikunoya
 name:銀座ウエスト	altName:	bldg:	level:-2	phone:0364272049	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginza_west
 name:鎌倉 豊島屋	altName:	bldg:	level:-2	phone:0364272189	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=toshimaya
@@ -187,7 +184,6 @@ name:ダイアナ ロマーシュ	altName:	bldg:	level:3	phone:0364341703	url:ht
 name:ノーブル	altName:	bldg:	level:3	phone:0364341656	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=noble
 name:ボンジュ Ballerina	altName:	bldg:	level:3	phone:0364341665	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bonju_ballerina
 name:ユナイテッドアローズ ウィメンズストア	altName:	bldg:	level:3	phone:0364185927	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unitedarrows
-name:レアック	altName:	bldg:	level:3	phone:0364341696	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=reac
 name:金子眼鏡店	altName:	bldg:	level:3	phone:0364341679	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanekogankyoten
 name:AIRONA by mu-ra	altName:アイロナ バイ ムーラ	bldg:	level:4	phone:0364341668	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aironabymura
 name:Ane Mone	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anemone
