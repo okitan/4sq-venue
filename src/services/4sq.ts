@@ -1,4 +1,3 @@
-import fetch from "node-fetch";
 import yargs from "yargs";
 
 import {
@@ -109,6 +108,8 @@ export function addFoursquareClientOptions<T extends yargs.Argv>(yargs: T) {
     .middleware([injectFoursqureClient]);
 }
 
-export function injectFoursqureClient({ foursquareAccessToken }: { foursquareAccessToken: string }) {
-  return { foursquareClient: new FoursquareClient({ accessToken: foursquareAccessToken }) };
+export function injectFoursqureClient(
+  args: { foursquareAccessToken: string } & { foursquareClient: FoursquareClient }
+): void {
+  args.foursquareClient = new FoursquareClient({ accessToken: args.foursquareAccessToken });
 }
