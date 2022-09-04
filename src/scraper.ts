@@ -12,10 +12,9 @@ export type ScrapedProperties = {
   name: string;
 } & {
   [x in Unpacked<typeof stringProperties>]?: string;
-} &
-  {
-    [y in Unpacked<typeof numberProperties>]?: number;
-  };
+} & {
+  [y in Unpacked<typeof numberProperties>]?: number;
+};
 
 export async function scrape({
   url,
@@ -143,7 +142,7 @@ export async function applySelector<T extends string | number>(
   page: puppeteer.Page | puppeteer.ElementHandle,
   config: Selector<T>
 ): Promise<string | undefined> {
-  const element: puppeteer.ElementHandle | null =
+  const element: puppeteer.ElementHandle<Node> | null =
     "xpath" in config ? (await page.$x(config.xpath))[0] : await page.$(config.selector);
 
   if (!element) {

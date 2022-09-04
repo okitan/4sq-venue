@@ -1,9 +1,9 @@
-import yargs from "yargs";
+import type yargs from "yargs";
 import yeoman from "yeoman-environment";
 import Generator from "yeoman-generator";
 
-import { commonArgs, Extract } from "../cli";
-import { addFoursquareClientOptions, FoursquareClient } from "../services/4sq";
+import { commonArgs, type Extract } from "../cli";
+import { addFoursquareClientOptions, type FoursquareClient } from "../services/4sq";
 import { Venue } from "../venue";
 
 export const command = "add [Options]";
@@ -33,7 +33,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
 export function handler(args: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const env = yeoman.createEnv();
 
-  const generator = env.instantiate(VenueGenerator, { arguments: [], options: args });
+  const generator = env.instantiate(VenueGenerator, [], { options: args });
 
   generator.run();
 }
