@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 import { phoneExtractor } from "../../src/modifier";
 import { ScrapedProperties } from "../../src/scraper";
 import { Config } from "../../src/types/config";
