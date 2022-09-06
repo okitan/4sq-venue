@@ -83,8 +83,7 @@ name:ヴィタメール	altName:	bldg:東急フードショー	level:1	phone:033
 name:中央軒煎餅	altName:	bldg:東急フードショー	level:1	phone:0334774686	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=chuoken
 name:坂角総本舖	altName:	bldg:東急フードショー	level:1	phone:0334774691	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=BANKAKUSOUHOMPO
 name:大三萬年堂 HANARE	altName:	bldg:東急フードショー	level:1	phone:0334774687	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=d3hanare
-name:宗家 源吉兆庵	altName:	bldg:東急フードショー	level:1	phone:0334774858	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SOUKEMINAMOTOKICHOUAN
-name:山本山	altName:	bldg:東急フードショー	level:1	phone:0334774806	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=YAMAMOTOYAMA
+name:宗家 源 吉兆庵	altName:	bldg:東急フードショー	level:1	phone:0334774858	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SOUKEMINAMOTOKICHOUAN
 name:新宿高野	altName:	bldg:東急フードショー	level:1	phone:0334774629	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=TAKANO
 name:東京ミルクチーズ工場	altName:	bldg:東急フードショー	level:1	phone:0334774191	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=tokyomilkcheese
 name:柿の木坂キャトル	altName:	bldg:東急フードショー	level:1	phone:0334774631	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=QUATRE
@@ -98,6 +97,7 @@ name:CARVAAN Delicatessen & Beer stop 	altName:カールヴァーン デリカ�
 name:CHAVATY 	altName:チャバティ	bldg:東急フードショー しぶちか	level:-1	phone:0334774382	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=chavaty
 name:DELI by plein 	altName:デリバイ プラン	bldg:東急フードショー しぶちか	level:-1	phone:0334774135	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=delibyplein
 name:ECRU 	altName:エクリュ	bldg:東急フードショー しぶちか	level:-1	phone:0334774045	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ecru
+name:FARM TO GO	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774812	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=farmtogo
 name:K-SOUPMAN 스프사랑 	altName:ケイスープマン	bldg:東急フードショー しぶちか	level:-1	phone:0334774340	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=k_soupman
 name:KINTAN IN THE HOUSE 	altName:キンタンインザハウス	bldg:東急フードショー しぶちか	level:-1	phone:0334774360	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kintan
 name:MENAM 	altName:メナム	bldg:東急フードショー しぶちか	level:-1	phone:0334774345	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=menam
@@ -106,7 +106,6 @@ name:OBSCURA COFFEE ROASTERS 	altName:オブスキュラ コーヒー ロース�
 name:PAOPAO 	altName:パオパオ	bldg:東急フードショー しぶちか	level:-1	phone:0334774338	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=paopao
 name:PAOzu Kitchen 	altName:パオズキッチン	bldg:東急フードショー しぶちか	level:-1	phone:0334774338	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=paozu_kitchen
 name:PARIYA DELICATESSEN 	altName:パリヤデリカテッセン	bldg:東急フードショー しぶちか	level:-1	phone:0334774032	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=pariya_delicatessen
-name:Peace Cafe 	altName:ピース カフェ	bldg:東急フードショー しぶちか	level:-1	phone:0334774431	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=peace_cafe
 name:RF1	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774658	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=RF1
 name:SOU.Dining 	altName:ソウドットダイニング	bldg:東急フードショー しぶちか	level:-1	phone:0334774136	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=sou_dining
 name:Salad Deli MARGO 	altName:サラダデリマルゴ	bldg:東急フードショー しぶちか	level:-1	phone:0334774188	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=saladadeli_margo
