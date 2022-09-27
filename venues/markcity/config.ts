@@ -78,12 +78,12 @@ const config: Config = {
 };
 
 function nameModifier(name: string) {
-  return name.replace(/[（\(].+[\)）]/, "");
+  return name.replace(/[（\(].+[\)）]/, "").trim();
 }
 
 function altNameExtractor(name: string) {
   const matched = name.match(/[（\(](.+)[\)）]/);
-  return matched ? matched[1] : undefined;
+  return matched ? matched[1].trim() : undefined;
 }
 
 export = config;
