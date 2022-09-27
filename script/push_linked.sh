@@ -19,7 +19,5 @@ if [[ -n "$(git status --porcelain "$dir")" ]]; then
   git add -A "$dir"
   git commit -m ":innocent: linked venue of $1"
 
-  git remote set-url origin "https://okitan:$GITHUB_TOKEN@github.com/okitan/4sq-venue.git"
-
   git push origin "$branch"
 fi
