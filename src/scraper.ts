@@ -44,7 +44,10 @@ export async function scrape({
         if (skip && (await skip(item))) continue;
 
         if (followLink) {
-          const subVenueUrl = await applySelector(item, followLink);
+          const subVenueUrl = followLink.modifier
+            ? followLink.modifier((await applySelector(item, followLink))!)
+            : await applySelector(item, followLink);
+
           if (!subVenueUrl) throw `no sub venue found for ${JSON.stringify(followLink)}`;
 
           if (notify) notify(`Scraping subvenue ${subVenueUrl}`);
@@ -153,7 +156,7 @@ export async function applySelector<T extends string | number>(
     }
   }
 
-  return (await (await element.getProperty(config.property || "innerText"))?.jsonValue()) as string;
+  return (await (await element.getProperty(config.property || "textContent"))?.jsonValue()) as string;
 }
 
 function normalizeString(str: string): string {

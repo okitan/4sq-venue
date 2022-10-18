@@ -9,22 +9,28 @@ const config: Config = {
   },
   scraper: [
     {
-      url: "http://www.sweets-forest.com/shop.html",
+      url: "https://sweets-forest.cake.jp/",
       venues: {
-        ".shop_list li": {
-          name: { selector: "img", property: "alt" },
-          url: { selector: "a", property: "href", nullable: true },
-          bldg: "スイーツの森ゾーン",
-        },
-      },
-    },
-    {
-      url: "http://www.sweets-forest.com/sweets_select.html",
-      venues: {
-        "#sweers_select h3[id], #sweers_select div[id]": {
-          name: { selector: "img", property: "alt" },
-          url: { selector: "a", property: "href", nullable: true },
-          bldg: "スイーツセレクトゾーン",
+        "li.has-child li": {
+          followLink: {
+            selector: "a",
+            property: "href",
+            modifier: (e) =>
+              // XXX: kind of bugs of puppeteer
+              e.replace(
+                "https://sweets-forest.cake.jp/https://sweets-forest.cake.jp/",
+                "https://sweets-forest.cake.jp/"
+              ),
+          },
+          name: {
+            selector: ".store-intro__content__left h2",
+            modifier: (e) => e.split("(")[0],
+          },
+          altName: {
+            selector: ".store-intro__content__left h2 span",
+            modifier: (e) => e.split("(")[1].slice(0, -1), // omit )
+          },
+          level: 2,
         },
       },
     },
