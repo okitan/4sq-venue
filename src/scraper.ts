@@ -44,10 +44,7 @@ export async function scrape({
         if (skip && (await skip(item))) continue;
 
         if (followLink) {
-          const subVenueUrl = followLink.modifier
-            ? followLink.modifier((await applySelector(item, followLink))!)
-            : await applySelector(item, followLink);
-
+          const subVenueUrl = await applySelector(item, followLink);
           if (!subVenueUrl) throw new Error(`no sub venue found for ${JSON.stringify(followLink)}`);
 
           if (notify) notify(`Scraping subvenue ${subVenueUrl}`);
