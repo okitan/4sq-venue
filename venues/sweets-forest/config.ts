@@ -15,12 +15,6 @@ const config: Config = {
           followLink: {
             selector: "a",
             property: "href",
-            modifier: (e) =>
-              // XXX: kind of bugs of puppeteer
-              e.replace(
-                "https://sweets-forest.cake.jp/https://sweets-forest.cake.jp/",
-                "https://sweets-forest.cake.jp/"
-              ),
           },
           name: {
             selector: ".store-intro__content__left h2",
