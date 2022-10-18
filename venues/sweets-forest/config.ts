@@ -12,14 +12,8 @@ const config: Config = {
       url: "https://sweets-forest.cake.jp/",
       venues: {
         "li.has-child li": {
-          followLink: {
-            selector: "a",
-            property: "href",
-          },
-          name: {
-            selector: ".store-intro__content__left h2",
-            modifier: (e) => e.split("(")[0],
-          },
+          followLink: { selector: "a", property: "href" },
+          name: { selector: ".store-intro__content__left h2", modifier: (e) => e.split("(")[0] },
           altName: {
             selector: ".store-intro__content__left h2 span",
             modifier: (e) => e.split("(")[1].slice(0, -1), // omit )
