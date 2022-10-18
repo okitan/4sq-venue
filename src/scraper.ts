@@ -37,7 +37,7 @@ export async function scrape({
     for (const [selector, { followLink, skip, ...properties }] of Object.entries(venues)) {
       const items = await page.$$(selector);
 
-      if (items.length === 0) throw `no venues found for ${selector}`;
+      if (items.length === 0) throw new Error(`no venues found for ${selector}`);
 
       for (const item of items) {
         // check skip
@@ -45,7 +45,7 @@ export async function scrape({
 
         if (followLink) {
           const subVenueUrl = await applySelector(item, followLink);
-          if (!subVenueUrl) throw `no sub venue found for ${JSON.stringify(followLink)}`;
+          if (!subVenueUrl) throw new Error(`no sub venue found for ${JSON.stringify(followLink)}`);
 
           if (notify) notify(`Scraping subvenue ${subVenueUrl}`);
 
@@ -95,10 +95,10 @@ async function scrapeProperties(
 ): Promise<ScrapedProperties> {
   // name
   const value = await applySelector(page, config.name);
-  if (!value) throw "name not found"; // TODO: more info
+  if (!value) throw new Error("name not found"); // TODO: more info
   const normalizedValue = normalizeString(value);
   const modifiedValue = config.name.modifier ? config.name.modifier(normalizedValue) : normalizedValue;
-  if (!modifiedValue) throw "name not determined"; // TODO: more info
+  if (!modifiedValue) throw new Error("name not determined"); // TODO: more info
 
   const result: ScrapedProperties = { name: modifiedValue };
 
@@ -153,7 +153,7 @@ export async function applySelector<T extends string | number>(
     }
   }
 
-  return (await (await element.getProperty(config.property || "innerText"))?.jsonValue()) as string;
+  return (await (await element.getProperty(config.property || "textContent"))?.jsonValue()) as string;
 }
 
 function normalizeString(str: string): string {
