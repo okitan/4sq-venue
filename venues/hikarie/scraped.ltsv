@@ -110,8 +110,6 @@ name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dep
 name:THREE	altName:スリー	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
 name:アテニア	altName:	bldg:	level:-1	phone:0364341769	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=attenir
-name:イキイキオイルケア	altName:	bldg:	level:-1	phone:0364341785	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ikiikibotanics
-name:オーセンティック ビューティ コンセプト	altName:	bldg:	level:-1	phone:0364341763	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=authentic
 name:カネボウ	altName:	bldg:	level:-1	phone:0334862357	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
 name:クリニーク	altName:	bldg:	level:-1	phone:0334868012	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clinique
@@ -121,7 +119,7 @@ name:コスメデコルテ	altName:	bldg:	level:-1	phone:0364341793	url:https://
 name:スターバックス コーヒー	altName:	bldg:	level:-1	phone:0364341762	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starbucks_coffee
 name:ドゥ・ラ・メール	altName:	bldg:	level:-1	phone:0334862374	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delamer
 name:ネイルバー スマートスタイル	altName:	bldg:	level:-1	phone:0364341780	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nailbar
-name:ベアミネラル【11月1日(火)リニューアルオープン】	altName:	bldg:	level:-1	phone:0364341771	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bareminerals
+name:ベアミネラル	altName:	bldg:	level:-1	phone:0364341771	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bareminerals
 name:マークスアンドウェブ	altName:	bldg:	level:-1	phone:0364341767	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marksandweb
 name:メイクアップライフ	altName:	bldg:	level:-1	phone:0364341500	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
 name:ランコム	altName:	bldg:	level:-1	phone:0364341786	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lancome
@@ -138,7 +136,7 @@ name:キールズ	altName:	bldg:	level:1	phone:0334992010	url:https://www.tokyu-
 name:クロードモネH2O・AVEDA	altName:	bldg:	level:1	phone:0334068839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aveda
 name:コスメキッチン	altName:	bldg:	level:1	phone:0364341743	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cosmekitchen
 name:ジャルダン デ パルファム	altName:	bldg:	level:1	phone:0364341746	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jardin
-name:ジョンマスターオーガニック【11月2日(水)リニューアルオープン】	altName:	bldg:	level:1	phone:0364341756	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=johnmaster
+name:ジョンマスターオーガニック	altName:	bldg:	level:1	phone:0364341756	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=johnmaster
 name:ジョー マローン ロンドン	altName:	bldg:	level:1	phone:0334868019	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jomalone
 name:スナイデル ビューティ	altName:	bldg:	level:1	phone:0364341689	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=snidelbeauty
 name:スナイデル ホーム	altName:	bldg:	level:1	phone:0364341676	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=snidelhome
@@ -171,7 +169,6 @@ name:ORANGE HEAL f.	altName:オレンジ ヒール フェミナ	bldg:	level:3	ph
 name:Salute by WACOAL/AMPHI	altName:サルート バイ ワコール/アンフィ	bldg:	level:3	phone:0364276756	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=wacoalamphi
 name:Scrap Book	altName:スクラップブック	bldg:	level:3	phone:0364271683	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=scrapbook
 name:ShinQs シューズ カレイド	altName:	bldg:	level:3	phone:0364341704	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqsshoeskaleido
-name:イアクッチ	altName:	bldg:	level:3	phone:0364341634	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=iacucci
 name:オデット エ オディール	altName:	bldg:	level:3	phone:0364187253	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=odetteeodile
 name:カメラのキタムラ	altName:	bldg:	level:3	phone:0357783558	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=camerakitamura
 name:サマンサタバサプチチョイスプラス	altName:	bldg:	level:3	phone:0364341695	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=samantha
