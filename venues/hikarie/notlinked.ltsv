@@ -35,7 +35,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:維新號	scraped.altName:	sc
 id:	parentVenueId:	name:	crossStreet:	scraped.name:銀座ハゲ天	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364273249	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hageten
 id:	parentVenueId:	name:	crossStreet:	scraped.name:錦 平野	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274844	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nishikihirano
 id:	parentVenueId:	name:	crossStreet:	scraped.name:食事処 味の浜藤	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364273716	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ajinohamatou_eat
-id:	parentVenueId:	name:	crossStreet:	scraped.name:FERMIER	scraped.altName:フェルミエ	scraped.bldg:	scraped.level:-2	scraped.phone:0364273021	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fermier
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アンリ・シャルパンティエ	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364197153	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=henricharpentier
 id:	parentVenueId:	name:	crossStreet:	scraped.name:イベントスペース	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventspaceb2
 id:	parentVenueId:	name:	crossStreet:	scraped.name:セゾン ド セツコ	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:0364272534	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=saison_de_setsuko
@@ -89,6 +88,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:マーコート	scraped.altNa
 id:	parentVenueId:	name:	crossStreet:	scraped.name:メゾン ド フルール	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0364341730	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fleur
 id:	parentVenueId:	name:	crossStreet:	scraped.name:STEAMCREAM	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364276075	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=steamcream
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タピエスタイル	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364275301	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tapiestyle
-id:	parentVenueId:	name:	crossStreet:	scraped.name:make (a) Camp	scraped.altName:	scraped.bldg:	scraped.level:8	scraped.phone:	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:カルチャーショックスタジオ『make (a) Camp』	scraped.altName:	scraped.bldg:	scraped.level:8	scraped.phone:07085139940	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒカリエホール ホールB	scraped.altName:	scraped.bldg:	scraped.level:9	scraped.phone:0354685088	scraped.url:https://space.hikarie.jp/hall/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィスエントランス	scraped.altName:	scraped.bldg:	scraped.level:11	scraped.phone:	scraped.url:
