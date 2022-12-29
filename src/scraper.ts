@@ -1,4 +1,7 @@
-import puppeteer from "puppeteer";
+import puppeteer, {
+  ElementHandle,
+  Page,
+} from "puppeteer-core";
 
 import { phoneExtractor } from "./modifier";
 import type { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";
@@ -24,13 +27,12 @@ export async function scrape({
 }: ScrapeConfig & { notify: (message: string) => void }): Promise<ScrapedProperties[]> {
   const results: ScrapedProperties[] = [];
 
-  let browser;
-  try {
-    browser = await puppeteer.launch({
-      headless: process.env.NO_HEADLESS ? false : true,
-      args: ["--no-sandbox", "--disable-setuid-sandbox", "--lang=ja-JP"],
-    });
+  const browser = await puppeteer.launch({
+    headless: process.env.NO_HEADLESS ? false : true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox", "--lang=ja-JP"],
+  });
 
+  try {
     const page = await browser.newPage();
     await page.goto(url, options);
 
@@ -49,9 +51,8 @@ export async function scrape({
 
           if (notify) notify(`Scraping subvenue ${subVenueUrl}`);
 
-          let newPage;
+          const newPage = await browser.newPage();
           try {
-            newPage = await browser.newPage();
             await newPage.goto(subVenueUrl, options);
 
             const result = await scrapeVenue(newPage, properties);
@@ -65,7 +66,7 @@ export async function scrape({
               throw err;
             }
           } finally {
-            if (newPage) await newPage.close();
+            await newPage.close();
           }
         } else {
           results.push(await scrapeVenue(item, properties));
@@ -73,13 +74,13 @@ export async function scrape({
       }
     }
   } finally {
-    if (browser) await browser.close();
+    await browser.close();
   }
 
   return results;
 }
 
-async function scrapeVenue(page: puppeteer.Page | puppeteer.ElementHandle, properties: ScrapePropertiesConfig) {
+async function scrapeVenue(page: Page | ElementHandle, properties: ScrapePropertiesConfig) {
   const results = await scrapeProperties(page, properties);
 
   if (results["phone"]) {
@@ -90,7 +91,7 @@ async function scrapeVenue(page: puppeteer.Page | puppeteer.ElementHandle, prope
 }
 
 async function scrapeProperties(
-  page: puppeteer.Page | puppeteer.ElementHandle,
+  page: Page | ElementHandle,
   config: ScrapePropertiesConfig<ScrapedProperties>
 ): Promise<ScrapedProperties> {
   // name
@@ -139,7 +140,7 @@ async function scrapeProperties(
 }
 
 export async function applySelector<T extends string | number>(
-  page: puppeteer.Page | puppeteer.ElementHandle,
+  page: Page | ElementHandle,
   config: Selector<T>
 ): Promise<string | undefined> {
   const element = await page.$(config.selector);
