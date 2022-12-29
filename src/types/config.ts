@@ -1,6 +1,6 @@
 import puppeteer, { WaitForOptions } from "puppeteer";
 
-import { ScrapedProperties } from "../scraper";
+import type { ScrapedProperties } from "../scraper";
 
 export type Config<T = ScrapedProperties> = Venue & {
   subvenues: Venue[];
@@ -26,14 +26,14 @@ export type ScrapeConfig<T = ScrapedProperties> = {
 };
 
 export type ScrapePropertiesConfig<T = ScrapedProperties> = {
-  name: ClassSelector<string>;
-  followLink?: ClassSelector<string>;
+  name: Selector<string>;
+  followLink?: Selector<string>;
   skip?: (element: puppeteer.ElementHandle<Element>) => Promise<boolean>;
 } & {
-  [key in keyof T]?: T[key] extends infer U ? ClassSelector<Exclude<U, undefined>> | U : never;
+  [key in keyof T]?: T[key] extends infer U ? Selector<Exclude<U, undefined>> | U : never;
 };
 
-export type ClassSelector<T> = {
+export type Selector<T> = {
   selector: string;
   property?: string;
   modifier?: Modifier<T>;
