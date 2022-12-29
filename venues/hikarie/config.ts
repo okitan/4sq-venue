@@ -13,59 +13,53 @@ const config: Config = {
   },
   scraper: [
     // background floor of Shinqs
-    ...[3, 2, 1].map(
-      (e): ScrapeConfig => {
-        return {
-          url: `https://www.tokyu-dept.co.jp/shinqs/floor/b${e}.html`,
-          venues: {
-            "ul.shopList li:not(.coming)": {
-              followLink: { selector: "a", property: "href" },
-              name: { selector: "h3", modifier: nameExtractor },
-              altName: { selector: "h3", modifier: altNameExtractor },
-              //fucking no semantics
-              phone: { selector: "h3 + p + p" },
-              level: -e,
-            },
+    ...[3, 2, 1].map((e): ScrapeConfig => {
+      return {
+        url: `https://www.tokyu-dept.co.jp/shinqs/floor/b${e}.html`,
+        venues: {
+          "ul.shopList li:not(.coming)": {
+            followLink: { selector: "a", property: "href" },
+            name: { selector: "h3", modifier: nameExtractor },
+            altName: { selector: "h3", modifier: altNameExtractor },
+            //fucking no semantics
+            phone: { selector: "h3 + p + p" },
+            level: -e,
           },
-        };
-      }
-    ),
+        },
+      };
+    }),
     // Shinqs
-    ...[1, 2, 3, 4, 5].map(
-      (e): ScrapeConfig => {
-        return {
-          url: `https://www.tokyu-dept.co.jp/shinqs/floor/${e}f.html`,
-          venues: {
-            "ul.shopList li:not(.coming)": {
-              followLink: { selector: "a", property: "href" },
-              name: { selector: "h3", modifier: nameExtractor },
-              altName: { selector: "h3", modifier: altNameExtractor },
-              //fucking no semantics
-              phone: { selector: "h3 + p + p" },
-              level: e,
-            },
+    ...[1, 2, 3, 4, 5].map((e): ScrapeConfig => {
+      return {
+        url: `https://www.tokyu-dept.co.jp/shinqs/floor/${e}f.html`,
+        venues: {
+          "ul.shopList li:not(.coming)": {
+            followLink: { selector: "a", property: "href" },
+            name: { selector: "h3", modifier: nameExtractor },
+            altName: { selector: "h3", modifier: altNameExtractor },
+            //fucking no semantics
+            phone: { selector: "h3 + p + p" },
+            level: e,
           },
-        };
-      }
-    ),
+        },
+      };
+    }),
     // Hikarie (no venues on 10F)
-    ...[6, 7, 8, 9, 11].map(
-      (e): ScrapeConfig => {
-        return {
-          url: `http://www.hikarie.jp/floormap/${e}F.html`,
-          venues: {
-            ".floorShopList2 li": {
-              name: { selector: ".floorShopList2__name", modifier: nameExtractor },
-              altName: { selector: ".floorShopList2__name", modifier: altNameExtractor },
-              // fucking table layout
-              phone: { xpath: ".//th[contains(text(),'TEL')]/following-sibling::td", nullable: true },
-              url: { xpath: ".//th[contains(text(),'URL')]/following-sibling::td", nullable: true },
-              level: e,
-            },
+    ...[6, 7, 8, 9, 11].map((e): ScrapeConfig => {
+      return {
+        url: `http://www.hikarie.jp/floormap/${e}F.html`,
+        venues: {
+          ".floorShopList2 li": {
+            name: { selector: ".floorShopList2__name", modifier: nameExtractor },
+            altName: { selector: ".floorShopList2__name", modifier: altNameExtractor },
+            // fucking table layout
+            phone: { selector: "xpath/.//th[contains(text(),'TEL')]/following-sibling::td", nullable: true },
+            url: { selector: "xpath/.//th[contains(text(),'URL')]/following-sibling::td", nullable: true },
+            level: e,
           },
-        };
-      }
-    ),
+        },
+      };
+    }),
   ],
 };
 

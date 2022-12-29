@@ -14,9 +14,9 @@ const config: Config = {
         ".article-wrap article": {
           followLink: { selector: "a", property: "href" },
           name: { selector: "h1" },
-          altName: { xpath: "//div[h4][1]/h4" },
+          altName: { selector: "xpath/.//div[h4][1]/h4" },
           phone: {
-            xpath: "//div[h4][1]/p/text()[contains(., 'TEL')]/..",
+            selector: "xpath/.//div[h4][1]/p/text()[contains(., 'TEL')]/..",
             modifier: (txt) =>
               txt
                 .split("\n")
@@ -27,9 +27,9 @@ const config: Config = {
           level: 1,
         },
         ".grid_6:not(.last) p": {
-          name: { xpath: ".", modifier: (str) => str.split("（")[0].slice(1) },
+          name: { selector: "xpath/.", modifier: (str) => str.split("（")[0].slice(1) },
           phone: {
-            xpath: ".",
+            selector: "xpath/.",
             modifier: (str) => {
               const matched = str.match(/\d{2,3}-\d{4}-\d{4}/);
               return matched ? matched[0] : "";
@@ -44,9 +44,9 @@ const config: Config = {
           },
         },
         ".grid_6.last p": {
-          name: { xpath: ".", modifier: (str) => str.split("（")[0].slice(1) },
+          name: { selector: "xpath/.", modifier: (str) => str.split("（")[0].slice(1) },
           phone: {
-            xpath: ".",
+            selector: "xpath/.",
             modifier: (str) => {
               const matched = str.match(/\d{2,3}-\d{4}-\d{4}/);
               return matched ? matched[0] : "";
