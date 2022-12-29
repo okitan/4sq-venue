@@ -1,6 +1,6 @@
 import puppeteer, {
-  ElementHandle,
-  Page,
+  type ElementHandle,
+  type Page,
 } from "puppeteer-core";
 
 import { phoneExtractor } from "./modifier";
