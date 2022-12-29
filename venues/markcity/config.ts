@@ -19,7 +19,10 @@ const config: Config = {
           "li.shopinfo_cmd_post_list_item": {
             followLink: { selector: "a", property: "href" },
             name: { selector: "#main h1" },
-            phone: { xpath: "//th[contains(text(),'電話番号')]/following-sibling::td", nullable: true as true },
+            phone: {
+              selector: "xpath/.//th[contains(text(),'電話番号')]/following-sibling::td",
+              nullable: true as true,
+            },
             bldg: {
               selector: ".shop_place div",
               modifier: (txt: string) => {
@@ -48,7 +51,7 @@ const config: Config = {
             name: { selector: ".heading_shop", modifier: nameModifier },
             altName: { selector: ".heading_shop", modifier: altNameExtractor },
             phone: {
-              xpath: "//th[contains(text(), '電話番号')]/following-sibling::td",
+              selector: "xpath/.//th[contains(text(), '電話番号')]/following-sibling::td",
               nullable: true,
             },
             bldg: "東急フードショー",
@@ -66,7 +69,7 @@ const config: Config = {
           name: { selector: ".heading_shop", modifier: nameModifier },
           altName: { selector: ".heading_shop", modifier: altNameExtractor },
           phone: {
-            xpath: "//th[contains(text(), '電話番号')]/following-sibling::td",
+            selector: "xpath/.//th[contains(text(), '電話番号')]/following-sibling::td",
             nullable: true,
           },
           bldg: "東急フードショー しぶちか",

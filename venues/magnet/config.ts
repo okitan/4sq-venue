@@ -19,7 +19,7 @@ const config: Config = {
             property: "innerHTML",
             modifier: (e: string) => e.split("</span>")[1].trim(),
           },
-          phone: { xpath: "//td[contains(text(), 'TEL')]/following-sibling::td", nullable: true },
+          phone: { selector: "xpath/.//td[contains(text(), 'TEL')]/following-sibling::td", nullable: true },
           level: { selector: ".type-floor", modifier: levelExtractor },
         },
       },
