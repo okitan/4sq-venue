@@ -1,7 +1,7 @@
 import puppeteer, {
   type ElementHandle,
   type Page,
-} from "puppeteer-core";
+} from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
 import type { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";

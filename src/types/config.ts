@@ -1,4 +1,4 @@
-import type { ElementHandle, WaitForOptions } from "puppeteer-core";
+import type { ElementHandle, WaitForOptions } from "puppeteer";
 
 import type { ScrapedProperties } from "../scraper";
 
