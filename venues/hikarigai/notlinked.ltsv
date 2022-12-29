@@ -7,7 +7,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:きらく屋	scraped.altName:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:せきぐち	scraped.altName:手づくり工房 せきぐち	scraped.bldg:	scraped.level:1	scraped.phone:0357014234	scraped.url:https://www.hikarigai.com/sekiguchi/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:まるこや商店	scraped.altName:まるこや商店	scraped.bldg:	scraped.level:1	scraped.phone:0337189773	scraped.url:https://www.hikarigai.com/marukoya/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アキノスキャビン	scraped.altName:アキノスキャビン	scraped.bldg:	scraped.level:1	scraped.phone:0357315414	scraped.url:https://www.hikarigai.com/akinos/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:アルビーナ アンジェラ	scraped.altName:アルビーナ アンジェラ・モルドバマーケット	scraped.bldg:	scraped.level:1	scraped.phone:0364214140	scraped.url:https://www.hikarigai.com/angela/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:クライユ	scraped.altName:クライユ	scraped.bldg:	scraped.level:1	scraped.phone:0364213458	scraped.url:https://www.hikarigai.com/clayeux/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:サロン・ド・ソレイユ	scraped.altName:サロン・ド・ソレイユ	scraped.bldg:	scraped.level:1	scraped.phone:0120575130	scraped.url:https://www.hikarigai.com/salon-de-soleil/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:タイマ	scraped.altName:有限会社 タイマ	scraped.bldg:	scraped.level:1	scraped.phone:0337230077	scraped.url:https://www.hikarigai.com/taima/
@@ -16,7 +15,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:ナチュラルストーン�
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ニック	scraped.altName:ニック 自由が丘	scraped.bldg:	scraped.level:1	scraped.phone:0337259929	scraped.url:https://www.hikarigai.com/nicc/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヒスイ洋品店	scraped.altName:ヒスイ洋品店	scraped.bldg:	scraped.level:1	scraped.phone:0337189678	scraped.url:https://www.hikarigai.com/hisui/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ピノキオ21	scraped.altName:ピノキオ21	scraped.bldg:	scraped.level:1	scraped.phone:0337189681	scraped.url:https://www.hikarigai.com/pinocchio/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:モント ベレ	scraped.altName:モント ベレ 自由が丘	scraped.bldg:	scraped.level:1	scraped.phone:0337170167	scraped.url:https://www.hikarigai.com/mount/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:レーンティーン	scraped.altName:レーンティーン	scraped.bldg:	scraped.level:1	scraped.phone:0337239432	scraped.url:https://www.hikarigai.com/laentine/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ヴィア・ミュージアム	scraped.altName:ヴィア・ミュージアム	scraped.bldg:	scraped.level:1	scraped.phone:0337251339	scraped.url:https://www.hikarigai.com/museum/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:十字屋	scraped.altName:十字屋	scraped.bldg:	scraped.level:1	scraped.phone:0337189774	scraped.url:https://www.hikarigai.com/jyujiya/
@@ -24,9 +22,9 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:咲貴	scraped.altName:咲貴
 id:	parentVenueId:	name:	crossStreet:	scraped.name:豊栄堂	scraped.altName:有限会社 豊栄堂	scraped.bldg:	scraped.level:1	scraped.phone:0337189784	scraped.url:https://www.hikarigai.com/hoeido/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:赤いくつ	scraped.altName:ブティック 赤いくつ	scraped.bldg:	scraped.level:1	scraped.phone:0337242247	scraped.url:https://www.hikarigai.com/akaikutsu/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィス イー・ティー	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0357319903	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:クイックリフォームサービス	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0337237432	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:クイックリフォームサービス	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:会員制BAR MAJUN	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0364213940	scraped.url:
-id:	parentVenueId:	name:	crossStreet:	scraped.name:Asahi KaraokeBar	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:07038586095	scraped.url:
+id:	parentVenueId:	name:	crossStreet:	scraped.name:Asahi KaraokeBar	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Long Champ	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0357269490	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Seiren	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0337180175	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Yunamano.32	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364214849	scraped.url:
