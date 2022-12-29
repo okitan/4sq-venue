@@ -26,25 +26,15 @@ export type ScrapeConfig<T = ScrapedProperties> = {
 };
 
 export type ScrapePropertiesConfig<T = ScrapedProperties> = {
-  name: Selector<string>;
-  followLink?: Selector;
+  name: ClassSelector<string>;
+  followLink?: ClassSelector<string>;
   skip?: (element: puppeteer.ElementHandle<Element>) => Promise<boolean>;
 } & {
-  [key in keyof T]?: T[key] extends infer U ? Selector<Exclude<U, undefined>> | U : never;
+  [key in keyof T]?: T[key] extends infer U ? ClassSelector<Exclude<U, undefined>> | U : never;
 };
 
-// FIXME: actually T extends string | number but it shows error of typescript
-export type Selector<T = string> = ClassSelector<T> | XPathSelector<T>;
-
-type ClassSelector<T> = {
+export type ClassSelector<T> = {
   selector: string;
-} & SelectorOption<T>;
-
-type XPathSelector<T> = {
-  xpath: string;
-} & SelectorOption<T>;
-
-type SelectorOption<T> = {
   property?: string;
   modifier?: Modifier<T>;
   nullable?: true;

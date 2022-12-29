@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
-import { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";
+import { type ClassSelector, ScrapeConfig, ScrapePropertiesConfig } from "./types/config";
 
 // name is mandatory
 export const stringProperties = ["altName", "bldg", "phone", "url"] as const;
@@ -140,10 +140,9 @@ async function scrapeProperties(
 
 export async function applySelector<T extends string | number>(
   page: puppeteer.Page | puppeteer.ElementHandle,
-  config: Selector<T>
+  config: ClassSelector<T>
 ): Promise<string | undefined> {
-  const element: puppeteer.ElementHandle<Node> | null =
-    "xpath" in config ? (await page.$x(config.xpath))[0] : await page.$(config.selector);
+  const element: puppeteer.ElementHandle<Node> | null = await page.$(config.selector);
 
   if (!element) {
     if (config.nullable) {
