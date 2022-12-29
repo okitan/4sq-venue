@@ -25,14 +25,13 @@
     "mem-fs": "2.2.1",
     "mem-fs-editor": "9.5.0",
     "ora": "5.4.1",
-    "puppeteer": "19.2.2",
+    "puppeteer": "19.4.1",
     "ts-node": "10.9.1",
     "yargs": "17.6.2",
     "yeoman-environment": "3.13.0"
   },
   "devDependencies": {
     "@types/jest": "29.2.4",
-    "@types/puppeteer": "5.4.7",
     "@types/yeoman-environment": "2.10.8",
     "prettier": "2.8.1",
     "ts-jest": "29.0.3",

@@ -1,4 +1,4 @@
-import puppeteer, { WaitForOptions } from "puppeteer";
+import type { ElementHandle, WaitForOptions } from "puppeteer";
 
 import type { ScrapedProperties } from "../scraper";
 
@@ -28,7 +28,7 @@ export type ScrapeConfig<T = ScrapedProperties> = {
 export type ScrapePropertiesConfig<T = ScrapedProperties> = {
   name: Selector<string>;
   followLink?: Selector<string>;
-  skip?: (element: puppeteer.ElementHandle<Element>) => Promise<boolean>;
+  skip?: (element: ElementHandle<Element>) => Promise<boolean>;
 } & {
   [key in keyof T]?: T[key] extends infer U ? Selector<Exclude<U, undefined>> | U : never;
 };
