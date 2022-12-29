@@ -26,9 +26,7 @@ const config: Config = {
           },
           level: 1,
         },
-        // It is difficult to identify 2F with 3F
-        // really fucking dom
-        ".grid_6 p": {
+        ".grid_6:not(.last) p": {
           name: { xpath: ".", modifier: (str) => str.split("（")[0].slice(1) },
           phone: {
             xpath: ".",
@@ -38,6 +36,25 @@ const config: Config = {
             },
             nullable: true,
           },
+          level: 2,
+          // really fucking dom
+          skip: async (item) => {
+            const value = (await (await (await item.$("xpath/."))!.getProperty("textContent")).jsonValue())!.trim();
+            return value === "" || !!value.match(/^\d{2,3}-\d{4}-\d{4}$/);
+          },
+        },
+        ".grid_6.last p": {
+          name: { xpath: ".", modifier: (str) => str.split("（")[0].slice(1) },
+          phone: {
+            xpath: ".",
+            modifier: (str) => {
+              const matched = str.match(/\d{2,3}-\d{4}-\d{4}/);
+              return matched ? matched[0] : "";
+            },
+            nullable: true,
+          },
+          level: 3,
+          // really fucking dom
           skip: async (item) => {
             const value = (await (await (await item.$("xpath/."))!.getProperty("textContent")).jsonValue())!.trim();
             return value === "" || !!value.match(/^\d{2,3}-\d{4}-\d{4}$/);
