@@ -114,7 +114,7 @@ name:カネボウ	altName:	bldg:	level:-1	phone:0334862357	url:https://www.tokyu
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
 name:クリニーク	altName:	bldg:	level:-1	phone:0334868012	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clinique
 name:クレ・ド・ポー ボーテ	altName:	bldg:	level:-1	phone:0334868639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cledepeaubeaute
-name:ケサランパサラン	altName:	bldg:	level:-1	phone:0364341781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kesalan
+name:ケサランパサラン※2/21から一時CLOSE	altName:	bldg:	level:-1	phone:0364341781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kesalan
 name:コスメデコルテ	altName:	bldg:	level:-1	phone:0364341793	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cosmedecorte
 name:シャネル フレグランス＆ビューティ【2月1日(水) ニューオープン】	altName:	bldg:	level:-1	phone:0364341779	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=chanel
 name:スターバックス コーヒー	altName:	bldg:	level:-1	phone:0364341762	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starbucks_coffee
@@ -167,6 +167,7 @@ name:Salute by WACOAL/AMPHI	altName:サルート バイ ワコール/アンフ�
 name:Scrap Book	altName:スクラップブック	bldg:	level:3	phone:0364271683	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=scrapbook
 name:ShinQs シューズ カレイド	altName:	bldg:	level:3	phone:0364341704	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqsshoeskaleido
 name:me ISSEY MIYAKE	altName:	bldg:	level:3	phone:0364341694	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meisseymiyake
+name:ウォッチ＆メンテナンスサロン【2月11日(土・祝) ニューオープン】	altName:	bldg:	level:3	phone:0364341622	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=watchandmaintenance
 name:オデット エ オディール	altName:	bldg:	level:3	phone:0364187253	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=odetteeodile
 name:カメラのキタムラ	altName:	bldg:	level:3	phone:0357783558	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=camerakitamura
 name:サマンサタバサプチチョイスプラス	altName:	bldg:	level:3	phone:0364341695	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=samantha
