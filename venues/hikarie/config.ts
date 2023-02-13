@@ -17,7 +17,7 @@ const config: Config = {
       return {
         url: `https://www.tokyu-dept.co.jp/shinqs/floor/b${e}.html`,
         venues: {
-          "ul.shopList li:not(.coming)": {
+          "ul.catList li:not(.coming)": {
             followLink: { selector: "a", property: "href" },
             name: { selector: "h3", modifier: nameExtractor },
             altName: { selector: "h3", modifier: altNameExtractor },
@@ -33,7 +33,7 @@ const config: Config = {
       return {
         url: `https://www.tokyu-dept.co.jp/shinqs/floor/${e}f.html`,
         venues: {
-          "ul.shopList li:not(.coming)": {
+          "ul.catList li:not(.coming)": {
             followLink: { selector: "a", property: "href" },
             name: { selector: "h3", modifier: nameExtractor },
             altName: { selector: "h3", modifier: altNameExtractor },
