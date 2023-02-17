@@ -43,12 +43,14 @@ name:医療法人社団佳心会マークシティ酒井歯科室	altName:	bldg:
 name:渋谷ウエストヒルズクリニック	altName:	bldg:オフィス（ウエスト棟） 	level:11	phone:0354594015	url:https://www.s-markcity.co.jp/floor/w-11-42/
 name:神谷歯科渋谷マークシティ診療所	altName:	bldg:オフィス（ウエスト棟） 	level:11	phone:0354281335	url:https://www.s-markcity.co.jp/floor/w-11-43/
 name:ルラ美容クリニック	altName:	bldg:オフィス（ウエスト棟） 	level:14	phone:0120980	url:https://www.s-markcity.co.jp/floor/w-14-46/
+name:TFCカウンター	altName:東急ファミリークラブ	bldg:東急フードショー	level:-1	phone:0334774718	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=tfccounter
 name:カルディコーヒーファーム	altName:	bldg:東急フードショー	level:-1	phone:0334774436	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kaldi
 name:キャピタルコーヒー	altName:	bldg:東急フードショー	level:-1	phone:0334774738	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=capitalcoffee
 name:サンク アンド	altName:ギフトショップ	bldg:東急フードショー	level:-1	phone:0334774763	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=thank_and
 name:ドゥ マゴ	altName:	bldg:東急フードショー	level:-1	phone:0334774367	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=DEUXMAGOTS
 name:北野エース	altName:	bldg:東急フードショー	level:-1	phone:0334774435	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kitanoace
 name:和洋酒	altName:	bldg:東急フードショー	level:-1	phone:0334774310	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=wine
+name:商品券カウンター	altName:	bldg:東急フードショー	level:-1	phone:0334774290	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=shouhinken
 name:富澤商店	altName:	bldg:東急フードショー	level:-1	phone:0334774266	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=tomiz
 name:成城石井SELECT	altName:	bldg:東急フードショー	level:-1	phone:0334774627	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=SEIJOISII
 name:林フルーツ	altName:	bldg:東急フードショー	level:-1	phone:0334774320	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=HAYASHIFRUITS
