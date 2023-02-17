@@ -147,12 +147,10 @@ name:ル・コンシデラン	altName:	bldg:	level:1	phone:0364341487	url:https:
 name:極上担々麺 香家	altName:	bldg:	level:1	phone:0364341839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koya
 name:CA4LA delica	altName:カシラ デリカ	bldg:	level:2	phone:0334862368	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ca4la
 name:M・A・C	altName:マック	bldg:	level:2	phone:0334868027	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maccosmetics
-name:NOIR DE POUPEE	altName:ノワール ド プーペ	bldg:	level:2	phone:0364341701	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=noirdepoupee
 name:ShinQs パーツ ジョイスト	altName:	bldg:	level:2	phone:0364341724	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqspartsjoyst
 name:イベントステージ 2	altName:	bldg:	level:2	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventstage2
 name:オルビス	altName:	bldg:	level:2	phone:0364341625	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=orbis
 name:クルゼスタンド アーバン・コア	altName:	bldg:	level:2	phone:0364341702	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kruzestand_urbancore
-name:ジェラート ピケ※2/16から一時CLOSE	altName:4F 特設スペースへ	bldg:	level:2	phone:0364341522	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
 name:デイリリー	altName:	bldg:	level:2	phone:0364341711	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=daylily
 name:ファンケル ビューティ＆ヘルス	altName:	bldg:	level:2	phone:0364341630	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fancl
 name:ラフィネ	altName:	bldg:	level:2	phone:0364341709	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=raffine
@@ -188,6 +186,7 @@ name:ete	altName:エテ	bldg:	level:4	phone:0364341657	url:https://www.tokyu-dep
 name:ウンナナクール	altName:	bldg:	level:4	phone:0364341821	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unenanacool
 name:クラスカ ギャラリー＆ショップ “ドー”	altName:	bldg:	level:4	phone:0364341663	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=claska
 name:ザ・ノース・フェイス	altName:	bldg:	level:4	phone:0364341672	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thenorthface
+name:ジェラート ピケ※2/16から一時CLOSE	altName:4F 特設スペースへ	bldg:	level:4	phone:0364341522	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
 name:スピック ＆ スパン	altName:	bldg:	level:4	phone:0364341653	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=spickandspan
 name:ソフィット	altName:	bldg:	level:4	phone:0334868058	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=soffitto
 name:ダンスキン ビューティフル シングス	altName:	bldg:	level:4	phone:0364341672	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=danskin
@@ -199,7 +198,7 @@ name:マザーハウス	altName:	bldg:	level:4	phone:0367126761	url:https://www.
 name:マーガレット・ハウエル	altName:	bldg:	level:4	phone:0364341662	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=margarethowell
 name:マーコート	altName:	bldg:	level:4	phone:0364341627	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marcourt
 name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fleur
-name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:5	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
+name:AYANOKOJI（アヤノコウジ）※3/1から一時CLOSE	altName:	bldg:	level:5	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
 name:STEAMCREAM	altName:	bldg:	level:5	phone:0364276075	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=steamcream
