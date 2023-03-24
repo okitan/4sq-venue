@@ -188,7 +188,7 @@ name:ザ・ノース・フェイス	altName:	bldg:	level:4	phone:0364341672	url:
 name:ジェラート ピケ※2/16から一時CLOSE	altName:4F 特設スペースへ	bldg:	level:4	phone:0364341522	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
 name:スピック ＆ スパン	altName:	bldg:	level:4	phone:0364341653	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=spickandspan
 name:ソフィット	altName:	bldg:	level:4	phone:0334868058	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=soffitto
-name:ダンスキン ビューティフル シングス	altName:	bldg:	level:4	phone:0364341672	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=danskin
+name:ダンスキン	altName:	bldg:	level:4	phone:0364341672	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=danskin
 name:トゥデイズスペシャル	altName:	bldg:	level:4	phone:0364341671	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=todaysspecial
 name:トラベルショップ ミレスト	altName:	bldg:	level:4	phone:0367125690	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=MILESTO
 name:ハーブス	altName:	bldg:	level:4	phone:0364341678	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=harbs
@@ -200,6 +200,7 @@ name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:http
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
+name:イヴ ドローム【4月1日(土) ニューオープン】	altName:	bldg:	level:5	phone:0364341136	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yvesdelorme
 name:ギビング ストア	altName:	bldg:	level:5	phone:0364341728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=givingstore
 name:コレックス	altName:	bldg:	level:5	phone:0364341645	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=collex
 name:テラリウムス【3月4日(土) ニューオープン】	altName:	bldg:	level:5	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=terrariums
