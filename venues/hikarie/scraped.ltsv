@@ -114,6 +114,7 @@ name:カネボウ	altName:	bldg:	level:-1	phone:0334862357	url:https://www.tokyu
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
 name:クリニーク	altName:	bldg:	level:-1	phone:0334868012	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clinique
 name:クレ・ド・ポー ボーテ	altName:	bldg:	level:-1	phone:0334868639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cledepeaubeaute
+name:ゲラン【4月1日(土) ニューオープン】	altName:	bldg:	level:-1	phone:0337971001	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=guerlain
 name:コスメデコルテ	altName:	bldg:	level:-1	phone:0364341793	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cosmedecorte
 name:シャネル フレグランス＆ビューティ	altName:	bldg:	level:-1	phone:0364341779	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=chanel
 name:スターバックス コーヒー	altName:	bldg:	level:-1	phone:0364341762	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starbucks_coffee
@@ -139,10 +140,9 @@ name:ジョンマスターオーガニック	altName:	bldg:	level:1	phone:036434
 name:ジョー マローン ロンドン	altName:	bldg:	level:1	phone:0334868019	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jomalone
 name:スナイデル ビューティ	altName:	bldg:	level:1	phone:0364341689	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=snidelbeauty
 name:スナイデル ホーム	altName:	bldg:	level:1	phone:0364341676	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=snidelhome
-name:テアトロ	altName:	bldg:	level:1	phone:0364341487	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=theatreux
+name:テアトロ【3月23日(木)リニューアルオープン】	altName:	bldg:	level:1	phone:0364341487	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=theatreux
 name:ニールズヤード レメディーズ	altName:	bldg:	level:1	phone:0364341739	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nealdsyard
 name:メルヴィータ	altName:	bldg:	level:1	phone:0364341731	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=melvita
-name:ル・コンシデラン	altName:	bldg:	level:1	phone:0364341487	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=leconsiderant
 name:極上担々麺 香家	altName:	bldg:	level:1	phone:0364341839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koya
 name:CA4LA delica	altName:カシラ デリカ	bldg:	level:2	phone:0334862368	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ca4la
 name:M・A・C	altName:マック	bldg:	level:2	phone:0334868027	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maccosmetics
@@ -189,7 +189,7 @@ name:ザ・ノース・フェイス	altName:	bldg:	level:4	phone:0364341672	url:
 name:ジェラート ピケ※2/16から一時CLOSE	altName:4F 特設スペースへ	bldg:	level:4	phone:0364341522	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
 name:スピック ＆ スパン	altName:	bldg:	level:4	phone:0364341653	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=spickandspan
 name:ソフィット	altName:	bldg:	level:4	phone:0334868058	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=soffitto
-name:ダンスキン ビューティフル シングス	altName:	bldg:	level:4	phone:0364341672	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=danskin
+name:ダンスキン	altName:	bldg:	level:4	phone:0364341672	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=danskin
 name:トゥデイズスペシャル	altName:	bldg:	level:4	phone:0364341671	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=todaysspecial
 name:トラベルショップ ミレスト	altName:	bldg:	level:4	phone:0367125690	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=MILESTO
 name:ハーブス	altName:	bldg:	level:4	phone:0364341678	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=harbs
@@ -201,6 +201,7 @@ name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:http
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
+name:イヴ ドローム【4月1日(土) ニューオープン】	altName:	bldg:	level:5	phone:0364341655	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yvesdelorme
 name:ギビング ストア	altName:	bldg:	level:5	phone:0364341728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=givingstore
 name:コレックス	altName:	bldg:	level:5	phone:0364341645	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=collex
 name:テラリウムス【3月4日(土) ニューオープン】	altName:	bldg:	level:5	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=terrariums
@@ -241,7 +242,6 @@ name:CUBE 1,2,3	altName:キューブ	bldg:	level:8	phone:0364184718	url:https://
 name:Creative Lounge MOV	altName:	bldg:	level:8	phone:0345338000	url:http://www.shibuyamov.com/
 name:d47 MUSEUM	altName:ディヨンナナ ミュージアム	bldg:	level:8	phone:0364272301	url:https://www.hikarie8.com/d47museum/
 name:d47食堂	altName:	bldg:	level:8	phone:0364272303	url:http://www.hikarie8.com/d47shokudo/
-name:カルチャーショックスタジオ『make (a) Camp』	altName:	bldg:	level:8	phone:07085139940	url:
 name:川本喜八郎人形ギャラリー	altName:	bldg:	level:8	phone:0334631142	url:
 name:渋谷○○書店	altName:	bldg:	level:8	phone:	url:https://www.hikarie8.com/books/about.shtml
 name:渋谷区区民サービスセンター	altName:	bldg:	level:8	phone:	url:
