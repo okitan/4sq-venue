@@ -71,7 +71,7 @@ name:マリアージュ フレール	altName:	bldg:	level:-2	phone:0337971854	ur
 name:メリーチョコレート	altName:	bldg:	level:-2	phone:0364272534	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maryschocolate
 name:モロゾフ	altName:	bldg:	level:-2	phone:0364272061	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=morozoff
 name:モンロワール	altName:	bldg:	level:-2	phone:0364272059	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=monloire
-name:ユーハイム・ディー・マイスター	altName:	bldg:	level:-2	phone:0364272062	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=juchheim
+name:ユーハイム	altName:	bldg:	level:-2	phone:0364272062	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=juchheim
 name:ヨックモック	altName:	bldg:	level:-2	phone:0364341808	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yokumoku
 name:ラベイユ	altName:	bldg:	level:-2	phone:0364341688	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=labeille
 name:ラ・メゾン白金	altName:	bldg:	level:-2	phone:0364341850	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=la_maison
@@ -149,6 +149,7 @@ name:イベントステージ 2	altName:	bldg:	level:2	phone:	url:https://www.to
 name:オルビス	altName:	bldg:	level:2	phone:0364341625	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=orbis
 name:カルティエ（ウォッチ）【4月8日(土) ニューオープン】	altName:	bldg:	level:2	phone:0364271930	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cartier
 name:デイリリー	altName:	bldg:	level:2	phone:0364341711	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=daylily
+name:パテック フィリップ【4月24日(月) 移設オープン】	altName:	bldg:	level:2	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=patekphilippe
 name:ファンケル ビューティ＆ヘルス	altName:	bldg:	level:2	phone:0364341630	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fancl
 name:ラフィネ	altName:	bldg:	level:2	phone:0364341709	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=raffine
 name:青山フラワーマーケット	altName:	bldg:	level:2	phone:0364341729	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aoyamaflower
