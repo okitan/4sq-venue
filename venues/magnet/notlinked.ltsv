@@ -1,5 +1,4 @@
 id:5ee49f3b8d0fc4000876db04	parentVenueId:4c0f742698102d7f2f32e506	name:MURAL GALLERY	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:64217630a58d534b9f56cce9	parentVenueId:4c0f742698102d7f2f32e506	name:Hive Shibuya	crossStreet:Jinnan	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5c95b2a3492822002eafc579	parentVenueId:4c0f742698102d7f2f32e506	name:A-MEC	crossStreet:MAGNET by SHIBUYA109 5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp
 id:5af43e0f336273003909fe13	parentVenueId:4c0f742698102d7f2f32e506	name:MAG7	crossStreet:MAGNET by SHIBUYA109 7F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp
 id:5ae838b0ad910e002c7f83cb	parentVenueId:4c0f742698102d7f2f32e506	name:Crossing View	crossStreet:MAGNET by SHIBUYA109 RF	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://www.shibuya109.jp
@@ -15,4 +14,3 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:AMNIBUS STORE	scraped.altName
 id:	parentVenueId:	name:	crossStreet:	scraped.name:JOL Collab Store	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0368090101	scraped.url:https://magnetbyshibuya109.jp/shop/jol-collab-store/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:バトロコmini	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0364551528	scraped.url:https://magnetbyshibuya109.jp/shop/batoroko-mini/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:WATERFALL POP UP SHOP	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:05055834014	scraped.url:https://magnetbyshibuya109.jp/shop/waterfall-pop-up-shop/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:スクカフェbySHIBUYA CLASS	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:07083603077	scraped.url:https://magnetbyshibuya109.jp/shop/shibuya-class/
