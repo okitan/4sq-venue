@@ -28,7 +28,7 @@
     "puppeteer": "20.1.2",
     "ts-node": "10.9.1",
     "yargs": "17.7.2",
-    "yeoman-environment": "3.16.1"
+    "yeoman-environment": "3.16.2"
   },
   "devDependencies": {
     "@types/jest": "29.5.1",
