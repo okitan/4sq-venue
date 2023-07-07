@@ -113,11 +113,11 @@ name:ゲラン	altName:	bldg:	level:-1	phone:0337971001	url:https://www.tokyu-de
 name:コスメデコルテ	altName:	bldg:	level:-1	phone:0364341793	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cosmedecorte
 name:シャネル フレグランス＆ビューティ	altName:	bldg:	level:-1	phone:0364341779	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=chanel
 name:スターバックス コーヒー	altName:	bldg:	level:-1	phone:0364341762	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starbucks_coffee
+name:ドゥ・ラ・メール	altName:	bldg:	level:-1	phone:0334862374	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delamer
 name:ネイルバー スマートスタイル	altName:	bldg:	level:-1	phone:0364341780	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nailbar
 name:マークスアンドウェブ	altName:	bldg:	level:-1	phone:0364341767	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marksandweb
 name:メイクアップライフ	altName:	bldg:	level:-1	phone:0364341500	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
 name:ランコム	altName:	bldg:	level:-1	phone:0364341786	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lancome
-name:ラ・メール	altName:	bldg:	level:-1	phone:0334862374	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delamer
 name:ラ･プレリー	altName:	bldg:	level:-1	phone:0364341765	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=laprairie
 name:免税カウンター	altName:	bldg:	level:-1	phone:0364341757	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=giftcounter
 name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hakuhodo
@@ -149,6 +149,7 @@ name:カルティエ	altName:ウォッチ	bldg:	level:2	phone:0364271930	url:htt
 name:スタイルテーブル	altName:	bldg:	level:2	phone:0364341740	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=styletable
 name:デイリリー	altName:	bldg:	level:2	phone:0364341711	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=daylily
 name:パテック フィリップ	altName:	bldg:	level:2	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=patekphilippe
+name:ピアジェ【7月7日(金) ニューオープン】	altName:	bldg:	level:2	phone:0364277344	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=piaget
 name:ファンケル ビューティ＆ヘルス	altName:	bldg:	level:2	phone:0364341630	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fancl
 name:マーク ジェイコブス	altName:	bldg:	level:2	phone:0364341719	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marcjacobs
 name:ラフィネ	altName:	bldg:	level:2	phone:0364341709	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=raffine
@@ -162,7 +163,6 @@ name:Salute by WACOAL/AMPHI	altName:サルート バイ ワコール/アンフ�
 name:Scrap Book	altName:スクラップブック	bldg:	level:3	phone:0364271683	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=scrapbook
 name:ShinQs シューズ カレイド	altName:	bldg:	level:3	phone:0364341704	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqsshoeskaleido
 name:me ISSEY MIYAKE	altName:	bldg:	level:3	phone:0364341694	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meisseymiyake
-name:ウォッチ＆メンテナンスサロン	altName:	bldg:	level:3	phone:0364341622	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=watchandmaintenance
 name:オデット エ オディール	altName:	bldg:	level:3	phone:0364187253	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=odetteeodile
 name:カメラのキタムラ	altName:	bldg:	level:3	phone:0357783558	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=camerakitamura
 name:ケサランパサラン	altName:	bldg:	level:3	phone:0364341781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kesalan
@@ -204,6 +204,7 @@ name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	leve
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
 name:イベントステージ 5	altName:	bldg:	level:5	phone:0364341644	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventstage5
 name:イヴ ドローム	altName:	bldg:	level:5	phone:0364341655	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yvesdelorme
+name:ウォッチ＆メンテナンス【7月7日(金)から5Fに移設オープン】	altName:	bldg:	level:5	phone:0364341603	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=watchandmaintenance
 name:ギビング ストア	altName:	bldg:	level:5	phone:0364341728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=givingstore
 name:コレックス【6月29日(木)から5Fの別区画に移設オープン】	altName:	bldg:	level:5	phone:0364341645	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=collex
 name:ジュエリー	altName:	bldg:	level:5	phone:0364341832	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=00000000
@@ -213,7 +214,7 @@ name:ル・クルーゼ	altName:	bldg:	level:5	phone:0368050913	url:https://www.
 name:東急百貨店お得意様サロン	altName:	bldg:	level:5	phone:0364341643	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gaishou
 name:綱具屋	altName:	bldg:	level:5	phone:0364276275	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tunaguya
 name:茶庭 然花抄院	altName:	bldg:	level:5	phone:0364341517	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sateizenkashoin
-name:葉山家具	altName:	bldg:	level:5	phone:0364271071	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
+name:葉山家具【7月13日(木)から5Fの別区画に移設オープン】※7月11日(火)・12日(水)は休業	altName:	bldg:	level:5	phone:0364271071	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
 name:168点心飲茶＆薬膳鍋	altName:	bldg:	level:6	phone:0368050959	url:
 name:うなぎ 徳	altName:	bldg:	level:6	phone:0364341519	url:http://www.unagiya.co.jp
 name:こめらく たっぷり野菜とお茶漬けと。	altName:	bldg:	level:6	phone:0364335666	url:https://www.tub.co.jp/
