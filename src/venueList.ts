@@ -51,14 +51,17 @@ export class VenueList extends Array<Venue> {
     return (
       // 0th 4sq venue first
       -VenueList.sortNumber(a.id?.length || 0, b.id?.length || 0) ||
-      // 1st bldg
+      // 1st sort by scraped info (hard to change)
+      // 1.1 bldg
       VenueList.sortString(a.scraped?.bldg, b.scraped?.bldg) ||
-      // 2nd level
+      // 1.2 level
       VenueList.sortNumber(a.scraped?.level, b.scraped?.level) ||
-      // 3rd bldg + level
-      VenueList.sortString(a.crossStreet, b.crossStreet) ||
-      // name is the last
+      // 1.3 is the last
       VenueList.sortString(a.scraped?.name, b.scraped?.name) ||
+      // 2nd sort by 4sq info (like to change)
+      // 2.1 bldg + level
+      VenueList.sortString(a.crossStreet, b.crossStreet) ||
+      // 2.2 name
       VenueList.sortString(a.name, b.name)
     );
   }
@@ -99,7 +102,7 @@ export function updateScrapedVenues(target: string, venues: VenueList): void {
 export function loadScrapedVenues(target: string) {
   return new VenueList(
     // level is converted to string in ltsv (it makes type error) and we should create another method
-    ...parse(fs.readFileSync(`venues/${target}/scraped.ltsv`).toString()).map((e) => Venue.fromScraped(e as any))
+    ...parse(fs.readFileSync(`venues/${target}/scraped.ltsv`).toString()).map((e) => Venue.fromScraped(e as any)),
   );
 }
 
@@ -113,7 +116,7 @@ export function updateLinkedVenues(target: string, venues: VenueList): void {
 }
 export function loadLinkedVenues(target: string) {
   return new VenueList(
-    ...parse(fs.readFileSync(`venues/${target}/linked.ltsv`).toString()).map((e) => new Venue(e as any))
+    ...parse(fs.readFileSync(`venues/${target}/linked.ltsv`).toString()).map((e) => new Venue(e as any)),
   );
 }
 export function updateNotLinkedVenues(target: string, venues: VenueList): void {
@@ -125,12 +128,12 @@ export function updateNotLinkedVenues(target: string, venues: VenueList): void {
 }
 export function loadNotLinkedVenues(target: string) {
   return new VenueList(
-    ...parse(fs.readFileSync(`venues/${target}/notlinked.ltsv`).toString()).map((e) => new Venue(e as any))
+    ...parse(fs.readFileSync(`venues/${target}/notlinked.ltsv`).toString()).map((e) => new Venue(e as any)),
   );
 }
 export function loadUnLinkedVenues(target: string) {
   return new VenueList(
-    ...parse(fs.readFileSync(`venues/${target}/unlinked.ltsv`).toString()).map((e) => new Venue(e as any))
+    ...parse(fs.readFileSync(`venues/${target}/unlinked.ltsv`).toString()).map((e) => new Venue(e as any)),
   );
 }
 export function updateUnLinkedVenues(target: string, venues: VenueList): void {
@@ -144,6 +147,6 @@ export function updateUnLinkedVenues(target: string, venues: VenueList): void {
 // no list is updated manually
 export function loadNoListVenues(target: string) {
   return new VenueList(
-    ...parse(fs.readFileSync(`venues/${target}/nolist.ltsv`).toString()).map((e) => new Venue(e as any))
+    ...parse(fs.readFileSync(`venues/${target}/nolist.ltsv`).toString()).map((e) => new Venue(e as any)),
   );
 }
