@@ -30,7 +30,9 @@ export function builder<T>(yargs: yargs.Argv<T>) {
   });
 }
 
-export function handler(args: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+type Argument = yargs.Arguments<Extract<ReturnType<typeof builder>>>;
+
+export function handler(args: Argument) {
   const env = yeoman.createEnv();
 
   // @ts-ignore: @types/yeoman-env is wrong about InstantiatorOptions
@@ -39,7 +41,7 @@ export function handler(args: yargs.Arguments<Extract<ReturnType<typeof builder>
   generator.run();
 }
 
-export class VenueGenerator extends Generator<yargs.Arguments<Extract<ReturnType<typeof builder>>>> {
+export class VenueGenerator extends Generator<Argument> {
   venue?: Venue;
   subVenues: Venue[] = [];
 
