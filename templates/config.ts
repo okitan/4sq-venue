@@ -1,4 +1,4 @@
-import { Config } from "../../src/types/config";
+import type { Config } from "../../src/types/config";
 
 const config: Config = {
   id: "<%= id %>",

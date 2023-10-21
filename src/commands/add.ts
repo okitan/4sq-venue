@@ -30,15 +30,18 @@ export function builder<T>(yargs: yargs.Argv<T>) {
   });
 }
 
-export function handler(args: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+type Argument = yargs.Arguments<Extract<ReturnType<typeof builder>>>;
+
+export function handler(args: Argument) {
   const env = yeoman.createEnv();
 
-  const generator = env.instantiate(VenueGenerator, [], { options: args });
+  // @ts-ignore: @types/yeoman-env is wrong about InstantiatorOptions
+  const generator = env.instantiate(VenueGenerator, [], args);
 
   generator.run();
 }
 
-export class VenueGenerator extends Generator {
+export class VenueGenerator extends Generator<Argument> {
   venue?: Venue;
   subVenues: Venue[] = [];
 
@@ -47,14 +50,14 @@ export class VenueGenerator extends Generator {
   }
 
   async initializing() {
-    const options = this.options as yargs.Arguments<Extract<ReturnType<typeof builder>>>;
+    const options = this.options;
 
     // fetch venue
     this.venue = new Venue(await (await this.foursquareClient.getVenue({ venueId: options.venueId })).venue);
 
     // fetch subvenues
     this.subVenues = await Promise.all(
-      options.subVenueId.map(async (id) => new Venue((await this.foursquareClient.getVenue({ venueId: id })).venue))
+      options.subVenueId.map(async (id) => new Venue((await this.foursquareClient.getVenue({ venueId: id })).venue)),
     );
   }
 

@@ -9,6 +9,7 @@ jobs:
     strategy:
       matrix:
         venues:
+          - de-aone
           - fullel-jiyugaoka
           - grand-tree
           - hikarie

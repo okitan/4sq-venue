@@ -1,7 +1,4 @@
-import puppeteer, {
-  type ElementHandle,
-  type Page,
-} from "puppeteer";
+import puppeteer, { type ElementHandle, type Page } from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
 import type { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";
@@ -28,7 +25,7 @@ export async function scrape({
   const results: ScrapedProperties[] = [];
 
   const browser = await puppeteer.launch({
-    headless: process.env.NO_HEADLESS ? false : true,
+    headless: process.env.NO_HEADLESS ? false : "new",
     args: ["--no-sandbox", "--disable-setuid-sandbox", "--lang=ja-JP"],
   });
 
@@ -92,7 +89,7 @@ async function scrapeVenue(page: Page | ElementHandle, properties: ScrapePropert
 
 async function scrapeProperties(
   page: Page | ElementHandle,
-  config: ScrapePropertiesConfig<ScrapedProperties>
+  config: ScrapePropertiesConfig<ScrapedProperties>,
 ): Promise<ScrapedProperties> {
   // name
   const value = await applySelector(page, config.name);
@@ -141,7 +138,7 @@ async function scrapeProperties(
 
 export async function applySelector<T extends string | number>(
   page: Page | ElementHandle,
-  config: Selector<T>
+  config: Selector<T>,
 ): Promise<string | undefined> {
   const element = await page.$(config.selector);
 
