@@ -37,6 +37,6 @@
     "prettier": "3.0.3",
     "ts-jest": "29.1.1",
     "typescript": "5.2.2",
-    "yeoman-generator": "5.9.0"
+    "yeoman-generator": "5.10.0"
   }
 }
