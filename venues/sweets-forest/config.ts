@@ -1,4 +1,4 @@
-import { Config } from "../../src/types/config";
+import type { Config } from "../../src/types/config";
 
 const config: Config = {
   id: "4b73d25bf964a520e8bc2de3",
@@ -11,7 +11,7 @@ const config: Config = {
     {
       url: "https://sweets-forest.cake.jp/",
       venues: {
-        "li.has-child li": {
+        ".shop-list__content__list__item": {
           followLink: { selector: "a", property: "href" },
           name: { selector: ".store-intro__content__left h2", modifier: (e) => e.split("(")[0] },
           altName: {
