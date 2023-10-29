@@ -1,4 +1,4 @@
-import { Config, ScrapeConfig } from "../../src/types/config";
+import type { Config, ScrapeConfig } from "../../src/types/config";
 
 const config: Config = {
   id: "4bd557cc6798ef3b4735638d",
@@ -49,12 +49,11 @@ const config: Config = {
       return {
         url: `http://www.hikarie.jp/floormap/${e}F.html`,
         venues: {
-          ".floorShopList2 li": {
-            name: { selector: ".floorShopList2__name", modifier: nameExtractor },
-            altName: { selector: ".floorShopList2__name", modifier: altNameExtractor },
+          "li.cmn-card02": {
+            followLink: { selector: "a", property: "href" },
+            name: { selector: "h1.name" },
             // fucking table layout
-            phone: { selector: "xpath/.//th[contains(text(),'TEL')]/following-sibling::td", nullable: true },
-            url: { selector: "xpath/.//th[contains(text(),'URL')]/following-sibling::td", nullable: true },
+            phone: { selector: "xpath/.//dt[contains(text(),'電話番号')]/following-sibling::dd", nullable: true },
             level: e,
           },
         },
