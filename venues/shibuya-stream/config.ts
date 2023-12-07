@@ -20,7 +20,7 @@ const config: Config = {
           "li.cmn-card02": {
             followLink: { selector: "a", property: "href" },
             name: { selector: "h1.name" },
-            phone: { selector: "xpath/.//dt[contains(text(),'電話番号')]/following-sibling::dd" },
+            phone: { selector: "xpath/.//dt[contains(text(),'電話番号')]/following-sibling::dd", nullable: true },
             level: floor,
           },
         },
