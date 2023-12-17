@@ -147,6 +147,7 @@ name:イベントステージ 2	altName:	bldg:	level:2	phone:	url:https://www.to
 name:オルビス	altName:	bldg:	level:2	phone:0364341625	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=orbis
 name:カルティエ	altName:ウォッチ	bldg:	level:2	phone:0364271930	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cartier
 name:スタイルテーブル	altName:	bldg:	level:2	phone:0364341740	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=styletable
+name:ストロベリーマニア【12月22日(金)オープン】	altName:	bldg:	level:2	phone:0364341664	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=strawberrymania
 name:デイリリー	altName:	bldg:	level:2	phone:0364341711	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=daylily
 name:パテック フィリップ	altName:	bldg:	level:2	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=patekphilippe
 name:ピアジェ	altName:	bldg:	level:2	phone:0364277344	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=piaget
@@ -165,7 +166,6 @@ name:ShinQs シューズ カレイド	altName:	bldg:	level:3	phone:0364341704	ur
 name:me ISSEY MIYAKE	altName:	bldg:	level:3	phone:0364341694	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meisseymiyake
 name:アニュアンス	altName:	bldg:	level:3	phone:0364341660	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anuans
 name:オデット エ オディール	altName:	bldg:	level:3	phone:0364187253	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=odetteeodile
-name:カメラのキタムラ	altName:	bldg:	level:3	phone:0357783558	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=camerakitamura
 name:ケサランパサラン	altName:	bldg:	level:3	phone:0364341781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kesalan
 name:サマンサタバサプチチョイスプラス	altName:	bldg:	level:3	phone:0364341695	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=samantha
 name:ジェラート ピケ	altName:	bldg:	level:3	phone:0364341522	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
