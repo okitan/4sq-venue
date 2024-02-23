@@ -42,6 +42,7 @@ name:Hotaru no Hikari	altName:	bldg:	level:-2	phone:0364341860	url:https://www.t
 name:OSUYA GINZA	altName:	bldg:	level:-2	phone:0364341834	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=osuya
 name:ROKUMEIKAN	altName:	bldg:	level:-2	phone:0364341806	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rokumeikan
 name:zarame -gourmet cotton candy-	altName:	bldg:	level:-2	phone:0364341816	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=zarame
+name:いちご大福と茶菓のお店 あか【2月29日(木)オープン】	altName:	bldg:	level:-2	phone:0364273715	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aka
 name:きんつば中田屋	altName:	bldg:	level:-2	phone:0364272319	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nakataya
 name:たぬき煎餅	altName:	bldg:	level:-2	phone:0364272412	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tanukisenbei
 name:たねや	altName:	bldg:	level:-2	phone:0367125460	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=taneya
@@ -53,7 +54,6 @@ name:パティスリー・サダハル・アオキ・パリ	altName:	bldg:	level
 name:ビスキュイテリエ ブルトンヌ	altName:	bldg:	level:-2	phone:0367125583	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=bretonne
 name:ピエール マルコリーニ	altName:	bldg:	level:-2	phone:0364341895	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pierremarcolini
 name:ピエール・エルメ・パリ	altName:	bldg:	level:-2	phone:0364341826	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pierreherme
-name:ファリーナ	altName:	bldg:	level:-2	phone:0364341861	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=farina
 name:ファーイーストバザール	altName:	bldg:	level:-2	phone:0364341511	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fareastbazaar
 name:フェーヴ	altName:	bldg:	level:-2	phone:0364341817	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=feve
 name:フルーリア	altName:	bldg:	level:-2	phone:0364274925	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fluria
@@ -121,7 +121,7 @@ name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-de
 name:Flora Notis JILL STUART	altName:フローラノーティス ジルスチュアート	bldg:	level:1	phone:0364341742	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=floranotis
 name:SABON	altName:サボン	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sabon
 name:SHIRO	altName:	bldg:	level:1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
-name:STAR JEWELRY GIRL	altName:スタージュエリー ガール	bldg:	level:1	phone:0357783813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelrygirl
+name:STAR JEWELRY（スタージュエリー）【2月16日(金)オープン】	altName:	bldg:	level:1	phone:0357783813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelry
 name:THE HAIR BAR TOKYO	altName:ザ ヘア バー トウキョウ	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
 name:アイアム	altName:	bldg:	level:1	phone:0364341718	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aiam
 name:キールズ	altName:	bldg:	level:1	phone:0334992010	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kiehls
@@ -146,7 +146,7 @@ name:カルティエ	altName:ウォッチ	bldg:	level:2	phone:0364271930	url:htt
 name:スタイルテーブル	altName:	bldg:	level:2	phone:0364341740	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=styletable
 name:ストロベリーマニア	altName:	bldg:	level:2	phone:0364341664	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=strawberrymania
 name:デイリリー	altName:	bldg:	level:2	phone:0364341711	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=daylily
-name:パテック フィリップ	altName:	bldg:	level:2	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=patekphilippe
+name:パテック フィリップ 正規販売店	altName:	bldg:	level:2	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/brand_info/patekphilippe/index.html
 name:ピアジェ	altName:	bldg:	level:2	phone:0364277344	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=piaget
 name:ファンケル ビューティ＆ヘルス	altName:	bldg:	level:2	phone:0364341630	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fancl
 name:マーク ジェイコブス	altName:	bldg:	level:2	phone:0364341719	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marcjacobs
@@ -177,7 +177,7 @@ name:Ane Mone	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://ww
 name:JTB	altName:	bldg:	level:4	phone:0343349280	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb
 name:Mila Owen	altName:ミラ オーウェン	bldg:	level:4	phone:0364271687	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=milaowen
 name:SORA	altName:ソラ	bldg:	level:4	phone:0364341674	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sora
-name:URBAN RESEARCH	altName:アーバンリサーチ	bldg:	level:4	phone:0364341476	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=urbanresearch
+name:URBAN RESEARCH（アーバンリサーチ）【改装のため2月15日(木)～3月10日(日)の期間、一時休業】	altName:	bldg:	level:4	phone:0364341476	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=urbanresearch
 name:ete	altName:エテ	bldg:	level:4	phone:0364341657	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ete
 name:ウンナナクール	altName:	bldg:	level:4	phone:0364341821	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unenanacool
 name:エミ【期間限定出店】	altName:	bldg:	level:4	phone:0364272975	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=emmi
@@ -198,7 +198,6 @@ name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:http
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
-name:〈AiR〉コンディショニングショップ【9月14日(木)から期間限定出店】	altName:	bldg:	level:5	phone:0364341659	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=air
 name:イベントステージ 5	altName:	bldg:	level:5	phone:0364341644	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventstage5
 name:イヴ ドローム	altName:	bldg:	level:5	phone:0364341655	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=yvesdelorme
 name:ウォッチ	altName:	bldg:	level:5	phone:0364341603	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=watch
