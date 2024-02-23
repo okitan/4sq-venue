@@ -1,3 +1,4 @@
+import { phoneExtractor } from "../../src/modifier";
 import type { Config, ScrapeConfig } from "../../src/types/config";
 
 const config: Config = {
@@ -35,6 +36,9 @@ const config: Config = {
         venues: {
           "ul.catList li:not(.coming)": {
             followLink: { selector: "a", property: "href" },
+            skip: async (item) => {
+              return (await (await item.$("a"))!.getProperty("href")).toString().includes("/patekphilippe/");
+            },
             name: { selector: "h3", modifier: nameExtractor },
             altName: { selector: "h3", modifier: altNameExtractor },
             //fucking no semantics
@@ -44,6 +48,18 @@ const config: Config = {
         },
       };
     }),
+    // special venue
+    {
+      url: "https://www.tokyu-dept.co.jp/shinqs/brand_info/patekphilippe/index.html",
+      venues: {
+        body: {
+          name: { selector: ".logo_pp_authorized_retailer img", property: "alt" },
+          url: "https://www.tokyu-dept.co.jp/shinqs/brand_info/patekphilippe/index.html",
+          phone: { selector: ".pp_tel_button", modifier: phoneExtractor },
+          level: 2,
+        },
+      },
+    },
     // Hikarie (no venues on 10F)
     ...[6, 7, 8, 9, 11].map((e): ScrapeConfig => {
       return {
