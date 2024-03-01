@@ -62,6 +62,7 @@ name:BALENCIAGA	altName:バレンシアガ	bldg:	level:3	phone:0337973855	url:ht
 name:GIVENCHY	altName:ジバンシィ	bldg:	level:3	phone:0368038413	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=137
 name:JIMMY CHOO	altName:ジミー チュウ	bldg:	level:3	phone:0364335989	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=145
 name:KENZO	altName:ケンゾー	bldg:	level:3	phone:0364526199	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=146
+name:MARNI	altName:マルニ	bldg:	level:3	phone:0367126400	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=580
 name:SAINT LAURENT	altName:サンローラン	bldg:	level:3	phone:0364526177	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=172
 name:STELLA McCARTNEY	altName:ステラ マッカートニー	bldg:	level:3	phone:0334001544	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=147
 name:sacai	altName:サカイ	bldg:	level:3	phone:0367126683	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=138
@@ -146,8 +147,10 @@ name:KURA CHIKA by PORTER	altName:クラチカ バイ ポーター	bldg:	level:8
 name:STRIDE by JOHNBULL	altName:ストライド バイ ジョンブル	bldg:	level:8	phone:0354681887	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=518
 name:THE SHOP	altName:ザ・ショップ	bldg:	level:8	phone:0364526221	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=109
 name:ユナイテッドアローズ	altName:UNITED ARROWS	bldg:	level:8	phone:0357741030	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=107
+name:A&F COUNTRY	altName:エイアンドエフカントリー	bldg:	level:9	phone:0345604188	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=572
 name:Formｰi × RESH	altName:フォルムアイ × リッシュ	bldg:	level:9	phone:0364526232	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=94
 name:TULLY’S COFFEE	altName:タリーズコーヒー	bldg:	level:9	phone:0364274725	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=93
+name:garage SHIBUYA	altName:ガレージ シブヤ	bldg:	level:9	phone:0364511487	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=583
 name:ocha room ashita ITOEN	altName:オチャルーム アシタ イトウエン	bldg:	level:10	phone:0368038112	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=86
 name:ハンズ	altName:HANDS	bldg:	level:10	phone:0357661121	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=85
 name:TSUCHIYA KABAN	altName:TSUCHIYA KABAN	bldg:	level:11	phone:0364526307	url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=82
