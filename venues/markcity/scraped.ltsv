@@ -33,7 +33,6 @@ name:Standard Products	altName:	bldg:ウエストモール	level:1	phone:0707572
 name:ダイソー	altName:	bldg:ウエストモール	level:1	phone:08039560100	url:https://www.s-markcity.co.jp/floor/w-1-4-1/
 name:DIAMOND EYES / DEforMEN	altName:	bldg:ウエストモール	level:2	phone:0354593981	url:https://www.s-markcity.co.jp/floor/w-2-15/
 name:Dr.ストレッチ	altName:	bldg:ウエストモール	level:2	phone:0334641700	url:https://www.s-markcity.co.jp/floor/w-2-11/
-name:IKUKO. TOTAL-BEAUTY- EXPRESS	altName:	bldg:ウエストモール	level:2	phone:0334645123	url:https://www.s-markcity.co.jp/floor/w-2-9/
 name:QBハウス	altName:	bldg:ウエストモール	level:2	phone:	url:https://www.s-markcity.co.jp/floor/w-2-13/
 name:なんぼや	altName:	bldg:ウエストモール	level:2	phone:0345809882	url:https://www.s-markcity.co.jp/floor/w-2-12/
 name:アンフィ	altName:	bldg:ウエストモール	level:2	phone:0354573281	url:https://www.s-markcity.co.jp/floor/w-2-8/
@@ -98,7 +97,6 @@ name:BLOSSOM & BOUQUET	altName:ブロッサムアンドブーケ	bldg:東急フ�
 name:CARVAAN Delicatessen & Beer stop	altName:カールヴァーン デリカテッセン&ビアストップ	bldg:東急フードショー しぶちか	level:-1	phone:0334774775	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=carvaan
 name:DELI by plein	altName:デリバイ プラン	bldg:東急フードショー しぶちか	level:-1	phone:0334774135	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=delibyplein
 name:ECRU	altName:エクリュ	bldg:東急フードショー しぶちか	level:-1	phone:0334774045	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ecru
-name:FARM TO GO	altName:ファーム トゥ ゴー	bldg:東急フードショー しぶちか	level:-1	phone:0334774812	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=farmtogo
 name:JACK IN THE DONUTS	altName:ジャック イン ザ ドーナツ	bldg:東急フードショー しぶちか	level:-1	phone:0334774762	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=jackinthedonuts
 name:K-SOUPMAN 스프사랑	altName:ケイスープマン	bldg:東急フードショー しぶちか	level:-1	phone:0334774340	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=k_soupman
 name:KINTAN IN THE HOUSE	altName:キンタンインザハウス	bldg:東急フードショー しぶちか	level:-1	phone:0334774360	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kintan
