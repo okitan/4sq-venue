@@ -27,3 +27,15 @@ export type SuccessfulGetVenueChildernResponse = SuccessfulFoursquareResponse & 
     };
   };
 };
+
+export type SuccessfulSearchCheckinsResponse = SuccessfulFoursquareResponse & {
+  response: {
+    checkins: {
+      count: number;
+      items: Array<{
+        createdAt: number;
+        venue: FoursquareVenue;
+      }>;
+    };
+  };
+};

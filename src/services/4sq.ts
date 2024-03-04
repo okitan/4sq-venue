@@ -4,6 +4,7 @@ import {
   SuccessfulFoursquareResponse,
   SuccessfulGetVenueChildernResponse,
   SuccessfulGetVenueResponse,
+  SuccessfulSearchCheckinsResponse,
   SuccessfulVenueResponse,
 } from "../types/4sq/response";
 
@@ -67,6 +68,15 @@ export class FoursquareClient {
     return this.reportVenue({ venueId, reason: "private" });
   }
 
+  async searchCheckins(options: {
+    beforeTimestamp: string;
+    afterTimestamp: string;
+    locale?: string;
+  }): Promise<SuccessfulSearchCheckinsResponse["response"]> {
+    return (await this._get("/users/self/historysearch", { locale: "ja", ...options }))
+      .response as SuccessfulSearchCheckinsResponse["response"];
+  }
+
   async _get(path: string, params: { [x: string]: string } = {}): Promise<SuccessfulFoursquareResponse> {
     const paramsWithToken = Object.assign({ oauth_token: this.accessToken, locale: "ja", v: "20181127" }, params);
 
@@ -109,7 +119,7 @@ export function addFoursquareClientOptions<T>(yargs: yargs.Argv<T>) {
 }
 
 export function injectFoursqureClient(
-  args: { foursquareAccessToken: string } & { foursquareClient: FoursquareClient }
+  args: { foursquareAccessToken: string } & { foursquareClient: FoursquareClient },
 ): void {
   args.foursquareClient = new FoursquareClient({ accessToken: args.foursquareAccessToken });
 }
