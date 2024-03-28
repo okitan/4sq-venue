@@ -121,7 +121,7 @@ name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-de
 name:Flora Notis JILL STUART	altName:フローラノーティス ジルスチュアート	bldg:	level:1	phone:0364341742	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=floranotis
 name:SABON	altName:サボン	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sabon
 name:SHIRO	altName:	bldg:	level:1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
-name:STAR JEWELRY（スタージュエリー）【2月16日(金)オープン】	altName:	bldg:	level:1	phone:0357783813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelry
+name:STAR JEWELRY	altName:スタージュエリー	bldg:	level:1	phone:0357783813	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelry
 name:THE HAIR BAR TOKYO	altName:ザ ヘア バー トウキョウ	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
 name:アイアム	altName:	bldg:	level:1	phone:0364341718	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aiam
 name:キールズ	altName:	bldg:	level:1	phone:0334992010	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kiehls
@@ -175,6 +175,7 @@ name:ANEMONE	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://www
 name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:4	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
 name:JTB	altName:	bldg:	level:4	phone:0343349280	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb
 name:Mila Owen	altName:ミラ オーウェン	bldg:	level:4	phone:0364271687	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=milaowen
+name:NERGY（ナージー）【4月6日(土)オープン】	altName:	bldg:	level:4	phone:0364275292	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nergy
 name:SORA	altName:ソラ	bldg:	level:4	phone:0364341674	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sora
 name:URBAN RESEARCH	altName:アーバンリサーチ	bldg:	level:4	phone:0364341476	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=urbanresearch
 name:ete	altName:エテ	bldg:	level:4	phone:0364341657	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ete
