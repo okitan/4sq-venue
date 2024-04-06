@@ -1,6 +1,5 @@
 id:65e5a93113e563790bfe767d	parentVenueId:5d7b5d89d1334200083e1ae2	name:DeNAラウンジ	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:65a614b382d02552783d60bb	parentVenueId:5d7b5d89d1334200083e1ae2	name:Floats!	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:6605733f4bedc960fd7d5094	parentVenueId:5d7b5d89d1334200083e1ae2	name:Kagurazaka Saryo	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5ddfa68e8d5e1d0008104bf5	parentVenueId:5d7b5d89d1334200083e1ae2	name:boxsta	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:65e6e59358e8100134ec5d56	parentVenueId:5d7b5d89d1334200083e1ae2	name:せんから	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:631eb988dadd06644dae519d	parentVenueId:5d7b5d89d1334200083e1ae2	name:カメレオン･スクエア	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -14,6 +13,7 @@ id:5dbbfc56f920bc0008f0d675	parentVenueId:5d7b5d89d1334200083e1ae2	name:MIXI	cro
 id:5fc5ca40355bff288dcde480	parentVenueId:5d7b5d89d1334200083e1ae2	name:株式会社カオナビ	crossStreet:渋谷スクランブルスクエア 38F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5dbd3344607ad200089af120	parentVenueId:5d7b5d89d1334200083e1ae2	name:三菱UFJ銀行 ATMコーナー	crossStreet:渋谷スクランブルスクエア 5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://www.bk.mufg.jp
 id:6454a0d7cf41a31e7a5b6a80	parentVenueId:5d7b5d89d1334200083e1ae2	name:イベントスペース 7階	crossStreet:渋谷スクランブルスクエア 7階	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:6606ab180893cc7d050f5cc5	parentVenueId:5d7b5d89d1334200083e1ae2	name:Pastel	crossStreet:渋谷スクランブルスクエア1F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Chef'sDELI	scraped.altName:シェフズデリ	scraped.bldg:	scraped.level:-2	scraped.phone:0364272400	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=535
 id:	parentVenueId:	name:	crossStreet:	scraped.name:東急フードショーエッジ (デリ)	scraped.altName:TOKYU Foodshow EDGE (DELI)	scraped.bldg:	scraped.level:-2	scraped.phone:0334773111	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=168
 id:	parentVenueId:	name:	crossStreet:	scraped.name:apple ＆ roses	scraped.altName:アップル＆ローゼス	scraped.bldg:	scraped.level:1	scraped.phone:0364273223	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=310
