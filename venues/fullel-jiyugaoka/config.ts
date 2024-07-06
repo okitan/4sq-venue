@@ -13,15 +13,15 @@ const config: Config = {
       return {
         url: `http://www.fullel.com/jiyugaoka/shopguide/?floor=${level}f`,
         venues: {
-          ".table_basic01 tr:not(.thBg)": {
+          ".shop-box": {
             followLink: { selector: "a", property: "href" },
-            name: { selector: ".shopCmnTitle01 dd" },
-            phone: { selector: ".shopDetailInfo01 tr:nth-of-type(3) td" },
+            name: { selector: ".shop-name" },
+            phone: { selector: "xpath/.//p[contains(text(), '電話番号')]/following-sibling::div/a" },
             level,
           },
         },
       };
-    }
+    },
   ),
 };
 
