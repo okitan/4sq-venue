@@ -11,7 +11,7 @@ const config: Config = {
     {
       url: "https://shibuchika.jp/",
       venues: {
-        "table td:nth-of-type(2):has(*)": {
+        "table td:nth-of-type(2):not(:empty)": {
           name: { selector: "xpath/." },
           // TODO: if domain is shibuchika scarpe detail pages
           url: { selector: "a", property: "href", nullable: true },
