@@ -64,7 +64,6 @@ name:ICHIBIKO	altName:いちびこ	bldg:東急フードショー	level:1	phone:0
 name:LADURÉE	altName:ラデュレ	bldg:東急フードショー	level:1	phone:0334774645	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=laduree
 name:MERCER bis	altName:マーサー ビス	bldg:東急フードショー	level:1	phone:0368090682	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=mercerbis
 name:PATISSERIE HANA	altName:パティスリー ハナ	bldg:東急フードショー	level:1	phone:0334774869	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=patisseriehana
-name:REI CACAO	altName:レイ カカオ	bldg:東急フードショー	level:1	phone:0334774651	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=reicacao
 name:THE STANDARD BAKERS FARM	altName:ザ スタンダード ベイカーズ ファーム	bldg:東急フードショー	level:1	phone:0334774760	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=the_standard_bakers
 name:THE TAILOR	altName:ザ・テイラー	bldg:東急フードショー	level:1	phone:0334774673	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=thetailor
 name:TiMi	altName:ティミ	bldg:東急フードショー	level:1	phone:0334774638	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=timi
@@ -126,7 +125,6 @@ name:古市庵	altName:	bldg:東急フードショー しぶちか	level:-1	phon
 name:味の浜藤	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774295	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=ajinohamato
 name:大阪焼肉・ホルモン ふたご	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774350	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=yakiniku_futago
 name:好餃子	altName:ハオチャオズ	bldg:東急フードショー しぶちか	level:-1	phone:0334774341	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=haochaoz
-name:小洞天	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774879	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=shodoten
 name:崎陽軒	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774452	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=KIYOKEN
 name:日本橋 天丼 天むす 金子半之助	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774776	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kaneko_hannosuke
 name:東京 渋谷 かげん鮨	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774349	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=cagenzushi
