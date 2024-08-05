@@ -2,6 +2,9 @@ id:5ee49f3b8d0fc4000876db04	parentVenueId:4c0f742698102d7f2f32e506	name:MURAL GA
 id:635b487e42189207fafd47b1	parentVenueId:4c0f742698102d7f2f32e506	name:虜	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5c95b2a3492822002eafc579	parentVenueId:4c0f742698102d7f2f32e506	name:A-MEC	crossStreet:MAGNET by SHIBUYA109 5F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp
 id:5af43e0f336273003909fe13	parentVenueId:4c0f742698102d7f2f32e506	name:MAG7	crossStreet:MAGNET by SHIBUYA109 7F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp
+id:	parentVenueId:	name:	crossStreet:	scraped.name:Tax-free Counter	scraped.altName:	scraped.bldg:	scraped.level:-2	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp/shop/tax-free-counter/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:星乃珈琲店	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0334778038	scraped.url:https://magnetbyshibuya109.jp/shop/hoshinocoffee/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:浴衣2024東京みなみ	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:08035085910	scraped.url:https://magnetbyshibuya109.jp/shop/%e6%b5%b4%e8%a1%a32024%e6%9d%b1%e4%ba%ac%e3%81%bf%e3%81%aa%e3%81%bf/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:BLESS	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0334778160	scraped.url:https://magnetbyshibuya109.jp/shop/bless/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:FAIRYTAIL	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0368269272	scraped.url:https://magnetbyshibuya109.jp/shop/fairytail-3/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:TRAVAS TOKYO	scraped.altName:	scraped.bldg:	scraped.level:4	scraped.phone:0364160151	scraped.url:https://magnetbyshibuya109.jp/shop/travas-tokyo-2/
@@ -10,4 +13,5 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:ozz conte	scraped.altName:	sc
 id:	parentVenueId:	name:	crossStreet:	scraped.name:JOL Collab Store	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:0368090101	scraped.url:https://magnetbyshibuya109.jp/shop/jol-collab-store/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:マンガ展 渋谷-さち	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp/shop/%e3%83%9e%e3%83%b3%e3%82%ac%e5%b1%95%e3%80%80%e6%b8%8b%e8%b0%b7/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:マンガ展 渋谷-ふく	scraped.altName:	scraped.bldg:	scraped.level:5	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp/shop/%e3%83%9e%e3%83%b3%e3%82%ac%e5%b1%95-%e6%b8%8b%e8%b0%b7-%e3%81%b5%e3%81%8f/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:Spotify POP-UP EXPERIENCE	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:	scraped.url:https://magnetbyshibuya109.jp/shop/spotify-pop-up-experience/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:TOKYO MADE YUKATA	scraped.altName:	scraped.bldg:	scraped.level:6	scraped.phone:0337097889	scraped.url:https://magnetbyshibuya109.jp/shop/tokyo-made-yukata/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:SHIBUYA SCRAMBLE S	scraped.altName:	scraped.bldg:	scraped.level:7	scraped.phone:0345000409	scraped.url:https://magnetbyshibuya109.jp/shop/shibuya-scramble-s/
