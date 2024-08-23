@@ -20,7 +20,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "dayjs": "1.11.12",
+    "dayjs": "1.11.13",
     "ltsv": "2.0.0",
     "mdiff": "1.4.2",
     "mem-fs": "2.3.0",
