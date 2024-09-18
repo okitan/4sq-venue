@@ -5,7 +5,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:COST	scraped.altName:COST	scr
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Celeste	scraped.altName:Celeste	scraped.bldg:	scraped.level:1	scraped.phone:0364211244	scraped.url:https://www.hikarigai.com/celeste/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:NailMix自由が丘店	scraped.altName:NailMix自由が丘店	scraped.bldg:	scraped.level:1	scraped.phone:0337247066	scraped.url:https://www.hikarigai.com/nailmix/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:きらく屋	scraped.altName:きらく屋	scraped.bldg:	scraped.level:1	scraped.phone:0364214868	scraped.url:https://www.hikarigai.com/kirakuya/
-id:	parentVenueId:	name:	crossStreet:	scraped.name:せきぐち	scraped.altName:手づくり工房 せきぐち	scraped.bldg:	scraped.level:1	scraped.phone:0357014234	scraped.url:https://www.hikarigai.com/sekiguchi/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:まるこや商店	scraped.altName:まるこや商店	scraped.bldg:	scraped.level:1	scraped.phone:0337189773	scraped.url:https://www.hikarigai.com/marukoya/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アキノスキャビン	scraped.altName:アキノスキャビン	scraped.bldg:	scraped.level:1	scraped.phone:0357315414	scraped.url:https://www.hikarigai.com/akinos/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:クライユ	scraped.altName:クライユ	scraped.bldg:	scraped.level:1	scraped.phone:0364213458	scraped.url:https://www.hikarigai.com/clayeux/
@@ -18,6 +17,7 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:ピノキオ21	scraped.altNam
 id:	parentVenueId:	name:	crossStreet:	scraped.name:レーンティーン	scraped.altName:レーンティーン	scraped.bldg:	scraped.level:1	scraped.phone:0337239432	scraped.url:https://www.hikarigai.com/laentine/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:十字屋	scraped.altName:十字屋	scraped.bldg:	scraped.level:1	scraped.phone:0337189774	scraped.url:https://www.hikarigai.com/jyujiya/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:咲貴	scraped.altName:咲貴	scraped.bldg:	scraped.level:1	scraped.phone:0337189789	scraped.url:https://www.hikarigai.com/sakiki/
+id:	parentVenueId:	name:	crossStreet:	scraped.name:手作り工房せきぐち	scraped.altName:手づくり工房 せきぐち	scraped.bldg:	scraped.level:1	scraped.phone:0357014234	scraped.url:https://www.hikarigai.com/sekiguchi/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:赤いくつ	scraped.altName:ブティック 赤いくつ	scraped.bldg:	scraped.level:1	scraped.phone:0337242247	scraped.url:https://www.hikarigai.com/akaikutsu/
 id:	parentVenueId:	name:	crossStreet:	scraped.name:オフィス イー・ティー	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:0357319903	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:クイックリフォームサービス	scraped.altName:	scraped.bldg:	scraped.level:2	scraped.phone:	scraped.url:
