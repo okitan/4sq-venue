@@ -31,6 +31,7 @@ name:ジェルフラワー（催事場）	altName:	bldg:イーストモール	le
 name:スターバックス コーヒー	altName:	bldg:イーストモール	level:3	phone:0334610739	url:https://www.s-markcity.co.jp/floor/e-3-17/
 name:Standard Products	altName:	bldg:ウエストモール	level:1	phone:0824200100	url:https://www.s-markcity.co.jp/floor/w-1-4-2/
 name:ダイソー	altName:	bldg:ウエストモール	level:1	phone:0824200100	url:https://www.s-markcity.co.jp/floor/w-1-4-1/
+name:BAKERY RESTAURANT C	altName:	bldg:ウエストモール	level:2	phone:0364164309	url:https://www.s-markcity.co.jp/floor/bakery-restaurant-c/
 name:DIAMOND EYES / DEforMEN	altName:	bldg:ウエストモール	level:2	phone:0354593981	url:https://www.s-markcity.co.jp/floor/w-2-15/
 name:Dr.ストレッチ	altName:	bldg:ウエストモール	level:2	phone:0334641700	url:https://www.s-markcity.co.jp/floor/w-2-11/
 name:QBハウス	altName:	bldg:ウエストモール	level:2	phone:	url:https://www.s-markcity.co.jp/floor/w-2-13/
@@ -96,7 +97,6 @@ name:JACK IN THE DONUTS	altName:ジャック イン ザ ドーナツ	bldg:東急
 name:K-SOUPMAN	altName:ケイスープマン	bldg:東急フードショー しぶちか	level:-1	phone:0334774340	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=k_soupman
 name:KINTAN IN THE HOUSE	altName:キンタン イン ザ ハウス	bldg:東急フードショー しぶちか	level:-1	phone:0334774360	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kintan
 name:MENAM	altName:メナム	bldg:東急フードショー しぶちか	level:-1	phone:0334774345	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=menam
-name:Made in ピエール・エルメ	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774371	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=madein_.pierreherme
 name:OBSCURA COFFEE ROASTERS	altName:オブスキュラ コーヒー ロースターズ	bldg:東急フードショー しぶちか	level:-1	phone:0334774381	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=obscura_coffee
 name:PAOPAO	altName:パオパオ	bldg:東急フードショー しぶちか	level:-1	phone:0334774338	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=paopao
 name:SOU.Dining	altName:ソウ ドット ダイニング	bldg:東急フードショー しぶちか	level:-1	phone:0334774136	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=sou_dining
