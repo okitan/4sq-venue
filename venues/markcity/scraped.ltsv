@@ -98,7 +98,6 @@ name:ECRU	altName:エクリュ	bldg:東急フードショー しぶちか	level:
 name:JACK IN THE DONUTS	altName:ジャック イン ザ ドーナツ	bldg:東急フードショー しぶちか	level:-1	phone:0334774762	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=jackinthedonuts
 name:K-SOUPMAN	altName:ケイスープマン	bldg:東急フードショー しぶちか	level:-1	phone:0334774340	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=k_soupman
 name:KINTAN IN THE HOUSE	altName:キンタン イン ザ ハウス	bldg:東急フードショー しぶちか	level:-1	phone:0334774360	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=kintan
-name:MENAM	altName:メナム	bldg:東急フードショー しぶちか	level:-1	phone:0334774345	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=menam
 name:OBSCURA COFFEE ROASTERS	altName:オブスキュラ コーヒー ロースターズ	bldg:東急フードショー しぶちか	level:-1	phone:0334774381	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=obscura_coffee
 name:PAOPAO	altName:パオパオ	bldg:東急フードショー しぶちか	level:-1	phone:0334774338	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=paopao
 name:SOU.Dining	altName:ソウ ドット ダイニング	bldg:東急フードショー しぶちか	level:-1	phone:0334774136	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=sou_dining
@@ -120,6 +119,7 @@ name:シュマンケル ステューベ	altName:	bldg:東急フードショー �
 name:ジュウニブン ベーカリー 渋谷	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774494	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=junibun_bakery
 name:チーズ王国	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774037	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=cheese_oukoku
 name:パリヤ	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774032	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=pariya_delicatessen
+name:三笠会館	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774847	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=mikasakaikan
 name:京粕漬 魚久	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774306	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=uokyu
 name:十勝あんこのサザエ	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774168	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=sazae
 name:千駄木腰塚	altName:	bldg:東急フードショー しぶちか	level:-1	phone:0334774334	url:https://www.tokyu-dept.co.jp/shibuya_foodshow/shop/detail.html?shopcode=sendagikoshizuka
