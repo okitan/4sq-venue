@@ -1,4 +1,3 @@
-id:66d2edcb9cb3b75915faaa92	parentVenueId:4bd557cc6798ef3b4735638d	name:aiam 渋谷	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:66287fa7c4b6406e44af9452	parentVenueId:4f7f9ceae4b023c637e055ec	name:food stage	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5860a98545c3ed1e7dfcc126	parentVenueId:4bd557cc6798ef3b4735638d	name:東急百貨店渋谷本店循環バス 渋谷ヒカリエ発着所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:66767a94e74ea9220155fa75	parentVenueId:4f7f9ceae4b023c637e055ec	name:渋谷のラジオ　ラジ公ドリンクスタンド	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -57,7 +56,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:ラ・メール	scraped.altNa
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ラ･プレリー【11月13日(水)リニューアルオープン】	scraped.altName:	scraped.bldg:	scraped.level:-1	scraped.phone:0364341765	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=laprairie
 id:	parentVenueId:	name:	crossStreet:	scraped.name:STAR JEWELRY	scraped.altName:スタージュエリー	scraped.bldg:	scraped.level:1	scraped.phone:0357783813	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starjewelry
 id:	parentVenueId:	name:	crossStreet:	scraped.name:THE HAIR BAR TOKYO	scraped.altName:ザ ヘア バー トウキョウ	scraped.bldg:	scraped.level:1	scraped.phone:0364341751	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
-id:	parentVenueId:	name:	crossStreet:	scraped.name:アイアム	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341718	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aiam
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ジャルダン デ パルファム	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341746	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jardin
 id:	parentVenueId:	name:	crossStreet:	scraped.name:スナイデル ビューティ	scraped.altName:	scraped.bldg:	scraped.level:1	scraped.phone:0364341689	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=snidelbeauty
 id:	parentVenueId:	name:	crossStreet:	scraped.name:MUCHA	scraped.altName:ミュシャ	scraped.bldg:	scraped.level:2	scraped.phone:0364341701	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mucha
