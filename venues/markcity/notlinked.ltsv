@@ -2,16 +2,16 @@ id:5aa1de2216fa040955c410f6	parentVenueId:4b3f1743f964a520eba325e3	name:Fitbit J
 id:616147841fb4924d82d303b2	parentVenueId:4b3f1743f964a520eba325e3	name:Street Piano	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5a2bbef2e4c459692f6621d5	parentVenueId:4b3f1743f964a520eba325e3	name:グリーンイエロージュース	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:61bc4f6faf7727236419a9c5	parentVenueId:4b3f1743f964a520eba325e3	name:マークイベントスクエア	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:59a14caaa8eb606ea8530e61	parentVenueId:4b3f1743f964a520eba325e3	name:マークシティ バス待合室	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:650aa14d4983ed747a5de9e9	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティバスターミナル92番乗り場	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5e3bdc7221d5120008868039	parentVenueId:4b3f1743f964a520eba325e3	name:ゆうちょ銀行 京王電鉄井の頭線渋谷駅内出張所	crossStreet:京王線中央改札横	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:61f3ba049daab04bf6e9b1ff	parentVenueId:5f5f634e017ea123d39b622c	name:あげもの専門店 SAKUMARU	crossStreet:東急フードショー	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5abb95566dcf0459d90c60e0	parentVenueId:4b3f1743f964a520eba325e3	name:M3-01.渋谷マークシティ バイクシェアサービス東京広域	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4b74bfc4f964a52004f02de3	parentVenueId:4b3f1743f964a520eba325e3	name:Shibuya Markcity Office	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:59a14caaa8eb606ea8530e61	parentVenueId:4b3f1743f964a520eba325e3	name:マークシティ バス待合室	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:612da44e73c9722a47b73188	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティ ATMコーナー	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:53368b20498e18ae9f3ed726	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティ VISIT SHIBUYAのりば	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4bc43c9d74a9a5937b8bd5f6	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティウエスト16階	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4c57e5e4d12a20a161b367bd	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティウエスト17F セミナールームA	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:650aa14d4983ed747a5de9e9	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティバスターミナル92番乗り場	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4c48ec221b430f471215d3c2	parentVenueId:4b3f1743f964a520eba325e3	name:スルガ銀行 渋谷支店	crossStreet:渋谷マークシティ 14F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:http://www.surugabank.co.jp
 id:6784704dcc85e11e055a8b5f	parentVenueId:4b3f1743f964a520eba325e3	name:Blossom & Bouquet 渋谷	crossStreet:渋谷マークシティ 1階・地下1階／しぶちか	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:61a427279a822a4804a54565	parentVenueId:4b3f1743f964a520eba325e3	name:三井住友銀行 京王渋谷駅出張所	crossStreet:渋谷マークシティ 2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
