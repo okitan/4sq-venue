@@ -178,7 +178,7 @@ name:金子眼鏡店	altName:	bldg:	level:3	phone:0364341679	url:https://www.tok
 name:ALBOVE・PEAK&PINE	altName:アルヴォーブ・ピークアンドパイン	bldg:	level:4	phone:0364341668	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=albove_peakpine
 name:ANEMONE	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anemone
 name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:4	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
-name:COHINA STORE【2月14日(金)リニューアルオープン】	altName:	bldg:	level:4	phone:0364341628	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cohina_store
+name:COHINA STORE【2月14日(金)リニューアルオープン】	altName:	bldg:	level:4	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cohina_store
 name:JTB	altName:	bldg:	level:4	phone:0343349280	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=jtb
 name:Mila Owen	altName:ミラ オーウェン	bldg:	level:4	phone:0364271687	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=milaowen
 name:SORA	altName:ソラ	bldg:	level:4	phone:0364341674	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sora
@@ -187,7 +187,6 @@ name:ete	altName:エテ	bldg:	level:4	phone:0364341657	url:https://www.tokyu-dep
 name:ウンナナクール	altName:	bldg:	level:4	phone:0364341821	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unenanacool
 name:エミ	altName:	bldg:	level:4	phone:0364272975	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=emmi
 name:クラスカ ギャラリー＆ショップ “ドー”	altName:	bldg:	level:4	phone:0364341663	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=claska
-name:グレゴリー【2月14日(金)オープン】	altName:	bldg:	level:4	phone:0364341628	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gregory
 name:スピック ＆ スパン	altName:	bldg:	level:4	phone:0364341653	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=spickandspan
 name:ソフィット	altName:	bldg:	level:4	phone:0334868058	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=soffitto
 name:トゥデイズスペシャル	altName:	bldg:	level:4	phone:0364341671	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=todaysspecial
