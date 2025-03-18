@@ -21,7 +21,6 @@ jobs:
           - scramble-square
           - shibuchika
           - shibuya-stream
-          - sweets-forest
       fail-fast: false
     runs-on: ubuntu-latest
 
