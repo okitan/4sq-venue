@@ -22,6 +22,12 @@ export const commonArgs = {
     type: "boolean" as const,
     default: true,
     demandOption: true as const,
+    deprecate: true,
+  },
+  exec: {
+    type: "boolean" as const,
+    default: false,
+    demandOption: true as const,
   },
 };
 
