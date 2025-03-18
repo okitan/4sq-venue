@@ -6,6 +6,7 @@ import {
   SuccessfulGetVenueResponse,
   SuccessfulSearchCheckinsResponse,
   SuccessfulVenueResponse,
+  SuccessfulVenuesResponse,
 } from "../types/4sq/response";
 
 export class FoursquareClient {
@@ -73,8 +74,28 @@ export class FoursquareClient {
     afterTimestamp: string;
     locale?: string;
   }): Promise<SuccessfulSearchCheckinsResponse["response"]> {
-    return (await this._get("/users/self/historysearch", { locale: "ja", ...options }))
+    return (await this._get("/users/self/historysearch", options))
       .response as SuccessfulSearchCheckinsResponse["response"];
+  }
+
+  async getCreatedVenues({
+    userId,
+    limit,
+    offset,
+    ...options
+  }: {
+    userId: string;
+    limit?: number;
+    offset?: number;
+    locale?: string;
+  }): Promise<SuccessfulVenuesResponse["response"]> {
+    return (
+      await this._get(`/users/${userId}/venues`, {
+        limit: limit?.toString() ?? "100",
+        offset: offset?.toString() ?? "0",
+        ...options,
+      })
+    ).response as SuccessfulVenuesResponse["response"];
   }
 
   async _get(path: string, params: { [x: string]: string } = {}): Promise<SuccessfulFoursquareResponse> {
@@ -94,7 +115,7 @@ export class FoursquareClient {
       method: "POST",
     });
     if (response.status >= 400)
-      throw new Error(`request failed with ${response.status} because of ${await response.json()}`);
+      throw new Error(`request failed with ${response.status} because of ${JSON.stringify(await response.json())}`);
 
     return (await response.json()) as SuccessfulFoursquareResponse;
   }
