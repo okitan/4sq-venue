@@ -8,18 +8,18 @@ export const command = "delete [Options]";
 export const description = "delete venue";
 
 export function builder<T>(yargs: yargs.Argv<T>) {
-  return addFoursquareClientOptions(yargs).options({ venueId: commonArgs.venueId, dryRun: commonArgs.dryRun });
+  return addFoursquareClientOptions(yargs).options({ venueId: commonArgs.venueId, exec: commonArgs.exec });
 }
 
 export async function handler({
   foursquareClient,
   venueId,
-  dryRun,
+  exec,
 }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const venue = (await foursquareClient.getVenue({ venueId })).venue;
 
   if (canDelete(venue)) {
-    if (dryRun) {
+    if (!exec) {
       console.log(`venue ${venue.name} (id: ${venue.id}) can be deleted. try --no-dry-run`);
     } else {
       const result = await foursquareClient.deleteVenue({ venueId });

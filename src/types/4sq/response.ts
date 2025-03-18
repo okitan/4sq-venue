@@ -14,6 +14,12 @@ export type SuccessfulVenueResponse = SuccessfulFoursquareResponse & {
   response: FoursquareVenue;
 };
 
+export type SuccessfulVenuesResponse = SuccessfulFoursquareResponse & {
+  response: {
+    venues: FoursquareVenue[];
+  };
+};
+
 export type SuccessfulGetVenueResponse = SuccessfulFoursquareResponse & {
   response: {
     venue: DetailedFoursquareVenue;
