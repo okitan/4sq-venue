@@ -8,7 +8,6 @@ import {
   SuccessfulVenueResponse,
   SuccessfulVenuesResponse,
 } from "../types/4sq/response";
-import { off } from "process";
 
 export class FoursquareClient {
   accessToken: string;
