@@ -4,6 +4,11 @@ export type FoursquareVenue = {
   name: string;
   location: Location;
   categories: Category[];
+  stats: {
+    checkinsCount: number;
+    usersCount: number;
+    tipCount: number;
+  };
   flags: {
     count: number;
   };

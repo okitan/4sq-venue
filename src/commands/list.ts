@@ -1,8 +1,8 @@
-import yargs from "yargs";
+import dayjs from 'dayjs';
+import yargs from 'yargs';
 
-import { Extract } from "../cli";
-import { addFoursquareClientOptions } from "../services/4sq";
-import dayjs from "dayjs";
+import { Extract } from '../cli';
+import { addFoursquareClientOptions } from '../services/4sq';
 
 export const command = "list [Options]";
 export const description = "list checkins of a day";

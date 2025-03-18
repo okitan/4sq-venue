@@ -21,14 +21,14 @@ export function builder<T>(yargs: yargs.Argv<T>) {
         return `${lat},${lng}`;
       },
     },
-    dryRun: commonArgs.dryRun,
+    exec: commonArgs.exec,
   });
 }
 
 export async function handler({
   foursquareClient,
   venueId,
-  dryRun,
+  exec,
   ...args
 }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
   const venue = (await foursquareClient.getVenue({ venueId })).venue;
@@ -46,7 +46,7 @@ export async function handler({
     console.log(`${key}: ${actual[key]} => ${options[key]}`);
   });
 
-  if (!dryRun) {
+  if (exec) {
     const result = await foursquareClient.updateVenue({ venueId, options });
 
     console.log(JSON.stringify(result, null, 2));
