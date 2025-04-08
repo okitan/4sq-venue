@@ -37,7 +37,7 @@
     "@types/yeoman-environment": "2.10.11",
     "prettier": "3.5.3",
     "ts-jest": "29.3.1",
-    "typescript": "5.8.2",
+    "typescript": "5.8.3",
     "yeoman-generator": "5.10.0"
   }
 }
