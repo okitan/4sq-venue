@@ -25,7 +25,7 @@ export async function scrape({
   const results: ScrapedProperties[] = [];
 
   const browser = await puppeteer.launch({
-    headless: process.env.NO_HEADLESS ? false : "new",
+    headless: process.env.NO_HEADLESS ? false : "shell",
     args: ["--no-sandbox", "--disable-setuid-sandbox", "--lang=ja-JP"],
   });
 
