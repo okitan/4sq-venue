@@ -5,7 +5,6 @@
   "scripts": {
     "build:check": "tsc --noEmit",
     "4sq": "ts-node -T src/cli.ts",
-    "add": "ts-node -T src/cli.ts add",
     "updateLink": "ts-node -T src/cli.ts link update",
     "scrape": "ts-node -T src/cli.ts scrape",
     "link": "ts-node -T src/cli.ts link",
@@ -23,21 +22,16 @@
     "dayjs": "1.11.13",
     "ltsv": "2.0.0",
     "mdiff": "1.4.2",
-    "mem-fs": "2.3.0",
-    "mem-fs-editor": "9.7.0",
     "ora": "5.4.1",
     "puppeteer": "24.7.2",
     "ts-node": "10.9.2",
-    "yargs": "17.7.2",
-    "yeoman-environment": "3.19.3"
+    "yargs": "17.7.2"
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
     "@types/node": "22.15.3",
-    "@types/yeoman-environment": "2.10.11",
     "prettier": "3.5.3",
     "ts-jest": "29.3.2",
-    "typescript": "5.8.3",
-    "yeoman-generator": "5.10.0"
+    "typescript": "5.8.3"
   }
 }
