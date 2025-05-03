@@ -33,14 +33,21 @@ export function builder<T>(yargs: yargs.Argv<T>) {
 type Argument = yargs.Arguments<Extract<ReturnType<typeof builder>>>;
 
 export function handler(args: Argument) {
+  // @ts-ignore: yeoman-environmentの型定義が古い
   const env = yeoman.createEnv();
 
-  // @ts-ignore: @types/yeoman-env is wrong about InstantiatorOptions
-  const generator = env.instantiate(VenueGenerator, [], args);
+  const generator = env.create(VenueGenerator, {
+    arguments: [],
+    options: {
+      ...args,
+      namespace: "venue",
+    },
+  });
 
   generator.run();
 }
 
+// @ts-ignore: yeoman-generatorの型定義が古い
 export class VenueGenerator extends Generator<Argument> {
   venue?: Venue;
   subVenues: Venue[] = [];
