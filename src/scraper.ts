@@ -36,7 +36,11 @@ export async function scrape({
     for (const [selector, { followLink, skip, ...properties }] of Object.entries(venues)) {
       const items = await page.$$(selector);
 
-      if (items.length === 0) throw new Error(`no venues found for ${selector}`);
+      if (items.length > 0)  { 
+        console.log(`scraping ${items.length} venues for ${selector}`);
+      } else {
+        throw new Error(`no venues found for ${selector}`);
+      }
 
       for (const item of items) {
         // check skip
@@ -51,8 +55,10 @@ export async function scrape({
           const newPage = await browser.newPage();
           try {
             await newPage.goto(subVenueUrl, options);
+            const body = await newPage.$("body");
+            if (!body) throw new Error("no body found");
 
-            const result = await scrapeVenue(newPage, properties);
+            const result = await scrapeVenue(body, properties);
             result.url = subVenueUrl;
 
             results.push(result);
@@ -88,7 +94,7 @@ async function scrapeVenue(page: Page | ElementHandle, properties: ScrapePropert
 }
 
 async function scrapeProperties(
-  page: Page | ElementHandle,
+  page: ElementHandle,
   config: ScrapePropertiesConfig<ScrapedProperties>,
 ): Promise<ScrapedProperties> {
   // name
@@ -137,7 +143,7 @@ async function scrapeProperties(
 }
 
 export async function applySelector<T extends string | number>(
-  page: Page | ElementHandle,
+  page: ElementHandle,
   config: Selector<T>,
 ): Promise<string | undefined> {
   const element = await page.$(config.selector);
@@ -146,7 +152,7 @@ export async function applySelector<T extends string | number>(
     if (config.nullable) {
       return;
     } else {
-      throw new Error(`unable to fetch ${JSON.stringify(config)}`);
+      throw new Error(`unable to fetch ${JSON.stringify(config)} on ${await page.evaluate((el) => el.outerHTML)}`);
     }
   }
 
