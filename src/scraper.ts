@@ -1,4 +1,4 @@
-import puppeteer, { type ElementHandle, type Page } from "puppeteer";
+import puppeteer, { type ElementHandle } from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
 import type { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";
@@ -79,7 +79,7 @@ export async function scrape({
   return results;
 }
 
-async function scrapeVenue(page: Page | ElementHandle, properties: ScrapePropertiesConfig) {
+async function scrapeVenue(page: ElementHandle, properties: ScrapePropertiesConfig) {
   const results = await scrapeProperties(page, properties);
 
   if (results["phone"]) {
