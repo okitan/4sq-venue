@@ -36,11 +36,7 @@ export async function scrape({
     for (const [selector, { followLink, skip, ...properties }] of Object.entries(venues)) {
       const items = await page.$$(selector);
 
-      if (items.length > 0)  { 
-        console.log(`scraping ${items.length} venues for ${selector}`);
-      } else {
-        throw new Error(`no venues found for ${selector}`);
-      }
+      if (items.length === 0) throw new Error(`no venues found for ${selector}`);
 
       for (const item of items) {
         // check skip
