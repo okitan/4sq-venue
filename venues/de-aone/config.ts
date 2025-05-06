@@ -11,7 +11,7 @@ const config: Config = {
     {
       url: "https://jiyugaoka-de-aone.aeonmall.com/",
       venues: {
-        ".topic-modal:not(#link-modal)": {
+        ".topic-modal .shop-modal__body": {
           name: { selector: ".shop-modal__name" },
           altName: { selector: ".shop-modal__ruby" },
           phone: { selector: ".shop-modal__num", nullable: true },
