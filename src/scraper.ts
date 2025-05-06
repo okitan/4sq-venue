@@ -1,4 +1,4 @@
-import puppeteer, { type ElementHandle, type Page } from "puppeteer";
+import puppeteer, { type ElementHandle } from "puppeteer";
 
 import { phoneExtractor } from "./modifier";
 import type { ScrapeConfig, ScrapePropertiesConfig, Selector } from "./types/config";
@@ -51,8 +51,10 @@ export async function scrape({
           const newPage = await browser.newPage();
           try {
             await newPage.goto(subVenueUrl, options);
+            const body = await newPage.$("body");
+            if (!body) throw new Error("no body found");
 
-            const result = await scrapeVenue(newPage, properties);
+            const result = await scrapeVenue(body, properties);
             result.url = subVenueUrl;
 
             results.push(result);
@@ -77,7 +79,7 @@ export async function scrape({
   return results;
 }
 
-async function scrapeVenue(page: Page | ElementHandle, properties: ScrapePropertiesConfig) {
+async function scrapeVenue(page: ElementHandle, properties: ScrapePropertiesConfig) {
   const results = await scrapeProperties(page, properties);
 
   if (results["phone"]) {
@@ -88,7 +90,7 @@ async function scrapeVenue(page: Page | ElementHandle, properties: ScrapePropert
 }
 
 async function scrapeProperties(
-  page: Page | ElementHandle,
+  page: ElementHandle,
   config: ScrapePropertiesConfig<ScrapedProperties>,
 ): Promise<ScrapedProperties> {
   // name
@@ -137,7 +139,7 @@ async function scrapeProperties(
 }
 
 export async function applySelector<T extends string | number>(
-  page: Page | ElementHandle,
+  page: ElementHandle,
   config: Selector<T>,
 ): Promise<string | undefined> {
   const element = await page.$(config.selector);
@@ -146,7 +148,7 @@ export async function applySelector<T extends string | number>(
     if (config.nullable) {
       return;
     } else {
-      throw new Error(`unable to fetch ${JSON.stringify(config)}`);
+      throw new Error(`unable to fetch ${JSON.stringify(config)} on ${await page.evaluate((el) => el.outerHTML)}`);
     }
   }
 
