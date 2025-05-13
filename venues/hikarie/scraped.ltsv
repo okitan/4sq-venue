@@ -175,7 +175,7 @@ name:ダイアナ	altName:	bldg:	level:3	phone:0364341703	url:https://www.tokyu-
 name:ノーブル	altName:	bldg:	level:3	phone:0364341656	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=noble
 name:ユナイテッドアローズ ウィメンズストア	altName:	bldg:	level:3	phone:0364185927	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unitedarrows
 name:金子眼鏡店	altName:	bldg:	level:3	phone:0364341679	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanekogankyoten
-name:ALBOVE・PEAK&PINE（アルヴォーブ・ピークアンドパイン）【4月10日(木)リニューアルオープン】	altName:	bldg:	level:4	phone:0364341668	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=albove_peakpine
+name:ALBOVE・PEAK&PINE	altName:アルヴォーブ・ピークアンドパイン	bldg:	level:4	phone:0364341668	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=albove_peakpine
 name:ANEMONE	altName:アネモネ	bldg:	level:4	phone:0364341658	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anemone
 name:AYANOKOJI	altName:アヤノコウジ	bldg:	level:4	phone:0364341639	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ayanokoji
 name:COHINA STORE	altName:	bldg:	level:4	phone:0364341628	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cohina_store
@@ -200,7 +200,6 @@ name:マーガレット・ハウエル	altName:	bldg:	level:4	phone:0364341662	u
 name:マーコート	altName:	bldg:	level:4	phone:0364341627	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marcourt
 name:メゾン ド フルール	altName:	bldg:	level:4	phone:0364341730	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fleur
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
-name:LOVOT ストア	altName:	bldg:	level:5	phone:0364275720	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lovot
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
 name:TENERITA	altName:テネリータ	bldg:	level:5	phone:0364341646	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tenerita
 name:イベントステージ 5	altName:	bldg:	level:5	phone:0364341644	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventstage5
