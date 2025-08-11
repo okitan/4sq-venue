@@ -45,7 +45,6 @@ name:Hotaru no Hikari	altName:	bldg:	level:-2	phone:0364341860	url:https://www.t
 name:OSUYA GINZA	altName:	bldg:	level:-2	phone:0364341834	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=osuya
 name:ROKUMEIKAN	altName:	bldg:	level:-2	phone:0364341806	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rokumeikan
 name:zarame -gourmet cotton candy-	altName:	bldg:	level:-2	phone:0364341816	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=zarame
-name:いちご大福と茶菓のお店 あか	altName:	bldg:	level:-2	phone:0364273715	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aka
 name:きんつば中田屋	altName:	bldg:	level:-2	phone:0364272319	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nakataya
 name:くらすわ	altName:	bldg:	level:-2	phone:0364341812	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clasuwa
 name:たぬき煎餅	altName:	bldg:	level:-2	phone:0364272412	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tanukisenbei
@@ -93,6 +92,7 @@ name:鎌倉 豊島屋	altName:	bldg:	level:-2	phone:0364272189	url:https://www.t
 name:福砂屋	altName:	bldg:	level:-2	phone:0364272199	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fukusaya
 name:ACSEINE	altName:アクセーヌ	bldg:	level:-1	phone:0364341791	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=acseine
 name:AP by AMERICANPHARMACY	altName:エーピー バイ アメリカンファーマシー	bldg:	level:-1	phone:0364341775	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=apamericanpharmacy
+name:AXXSIA	altName:アクシージア	bldg:	level:-1	phone:0364341692	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=axxzia
 name:Dior	altName:ディオール	bldg:	level:-1	phone:0364341774	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=dior
 name:ESTEE LAUDER	altName:エスティ ローダー	bldg:	level:-1	phone:0334868121	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=esteelauder
 name:ETVOS	altName:	bldg:	level:-1	phone:0364341708	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=etvos
@@ -101,7 +101,6 @@ name:RMK	altName:アールエムケー	bldg:	level:-1	phone:0364341787	url:https
 name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiseido
 name:THREE	altName:スリー	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
-name:アクシージア	altName:	bldg:	level:-1	phone:0364341692	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=axxzia
 name:エステプロ・ラボ【7月24日(木)オープン】	altName:	bldg:	level:-1	phone:0364341866	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=esthepro_labo
 name:カネボウ	altName:	bldg:	level:-1	phone:08056853781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
