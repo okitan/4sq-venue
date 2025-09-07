@@ -1,6 +1,4 @@
-id:684bcb6a5485831a176dfc54	parentVenueId:4bd557cc6798ef3b4735638d	name:Toyoko Norengai	crossStreet:
 id:66287fa7c4b6406e44af9452	parentVenueId:4f7f9ceae4b023c637e055ec	name:food stage	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:68aa922bd4b79611d8e68ce1	parentVenueId:4bd557cc6798ef3b4735638d	name:ブリトンヌ	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5860a98545c3ed1e7dfcc126	parentVenueId:4bd557cc6798ef3b4735638d	name:東急百貨店渋谷本店循環バス 渋谷ヒカリエ発着所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:66767a94e74ea9220155fa75	parentVenueId:4f7f9ceae4b023c637e055ec	name:渋谷のラジオ　ラジ公ドリンクスタンド	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:59b3b1220d173f341f1c4a4a	parentVenueId:4bd557cc6798ef3b4735638d	name:発電床®︎	crossStreet:B3エントランス、B2,3Fスイッチルーム	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://ja.m.wikipedia.org/wiki/%E7%99%BA%E9%9B%BB%E5%BA%8A
@@ -23,14 +21,12 @@ id:4f7f9ceae4b023c637e055ec	parentVenueId:4bd557cc6798ef3b4735638d	name:ShinQs	c
 id:5ee8736edd56ba00075215f0	parentVenueId:4f7f9ceae4b023c637e055ec	name:東横のれん街	crossStreet:渋谷ヒカリエ ShinQs B2F-B3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/shinqs/norengai
 id:513da676e4b090bbbeb9b743	parentVenueId:4f7f9ceae4b023c637e055ec	name:ShinQs ナチュラルマーケット	crossStreet:渋谷ヒカリエ ShinQs B3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/shinqs
 id:656f124f0391cf55a6eb41f5	parentVenueId:4bd557cc6798ef3b4735638d	name:トーキョーダイブ	crossStreet:渋谷ヒカリエ3F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:5a18f7886dcf0423130c1a44	parentVenueId:4f7f9ceae4b023c637e055ec	name:Melvita	crossStreet:渋谷ヒカリエShinQs 1F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:いとはん	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364279643	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=itohan
 id:	parentVenueId:	name:	crossStreet:	scraped.name:おこわ米八	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364275489	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=okowayonehachi
 id:	parentVenueId:	name:	crossStreet:	scraped.name:とんかつ まい泉	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341824	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maisen
 id:	parentVenueId:	name:	crossStreet:	scraped.name:イベントスペース	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventspaceb3
 id:	parentVenueId:	name:	crossStreet:	scraped.name:エクリュ	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364274902	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ecru
 id:	parentVenueId:	name:	crossStreet:	scraped.name:デリベイク明治屋	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341917	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=delibake_meidiya
-id:	parentVenueId:	name:	crossStreet:	scraped.name:ベトナムキッチン by ベト屋【8月27日(水)オープン】	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341869	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=vietnam_kitchen
 id:	parentVenueId:	name:	crossStreet:	scraped.name:リッチクリームコロッケ東京	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341882	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=richcream
 id:	parentVenueId:	name:	crossStreet:	scraped.name:京料理 美濃吉	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364273920	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=minokichi
 id:	parentVenueId:	name:	crossStreet:	scraped.name:大珍厨房	scraped.altName:	scraped.bldg:	scraped.level:-3	scraped.phone:0364341881	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=daichin_kitchen
