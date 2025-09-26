@@ -32,6 +32,7 @@ name:明治屋	altName:	bldg:	level:-3	phone:0364341917	url:https://www.tokyu-de
 name:根本屋	altName:	bldg:	level:-3	phone:0364341853	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nemotoya
 name:梅の花	altName:	bldg:	level:-3	phone:0364274235	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=umenohana
 name:浅草今半	altName:牛肉弁当	bldg:	level:-3	phone:0364274448	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=asakusaimahan_bento
+name:清流うなぎ月島【10月3日(金)オープン】	altName:	bldg:	level:-3	phone:0364341905	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tsukishima
 name:神戸コロッケ	altName:	bldg:	level:-3	phone:0364279643	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kobecroquette
 name:築地なが田	altName:	bldg:	level:-3	phone:0364341862	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tsukijinagata
 name:精肉あづま	altName:	bldg:	level:-3	phone:0364341885	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=seinikuazuma
@@ -98,7 +99,7 @@ name:AXXSIA	altName:アクシージア	bldg:	level:-1	phone:0364341692	url:https
 name:Dior	altName:ディオール	bldg:	level:-1	phone:0364341774	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=dior
 name:ESTEE LAUDER	altName:エスティ ローダー	bldg:	level:-1	phone:0334868121	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=esteelauder
 name:ETVOS	altName:	bldg:	level:-1	phone:0364341708	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=etvos
-name:LOVECHROME HAIR & SCALP LAB【8月21日(木)オープン】	altName:	bldg:	level:-1	phone:0364341771	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lovechrome
+name:LOVECHROME HAIR & SCALP LAB	altName:	bldg:	level:-1	phone:0364341771	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lovechrome
 name:POLA	altName:ポーラ	bldg:	level:-1	phone:0364341766	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
 name:RMK	altName:アールエムケー	bldg:	level:-1	phone:0364341787	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rmk
 name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiseido
@@ -203,7 +204,7 @@ name:ブルーノ	altName:	bldg:	level:4	phone:0367125231	url:https://www.tokyu-
 name:マザーハウス	altName:	bldg:	level:4	phone:0367126761	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=motherhouse
 name:マーガレット・ハウエル	altName:	bldg:	level:4	phone:0364341662	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=margarethowell
 name:マーコート	altName:	bldg:	level:4	phone:0364341627	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marcourt
-name:ラブラリー バイ フェイラー【8月20日(水)オープン】	altName:	bldg:	level:4	phone:0364275380	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=loverary_by_feiler
+name:ラブラリー バイ フェイラー	altName:	bldg:	level:4	phone:0364275380	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=loverary_by_feiler
 name:IDÉE SHOP VARIÉTÉ	altName:イデーショップ ヴァリエテ	bldg:	level:5	phone:0364341641	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ideeshop
 name:LOVOT ストア	altName:	bldg:	level:5	phone:0364275720	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lovot
 name:P2 DOG＆CAT	altName:ピーツー ドッグアンドキャット	bldg:	level:5	phone:0364275444	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=P2
