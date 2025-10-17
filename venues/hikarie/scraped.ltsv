@@ -85,7 +85,7 @@ name:和楽紅屋	altName:	bldg:	level:-2	phone:0364341733	url:https://www.tokyu
 name:桂新堂	altName:	bldg:	level:-2	phone:0364341831	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=keishindo
 name:泉屋	altName:	bldg:	level:-2	phone:0364272671	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=izumiya
 name:直中 仙太郎	altName:	bldg:	level:-2	phone:0364272165	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sentaro
-name:祇園 北川半兵衞【9月3日(水)オープン】	altName:	bldg:	level:-2	phone:0364341825	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gion_kitagwahanbee
+name:祇園 北川半兵衞	altName:	bldg:	level:-2	phone:0364341825	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gion_kitagwahanbee
 name:芳翠園	altName:	bldg:	level:-2	phone:0364272940	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=housuien
 name:菓匠禄兵衛 / FORTUNE & SMILE 福みたらし	altName:	bldg:	level:-2	phone:0364341638	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rokube
 name:赤坂柿山	altName:	bldg:	level:-2	phone:0364272441	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kakiyama
@@ -171,11 +171,11 @@ name:オデット エ オディール	altName:	bldg:	level:3	phone:05088934167	u
 name:ケサランパサラン	altName:	bldg:	level:3	phone:0364341781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kesalan
 name:サマンサタバサプチチョイスプラス	altName:	bldg:	level:3	phone:0364341695	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=samantha
 name:ジェラート ピケ	altName:	bldg:	level:3	phone:0364341522	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
-name:スミス	altName:	bldg:	level:3	phone:0364272330	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=smith
+name:スミス【10月15日(水)リニューアルオープン】	altName:	bldg:	level:3	phone:0364272330	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=smith
 name:スリーピー スリーピー	altName:	bldg:	level:3	phone:0364341863	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sleepy
 name:ダイアナ	altName:	bldg:	level:3	phone:0364341703	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=diana
 name:ノーブル	altName:	bldg:	level:3	phone:0364341656	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=noble
-name:メゾン ド フルール【9月11日(木) 3Fに移設・リニューアルオープン】	altName:	bldg:	level:3	phone:0364341730	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fleur
+name:メゾン ド フルール	altName:	bldg:	level:3	phone:0364341730	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fleur
 name:ユナイテッドアローズ ウィメンズストア	altName:	bldg:	level:3	phone:05088934195	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unitedarrows
 name:リアット！	altName:	bldg:	level:3	phone:0364341699	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=riat
 name:金子眼鏡店	altName:	bldg:	level:3	phone:0364341679	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanekogankyoten
@@ -189,7 +189,7 @@ name:ReD	altName:	bldg:	level:4	phone:0364275782	url:https://www.tokyu-dept.co.j
 name:SORA	altName:ソラ	bldg:	level:4	phone:0364341674	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sora
 name:URBAN RESEARCH	altName:アーバンリサーチ	bldg:	level:4	phone:0364341476	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=urbanresearch
 name:ete	altName:エテ	bldg:	level:4	phone:0364341657	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ete
-name:〈Lee〉POP UP SHOP【9月11日(木)オープン】	altName:	bldg:	level:4	phone:07064838288	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lee_popupshop
+name:〈Lee〉POP UP SHOP	altName:	bldg:	level:4	phone:07064838288	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lee_popupshop
 name:ウンナナクール	altName:	bldg:	level:4	phone:0364341821	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unenanacool
 name:クラスカ ギャラリー＆ショップ “ドー”	altName:	bldg:	level:4	phone:0364341663	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=claska
 name:グレゴリー	altName:	bldg:	level:4	phone:0364341667	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gregory
