@@ -88,7 +88,6 @@ name:祇園 北川半兵衞	altName:	bldg:	level:-2	phone:0364341825	url:https:/
 name:芳翠園	altName:	bldg:	level:-2	phone:0364272940	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=housuien
 name:菓匠禄兵衛 / FORTUNE & SMILE 福みたらし	altName:	bldg:	level:-2	phone:0364341638	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rokube
 name:赤坂柿山	altName:	bldg:	level:-2	phone:0364272441	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kakiyama
-name:銀座 菊廼舎	altName:	bldg:	level:-2	phone:0364272305	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kikunoya
 name:銀座ウエスト	altName:	bldg:	level:-2	phone:0364272049	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ginza_west
 name:鎌倉 豊島屋	altName:	bldg:	level:-2	phone:0364272189	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=toshimaya
 name:福砂屋	altName:	bldg:	level:-2	phone:0364272199	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fukusaya
@@ -123,6 +122,7 @@ name:ラ・メール	altName:	bldg:	level:-1	phone:0334862374	url:https://www.to
 name:ラ･プレリー	altName:	bldg:	level:-1	phone:0364341765	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=laprairie
 name:免税カウンター	altName:	bldg:	level:-1	phone:0364341757	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=giftcounter
 name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hakuhodo
+name:M・A・C（マック）【今春リニューアルオープン予定】※改装のため2月2日(月)から1Fにて仮設営業	altName:	bldg:	level:1	phone:0334868027	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maccosmetics
 name:SABON	altName:サボン	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sabon
 name:SHIRO	altName:	bldg:	level:1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
 name:THE HAIR BAR TOKYO	altName:ザ ヘア バー トウキョウ	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
@@ -142,7 +142,6 @@ name:メゾン・デ・カドー ロクシタン	altName:	bldg:	level:1	phone:03
 name:極上担々麺 香家	altName:	bldg:	level:1	phone:0364341839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koya
 name:CA4LA delica (カシラ デリカ)【2月14日(土)リニューアルオープン】※改装のため1月31日(土)～2月13日(金)まで一時休業	altName:	bldg:	level:2	phone:0334862368	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ca4la
 name:MUCHA	altName:ミュシャ	bldg:	level:2	phone:0364341701	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mucha
-name:M・A・C（マック）【今春リニューアルオープン予定】※2月1日(日)は休業※改装のため2月2日(月)から1Fにて仮設営業	altName:	bldg:	level:2	phone:0334868027	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=maccosmetics
 name:ShinQs パーツ ジョイスト	altName:	bldg:	level:2	phone:0364341724	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqspartsjoyst
 name:アガット	altName:	bldg:	level:2	phone:0359627026	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=agete
 name:イベントステージ 2	altName:	bldg:	level:2	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eventstage2
