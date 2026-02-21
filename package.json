@@ -20,7 +20,7 @@
   "private": true,
   "dependencies": {
     "dayjs": "1.11.19",
-    "ltsv": "2.0.0",
+    "ltsv": "4.0.0",
     "mdiff": "1.4.2",
     "ora": "9.3.0",
     "puppeteer": "24.37.3",
