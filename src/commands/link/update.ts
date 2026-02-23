@@ -36,7 +36,7 @@ export async function handler({ foursquareClient, target }: yargs.Arguments<Extr
         return response.children.groups
           .flatMap((group) => group.items)
           .map((venue) => Venue.fromFoursquare(venue, { parentVenueId: parentVenue.id }));
-      })
+      }),
     )
   ).reduce<VenueList>((result, e) => {
     // Promise.all(flatmap) also returns array of array, so I don't use flatmap
