@@ -103,7 +103,6 @@ name:RMK	altName:アールエムケー	bldg:	level:-1	phone:0364341787	url:https
 name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiseido
 name:THREE	altName:スリー	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
-name:エステプロ・ラボ	altName:	bldg:	level:-1	phone:0364341866	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=esthepro_labo
 name:カネボウ	altName:	bldg:	level:-1	phone:08056853781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
 name:クリニーク	altName:	bldg:	level:-1	phone:0334868012	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=clinique
@@ -147,6 +146,7 @@ name:オルビス	altName:	bldg:	level:2	phone:0364341625	url:https://www.tokyu-
 name:カルティエ	altName:ウォッチ	bldg:	level:2	phone:0364271930	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cartier
 name:スタイルテーブル	altName:	bldg:	level:2	phone:0364341740	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=styletable
 name:ストロベリーマニア	altName:	bldg:	level:2	phone:0364341664	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=strawberrymania
+name:ノーズショップ【2月28日(土)オープン】	altName:	bldg:	level:2	phone:0364341875	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=noseshop
 name:パテック フィリップ 正規販売店	altName:	bldg:	level:2	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/brand_info/patekphilippe/index.html
 name:ピアジェ	altName:	bldg:	level:2	phone:0364277344	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=piaget
 name:ファンケル ビューティ＆ヘルス	altName:	bldg:	level:2	phone:0364341630	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fancl
