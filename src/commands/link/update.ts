@@ -1,10 +1,11 @@
 import yargs from "yargs";
 
-import { commonArgs, Extract } from "../../cli";
-import { linkVenues } from "../../linker";
-import { addFoursquareClientOptions } from "../../services/4sq";
-import { Config } from "../../types/config";
-import { Venue } from "../../venue";
+import { commonArgs } from "../../commonArgs.ts";
+import type { Extract } from "../../commonArgs.ts";
+import { linkVenues } from "../../linker.ts";
+import { addFoursquareClientOptions } from "../../services/4sq.ts";
+import type { Config } from "../../types/config.ts";
+import { Venue } from "../../venue.ts";
 import {
   loadLinkedVenues,
   loadNoListVenues,
@@ -14,7 +15,7 @@ import {
   updateNotLinkedVenues,
   updateUnLinkedVenues,
   VenueList,
-} from "../../venueList";
+} from "../../venueList.ts";
 
 export const command = "update [Options]";
 export const description = "link scraped venues to foursquare venues";
@@ -24,7 +25,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
 }
 
 export async function handler({ foursquareClient, target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  const config: Config = await import(`../../../venues/${target}/config`);
+  const config: Config = (await import(`../../../venues/${target}/config.ts`)).default;
 
   const scrapedVenues = loadScrapedVenues(target);
 

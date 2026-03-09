@@ -1,7 +1,8 @@
 import yargs from "yargs";
 
-import { commonArgs, Extract } from "../../cli";
-import { addFoursquareClientOptions } from "../../services/4sq";
+import { commonArgs } from "../../commonArgs.ts";
+import type { Extract } from "../../commonArgs.ts";
+import { addFoursquareClientOptions } from "../../services/4sq.ts";
 
 export const command = "merge <mergerId> <mergeeId> [Options]";
 export const description = "merge venues";

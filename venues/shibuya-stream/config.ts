@@ -1,4 +1,4 @@
-import type { Config, ScrapeConfig } from '../../src/types/config';
+import type { Config, ScrapeConfig } from '../../src/types/config.ts';
 
 const config: Config = {
   id: "597f0333dec1d60e99087df2",
@@ -29,4 +29,4 @@ const config: Config = {
   ],
 };
 
-export = config;
+export default config;

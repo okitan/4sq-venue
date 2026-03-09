@@ -2,13 +2,17 @@
   "name": "4sq-venue",
   "version": "1.0.0",
   "description": "manage venues",
+  "type": "module",
   "scripts": {
     "build:check": "tsc --noEmit",
-    "4sq": "ts-node -T src/cli.ts",
-    "updateLink": "ts-node -T src/cli.ts link update",
-    "scrape": "ts-node -T src/cli.ts scrape",
-    "link": "ts-node -T src/cli.ts link",
+    "4sq": "node --experimental-strip-types src/cli.ts",
+    "updateLink": "node --experimental-strip-types src/cli.ts link update",
+    "scrape": "node --experimental-strip-types src/cli.ts scrape",
+    "link": "node --experimental-strip-types src/cli.ts link",
     "test": "jest"
+  },
+  "engines": {
+    "node": ">=22.6.0"
   },
   "repository": {
     "type": "git",
@@ -24,7 +28,6 @@
     "mdiff": "1.4.2",
     "ora": "9.3.0",
     "puppeteer": "24.38.0",
-    "ts-node": "10.9.2",
     "yargs": "18.0.0"
   },
   "devDependencies": {

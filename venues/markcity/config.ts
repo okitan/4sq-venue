@@ -1,4 +1,4 @@
-import { Config, ScrapeConfig } from "../../src/types/config";
+import type { Config, ScrapeConfig } from "../../src/types/config.ts";
 
 const config: Config = {
   id: "4b3f1743f964a520eba325e3",
@@ -89,4 +89,4 @@ function altNameExtractor(name: string) {
   return matched ? matched[1].trim() : undefined;
 }
 
-export = config;
+export default config;

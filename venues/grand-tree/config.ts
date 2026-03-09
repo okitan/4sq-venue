@@ -1,5 +1,5 @@
-import { phoneExtractor } from "../../src/modifier";
-import { Config } from "../../src/types/config";
+import { phoneExtractor } from "../../src/modifier.ts";
+import type { Config } from "../../src/types/config.ts";
 
 const config: Config = {
   id: "5361cba0498e5839aa495469",
@@ -28,4 +28,4 @@ const config: Config = {
   ],
 };
 
-export = config;
+export default config;

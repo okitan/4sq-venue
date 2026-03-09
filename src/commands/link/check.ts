@@ -1,8 +1,9 @@
 import yargs from "yargs";
 
-import { commonArgs, Extract } from "../../cli";
-import { getSimilarity } from "../../nameMatcher";
-import { loadLinkedVenues } from "../../venueList";
+import { commonArgs } from "../../commonArgs.ts";
+import type { Extract } from "../../commonArgs.ts";
+import { getSimilarity } from "../../nameMatcher.ts";
+import { loadLinkedVenues } from "../../venueList.ts";
 
 export const command = "check [Options]";
 export const description = "check links";

@@ -1,6 +1,6 @@
-import { phoneExtractor } from "../../src/modifier";
-import { ScrapedProperties } from "../../src/scraper";
-import { Config } from "../../src/types/config";
+import { phoneExtractor } from "../../src/modifier.ts";
+import type { ScrapedProperties } from "../../src/scraper.ts";
+import type { Config } from "../../src/types/config.ts";
 
 const config: Config = {
   id: "5d7b5d89d1334200083e1ae2",
@@ -41,4 +41,4 @@ function assertResult(result: any): asserts result is Array<{ [x: string]: any }
   result;
 }
 
-export = config;
+export default config;

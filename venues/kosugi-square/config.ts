@@ -1,5 +1,5 @@
-import { phoneExtractor } from "../../src/modifier";
-import { Config, ScrapeConfig } from "../../src/types/config";
+import { phoneExtractor } from "../../src/modifier.ts";
+import type { Config, ScrapeConfig } from "../../src/types/config.ts";
 
 const config: Config = {
   id: "50966024e4b0ad0d96424f52",
@@ -41,4 +41,4 @@ module.exports.scraper = [
   }),
 ];
 
-export = config;
+export default config;

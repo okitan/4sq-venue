@@ -1,8 +1,9 @@
 import yargs from "yargs";
 
-import { commonArgs, Extract } from "../../cli";
-import { Venue } from "../../venue";
-import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLinkedVenues } from "../../venueList";
+import { commonArgs } from "../../commonArgs.ts";
+import type { Extract } from "../../commonArgs.ts";
+import { Venue } from "../../venue.ts";
+import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLinkedVenues } from "../../venueList.ts";
 
 export const command = "add [Options]";
 export const description = "add link manually";
