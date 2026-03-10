@@ -4,11 +4,11 @@
   "description": "manage venues",
   "type": "module",
   "scripts": {
-    "build:check": "tsc --noEmit",
     "4sq": "node src/cli.ts",
     "updateLink": "node src/cli.ts link update",
     "scrape": "node src/cli.ts scrape",
     "link": "node src/cli.ts link",
+    "type:check": "tsc --noEmit",
     "test": "jest"
   },
   "engines": {

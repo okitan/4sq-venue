@@ -1,7 +1,6 @@
 import yargs from "yargs";
 
-import { commonArgs } from "../../commonArgs.ts";
-import type { Extract } from "../../commonArgs.ts";
+import { commonArgs, type Extract } from "../../commonArgs.ts";
 import { linkVenues } from "../../linker.ts";
 import { addFoursquareClientOptions } from "../../services/4sq.ts";
 import type { Config } from "../../types/config.ts";

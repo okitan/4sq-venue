@@ -1,7 +1,6 @@
 import yargs from "yargs";
 
-import { commonArgs } from "../../commonArgs.ts";
-import type { Extract } from "../../commonArgs.ts";
+import { commonArgs, type Extract } from "../../commonArgs.ts";
 import { Venue } from "../../venue.ts";
 import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLinkedVenues } from "../../venueList.ts";
 
