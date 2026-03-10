@@ -2,8 +2,7 @@ import ora from "ora";
 import yargs from "yargs";
 
 import { commonArgs, type Extract } from "../commonArgs.ts";
-import { scrape } from "../scraper.ts";
-import type { ScrapedProperties } from "../scraper.ts";
+import { scrape, type ScrapedProperties } from "../scraper.ts";
 import type { Config } from "../types/config.ts";
 import { Venue } from "../venue.ts";
 import { updateScrapedVenues, VenueList } from "../venueList.ts";
