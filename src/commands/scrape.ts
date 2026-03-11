@@ -1,11 +1,11 @@
 import ora from "ora";
 import yargs from "yargs";
 
-import { commonArgs, Extract } from "../cli";
-import { scrape, ScrapedProperties } from "../scraper";
-import { Config } from "../types/config";
-import { Venue } from "../venue";
-import { updateScrapedVenues, VenueList } from "../venueList";
+import { commonArgs, type Extract } from "../commonArgs.ts";
+import { scrape, type ScrapedProperties } from "../scraper.ts";
+import type { Config } from "../types/config.ts";
+import { Venue } from "../venue.ts";
+import { updateScrapedVenues, VenueList } from "../venueList.ts";
 
 export const command = "scrape [Options]";
 export const description = "scrape venues";
@@ -15,7 +15,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
 }
 
 export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
-  const config: Config = await import(`../../venues/${target}/config`);
+  const config: Config = (await import(`../../venues/${target}/config.ts`)).default;
 
   const results: ScrapedProperties[] = [];
   // scrape not in pararelle

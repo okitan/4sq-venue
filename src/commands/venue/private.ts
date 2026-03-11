@@ -1,7 +1,7 @@
 import yargs from "yargs";
 
-import { commonArgs, type Extract } from "../../cli";
-import { addFoursquareClientOptions } from "../../services/4sq";
+import { commonArgs, type Extract } from "../../commonArgs.ts";
+import { addFoursquareClientOptions } from "../../services/4sq.ts";
 
 export const command = "private [Options]";
 export const description = "private venue";

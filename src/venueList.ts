@@ -1,9 +1,9 @@
 import fs from "fs";
 import { format, parse } from "ltsv";
 
-import { format as formatScraped } from "./ltsv";
-import { ScrapedProperties } from "./scraper";
-import { Venue } from "./venue";
+import { format as formatScraped } from "./ltsv.ts";
+import type { ScrapedProperties } from "./scraper.ts";
+import { Venue } from "./venue.ts";
 
 export class VenueList extends Array<Venue> {
   findVenueIndex(venue: Venue, { ignore = [], guess = false }: { ignore?: string[]; guess?: boolean } = {}) {

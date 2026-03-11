@@ -1,4 +1,4 @@
-import type { Config } from "../../src/types/config";
+import type { Config } from "../../src/types/config.ts";
 
 const config: Config = {
   id: "652a43499757b5633cbfa360",
@@ -31,4 +31,4 @@ const config: Config = {
   ],
 };
 
-export = config;
+export default config;

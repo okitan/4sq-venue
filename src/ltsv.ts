@@ -1,6 +1,6 @@
-import { LtsvRecord } from "ltsv";
+import type { LtsvRecord } from "ltsv";
 
-import { numberProperties, ScrapedProperties, stringProperties } from "./scraper";
+import { numberProperties, stringProperties, type ScrapedProperties } from "./scraper.ts";
 
 export function parse(record: LtsvRecord): ScrapedProperties | undefined {
   const name = record.name || record[`scraped.name`];

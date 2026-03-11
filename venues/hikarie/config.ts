@@ -1,5 +1,5 @@
-import { phoneExtractor } from "../../src/modifier";
-import type { Config, ScrapeConfig } from "../../src/types/config";
+import { phoneExtractor } from "../../src/modifier.ts";
+import type { Config, ScrapeConfig } from "../../src/types/config.ts";
 
 const config: Config = {
   id: "4bd557cc6798ef3b4735638d",
@@ -97,4 +97,4 @@ function altNameExtractor(name: string) {
   return matched ? matched[1] : undefined;
 }
 
-export = config;
+export default config;

@@ -1,9 +1,9 @@
-import { LtsvRecord } from "ltsv";
+import type { LtsvRecord } from "ltsv";
 
-import { format as formatScraped, parse } from "./ltsv";
-import { getSimilarity, isEqualName } from "./nameMatcher";
-import { ScrapedProperties } from "./scraper";
-import { FoursquareVenue } from "./types/4sq/resource";
+import { format as formatScraped, parse } from "./ltsv.ts";
+import { getSimilarity, isEqualName } from "./nameMatcher.ts";
+import type { ScrapedProperties } from "./scraper.ts";
+import type { FoursquareVenue } from "./types/4sq/resource.ts";
 
 export class Venue {
   id?: string;

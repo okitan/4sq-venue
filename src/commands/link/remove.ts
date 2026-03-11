@@ -1,8 +1,8 @@
 import yargs from "yargs";
 
-import { commonArgs, Extract } from "../../cli";
-import { Venue } from "../../venue";
-import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLinkedVenues } from "../../venueList";
+import { commonArgs, type Extract } from "../../commonArgs.ts";
+import { Venue } from "../../venue.ts";
+import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLinkedVenues } from "../../venueList.ts";
 
 export const command = "remove [Options]";
 export const description = "remove link";

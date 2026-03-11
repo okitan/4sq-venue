@@ -1,6 +1,6 @@
 import type { ElementHandle, WaitForOptions } from "puppeteer";
 
-import type { ScrapedProperties } from "../scraper";
+import type { ScrapedProperties } from "../scraper.ts";
 
 export type Config<T = ScrapedProperties> = Venue & {
   subvenues: Venue[];

@@ -1,5 +1,5 @@
-import { Venue } from "./venue";
-import { VenueList } from "./venueList";
+import { Venue } from "./venue.ts";
+import { VenueList } from "./venueList.ts";
 
 type VenueSet = {
   scrapedVenue: Venue;

@@ -1,13 +1,13 @@
 import type yargs from "yargs";
 
-import {
+import type {
   SuccessfulFoursquareResponse,
   SuccessfulGetVenueChildernResponse,
   SuccessfulGetVenueResponse,
   SuccessfulSearchCheckinsResponse,
   SuccessfulVenueResponse,
   SuccessfulVenuesResponse,
-} from "../types/4sq/response";
+} from "../types/4sq/response.ts";
 
 export class FoursquareClient {
   accessToken: string;
