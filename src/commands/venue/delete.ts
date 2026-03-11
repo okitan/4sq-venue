@@ -1,8 +1,8 @@
 import yargs from "yargs";
 
-import { commonArgs, Extract } from "../../cli";
-import { addFoursquareClientOptions } from "../../services/4sq";
-import { DetailedFoursquareVenue } from "../../types/4sq/resource";
+import { commonArgs, type Extract } from "../../commonArgs.ts";
+import { addFoursquareClientOptions } from "../../services/4sq.ts";
+import type { DetailedFoursquareVenue } from "../../types/4sq/resource.ts";
 
 export const command = "delete [Options]";
 export const description = "delete venue";

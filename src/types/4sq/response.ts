@@ -1,4 +1,4 @@
-import { DetailedFoursquareVenue, FoursquareVenue } from "./resource";
+import type { DetailedFoursquareVenue, FoursquareVenue } from "./resource.ts";
 
 export type SuccessfulFoursquareResponse = {
   meta: {

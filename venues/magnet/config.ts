@@ -1,4 +1,4 @@
-import { Config } from "../../src/types/config";
+import type { Config } from "../../src/types/config.ts";
 
 const config: Config = {
   id: "4c0f742698102d7f2f32e506",
@@ -36,4 +36,4 @@ function levelExtractor(e: string): number | undefined {
   }
 }
 
-export = config;
+export default config;
