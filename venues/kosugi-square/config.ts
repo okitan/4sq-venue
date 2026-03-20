@@ -8,37 +8,19 @@ const config: Config = {
   linker: {
     ignore: ["武蔵小杉", "東急スクエア", "東急フードショースライス"],
   },
-  scraper: [1, 2, 3, 4, 5].map(
-    (e): ScrapeConfig => {
-      return {
-        url: `https://www.kosugi-square.com/floor/?floor=${e}f`,
-        venues: {
-          ".article-list li": {
-            name: { selector: ".shopname" },
-            phone: { selector: ".tel", modifier: phoneExtractor },
-            url: { selector: "a", property: "href" },
-            level: e,
-          },
-        },
-      };
-    }
-  ),
-};
-
-module.exports.scraper = [
-  ...[1, 2, 3, 4, 5].map((e) => {
+  scraper: [1, 2, 3, 4, 5].map((e): ScrapeConfig => {
     return {
-      url: `https://www.kosugi-square.com/floor/?fcd=${e}`,
+      url: `https://www.kosugi-square.com/floor/?floor=${e}f`,
       venues: {
-        ".floorlistInner li": {
-          name: { selector: ".floorlist__txt--shopname" },
-          phone: { selector: ".floorlist__txt--tel", nullable: true },
-          url: { selector: "a", property: "href", nullable: true },
+        ".article-list li": {
+          name: { selector: ".shopname" },
+          phone: { selector: ".tel", modifier: phoneExtractor },
+          url: { selector: "a", property: "href" },
           level: e,
         },
       },
     };
   }),
-];
+};
 
 export default config;
