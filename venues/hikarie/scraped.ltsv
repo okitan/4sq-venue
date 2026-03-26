@@ -100,7 +100,7 @@ name:LOVECHROME HAIR & SCALP LAB	altName:	bldg:	level:-1	phone:0364341771	url:ht
 name:POLA	altName:ポーラ	bldg:	level:-1	phone:0364341766	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
 name:RMK	altName:アールエムケー	bldg:	level:-1	phone:0364341787	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rmk
 name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiseido
-name:THREE	altName:スリー	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
+name:THREE（スリー）【3月28日(土) 1Fへ移設し、リニューアルオープン】	altName:	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
 name:カネボウ	altName:	bldg:	level:-1	phone:08056853781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
@@ -113,7 +113,7 @@ name:シャネル フレグランス＆ビューティ	altName:	bldg:	level:-1	p
 name:スターバックス コーヒー	altName:	bldg:	level:-1	phone:0364341762	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=starbucks_coffee
 name:ディオール スキンケア ル サロン	altName:	bldg:	level:-1	phone:0364341774	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=dior_skincare_le_salon
 name:ネイルバー スマートスタイル	altName:	bldg:	level:-1	phone:0364341780	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nailbar
-name:マテリアプリマ【3月1日(日)オープン】	altName:	bldg:	level:-1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=materiaprima
+name:マテリアプリマ	altName:	bldg:	level:-1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=materiaprima
 name:マークスアンドウェブ	altName:	bldg:	level:-1	phone:0364341767	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=marksandweb
 name:メイクアップライフ	altName:	bldg:	level:-1	phone:0364341500	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=makeuplife
 name:ランコム	altName:	bldg:	level:-1	phone:0364341786	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=lancome
@@ -217,6 +217,7 @@ name:東急百貨店お得意様サロン	altName:	bldg:	level:5	phone:036434164
 name:綱具屋	altName:	bldg:	level:5	phone:0364276275	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=tunaguya
 name:茶庭 然花抄院	altName:	bldg:	level:5	phone:0364341517	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sateizenkashoin
 name:葉山家具	altName:	bldg:	level:5	phone:0364271071	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hayamakagu
+name:香十【3月28日(土)オープン】	altName:	bldg:	level:5	phone:0364341698	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koju
 name:168点心飲茶＆薬膳鍋	altName:	bldg:	level:6	phone:0368050959	url:https://www.hikarie.jp/shop/detail/?scd=000082
 name:うなぎ 徳	altName:	bldg:	level:6	phone:0364341519	url:https://www.hikarie.jp/shop/detail/?scd=000086
 name:こめらく たっぷり野菜とお茶漬けと。	altName:	bldg:	level:6	phone:0364335666	url:https://www.hikarie.jp/shop/detail/?scd=000089
