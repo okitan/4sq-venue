@@ -100,7 +100,6 @@ name:LOVECHROME HAIR & SCALP LAB	altName:	bldg:	level:-1	phone:0364341771	url:ht
 name:POLA	altName:ポーラ	bldg:	level:-1	phone:0364341766	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=pola
 name:RMK	altName:アールエムケー	bldg:	level:-1	phone:0364341787	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=rmk
 name:SHISEIDO	altName:	bldg:	level:-1	phone:0334868285	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiseido
-name:THREE（スリー）【3月28日(土) 1Fへ移設し、リニューアルオープン】	altName:	bldg:	level:-1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:fini	altName:フィニ	bldg:	level:-1	phone:0364341783	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fini
 name:カネボウ	altName:	bldg:	level:-1	phone:08056853781	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kanebo
 name:カバーマーク	altName:	bldg:	level:-1	phone:0364341790	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=covermark
@@ -125,6 +124,7 @@ name:M・A・C（マック）【今春リニューアルオープン予定】※
 name:SABON	altName:サボン	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sabon
 name:SHIRO	altName:	bldg:	level:1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
 name:THE HAIR BAR TOKYO（ザ ヘア バー トウキョウ）【4月16日(木)リニューアルオープン】※改装のため3月17日(火)～4月15日(水)まで仮設営業	altName:	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
+name:THREE（スリー）【3月28日(土) 1Fへ移設し、リニューアルオープン】	altName:	bldg:	level:1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
 name:アイアム【4月16日(木)リニューアルオープン】※改装のため3月17日(火)～4月15日(水)まで仮設営業	altName:	bldg:	level:1	phone:0364341718	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aiam
 name:キールズ	altName:	bldg:	level:1	phone:0334992010	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kiehls
 name:クロードモネH2O・AVEDA	altName:	bldg:	level:1	phone:0334068839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aveda
