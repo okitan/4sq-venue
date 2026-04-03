@@ -136,7 +136,7 @@ name:ニールズヤード レメディーズ	altName:	bldg:	level:1	phone:03643
 name:ノジェス	altName:	bldg:	level:1	phone:0364341772	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=nojess
 name:メゾン・デ・カドー ロクシタン	altName:	bldg:	level:1	phone:0364341731	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=loccitane
 name:極上担々麺 香家	altName:	bldg:	level:1	phone:0364341839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=koya
-name:CA4LA（カシラ）【2月14日(土)リニューアルオープン】	altName:	bldg:	level:2	phone:0334862368	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ca4la
+name:CA4LA	altName:カシラ	bldg:	level:2	phone:0334862368	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ca4la
 name:MUCHA	altName:ミュシャ	bldg:	level:2	phone:0364341701	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=mucha
 name:ShinQs パーツ ジョイスト	altName:	bldg:	level:2	phone:0364341724	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shinqspartsjoyst
 name:アガット	altName:	bldg:	level:2	phone:0359627026	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=agete
@@ -145,7 +145,7 @@ name:オルビス	altName:	bldg:	level:2	phone:0364341625	url:https://www.tokyu-
 name:カルティエ	altName:ウォッチ	bldg:	level:2	phone:0364271930	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cartier
 name:スタイルテーブル	altName:	bldg:	level:2	phone:0364341740	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=styletable
 name:ストロベリーマニア	altName:	bldg:	level:2	phone:0364341664	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=strawberrymania
-name:ノーズショップ【2月28日(土)オープン】	altName:	bldg:	level:2	phone:0364341875	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=noseshop
+name:ノーズショップ	altName:	bldg:	level:2	phone:0364341875	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=noseshop
 name:パテック フィリップ 正規販売店	altName:	bldg:	level:2	phone:0364271728	url:https://www.tokyu-dept.co.jp/shinqs/brand_info/patekphilippe/index.html
 name:ピアジェ	altName:	bldg:	level:2	phone:0364277344	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=piaget
 name:ファンケル ビューティ＆ヘルス	altName:	bldg:	level:2	phone:0364341630	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fancl
@@ -180,7 +180,7 @@ name:JTB	altName:	bldg:	level:4	phone:0343349280	url:https://www.tokyu-dept.co.j
 name:Mila Owen	altName:ミラ オーウェン	bldg:	level:4	phone:0364271687	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=milaowen
 name:ReD	altName:	bldg:	level:4	phone:0364275782	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=red
 name:SORA	altName:ソラ	bldg:	level:4	phone:0364341674	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sora
-name:The PERFUME OIL FACTORY【2月27日(金)オープン】	altName:	bldg:	level:4	phone:0364341677	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=perfumeoil
+name:The PERFUME OIL FACTORY	altName:	bldg:	level:4	phone:0364341677	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=perfumeoil
 name:URBAN RESEARCH	altName:アーバンリサーチ	bldg:	level:4	phone:0364341476	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=urbanresearch
 name:ete	altName:エテ	bldg:	level:4	phone:0364341657	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=ete
 name:ウンナナクール	altName:	bldg:	level:4	phone:0364341821	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=unenanacool
