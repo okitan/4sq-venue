@@ -1,4 +1,3 @@
-id:69c7c2ef0dde0e628a98e99b	parentVenueId:4bd557cc6798ef3b4735638d	name:emmi	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:66287fa7c4b6406e44af9452	parentVenueId:4f7f9ceae4b023c637e055ec	name:food stage	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:5860a98545c3ed1e7dfcc126	parentVenueId:4bd557cc6798ef3b4735638d	name:東急百貨店渋谷本店循環バス 渋谷ヒカリエ発着所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:66767a94e74ea9220155fa75	parentVenueId:4f7f9ceae4b023c637e055ec	name:渋谷のラジオ　ラジ公ドリンクスタンド	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -71,7 +70,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:ピアジェ	scraped.altName:
 id:	parentVenueId:	name:	crossStreet:	scraped.name:Scrap Book	scraped.altName:スクラップブック	scraped.bldg:	scraped.level:3	scraped.phone:0364271683	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=scrapbook
 id:	parentVenueId:	name:	crossStreet:	scraped.name:me ISSEY MIYAKE	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341694	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=meisseymiyake
 id:	parentVenueId:	name:	crossStreet:	scraped.name:アニュアンス	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341660	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=anuans
-id:	parentVenueId:	name:	crossStreet:	scraped.name:エミ	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364272975	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=emmi
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ケサランパサラン	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341781	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kesalan
 id:	parentVenueId:	name:	crossStreet:	scraped.name:サマンサタバサプチチョイスプラス	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341695	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=samantha
 id:	parentVenueId:	name:	crossStreet:	scraped.name:ジェラート ピケ	scraped.altName:	scraped.bldg:	scraped.level:3	scraped.phone:0364341522	scraped.url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=gelatopique
