@@ -23,7 +23,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "dayjs": "1.11.20",
+    "dayjs": "1.11.21",
     "ltsv": "4.0.1",
     "mdiff": "1.4.2",
     "ora": "9.4.0",
