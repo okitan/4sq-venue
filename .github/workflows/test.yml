@@ -44,6 +44,9 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: true
+      - run: npx puppeteer browsers install chrome-headless-shell
       - name: scrape changed
         run: |
           git diff --name-only origin/master -- venues/*/config.*s \
