@@ -122,11 +122,12 @@ name:免税カウンター	altName:	bldg:	level:-1	phone:0364341757	url:https://
 name:白鳳堂	altName:	bldg:	level:-1	phone:0364341764	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=hakuhodo
 name:SABON	altName:サボン	bldg:	level:1	phone:	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=sabon
 name:SHIRO	altName:	bldg:	level:1	phone:0364341796	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=shiro
-name:THE HAIR BAR TOKYO（ザ ヘア バー トウキョウ）【4月16日(木)リニューアルオープン】	altName:	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
+name:THE HAIR BAR TOKYO	altName:ザ ヘア バー トウキョウ	bldg:	level:1	phone:0364341751	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=thehairbar
 name:THREE	altName:スリー	bldg:	level:1	phone:0364341770	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=three
-name:アイアム【4月16日(木)リニューアルオープン】	altName:	bldg:	level:1	phone:0364341718	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aiam
+name:アイアム	altName:	bldg:	level:1	phone:0364341718	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aiam
 name:エッグ【5月1日(金)オープン】	altName:	bldg:	level:1	phone:0364341747	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=eagg
 name:キールズ	altName:	bldg:	level:1	phone:0334992010	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=kiehls
+name:クロエ/グッチ/ティファニー/バーバリー フレグランスカウンター【5月28日(木)オープン】	altName:	bldg:	level:1	phone:0364341737	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=fragrance_counter
 name:クロードモネH2O・AVEDA	altName:	bldg:	level:1	phone:0334068839	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=aveda
 name:コスメキッチン	altName:	bldg:	level:1	phone:0364341743	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=cosmekitchen
 name:ジョンマスターオーガニック	altName:	bldg:	level:1	phone:0364341756	url:https://www.tokyu-dept.co.jp/shinqs/floor/detail.html?shopcode=johnmaster
