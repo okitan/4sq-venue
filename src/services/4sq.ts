@@ -1,4 +1,4 @@
-import type yargs from "yargs";
+import type { Argv } from "yargs";
 
 import type {
   SuccessfulFoursquareResponse,
@@ -121,7 +121,7 @@ export class FoursquareClient {
   }
 }
 
-export function addFoursquareClientOptions<T>(yargs: yargs.Argv<T>) {
+export function addFoursquareClientOptions<T>(yargs: Argv<T>) {
   return yargs
     .options({
       foursquareAccessToken: {
