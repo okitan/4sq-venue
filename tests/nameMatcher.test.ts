@@ -1,4 +1,4 @@
-import { getSimilarity } from "../src/nameMatcher";
+import { getSimilarity } from "../src/nameMatcher.ts";
 
 describe.each`
   description                        | a                 | b                 | score

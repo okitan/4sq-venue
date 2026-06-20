@@ -1,5 +1,5 @@
-import { Venue } from "../src/venue";
-import { VenueList } from "../src/venueList";
+import { Venue } from "../src/venue.ts";
+import { VenueList } from "../src/venueList.ts";
 
 describe(VenueList, () => {
   describe(".removeVenue", () => {
