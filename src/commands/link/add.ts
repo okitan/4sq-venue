@@ -1,4 +1,4 @@
-import yargs from "yargs";
+import type { Arguments, Argv } from "yargs";
 
 import { commonArgs, type Extract } from "../../commonArgs.ts";
 import { Venue } from "../../venue.ts";
@@ -7,7 +7,7 @@ import { loadLinkedVenues, loadNotLinkedVenues, updateLinkedVenues, updateNotLin
 export const command = "add [Options]";
 export const description = "add link manually";
 
-export function builder<T>(yargs: yargs.Argv<T>) {
+export function builder<T>(yargs: Argv<T>) {
   return yargs.options({
     target: commonArgs.targetWithCompletion,
     foursquareName: {
@@ -23,7 +23,7 @@ export function builder<T>(yargs: yargs.Argv<T>) {
   });
 }
 
-export function handler({ target, foursquareName, scrapedName }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+export function handler({ target, foursquareName, scrapedName }: Arguments<Extract<ReturnType<typeof builder>>>) {
   const linkedVenues = loadLinkedVenues(target);
   const notLinkedVenues = loadNotLinkedVenues(target);
 

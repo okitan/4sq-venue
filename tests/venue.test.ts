@@ -1,4 +1,4 @@
-import { Venue } from "../src/venue";
+import { Venue } from "../src/venue.ts";
 
 describe(Venue, () => {
   describe(".getSimilarityOfName", () => {
