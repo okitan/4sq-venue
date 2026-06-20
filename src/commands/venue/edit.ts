@@ -1,4 +1,4 @@
-import yargs from "yargs";
+import type { Arguments, Argv } from "yargs";
 
 import { commonArgs, type Extract } from "../../commonArgs.ts";
 import { addFoursquareClientOptions } from "../../services/4sq.ts";
@@ -6,13 +6,13 @@ import { addFoursquareClientOptions } from "../../services/4sq.ts";
 export const command = "edit [Options]";
 export const description = "edit venue";
 
-export function builder<T>(yargs: yargs.Argv<T>) {
+export function builder<T>(yargs: Argv<T>) {
   return addFoursquareClientOptions(yargs).options({
     venueId: commonArgs.venueId,
     location: {
       type: "string",
       alias: "l",
-      coerce: (location) => {
+      coerce: (location: string) => {
         const [lat, lng] = location.split(",");
         if (!lng) {
           console.error(`${location} is not lat,lng and ignored`);
@@ -30,7 +30,7 @@ export async function handler({
   venueId,
   exec,
   ...args
-}: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+}: Arguments<Extract<ReturnType<typeof builder>>>) {
   const venue = (await foursquareClient.getVenue({ venueId })).venue;
 
   const actual: { [x: string]: string } = {};

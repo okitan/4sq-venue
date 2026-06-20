@@ -1,6 +1,7 @@
 import mdiffModule from "mdiff";
 
-const mdiff = (mdiffModule as { default?: typeof mdiffModule }).default ?? mdiffModule;
+type MdiffFactory = (a: string, b: string) => { getLcs(): string | null };
+const mdiff: MdiffFactory = (mdiffModule as { default: MdiffFactory }).default;
 
 export function isEqualName(a?: string, b?: string, { ignore = [] }: { ignore?: string[] } = {}) {
   if (!a || !b || a.length === 0 || b.length === 0) return false;
