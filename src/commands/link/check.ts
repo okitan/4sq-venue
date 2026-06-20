@@ -1,4 +1,4 @@
-import yargs from "yargs";
+import type { Arguments, Argv } from "yargs";
 
 import { commonArgs, type Extract } from "../../commonArgs.ts";
 import { getSimilarity } from "../../nameMatcher.ts";
@@ -7,11 +7,11 @@ import { loadLinkedVenues } from "../../venueList.ts";
 export const command = "check [Options]";
 export const description = "check links";
 
-export function builder<T>(yargs: yargs.Argv<T>) {
+export function builder<T>(yargs: Argv<T>) {
   return yargs.options({ target: commonArgs.targetWithCompletion });
 }
 
-export function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+export function handler({ target }: Arguments<Extract<ReturnType<typeof builder>>>) {
   const linkedVenues = loadLinkedVenues(target);
 
   console.table(
