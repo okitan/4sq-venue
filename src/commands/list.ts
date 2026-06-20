@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import yargs from 'yargs';
+import type { Arguments, Argv } from 'yargs';
 
 import type { Extract } from '../commonArgs.ts';
 import { addFoursquareClientOptions } from '../services/4sq.ts';
@@ -7,14 +7,14 @@ import { addFoursquareClientOptions } from '../services/4sq.ts';
 export const command = "list [Options]";
 export const description = "list checkins of a day";
 
-export function builder<T>(yargs: yargs.Argv<T>) {
+export function builder<T>(yargs: Argv<T>) {
   return addFoursquareClientOptions(yargs).options({
     after: { type: "number", default: 2009 },
     date: { type: "string", default: dayjs().format("MM-DD"), demandOption: true },
   });
 }
 
-export async function handler({ foursquareClient, after, date }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+export async function handler({ foursquareClient, after, date }: Arguments<Extract<ReturnType<typeof builder>>>) {
   const thisYear = new Date().getFullYear();
 
   for (const year of new Array(thisYear - after + 1).fill(0).map((_, i) => after + i)) {
@@ -27,7 +27,7 @@ export async function handler({ foursquareClient, after, date }: yargs.Arguments
 
     if (checkins.count) {
       console.log(`${t.format("YYYY-MM-DD")}: ${checkins.count} checkins`);
-      checkins.items.forEach((item) => {
+      checkins.items.forEach((item: { createdAt: number; venue: { name: string } }) => {
         console.log(`${dayjs.unix(item.createdAt).format("HH:mm")} ${item.venue.name}`);
       });
       console.log("");
