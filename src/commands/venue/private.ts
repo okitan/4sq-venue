@@ -1,4 +1,4 @@
-import yargs from "yargs";
+import type { Arguments, Argv } from "yargs";
 
 import { commonArgs, type Extract } from "../../commonArgs.ts";
 import { addFoursquareClientOptions } from "../../services/4sq.ts";
@@ -6,7 +6,7 @@ import { addFoursquareClientOptions } from "../../services/4sq.ts";
 export const command = "private [Options]";
 export const description = "private venue";
 
-export function builder<T>(yargs: yargs.Argv<T>) {
+export function builder<T>(yargs: Argv<T>) {
   return addFoursquareClientOptions(yargs).options({ venueId: commonArgs.venueId, dryRun: commonArgs.dryRun });
 }
 
@@ -14,7 +14,7 @@ export async function handler({
   foursquareClient,
   venueId,
   dryRun,
-}: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+}: Arguments<Extract<ReturnType<typeof builder>>>) {
   const venue = (await foursquareClient.getVenue({ venueId })).venue;
 
   if (dryRun) {
