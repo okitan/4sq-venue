@@ -1,5 +1,5 @@
 import ora from "ora";
-import yargs from "yargs";
+import type { Arguments, Argv } from "yargs";
 
 import { commonArgs, type Extract } from "../commonArgs.ts";
 import { scrape, type ScrapedProperties } from "../scraper.ts";
@@ -10,11 +10,11 @@ import { updateScrapedVenues, VenueList } from "../venueList.ts";
 export const command = "scrape [Options]";
 export const description = "scrape venues";
 
-export function builder<T>(yargs: yargs.Argv<T>) {
+export function builder<T>(yargs: Argv<T>) {
   return yargs.options({ target: commonArgs.targetWithCompletion });
 }
 
-export async function handler({ target }: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+export async function handler({ target }: Arguments<Extract<ReturnType<typeof builder>>>) {
   const config: Config = (await import(`../../venues/${target}/config.ts`)).default;
 
   const results: ScrapedProperties[] = [];

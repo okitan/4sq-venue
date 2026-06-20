@@ -1,8 +1,8 @@
-import yargs from "yargs";
+import type { Argv } from "yargs";
 
 import { guessTargetFromBranchName } from "./util.ts";
 
-export type Extract<T> = T extends yargs.Argv<infer U> ? U : never;
+export type Extract<T> = T extends Argv<infer U> ? U : never;
 
 export const commonArgs = {
   targetWithCompletion: {

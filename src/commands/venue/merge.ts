@@ -1,4 +1,4 @@
-import yargs from "yargs";
+import type { Arguments, Argv } from "yargs";
 
 import { commonArgs, type Extract } from "../../commonArgs.ts";
 import { addFoursquareClientOptions } from "../../services/4sq.ts";
@@ -6,7 +6,7 @@ import { addFoursquareClientOptions } from "../../services/4sq.ts";
 export const command = "merge <mergerId> <mergeeId> [Options]";
 export const description = "merge venues";
 
-export function builder<T>(yargs: yargs.Argv<T>) {
+export function builder<T>(yargs: Argv<T>) {
   return addFoursquareClientOptions(yargs)
     .positional("mergerId", {
       type: "string",
@@ -24,7 +24,7 @@ export async function handler({
   mergerId,
   mergeeId,
   exec,
-}: yargs.Arguments<Extract<ReturnType<typeof builder>>>) {
+}: Arguments<Extract<ReturnType<typeof builder>>>) {
   const merger = (await foursquareClient.getVenue({ venueId: mergerId })).venue;
   const mergee = (await foursquareClient.getVenue({ venueId: mergeeId })).venue;
 
