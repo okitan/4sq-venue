@@ -46,7 +46,7 @@ const config: Config = {
       (i): ScrapeConfig => ({
         url: `https://www.tokyu-dept.co.jp/shibuya_foodshow/floor/${i}_smc.html`,
         venues: {
-          ".list_shop_block li": {
+          ".list_shop li": {
             followLink: { selector: "a", property: "href" },
             name: { selector: ".heading_shop", modifier: nameModifier },
             altName: { selector: ".heading_shop", modifier: altNameExtractor },
@@ -64,7 +64,7 @@ const config: Config = {
     {
       url: `https://www.tokyu-dept.co.jp/shibuya_foodshow/floor/b1_shibuchika.html`,
       venues: {
-        ".list_shop_block li": {
+        ".list_shop li": {
           followLink: { selector: "a", property: "href" },
           name: { selector: ".heading_shop", modifier: nameModifier },
           altName: { selector: ".heading_shop", modifier: altNameExtractor },
