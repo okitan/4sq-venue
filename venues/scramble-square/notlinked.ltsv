@@ -1,6 +1,6 @@
+id:6a377c908acb66456e26c600	parentVenueId:5d7b5d89d1334200083e1ae2	name:12F 喫煙所	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:65e5a93113e563790bfe767d	parentVenueId:5d7b5d89d1334200083e1ae2	name:DeNAラウンジ	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:65a614b382d02552783d60bb	parentVenueId:5d7b5d89d1334200083e1ae2	name:Floats!	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
-id:6a224a4fbf64d97e01eb0488	parentVenueId:5d7b5d89d1334200083e1ae2	name:Iroha	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:68a9446001596466c1434e0d	parentVenueId:5d7b5d89d1334200083e1ae2	name:JAIME	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:631eb988dadd06644dae519d	parentVenueId:5d7b5d89d1334200083e1ae2	name:カメレオン･スクエア	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:68818bac6ad9594f9854d638	parentVenueId:5db1240443598d00073edbe0	name:トイレ	crossStreet:	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
@@ -26,7 +26,6 @@ id:	parentVenueId:	name:	crossStreet:	scraped.name:五代目 堺周	scraped.altN
 id:	parentVenueId:	name:	crossStreet:	scraped.name:割烹かわだ	scraped.altName:kappoukawada	scraped.bldg:	scraped.level:-2	scraped.phone:07031830639	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=622
 id:	parentVenueId:	name:	crossStreet:	scraped.name:東急フードショーエッジ (デリ)	scraped.altName:TOKYU Foodshow EDGE (DELI)	scraped.bldg:	scraped.level:-2	scraped.phone:0334779770	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=168
 id:	parentVenueId:	name:	crossStreet:	scraped.name:玉川精肉店	scraped.altName:タマガワセイニクテン	scraped.bldg:	scraped.level:-2	scraped.phone:07084748091	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=630
-id:	parentVenueId:	name:	crossStreet:	scraped.name:金田屋	scraped.altName:kanadaya	scraped.bldg:	scraped.level:-2	scraped.phone:08075154334	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=635
 id:	parentVenueId:	name:	crossStreet:	scraped.name:RANDY'S  DONUTS	scraped.altName:ランディーズドーナツ	scraped.bldg:	scraped.level:1	scraped.phone:0364275255	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=640
 id:	parentVenueId:	name:	crossStreet:	scraped.name:カタヌキヤ	scraped.altName:Katanukiya	scraped.bldg:	scraped.level:1	scraped.phone:0364341150	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=556
 id:	parentVenueId:	name:	crossStreet:	scraped.name:堀内果実園	scraped.altName:HORIUCHI FRUIT FARM	scraped.bldg:	scraped.level:1	scraped.phone:0334090151	scraped.url:https://www.shibuya-scramble-square.com/shops_restaurants/detail.html?shop_id=214
