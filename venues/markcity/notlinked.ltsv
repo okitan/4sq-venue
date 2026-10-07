@@ -13,7 +13,7 @@ id:4bc43c9d74a9a5937b8bd5f6	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷�
 id:4c57e5e4d12a20a161b367bd	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティウエスト17F セミナールームA	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:650aa14d4983ed747a5de9e9	parentVenueId:4b3f1743f964a520eba325e3	name:渋谷マークシティバスターミナル92番乗り場	crossStreet:渋谷マークシティ	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4c48ec221b430f471215d3c2	parentVenueId:4b3f1743f964a520eba325e3	name:スルガ銀行 渋谷支店	crossStreet:渋谷マークシティ 14F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:http://www.surugabank.co.jp
-id:67e246599c9f5960ba6e14f4	parentVenueId:4b3f1743f964a520eba325e3	name:東急フードショー	crossStreet:渋谷マークシティ 1階	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
+id:68f4b065771f2b31d1e5fde1	parentVenueId:5f5f634e017ea123d39b622c	name:芭蕉堂渋谷店	crossStreet:渋谷マークシティ 1F 東急フードショー	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:https://bashodo.jp
 id:61a427279a822a4804a54565	parentVenueId:4b3f1743f964a520eba325e3	name:三井住友銀行 京王渋谷駅出張所	crossStreet:渋谷マークシティ 2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
 id:4bf08fceb315c9b63d2e93ff	parentVenueId:4b3f1743f964a520eba325e3	name:明日の神話	crossStreet:渋谷マークシティ 2F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:http://www.1101.com/asunoshinwa
 id:62244ebee3c79f0df1336d0e	parentVenueId:4b3f1743f964a520eba325e3	name:アベニュー広場	crossStreet:渋谷マークシティ 4F	scraped.name:	scraped.altName:	scraped.bldg:	scraped.level:	scraped.phone:	scraped.url:
