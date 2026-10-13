@@ -27,12 +27,12 @@
     "ltsv": "4.0.1",
     "mdiff": "1.4.2",
     "ora": "9.4.1",
-    "puppeteer": "25.12.0",
+    "puppeteer": "25.13.0",
     "yargs": "18.2.0"
   },
   "devDependencies": {
     "@types/jest": "30.0.0",
-    "@types/node": "24.19.1",
+    "@types/node": "24.19.2",
     "prettier": "3.9.9",
     "ts-jest": "29.4.14",
     "typescript": "5.9.3"
